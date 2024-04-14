@@ -70,6 +70,7 @@ img {
   max-width: 100%;
   height: auto;
   transition: all 0.35s ease-in-out;
+  border-radius: .5em;
 
   .blur & {
     $blur: 20px;
@@ -782,7 +783,7 @@ $btn-mb: 0.5rem;
 
         display: flex;
         align-items: center;
-        border-radius: 0.75rem;
+        border-radius: 0.35rem;
         font-weight: 600;
 
         &:hover {
@@ -1189,7 +1190,7 @@ search {
   }
 
   .toast-body {
-    font-family: Lato, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.25rem;
 
     button {

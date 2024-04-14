@@ -3,16 +3,24 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: reddit
+  icon: 'fab fa-reddit'
+  url: 'https://www.reddit.com/user/lotusk08'
+
+- type: facebook
+  icon: 'fab fa-facebook'
+  url: 'https://www.facebook.com/sky.quietly'
+
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

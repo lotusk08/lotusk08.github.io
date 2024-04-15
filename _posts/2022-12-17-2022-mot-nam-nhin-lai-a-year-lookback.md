@@ -4,7 +4,7 @@ description: Những trải nghiệm thực sự giá trị mà mình đã tìm 
 author: steve
 date: 2022-12-17 17:30:00 +0700
 categories: [Vietnamese]
-tags: [Experience, Personality]
+tags: [experience, personality]
 pin: false
 toc: true
 math: false

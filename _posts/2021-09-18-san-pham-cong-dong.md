@@ -4,7 +4,7 @@ description: Nơi mà cộng đồng tham gia vào quá trình thiết kế sả
 author: steve
 date: 2021-09-18 10:30:00 +0700
 categories: [Vietnamese]
-tags: [Business, Community]
+tags: [business, community]
 pin: false
 toc: true
 math: false

@@ -4,7 +4,7 @@ description: Khái quát mô hình kinh doanh của Microsoft, thứ đã tạo 
 author: steve
 date: 2020-11-25 11:33:00 +0700
 categories: [Vietnamese]
-tags: [Business]
+tags: [business]
 pin: false
 toc: true
 math: false

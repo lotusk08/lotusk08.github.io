@@ -4,7 +4,7 @@ description: Obsidian - một ứng dụng ghi chú mà nhiều người gọi l
 author: steve
 date: 2023-09-01 10:23:00 +0700
 categories: [Vietnamese]
-tags: [Personality, Experience] 
+tags: [personality, experience] 
 pin: false
 toc: true
 math: false

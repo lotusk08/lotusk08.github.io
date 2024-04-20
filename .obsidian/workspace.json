@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
+                "file": "_posts/2023-09-01-obsidian.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
+                "file": "_posts/2023-09-01-obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md"
+                "file": "_posts/2023-09-01-obsidian.md"
               }
             }
           },
@@ -240,10 +240,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c122b5c8ec38a22b",
+  "active": "f648d36ca86a00e1",
   "lastOpenFiles": [
-    "_posts/2023-09-01-obsidian.md",
+    "_site/obsidian/index.html",
+    "_site/obsidian",
+    "_site/2022-mot-nam-nhin-lai/index.html",
+    "_site/2022-mot-nam-nhin-lai",
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
+    "_posts/2023-09-01-obsidian.md",
     "_posts/2021-09-18-san-pham-cong-dong.md",
     "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
     "_drafts/2024-04-20-coffee.md",
@@ -276,7 +280,6 @@
     "Notes/Học - Steve Hoang.md",
     "Notes/Sản phẩm cộng đồng - Steve Hoang.md",
     "Notes/Gửi người muốn nghỉ việc! - Steve Hoang.md",
-    "Notes/Gen Z ngáo ngơ hay nhân sự -HR ngáo tư tưởng? - Steve Hoang.md",
     "Files/Attachments/Pasted image 20231211140653.png",
     "Files/Attachments/Pasted image 20231114182324.png",
     "Files/Attachments/Pasted image 20230918154607.png",
@@ -285,9 +288,6 @@
     "Files/Attachments/DNS Lookup and Webpage Query.png",
     "Drawing/Scripts/Downloaded/Mindmap connector.svg",
     "Drawing/Scripts/Downloaded/Copy Selected Element Styles to Global.svg",
-    "Drawing/Scripts/Downloaded",
-    "Drawing/Scripts",
-    "Drawing",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

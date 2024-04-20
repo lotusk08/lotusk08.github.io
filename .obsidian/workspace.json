@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "709ae05be91dd639",
+    "type": "split",
+    "children": [
+      {
+        "id": "227524ecf7028c42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "187f8119439a7c7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/{{date}}-{{title}}.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da457ea5f973f019",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-04-20-coffee.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f648d36ca86a00e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-01-obsidian-ung-dung-ghi-chu-rat-thu-vi.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1,
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86809ce3bc1dd085",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b11af9530e562b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35babeda668de4d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43b347c9db29c800",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c820145afe050b8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e24e6edb69d0c9c6",
+        "type": "tabs",
+        "dimension": 29.521276595744684,
+        "children": [
+          {
+            "id": "eeac06368b1c4956",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2024-04-20-coffee.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1472725f376e4164",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2024-04-20-coffee.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f4783b1ac8bb82e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9fa617b6014e3431",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "08373d48b19c6185",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "9695d4f8808b67ce",
+        "type": "tabs",
+        "dimension": 29.25531914893617,
+        "children": [
+          {
+            "id": "ca4164bcf9f72a56",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "52bd5e098ab33c21",
+        "type": "tabs",
+        "dimension": 41.22340425531915,
+        "children": [
+          {
+            "id": "e8de00b9fa0eea4a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2024-04-20-coffee.md"
+              }
+            }
+          },
+          {
+            "id": "64385c767aea2611",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+      "booksidian-plugin:Booksidian Sync": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "da457ea5f973f019",
+  "lastOpenFiles": [
+    "_drafts/{{date}}-{{title}}.md",
+    "_posts/2024-04-20-coffee.md",
+    "_posts/2023-09-01-obsidian-ung-dung-ghi-chu-rat-thu-vi.md",
+    "_posts/2024-04-20-2023-journey.md",
+    "_posts/2021-02-18-hoc.md",
+    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+    "_drafts",
+    "_drag",
+    "untitled folder",
+    "assets/img/post/The.md",
+    "Notes/1-“Lúc không yêu thì cứ tưởng cô đơn vì không có tình yêu- Yêu rồi….md",
+    "Notes/2-- Tư vấn khách hàng.md",
+    "Notes/3 CẢNH GIỚI CAO NHẤT MÀ ĐỜI NGƯỜI THEO ĐUỔI.md",
+    "Notes/5 must have when you start-up.md",
+    "Notes/13 CÁCH PHÁT HIỆN GIAN LẬN TRONG BÁO CÁO TÀI CHÍNH.md",
+    "Notes/330x270cm - backdrop.md",
+    "Notes/2022 - Một năm nhìn lại - A year lookback - Steve Hoang.md",
+    "Notes/386-3B Lê Văn Sĩ, Phường --- Quận 3.md",
+    "Notes/😃)) Đi làm mà “tưởng”, sorry but you’re not a student anymore- Đi….md",
+    "Notes/Học - Steve Hoang.md",
+    "Notes/Sản phẩm cộng đồng - Steve Hoang.md",
+    "Notes/Gửi người muốn nghỉ việc! - Steve Hoang.md",
+    "Notes/Gen Z ngáo ngơ hay nhân sự -HR ngáo tư tưởng? - Steve Hoang.md",
+    "Notes/Obsidian - Ứng dụng ghi chú ngon nhất hiện tại cho phép toàn quyền kiểm soát dữ liệu - Steve Hoang.md",
+    "Notes/Obsidian - Ứng dụng ghi chú ngon nhất hiện tại cho phép toàn quyền kiểm soát dữ liệu - Steve Hoang 1.md",
+    "Notes/Giới thiệu về bản thân.md",
+    "Notes/Untitled 4.md",
+    "Notes/Mô hình kinh doanh của Microsoft - Steve Hoang.md",
+    "Notes/TRƯỞNG PHÒNG TRUYỀN THÔNG.md",
+    "Files/Attachments/Pasted image 20231211140653.png",
+    "Files/Attachments/Pasted image 20231114182324.png",
+    "Files/Attachments/Pasted image 20230918154607.png",
+    "Files/Attachments/Domain Name System - DNS.svg",
+    "Files/Attachments/DNS Recursive Query.png",
+    "Files/Attachments/DNS Lookup and Webpage Query.png",
+    "Drawing/Scripts/Downloaded/Mindmap connector.svg",
+    "Drawing/Scripts/Downloaded/Copy Selected Element Styles to Global.svg",
+    "Drawing/Scripts/Downloaded/Mindmap format.svg",
+    "Drawing/Scripts/Downloaded/Normalize Selected Arrows.svg",
+    "Drawing/Scripts/Downloaded",
+    "Drawing/Scripts",
+    "Drawing",
+    "Notes/Untitled.canvas",
+    "Clippings",
+    "Files/Books/Untitled.canvas",
+    "Files/Books/Books Collection.canvas",
+    "Files/Attachments/2023QDNS-CNLB.pdf",
+    "Files/Attachments/Vacin.pdf",
+    "Files/Attachments/Airways.pdf",
+    "Drawing board.canvas"
+  ]
+}

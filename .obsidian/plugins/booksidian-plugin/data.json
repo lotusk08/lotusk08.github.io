@@ -1,0 +1,21 @@
+{
+  "targetFolderPath": "Files/Books",
+  "fileName": "{{title}}",
+  "goodreadsBaseUrl": "https://www.goodreads.com/review/list_rss/159430513?key=heUIdOtLejgrNRIRYGprpeHkXBDwK2xnkaIT64xeRZqF-11a&shelf=%23ALL%23",
+  "goodreadsShelves": "All",
+  "frontmatterDictionary": {
+    "id": "id",
+    "author": "[[author]]",
+    "title": "[[title]]",
+    "pages": "pages",
+    "description": "description",
+    "cover": "cover",
+    "isbn": "isbn",
+    "avgRating": "avgRating",
+    "datePublished": "datePublished",
+    "rating": "rating"
+  },
+  "bodyString": "# {{title}}\nAuthor: [[{{author}}]]\n",
+  "frequency": "60",
+  "overwrite": false
+}

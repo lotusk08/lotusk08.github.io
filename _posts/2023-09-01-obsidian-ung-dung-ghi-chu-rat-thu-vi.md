@@ -13,6 +13,7 @@ image:
   path: /assets/img/post/Obsidian.webp
   alt: Obsidian - một ứng dụng ghi chú mà nhiều người gọi là bộ não thứ hai
 ---
+# 2023-09-01-obsidian-ung-dung-ghi-chu-rat-thu-vi
 
 Mình tình cờ đi comment dạo thì gặp cái ứng dụng Obsidian này, thấy hay quá nên mò mẫm thử, sau 3 ngày thì mình hoàn toàn tự tin chuyển nhà từ Apple Notes và IA Writer sang Obsidian.
 

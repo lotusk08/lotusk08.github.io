@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "34196e958aebe373",
+    "type": "split",
+    "children": [
+      {
+        "id": "f42c4cd4443ac18f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7164e8cfb25866ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Gravel bike.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d349bd1d9ff7a8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Gravel bike.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76000c6f7aab402d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "36b795227e6474a2",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1d9ba490c32205fb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Giới thiệu bản thân",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "aadf0dfc973ee358",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "0de6841895212505",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "d92bf880ce2d880d",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "0b381614c21392da",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "15dd6c53e0fd92b8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Notes/Gravel bike.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": true,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
+          }
+        }
+      },
+      {
+        "id": "f6561d08d3c6af74",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Notes/Gravel bike.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8a144fb0f90391f4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Notes/Gravel bike.md"
+          }
+        }
+      },
+      {
+        "id": "4e2cc4a39ef45d13",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ]
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "command-palette:Open command palette": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "2d349bd1d9ff7a8e",
+  "lastOpenFiles": [
+    "Notes/Giới thiệu về bản thân.md",
+    "Notes/Gravel bike.md",
+    "Notes/Du lịch mạo hiểm.md",
+    "Notes/Bootstrapping a SaaS Business in Germany How I did it.md",
+    "Notes/My mind.md",
+    "Notes/How to Produce Green Hydrogen for $1-kg.md",
+    "Notes/Hướng dẫn chặn quảng cáo \"Được tài trợ\" trên Facebook bằng uBlock Origin  u-lethinhrider.md",
+    "Notes/Quality.md",
+    "Notes/Optimizing and automating my Jekyll site build.md",
+    "Notes/Tự động hóa nhà (II) Nhiệt kế + Ẩm kế và Apple HomeKit.md",
+    "Notes/Kiểm soát tâm lý háo thắng trong các cuộc tranh luận.md",
+    "Files/Books Collection I read in 2023.md",
+    "Notes/The Cool Continuum Make Your Mark in the arts.md",
+    "Notes/CCCD.md",
+    "Notes/Ads block.md",
+    "Notes/Stocketa - iOS application.md",
+    "Notes/Building stagetimer.io, and what we learned along the way.md",
+    "Notes/![Building.md",
+    "Notes/[Building.md",
+    "Notes/Giao thức mạng.md",
+    "Notes/Bình luận golf.md",
+    "Files/Attachments/Lần này không có công cụ hoặc mẫu Excel nào ngoài một bài viết về…-2.png",
+    "Files/Attachments/Google Tag Manager-1.jpeg",
+    "Files/Attachments/Lead Scoring là gì--1.png",
+    "Files/Attachments/Lead Scoring là gì--4.png",
+    "Files/Attachments/Google Tag Manager-12.jpeg",
+    "Files/Attachments/Google Tag Manager-24.jpeg",
+    "Files/Attachments/5 MÔ HÌNH KINH DOANH ĐÁNG CHÚ Ý TRONG NĂM 2021 💰-2.jpeg",
+    "Files/Attachments/5 MÔ HÌNH KINH DOANH ĐÁNG CHÚ Ý TRONG NĂM 2021 💰-3.jpeg",
+    "Files/Attachments/Sai lầm của chúng ta----3.jpeg",
+    "Files/Attachments/VCG FB-3.jpeg",
+    "Files/Attachments/HD-pdf-0-HD.pdf",
+    "Notes/App tracking.md",
+    "Notes/Best Business Books of All Time.md",
+    "Files/Attachments/Hoang Xuan Hoan.pdf",
+    "Notes/Xây dựng kênh bán hàng đạt doanh thu trên Shopee (2023).md",
+    "Files/Attachments/CMND.pdf",
+    "Notes/There is an epidemic sweeping our nation- Its victims suffer from….md",
+    "Notes/Xây 1 team Tik Tok bán hàng cho công ty từ A đến Z như thế nào?.md",
+    "Files/Attachments/GIÃY KHAI SINH.pdf",
+    "Files/Attachments/MINISTRY OF FINANCE.pdf",
+    "Files/Attachments/UBND XA TRÀ DA.pdf",
+    "Files/Attachments/Noi nhân 2.pdf",
+    "Files/Attachments/Tờ trình đồng phục PDA.pdf",
+    "Files/Attachments/Tờ-trình-đồng-phục-PDA-1-Tờ-trình-đồng-phục-PDA.pdf",
+    "Files/Attachments/Grammarly-0-Account--Grammarly.pdf",
+    "Notes/Untitled.canvas",
+    "Drawing board.canvas"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts",
+  "attachmentFolderPath": "assets/img/post",
+  "promptDelete": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "showInlineTitle": false,
+  "spellcheck": true,
+  "autoConvertHtml": true,
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "legacyEditor": false,
+  "focusNewTab": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "foldHeading": true
+}

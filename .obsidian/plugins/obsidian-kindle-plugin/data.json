@@ -1,0 +1,11 @@
+{
+  "amazonRegion": "global",
+  "highlightsFolder": "Files/Books",
+  "lastSyncMode": "amazon",
+  "isLoggedIn": true,
+  "syncOnBoot": false,
+  "downloadBookMetadata": true,
+  "lastSyncDate": "2023-09-02T03:19:47.111Z",
+  "fileNameTemplate": "{{title}}",
+  "fileTemplate": "# {{title}}\n## Metadata\n{% trim %}\n{% if authorUrl %}\n* Author: [{{author}}]({{authorUrl}})\n{% elif author %}\n* Author: [[{{author}}]]\n{% endif %}\n{% if asin %}* ASIN: {{asin}}{% endif %}\n{% if isbn %}* ISBN: {{isbn}}{% endif %}\n{% if pages %}* Pages: {{pages}}{% endif %}\n{% if publication %}* Publication: {{publication}}{% endif %}\n{% if publisher %}* Publisher: {{publisher}}{% endif %}\n{% if url %}* Reference: {{url}}{% endif %}\n{% if appLink %}* [Kindle link]({{appLink}}){% endif %}\n{% endtrim %}\n\n## Highlights\n{{highlights}}\n"
+}

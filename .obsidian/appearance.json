@@ -1,0 +1,14 @@
+{
+  "accentColor": "#026be6",
+  "theme": "moonstone",
+  "interfaceFontFamily": "San Francisco Display,Inter",
+  "baseFontSize": 18,
+  "cssTheme": "Minimal",
+  "textFontFamily": "San Francisco Display,Inter",
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "text-justify"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "Template/.*",
+  "ignoreRegex": "_posts/.*",
   "useFileOpenHook": true,
   "useFileSaveHook": true,
   "newHeadingStyle": "Prefix",

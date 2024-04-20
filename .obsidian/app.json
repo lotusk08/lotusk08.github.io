@@ -1,13 +1,13 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "_posts",
+  "newFileFolderPath": "_drafts",
   "attachmentFolderPath": "assets/img/post",
   "promptDelete": true,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showInlineTitle": false,
-  "spellcheck": true,
+  "spellcheck": false,
   "autoConvertHtml": true,
   "showFrontmatter": false,
   "showLineNumber": false,
@@ -16,5 +16,18 @@
   "focusNewTab": true,
   "readableLineLength": true,
   "strictLineBreaks": false,
-  "foldHeading": true
+  "foldHeading": true,
+  "userIgnoreFilters": [
+    "_javascript/",
+    "_site/",
+    "node_modules/",
+    "tools/",
+    "_data/",
+    "_includes/",
+    "_layouts/",
+    "_plugins/",
+    "_sass/"
+  ],
+  "livePreview": false,
+  "showUnsupportedFiles": false
 }

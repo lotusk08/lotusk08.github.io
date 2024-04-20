@@ -10,5 +10,6 @@
   "translucency": false,
   "enabledCssSnippets": [
     "text-justify"
-  ]
+  ],
+  "monospaceFontFamily": "JetBrains Mono"
 }

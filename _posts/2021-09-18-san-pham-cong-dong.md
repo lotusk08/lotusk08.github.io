@@ -13,7 +13,6 @@ image:
   path: /assets/img/post/san-pham-cong-dong.webp
   alt: Sản phẩm từ cộng đồng và vì cộng đồng
 ---
-
 Sản phẩm cộng đồng là một khái niệm không hề mới, nó được nhiều tập đoàn lớn sử dụng từ rất lâu trước đây rồi. Họ sử dụng tất cả các yếu tố của nó vào quá trình thiết kế sản phẩm, cải tạo sản phẩm, thương mại sản phẩm, marketing sản phẩm cho đến chăm sóc hậu mãi…
 
 Nguyên thủy ý tưởng này bắt đầu từ “Customer hay Client Focus Group” hoạt động định kỳ trực tiếp, sau đó ý tưởng này được chuyển sang hoạt động trực tuyến với quy mô rộng lớn hơn.

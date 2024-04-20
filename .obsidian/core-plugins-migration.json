@@ -6,7 +6,7 @@
   "backlink": true,
   "canvas": false,
   "outgoing-link": true,
-  "tag-pane": true,
+  "tag-pane": false,
   "page-preview": true,
   "daily-notes": false,
   "templates": true,

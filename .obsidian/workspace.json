@@ -8,26 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "187f8119439a7c7d",
+            "id": "785323429d72c2bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/{{date}}-{{title}}.md",
+                "file": "_posts/2022-08-29-Gen-Z.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "da457ea5f973f019",
+            "id": "c122b5c8ec38a22b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-20-coffee.md",
+                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -37,7 +37,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-01-obsidian-ung-dung-ghi-chu-rat-thu-vi.md",
+                "file": "_posts/2023-09-01-obsidian.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "da457ea5f973f019",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2024-04-20-coffee.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6c64a74574babb1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "682aedbd36e5a24b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2021-09-18-san-pham-cong-dong.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-20-coffee.md",
+                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,20 +157,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-20-coffee.md",
+                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f4783b1ac8bb82e7",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
               }
             }
           },
@@ -187,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-20-coffee.md"
+                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md"
               }
             }
           },
@@ -212,19 +237,29 @@
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
-      "booksidian-plugin:Booksidian Sync": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da457ea5f973f019",
+  "active": "c122b5c8ec38a22b",
   "lastOpenFiles": [
-    "_drafts/{{date}}-{{title}}.md",
-    "_posts/2024-04-20-coffee.md",
-    "_posts/2023-09-01-obsidian-ung-dung-ghi-chu-rat-thu-vi.md",
-    "_posts/2024-04-20-2023-journey.md",
-    "_posts/2021-02-18-hoc.md",
+    "_posts/2023-09-01-obsidian.md",
+    "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
+    "_posts/2021-09-18-san-pham-cong-dong.md",
     "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+    "_drafts/2024-04-20-coffee.md",
+    "_drafts/{{date}}-{{title}}.md",
+    "_posts/2022-08-29-Gen-Z.md",
+    "_posts/2022-08-23-quit-job.md",
+    "_posts/blog.md",
+    "_posts/Blog.md",
+    "_posts/2021-02-18-hoc.md",
+    "_site/assets/img/post/coffee.webp",
+    "assets/img/post/coffee.webp",
+    "_site/coffee/index.html",
+    "_site/coffee",
+    "_site/tags/coffee/index.html",
+    "_site/tags/coffee",
+    "_posts/2024-04-20-2023-journey.md",
     "_drafts",
     "_drag",
     "untitled folder",
@@ -242,12 +277,6 @@
     "Notes/Sản phẩm cộng đồng - Steve Hoang.md",
     "Notes/Gửi người muốn nghỉ việc! - Steve Hoang.md",
     "Notes/Gen Z ngáo ngơ hay nhân sự -HR ngáo tư tưởng? - Steve Hoang.md",
-    "Notes/Obsidian - Ứng dụng ghi chú ngon nhất hiện tại cho phép toàn quyền kiểm soát dữ liệu - Steve Hoang.md",
-    "Notes/Obsidian - Ứng dụng ghi chú ngon nhất hiện tại cho phép toàn quyền kiểm soát dữ liệu - Steve Hoang 1.md",
-    "Notes/Giới thiệu về bản thân.md",
-    "Notes/Untitled 4.md",
-    "Notes/Mô hình kinh doanh của Microsoft - Steve Hoang.md",
-    "Notes/TRƯỞNG PHÒNG TRUYỀN THÔNG.md",
     "Files/Attachments/Pasted image 20231211140653.png",
     "Files/Attachments/Pasted image 20231114182324.png",
     "Files/Attachments/Pasted image 20230918154607.png",
@@ -256,18 +285,12 @@
     "Files/Attachments/DNS Lookup and Webpage Query.png",
     "Drawing/Scripts/Downloaded/Mindmap connector.svg",
     "Drawing/Scripts/Downloaded/Copy Selected Element Styles to Global.svg",
-    "Drawing/Scripts/Downloaded/Mindmap format.svg",
-    "Drawing/Scripts/Downloaded/Normalize Selected Arrows.svg",
     "Drawing/Scripts/Downloaded",
     "Drawing/Scripts",
     "Drawing",
     "Notes/Untitled.canvas",
-    "Clippings",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",
-    "Files/Attachments/2023QDNS-CNLB.pdf",
-    "Files/Attachments/Vacin.pdf",
-    "Files/Attachments/Airways.pdf",
     "Drawing board.canvas"
   ]
 }

@@ -13,7 +13,6 @@ image:
   path: /assets/img/post/Microsoft core service.webp
   alt: Microsoft là một trong những công ty hùng mạnh nhất trong lịch sử.
 ---
-
 Mô hình kinh doanh của Microsoft đã tạo ra một trong những công ty hùng mạnh nhất trên thế giới. 
 
 **Microsoft là một trong những công ty hùng mạnh nhất trong lịch sử**

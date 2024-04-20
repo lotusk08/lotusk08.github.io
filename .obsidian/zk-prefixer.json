@@ -1,5 +1,5 @@
 {
-  "format": "HH:mm-MMM-DD-YYYY",
-  "folder": "Notes",
-  "template": ""
+  "format": "YYYY-MM-DD",
+  "folder": "_posts",
+  "template": "_drafts/{{date}}-{{title}}"
 }

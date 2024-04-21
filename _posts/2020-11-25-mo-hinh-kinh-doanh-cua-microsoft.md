@@ -1,16 +1,18 @@
 ---
 title: Mô hình kinh doanh của Microsoft
-description: Khái quát mô hình kinh doanh của Microsoft, thứ đã tạo ra một trong những công ty hùng mạnh nhất trên thế giới. 
+description: Khái quát mô hình kinh doanh của Microsoft, thứ đã tạo ra một trong những công ty hùng mạnh nhất trên thế giới.
 author: steve
 date: 2020-11-25 11:33:00 +0700
-categories: [Vietnamese]
-tags: [business]
+categories:
+  - Vietnamese
+tags:
+  - business
 pin: false
 toc: true
 math: false
 mermaid: false
 image:
-  path: /assets/img/post/Microsoft core service.webp
+  path: /assets/img/post/Microsoft-core-service.webp
   alt: Microsoft là một trong những công ty hùng mạnh nhất trong lịch sử.
 ---
 Mô hình kinh doanh của Microsoft đã tạo ra một trong những công ty hùng mạnh nhất trên thế giới. 
@@ -25,7 +27,7 @@ Quay trở lại những ngày đầu khởi nghiệp của họ, khi ấy máy 
 
 Cả hai người (Bill Gates và Paul Allen) đã phát hiện ra cơ hội phát triển khi sản xuất hệ thống máy tính với trình dịch cơ bản (nếu nói đúng hơn thì nó là một máy phiên dịch) mang tên Altair 8800. 
 
-![Microsoft Altair 8800](/assets/img/post/Microsoft altair 8800.webp "Microsoft Altair 8800")
+![Microsoft Altair 8800](/assets/img/post/Microsoft-altair-8800.webp "Microsoft Altair 8800")
 _Altair 8800_
 
 Đến đầu những năm 1980, MS[–](https://stevehoang.com/)DOS ra đời. Nó là một hệ điều hành đơn giản và nay đã trở thành hệ điều hành rất phổ biến cho máy tính, đặc biệt ở thị trường các nước đang phát triển như Việt Nam (các OEM không tốn phí bản quyền để cài).
@@ -58,7 +60,7 @@ Microsoft cung cấp hệ điều hành, phần mềm máy tính cho các doanh 
 
 Sự tập trung về chuyên môn trong lĩnh vực công nghệ phần mềm dài hạn kết hợp cùng một nền văn hoá doanh nghiệp tuyệt vời đã đưa Microsoft thành công trong nhiều giai đoạn khác nhau.
 
-![The Microsoft business model](/assets/img/post/The Microsoft business model.webp "Mô hình kinh doanh của Microsoft")
+![The Microsoft business model](/assets/img/post/The-Microsoft-business-model.webp "Mô hình kinh doanh của Microsoft")
 _Mô hình kinh doanh của Microsoft_
 
 Hoạt động kinh doanh cốt lõi hiện tại của Microsoft liên quan đến việc bán, phân phối và hỗ trợ các giải pháp về phần mềm. Mặc dù Microsoft cũng có vận hành kinh doanh về bán phần cứng nhưng chúng chỉ là một phần rất nhỏ (gần như không đáng kể) trong hoạt động kinh doanh.
@@ -90,7 +92,7 @@ Bất chấp sự cạnh tranh gay gắt, Microsoft đã phát triển nhóm s�
 
 ## Chiến lược kinh doanh của Microsoft là gì?
 
-![Microsoft solution ecosystem](/assets/img/post/Microsoft solution ecosystem.webp "Hệ sinh thái sản phẩm của Microsoft")
+![Microsoft solution ecosystem](/assets/img/post/Microsoft-solution-ecosystem.webp "Hệ sinh thái sản phẩm của Microsoft")
 _Mô hình kinh doanh của Microsoft trong tương lai dựa trên AI_
 
 **Tham vọng thúc đẩy Microsoft**
@@ -129,7 +131,7 @@ Game là một ngành công nghiệp tỷ $, và Microsoft vốn đã có giải
 
 Tuỳ vào dòng sản phẩm và từng thị trường mà bạn có thể tìm cho mình chính xác về một bộ khung mô hình kinh doanh, song để khái quát đơn giản nhất có thể, bạn có thể xem nhóm mô hình kinh doanh cốt lõi đã và đang mang lại giá trị khổng lồ cho Microsoft ở hình bên dưới.
 
-![Microsoft business model canvas](/assets/img/post/Microsoft business model canvas.webp "Mô hình kinh doanh của microsoft")
+![Microsoft business model canvas](/assets/img/post/Microsoft-business-model-canvas.webp "Mô hình kinh doanh của microsoft")
 
 Mô hình kinh doanh của Microsoft
 
@@ -152,7 +154,7 @@ Nhóm đối tượng này là chính chúng ta, cũng chính là đối tượn
 
 ### Mô hình kinh doanh quảng cáo Bing
 
-![Mô hình kinh doanh quảng cáo của Bing](/assets/img/post/Microsoft Bing business model.webp "Mô hình kinh doanh quảng cáo của Bing")
+![Mô hình kinh doanh quảng cáo của Bing](/assets/img/post/Microsoft-Bing-business-model.webp "Mô hình kinh doanh quảng cáo của Bing")
 _Mô hình kinh doanh quảng cáo của Bing_
 
 > **Bing**  là một công cụ tìm kiếm web do Microsoft sở hữu và vận hành. Ban đầu, **Bing** có tên là MSN Search. Nếu tính riêng về công cụ tìm kiếm thì Bing là cỗ máy tìm kiếm lớn thứ ba trên toàn cầu, với lượng truy vấn là 4,58%. Còn bây giờ, ngoài công cụ tìm kiếm ra thì chúng ta còn sử dụng các mạng xã hội như Zalo, Facebook để lấy thông tin hoặc mua hàng nữa. Nhất là các đợt săn Voucher/Mã giảm giá 10.10,11.11.v.v.
@@ -162,7 +164,7 @@ Mô hình kinh doanh của Bing dựa trên mô hình doanh thu ẩn, tương t�
 
 ### Mô hình kinh doanh của Linkedin
 
-![Mô hình kinh doanh của Linkedin](/assets/img/post/Linkedin business model.webp "Mô hình kinh doanh của Linkedin")
+![Mô hình kinh doanh của Linkedin](/assets/img/post/Linkedin-business-model.webp "Mô hình kinh doanh của Linkedin")
 _Mô hình kinh doanh của Linkedin_
 
 > Linkedin là mạng xã hội số một thế giới của các chuyên gia với hơn 645 triệu thành viên và đang phát triển. Ở Việt Nam, Linkedin được biết đến nhiều hơn với vai trò như một mạng xã hội tuyển dụng miễn phí. Các tính năng khác do rào cản về ngôn ngữ nên không được người Việt sử dụng rộng rãi. Tuy nhiên, gần đây, Linkedin được xem như một mạng xã hội tình yêu công sở tương tự Tinder.
@@ -194,7 +196,7 @@ Microsoft **đang mở rộng và phát triển các dịch vụ đám mây c�
 
 Mô hình kinh doanh của Microsoft chủ yếu dựa vào doanh thu cốt lõi từ hệ điều hành, sản phẩm máy chủ và Microsoft Office. 
 
-![Cơ cấu doanh thu của Microsoft](/assets/img/post/Microsoft revenue by year.webp "Cơ cấu doanh thu của Microsoft"){: w="420" .w-50 .right}
+![Cơ cấu doanh thu của Microsoft](/assets/img/post/Microsoft-revenue-by-year.webp "Cơ cấu doanh thu của Microsoft"){: w="420" .w-50 .right}
 
 #### Mảng kinh doanh chính
   -   Doanh thu tăng 6,0 tỷ USD (20%).
@@ -223,7 +225,7 @@ Năm 2019, doanh thu Linkedin là 5,3 tỷ $, tăng gần 3,0 tỷ $ so với n�
 
 ## Lợi nhuận kinh doanh của Microsoft thì sao?
 
-![Cơ cấu lợi nhuận của Microsoft](/assets/img/post/Microsoft net income.webp "Cơ cấu lợi nhuận của Microsoft"){: .w-50 .left}
+![Cơ cấu lợi nhuận của Microsoft](/assets/img/post/Microsoft-net-income.webp "Cơ cấu lợi nhuận của Microsoft"){: .w-50 .left}
 
 Lợi nhuận của Microsoft ngày càng được thúc đẩy bởi các dịch vụ đám mây của họ, nhóm dịch vụ nền tảng này cung cấp một tập hợp tài nguyên có thể mở rộng cho khách hàng với mức độ hiệu quả cao. Dù sau bao thăng trầm, Microsoft vẫn mang lại tiền cho nhà đầu tư.
 

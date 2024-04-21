@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "227524ecf7028c42",
+        "id": "61a910f8f8f29c0a",
         "type": "tabs",
         "children": [
           {
-            "id": "785323429d72c2bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-08-29-Gen-Z.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c122b5c8ec38a22b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f648d36ca86a00e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-01-obsidian.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "da457ea5f973f019",
+            "id": "acef87d2a6cc2550",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +20,43 @@
             }
           },
           {
-            "id": "6c64a74574babb1a",
+            "id": "d9627e12d334a99c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-08-23-quit-job.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d688098707247f27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-08-29-Gen-Z.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7dc8ce11e1dd0f0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d79c29394d8bfa8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,21 +66,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "682aedbd36e5a24b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2021-09-18-san-pham-cong-dong.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -132,15 +120,27 @@
       {
         "id": "e24e6edb69d0c9c6",
         "type": "tabs",
-        "dimension": 29.521276595744684,
+        "dimension": 25,
         "children": [
+          {
+            "id": "1472725f376e4164",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
           {
             "id": "eeac06368b1c4956",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-01-obsidian.md",
+                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,44 +152,19 @@
             }
           },
           {
-            "id": "1472725f376e4164",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "_posts/2023-09-01-obsidian.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "9fa617b6014e3431",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "08373d48b19c6185",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9695d4f8808b67ce",
         "type": "tabs",
-        "dimension": 29.25531914893617,
+        "dimension": 33.75,
         "children": [
           {
             "id": "ca4164bcf9f72a56",
@@ -198,21 +173,14 @@
               "type": "mindmap",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "52bd5e098ab33c21",
-        "type": "tabs",
-        "dimension": 41.22340425531915,
-        "children": [
+          },
           {
             "id": "e8de00b9fa0eea4a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-01-obsidian.md"
+                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md"
               }
             }
           },
@@ -225,6 +193,36 @@
             }
           }
         ]
+      },
+      {
+        "id": "52bd5e098ab33c21",
+        "type": "tabs",
+        "dimension": 41.25,
+        "children": [
+          {
+            "id": "3d1a667ef4702543",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md"
+              }
+            }
+          },
+          {
+            "id": "72fb4596db6790db",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -237,57 +235,57 @@
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "f648d36ca86a00e1",
+  "active": "d79c29394d8bfa8d",
   "lastOpenFiles": [
-    "_site/assets/img/post/Obsidian-Screenshot-light.webp",
-    "_site/assets/img/post/Obsidian-Screenshot-dark.webp",
-    "assets/img/post/Obsidian-Screenshot-light.webp",
-    "assets/img/post/Obsidian-Screenshot-dark.webp",
-    "_posts/2023-09-01-obsidian.md",
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
-    "_site/obsidian/index.html",
-    "_site/obsidian",
-    "_site/2022-mot-nam-nhin-lai/index.html",
-    "_site/2022-mot-nam-nhin-lai",
-    "_posts/2021-09-18-san-pham-cong-dong.md",
-    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
-    "_drafts/2024-04-20-coffee.md",
-    "_drafts/{{date}}-{{title}}.md",
     "_posts/2022-08-29-Gen-Z.md",
+    "_drafts/New post.md",
     "_posts/2022-08-23-quit-job.md",
+    "_drafts/2024-04-20-coffee.md",
+    "_posts/2021-02-18-hoc.md",
+    "_tabs/writting.md",
+    "_tabs/tags.md",
+    "_tabs/productions.md",
+    "_site/assets/img/post/Microsoft-business-model-canvas.webp",
+    "assets/img/post/Microsoft-business-model-canvas.webp",
+    "_site/assets/img/site/real-time-report.webp",
+    "assets/img/site/real-time-report.webp",
+    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+    "_tabs/categories.md",
+    "_tabs/about.md",
+    "_posts/2021-09-18-san-pham-cong-dong.md",
+    "_posts/2023-09-01-obsidian.md",
+    "_site/assets/img/site/I'm-Steve.webp",
+    "assets/img/site/I'm-Steve.webp",
+    "_site/assets/img/site/hv-e-commerce-shopping-mall.webp",
+    "assets/img/site/hv-e-commerce-shopping-mall.webp",
+    "_site/assets/img/site/hv-e-commerce-policy.webp",
+    "assets/img/site/hv-e-commerce-policy.webp",
+    "_drafts/2019-08-08-write-a-new-post.md",
+    "_drafts/2019-08-08-text-and-typography.md",
+    "_posts/2024-04-21-.md",
+    "_site/categories/tutorial/index.html",
+    "_site/categories/tutorial",
+    "_site/categories/blogging/index.html",
+    "_site/categories/blogging",
+    "_site/tags/writing/index.html",
+    "_site/tags/writing",
+    "_site/write-a-new-post/index.html",
+    "_site/write-a-new-post",
+    "_site/text-and-typography/index.html",
+    "_site/text-and-typography",
+    "_posts/2024-04-21-how many do you ex?.md",
+    "_drafts/Untitled.md",
+    "_posts/2024-04-21-the-morning.md",
     "_posts/blog.md",
     "_posts/Blog.md",
-    "_posts/2021-02-18-hoc.md",
-    "_site/assets/img/post/coffee.webp",
-    "assets/img/post/coffee.webp",
-    "_site/coffee/index.html",
-    "_site/coffee",
-    "_site/tags/coffee/index.html",
-    "_site/tags/coffee",
     "_posts/2024-04-20-2023-journey.md",
-    "_drafts",
-    "_drag",
     "assets/img/post/The.md",
     "Notes/1-“Lúc không yêu thì cứ tưởng cô đơn vì không có tình yêu- Yêu rồi….md",
-    "Notes/2-- Tư vấn khách hàng.md",
-    "Notes/3 CẢNH GIỚI CAO NHẤT MÀ ĐỜI NGƯỜI THEO ĐUỔI.md",
-    "Notes/5 must have when you start-up.md",
-    "Notes/13 CÁCH PHÁT HIỆN GIAN LẬN TRONG BÁO CÁO TÀI CHÍNH.md",
-    "Notes/330x270cm - backdrop.md",
-    "Notes/2022 - Một năm nhìn lại - A year lookback - Steve Hoang.md",
-    "Notes/386-3B Lê Văn Sĩ, Phường --- Quận 3.md",
-    "Notes/😃)) Đi làm mà “tưởng”, sorry but you’re not a student anymore- Đi….md",
-    "Notes/Học - Steve Hoang.md",
-    "Notes/Sản phẩm cộng đồng - Steve Hoang.md",
-    "Notes/Gửi người muốn nghỉ việc! - Steve Hoang.md",
-    "Files/Attachments/Pasted image 20231211140653.png",
-    "Files/Attachments/Pasted image 20231114182324.png",
-    "Files/Attachments/Pasted image 20230918154607.png",
-    "Files/Attachments/Domain Name System - DNS.svg",
-    "Files/Attachments/DNS Recursive Query.png",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

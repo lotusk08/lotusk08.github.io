@@ -5,7 +5,7 @@ order: 5
 ---
 ## Hey there, I'm Steve
 
-![I'm Steve](/assets/img/site/I'm Steve.webp)
+![I'm Steve](/assets/img/site/I'm-Steve.webp)
 _I'm Steve_
 
 As a marketer, I'm passionate about how businesses function, especially when it comes to enhancing the customer experience and delivering real value based on their needs. I strongly believe we can drive profits while staying true to ethical principles in business.

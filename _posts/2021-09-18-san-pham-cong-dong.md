@@ -91,7 +91,7 @@ Bạn có thể tận dụng các mạng xã hội và yếu tố social của c
 
 Tư duy tập thể là một thuật ngữ trong tiếng Anh – Groupthink. Khi bạn có một cộng đồng đủ lớn, thì tập thể đó có khả năng đồng hoá tư duy và thái độ của những người đối nghịch. Ví dụ, trong một cộng đồng những người sử dụng Macbook, nếu bạn viết một status thể hiện quan điểm tích cực về việc dùng máy tính Windows. Chắc chắn, bạn sẽ nhận được những góp ý từ nhẹ đến nặng. Đặc biệt là ở Việt Nam. ??‍♂️
 
-![business combat](/assets/img/post/business combat.webp "Các doanh nghiệp cạnh tranh thông qua cộng đồng")
+![business combat](/assets/img/post/business-combat.webp "Các doanh nghiệp cạnh tranh thông qua cộng đồng")
 _Bản thân Android và iOS không “đấu đá” nhau, nhưng người dùng của họ thì có_
 
 Với một sản phẩm cộng đồng thì đây là một lợi thế rất lớn đối với mục tiêu tăng trưởng kinh doanh. Một số thương hiệu lớn còn khai thác sự đối lập này để khuếch tán với các chiến dịch thương hiệu và Marketing. Ví dụ như Sam fan và ifan, hay Audi và BMW.

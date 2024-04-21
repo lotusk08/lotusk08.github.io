@@ -1,5 +1,5 @@
 {
-  "format": "YYYY-MM-DD",
+  "format": "YYYY-MM-DD-",
   "folder": "_posts",
-  "template": "_drafts/{{date}}-{{title}}"
+  "template": "_drafts/New post"
 }

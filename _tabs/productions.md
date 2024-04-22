@@ -2,6 +2,9 @@
 # the default layout is 'page'
 icon: fa-solid fa-layer-group
 order: 2
+redirect_from:
+  - /my-products/
+  - /marketing/
 ---
 ## From concept to fruition
 ### The first motorbike e-commerce store in Vietnam

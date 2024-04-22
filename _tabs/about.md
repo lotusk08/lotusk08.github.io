@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 5
+redirect_from: /about-me/
 ---
 ## Hey there, I'm Steve
 

@@ -32,43 +32,19 @@
             }
           },
           {
-            "id": "d688098707247f27",
+            "id": "7256c68c43364fb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-08-29-Gen-Z.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7dc8ce11e1dd0f0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d79c29394d8bfa8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+                "file": "_posts/2023-09-01-obsidian.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -120,7 +96,7 @@
       {
         "id": "e24e6edb69d0c9c6",
         "type": "tabs",
-        "dimension": 25,
+        "dimension": 29.5,
         "children": [
           {
             "id": "1472725f376e4164",
@@ -128,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+                "file": "_posts/2023-09-01-obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+                "file": "_posts/2023-09-01-obsidian.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +140,7 @@
       {
         "id": "9695d4f8808b67ce",
         "type": "tabs",
-        "dimension": 33.75,
+        "dimension": 29.25,
         "children": [
           {
             "id": "ca4164bcf9f72a56",
@@ -180,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md"
+                "file": "_posts/2023-09-01-obsidian.md"
               }
             }
           },
@@ -205,7 +181,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md"
+                "file": "_posts/2023-09-01-obsidian.md"
               }
             }
           },
@@ -239,8 +215,9 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "d79c29394d8bfa8d",
+  "active": "7256c68c43364fb3",
   "lastOpenFiles": [
+    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
     "_posts/2022-08-29-Gen-Z.md",
     "_drafts/New post.md",
@@ -254,7 +231,6 @@
     "assets/img/post/Microsoft-business-model-canvas.webp",
     "_site/assets/img/site/real-time-report.webp",
     "assets/img/site/real-time-report.webp",
-    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
     "_tabs/categories.md",
     "_tabs/about.md",
     "_posts/2021-09-18-san-pham-cong-dong.md",

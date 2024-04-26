@@ -116,7 +116,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   waline:
-    server: https://waline-1-y4587297.deta.app/ # line.stevehoang.com/
+    server: https://line.stevehoang.com/
     placeholder: Did you think so?
     avatar: hide
   giscus:

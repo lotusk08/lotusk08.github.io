@@ -118,7 +118,6 @@ comments:
   waline:
     server: https://line.stevehoang.com/
     placeholder: Did you think so?
-    avatar: hide
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:

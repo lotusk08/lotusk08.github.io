@@ -56,6 +56,6 @@ mathjax:
   js: https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js
 
 waline:
-  js: https://cdn.jsdelivr.net/npm/@waline/client@2/dist/waline.js
-  css: https://cdn.jsdelivr.net/npm/@waline/client@2/dist/waline.css
+  js: https://cdn.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.umd.min.js
+  css: https://cdn.jsdelivr.net/npm/@waline/client@3.1.3/dist/waline.min.css
   emojis: https://cdn.jsdelivr.net/npm/@waline/emojis@1.2.0

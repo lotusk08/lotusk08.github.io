@@ -1,21 +1,36 @@
+<!-- https://waline.js.org/ -->
 <script src="{{ site.data.origin[type].waline.js | relative_url }}"></script>
 <link rel="stylesheet" href="{{ site.data.origin[type].waline.css | relative_url }}" />
 <div id="waline"></div>
 <script type="text/javascript">
   (function() {
     const locale = {
+      nick: 'Name',
+      mail: 'email',
+      link: 'website',
       placeholder: '{{ site.comments.waline.placeholder }}',
+      sofa: '',
+      comment: '',
+      word: 'word',
+      submit: 'Reply',
+      latest: 'Newest',
+      oldest: '',
+      hottest: 'Most relevant',
     };
     Waline.init({
       el: '#waline',
       serverURL: '{{ site.comments.waline.server }}',
+      lang: 'en-US',
+      count: 'false',
+      login: 'disable',
+      search: 'false',
+      dark: "__waline__css__",
       emoji: [
         "{{ site.data.origin[type].waline.emojis | relative_url }}/qq",
+        '{{ site.data.origin[type].waline.emojis | relative_url }}/weibo',
         '{{ site.data.origin[type].waline.emojis | relative_url }}/tieba',
-        '{{ site.data.origin[type].waline.emojis | relative_url }}/tw-emoji',
         '{{ site.data.origin[type].waline.emojis | relative_url }}/bilibili',
       ],
-      dark: "__waline__css__",
       locale,
     });
     let head = document.getElementsByTagName("head")[0];

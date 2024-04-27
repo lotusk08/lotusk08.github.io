@@ -225,9 +225,9 @@ Năm 2019, doanh thu Linkedin là 5,3 tỷ $, tăng gần 3,0 tỷ $ so với n�
 
 ## Lợi nhuận kinh doanh của Microsoft thì sao?
 
-![Cơ cấu lợi nhuận của Microsoft](/assets/img/post/Microsoft-net-income.webp "Cơ cấu lợi nhuận của Microsoft"){: .w-50 .left}
+![Cơ cấu lợi nhuận của Microsoft](/assets/img/post/Microsoft-net-income.webp "Cơ cấu lợi nhuận của Microsoft")
 
-Lợi nhuận của Microsoft ngày càng được thúc đẩy bởi các dịch vụ đám mây của họ, nhóm dịch vụ nền tảng này cung cấp một tập hợp tài nguyên có thể mở rộng cho khách hàng với mức độ hiệu quả cao. Dù sau bao thăng trầm, Microsoft vẫn mang lại tiền cho nhà đầu tư.
+Lợi nhuận của Microsoft khá ổn định và ngày càng được mở rộng bởi các dịch vụ đám mây. Và, sau bao thăng trầm, Microsoft vẫn mang lại tiền cho cổ đông.
 
 ## Các thương vụ đầu tư sáp nhập của Microsoft
 

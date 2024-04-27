@@ -19,7 +19,7 @@ Kể từ khi tự kiếm được những đồng tiền đầu tiên, mình đ
 
 ## Tìm hiểu về một môn nghệ thuật khác khi có thời gian
 ![learning to drawing](/assets/img/post/learning-to-drawing.webp "Nên tìm hiểu về một môn nghệ mới khi bạn có thời gian"){: w="360" .right}
-Ngày còn nhỏ, chúng ta ai cũng được học vẽ và tô màu. Khi trưởng thành, mình hiếm khi cầm bút nguệch ngoạc xong một thứ gì đó mà cảm thấy hài lòng. Mình chọn vẽ tranh, mình thấy được những góc nhìn khác về sự vật, khung cảnh, màu sắc. Mình cũng hiểu được cách mà não phản ứng trước các thông tin được tiếp nhận từ mắt. Việc đi lại con đường của các nghệ sỹ hội hoạ, mình mới bắt đầu thấu hiểu giá trị của những tác phẩm, hiểu được một chút vì sao người ta lưu danh trăm năm chỉ bằng một bức tranh. Nếu các bạn có thời gian, hãy đầu tư thêm những kiến thức và những kỹ năng này, nó sẽ giúp các bạn có nhiều trải nghiệm thú vị hơn trong cuộc sống.
+Ngày còn nhỏ, chúng ta ai cũng được học vẽ và tô màu. Khi trưởng thành, mình hiếm khi cầm bút nguệch ngoạc xong một thứ gì đó mà cảm thấy hài lòng. Mình chọn vẽ tranh, mình thấy được những góc nhìn khác về sự vật, khung cảnh, màu sắc. Mình cũng hiểu được cách mà não phản ứng trước các thông tin được tiếp nhận từ mắt. Việc đi lại con đường của các nghệ sỹ hội hoạ, mình mới bắt đầu thấu hiểu giá trị của những tác phẩm, hiểu được một chút vì sao người ta lưu danh trăm năm chỉ bằng một bức tranh. Nếu có thời gian, hãy đầu tư thêm những kiến thức và những kỹ năng này, chắc chắn chúng ta sẽ có nhiều trải nghiệm thú vị hơn trong cuộc sống.
 
 ## Thay đổi một chút trên bàn làm việc
 ### Xem xét một bàn phím phù hợp
@@ -82,7 +82,7 @@ Dropbox có thể sync cấu trúc dữ liệu phức tạp như folder lồng t
 - Dropbox có phí duy trì thuê bao thuộc hàng cao nên phân khúc cũng rất rõ ràng. Băng thông và tốc độ tải cao hơn hẳn Drive.
 ![Dropbox](/assets/img/post/Dropbox.webp "Dropbox mình đang sử dụng"){: w="320" .right}
 #### Về chính sách dịch vụ
-- Dropbox lưu trữ và không can thiệp vào dữ liệu người dùng, kể cả khi bạn ngưng trả tiền thì bạn vẫn download được dữ liệu về. Có nghĩa là họ không xoá dữ liệu của bạn, bạn chỉ không upload thêm được nữa nếu quên trả tiền thôi. Khi tài khoản có sự cố gì, mọi dữ liệu đều được bảo lưu cho đến khi bạn có cách xử lý.
+- Dropbox lưu trữ và không can thiệp vào dữ liệu người dùng, kể cả khi ngưng trả tiền thì vẫn download được dữ liệu về. Có nghĩa là họ không xoá dữ liệu của người dùng, chỉ không upload thêm được nữa nếu quên trả tiền thôi. Khi tài khoản có sự cố gì, mọi dữ liệu đều được bảo lưu cho đến khi mình có cách xử lý.
 - Drive thì hên xui, nó có rất nhiều rules công khai và rule không công khai. Thực tế áp dụng thì tuỳ nhân phẩm mỗi người. Dữ liệu bị xoá và khoá tài khoản là điều không lạ. Cho dù là tài khoản cá nhân hay tổ chức.
 #### Mình có sử dụng không?
 Có, mình dùng Dropbox từ 2008, hiện tại đang dùng Dropbox One.
@@ -102,7 +102,7 @@ App này cũng hay xuất hiện trên các vẽ sơ đồ tư duy của một s
 
 ### Gifox
 ![Gifox](/assets/img/post/Gifox.webp "Gifox - Tạo ảnh gif nhanh"){: w="240" .right }
-Đây là một ứng dụng nhỏ để tạo ảnh gif. Bạn sẽ quay một vùng màn hình sau đó chuyển nó thành ảnh gif. Hoặc cũng có thể kéo video có sẵn để chuyển thành ảnh gif luôn. Nó có bản free, giới hạn frame và thời gian, nếu muốn bạn cũng có thể mua 1 lần dùng luôn, không phải dạng thuê bao. 
+Đây là một ứng dụng nhỏ để tạo ảnh gif. Có thể quay một vùng màn hình sau đó chuyển nó thành ảnh gif. Hoặc cũng có thể kéo video có sẵn để chuyển thành ảnh gif luôn. Nó có bản free, giới hạn frame và thời gian, có thể mua 1 lần dùng luôn, không phải dạng thuê bao. 
 
 ### Affinity
 Mặc dù trong công việc, mình vẫn dùng bộ công cụ của Adobe, tuy nhiên trải nghiệm ì ạch khiến mình thấy không thoải mái lắm. Mặc dù cấu hình máy tính mà mình đang dùng cũng không thấp (Core i9 - 64Gb RAM, VGA 8GB, SSD 1T). Mình thấy bộ phần mềm Affinity này là bản đơn giản và gọn nhẹ hơn Adobe, chạy rất mượt mà.

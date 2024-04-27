@@ -4,23 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "61a910f8f8f29c0a",
+        "id": "4d13d2f01be9acb7",
         "type": "tabs",
         "children": [
           {
-            "id": "97ee6750eddea19d",
+            "id": "94ee444f987bafbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2020-03-05-luat-viet-hoa.md",
+                "file": "_posts/2021-02-18-hoc.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "1767b6da40deb288",
+            "id": "f47372cc6dbd1a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8292c3ab3845c1c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -204,8 +216,20 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "1767b6da40deb288",
+  "active": "8292c3ab3845c1c0",
   "lastOpenFiles": [
+    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+    "_posts/2021-02-18-hoc.md",
+    "_posts/2021-09-18-san-pham-cong-dong.md",
+    "_posts/2022-04-30-goodbye-thai-khuong.md",
+    "_posts/2022-08-23-quit-job.md",
+    "_posts/2022-08-29-Gen-Z.md",
+    "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
+    "_posts/2023-04-27-noi-so-AI.md",
+    "_posts/2023-05-26-gojek-datbike.md",
+    "_posts/2024-04-28-nao-tam-ly.md",
+    "_posts/2023-09-01-obsidian.md",
+    "_posts/2020-07-25-ket-giao.md",
     "_site/topics/start-up/index.html",
     "_site/topics/start-up",
     "_site/topics/human/index.html",
@@ -216,14 +240,10 @@
     "_site/topics/personnel",
     "_site/topics/personality/index.html",
     "_site/topics/personality",
-    "_site/topics/community/index.html",
     "_tabs/topics.md",
     "_site/assets/img/post/ket-giao.webp",
     "assets/img/post/ket-giao.webp",
-    "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
-    "_posts/2020-07-25-ket-giao.md",
     "_drafts/2020-03-05-luat-viet-hoa.md",
-    "_posts/2022-04-30-goodbye-thai-khuong.md",
     "_tabs/productions.md",
     "_site/assets/img/post/at-tk.webp",
     "assets/img/post/at-tk.webp",
@@ -233,25 +253,17 @@
     "assets/img/post/tks.webp",
     "_site/assets/img/post/tk-web.webp",
     "_site/assets/img/post/tk-doc.webp",
-    "_posts/2023-04-27-noi-so-AI.md",
-    "_posts/2023-05-26-gojek-datbike.md",
-    "_posts/2023-09-01-obsidian.md",
     "_posts/2011-06-04-forget.md",
     "_posts/2011-04-29-tha-huong.md",
     "_posts/2010-09-23-say-tau-xe.md",
     "_posts/2018-12-10-tu-tinh.md",
-    "_posts/2024-04-28-nao-tam-ly.md",
     "_drafts/2024-04-20-coffee.md",
-    "_posts/2022-08-23-quit-job.md",
     "_posts/2011-09-11-too-late.md",
     "_posts/2011-01-12-them.md",
     "Notes/The incredible story of the man who lived a normal life with almost no brain 1.md",
     "Notes/The incredible story of the man who lived a normal life with almost no brain.md",
     "_site/_site/assets/lib/fontawesome-free/README.md",
     "_site/_site/assets/lib/README.md",
-    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
-    "_posts/2022-08-29-Gen-Z.md",
-    "_drafts/New post.md",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

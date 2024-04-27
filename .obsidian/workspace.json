@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -152,7 +152,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/2024-04-28-nao-tam-ly.md",
+=======
+                "file": "_posts/2010-09-23-say-tau-xe.md",
+>>>>>>> master
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +168,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/2024-04-28-nao-tam-ly.md",
+=======
+                "file": "_posts/2010-09-23-say-tau-xe.md",
+>>>>>>> master
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +213,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/2024-04-28-nao-tam-ly.md"
+=======
+                "file": "_posts/2010-09-23-say-tau-xe.md"
+>>>>>>> master
               }
             }
           },
@@ -231,7 +243,11 @@
             "state": {
               "type": "file-properties",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/2024-04-28-nao-tam-ly.md"
+=======
+                "file": "_posts/2010-09-23-say-tau-xe.md"
+>>>>>>> master
               }
             }
           },
@@ -264,14 +280,23 @@
       "zk-prefixer:Create new unique note": false
     }
   },
+<<<<<<< HEAD
   "active": "c5ca8cc3a0684932",
   "lastOpenFiles": [
     "_posts/2010-09-23-say-tau-xe.md",
+=======
+  "active": "f73df1cd961728af",
+  "lastOpenFiles": [
+>>>>>>> master
     "_site/tags/tips/index.html",
     "_site/tags/tips",
     "_site/say-tau-xe/index.html",
     "_site/say-tau-xe",
     "_posts/2011-01-12-them.md",
+<<<<<<< HEAD
+=======
+    "_posts/2010-09-23-say-tau-xe.md",
+>>>>>>> master
     "_site/them/index.html",
     "_site/them",
     "_posts/2018-12-10-cho-em.md",
@@ -283,6 +308,10 @@
     "_site/too-late",
     "_site/tags/story/index.html",
     "_site/tags/story",
+<<<<<<< HEAD
+=======
+    "_site/tha-huong/index.html",
+>>>>>>> master
     "_posts/2022-08-23-quit-job.md",
     "_site/assets/img/post/normal-brain.webp",
     "_site/assets/img/post/extraordinary-brain.webp",

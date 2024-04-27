@@ -41,10 +41,13 @@ Through meticulous investment of time, creativity, and resources, we've curated 
 <iframe src="https://drive.google.com/file/d/1UpH7tiuTO1O7KyHst8ZLFTNMHYc1cHBE/preview" width="500" height="360"></iframe>
 
 ## From idea to execution
-![Planning](/assets/img/site/stk-planning.webp){: width="390" .normal}
-![Make a different](/assets/img/site/design-tks-uniform.webp){: width="390" .normal}
-![Employee](/assets/img/site/tks-employee.webp){: width="390" .normal}
-![TKS Teams](/assets/img/site/tks-teams.webp){: width="390" .normal}
+![Thai Khuong Services](/assets/img/post/tks.webp "Thai Khuong Services")
+_Thai Khuong Services_
+
+![Planning](/assets/img/site/stk-planning.webp "Kế hoạch thành lập Thái Khương Service"){: width="390" .normal}
+![Make a different](/assets/img/site/design-tks-uniform.webp "Đồng phục của đội TKS được chính tay mình thiết kế và chọn chất liệu"){: width="390" .normal}
+![Employee](/assets/img/site/tks-employee.webp "Mỗi đồng nghiệp đều là anh em"){: width="390" .normal}
+![TKS Teams](/assets/img/post/tks-workshop.webp "Xưởng dịch vụ"){: width="390" .normal}
 
 
 ## Real time marketing report
@@ -53,5 +56,6 @@ Through meticulous investment of time, creativity, and resources, we've curated 
 <iframe src="https://drive.google.com/file/d/1UcHd98MBmscR8XycaV-QTpIHTD6Xnyme/preview" width="280" height="320"></iframe>
 
 ![Teams](/assets/img/site/tk-teams.webp){: width="520" .right}
+
 ### Empirical approach
 In today's dynamic marketing landscape, data-driven insights are essential for informed decision-making. Every aspect of business operations can be quantified to align with strategic objectives. Leveraging digitalization enables rapid adaptation and optimization, empowering businesses to evolve at an unprecedented pace.

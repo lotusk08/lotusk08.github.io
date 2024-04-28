@@ -1,5 +1,5 @@
 ---
-title: Chuyện Gojek đi xe DatBike
+title: GoJek đi DatBike
 description: 
 author: steve
 date: 2023-05-26 15:19 +0700
@@ -16,13 +16,13 @@ image:
   path: /assets/img/post/datbike-gojek.webp
   alt: Những chiếc Datbike mặc áo Gojek
 ---
-Tháng 5 - 2023, GoJek và DatBike công bố *chiến lược hợp tác*  khi tuyên bố: sử dụng xe điện đi giao hàng và chở khách. [Báo](https://tuoitre.vn/gojek-hop-tac-dat-bike-dua-xe-may-dien-phuc-vu-van-chuyen-hanh-khach-20230524132950417.htm) và các [kênh mạng xã hội](https://tinhte.vn/thread/gojek-bat-tay-voi-dat-bike-dung-xe-dien-weaver-de-giao-hang-va-cho-khach.3670681/) đưa tin rầm rộ cho việc họ sang tay 10 chiếc xe hai bánh chạy bằng điện.
+Tháng 5 - 2023, GoJek và DatBike công bố *chiến lược hợp tác* : sử dụng xe điện đi giao hàng và chở khách. [Báo](https://tuoitre.vn/gojek-hop-tac-dat-bike-dua-xe-may-dien-phuc-vu-van-chuyen-hanh-khach-20230524132950417.htm) và các [kênh mạng xã hội](https://tinhte.vn/thread/gojek-bat-tay-voi-dat-bike-dung-xe-dien-weaver-de-giao-hang-va-cho-khach.3670681/) đưa tin rầm rộ cho việc họ sang tay 10 chiếc xe hai bánh chạy bằng điện.
 
 Mình thấy câu chuyện này rất thú vị, và có nhiều góc nhìn, mạn phép lạm bàn một chút:
 
 ## Chi phí
 ### Tạo vật liệu truyền thông
-Số lượng xe tối thiểu có lẽ cũng khoảng 10 chiếc cho đợt 1, còn có đợt 2, đợt 3 hay không thì không rõ. Với hoạt động liên kết hợp tác về truyền thông, dù có được mua với giá hỗ trợ 50% thì tổng ngân sách cũng khoảng 400 triệu. Chi phí này nếu chỉ dùng để tạo vật liệu truyền thông thì cũng coi như có thể chấp nhận. Tuy nhiên, nếu chỉ vậy thôi thì với start-up *bất ổn* như Gojek thì không quá hợp lý.
+Số lượng xe tối thiểu có lẽ cũng khoảng 10 chiếc cho đợt 1, còn có đợt 2, đợt 3 hay không thì không rõ. Với hoạt động liên kết hợp tác về truyền thông, dù có được mua với giá hỗ trợ 50% thì tổng ngân sách cũng khoảng 400 triệu. Chi phí này nếu chỉ dùng để tạo vật liệu truyền thông thì cũng coi như có thể chấp nhận. Tuy nhiên, nếu chỉ vậy thôi thì với start-up *bất ổn* như GoJek thì không quá hợp lý.
 
 ### Phân phối nội dung
 Khi đã có vật liệu truyền thông là: *Hai nhà start-up có tiếng công bố hợp tác*, phần chi phí truyền thông chắc chắn sẽ chiếm một phần không nhỏ. Với quy mô đưa tin bài viết, tạo phản ứng dư luận, báo chí, mạng xã hội, ít nhất cũng mất khoảng 100 triệu nữa. Giả định nếu được thực thi qua agency thì có lẽ còn "đội" vài con số".

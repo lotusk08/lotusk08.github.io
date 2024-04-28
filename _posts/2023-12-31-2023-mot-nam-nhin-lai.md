@@ -50,7 +50,7 @@ _Ghé chùa Linh Ứng_
 ![Cafe đèo Hải Vân](/assets/img/post/cafe-deo-hai-van.webp "Cafe đèo Hải Vân")
 _Cafe đèo Hải Vân_
 
-Trong lịch sử Việt Nam, Hải Vân là một trong những hùng Quan. Ngày xưa đi đèo rất đáng sợ, bây giờ thì đỡ nhiều rồi, có dân cư, có nhà cửa, có khách du lịch nữa. Ngồi đỉnh đèo, nhâm nhi ly cafe Robusta rang cháy vị đắng chát và ngắm... sương mù. Lạnh, tê tê, lòng chỉ muốn đi về, chẳng thấy lãng mạn chút nào.
+Trong lịch sử Việt Nam, Hải Vân từng là Đệ Nhất Hùng Quan. Ngày xưa đi đèo rất đáng sợ, bây giờ thì đỡ nhiều rồi, có dân cư, có nhà cửa, có khách du lịch nữa. Ngồi đỉnh đèo, nhâm nhi ly cafe Robusta rang cháy vị đắng chát và ngắm... sương mù. Lạnh, tê tê, lòng chỉ muốn đi về, chẳng thấy lãng mạn chút nào.
 
 ![Bên chùa Thiên Mụ](/assets/img/post/ben-chua-thien-mu.webp "Bên chùa Thiên Mụ"){: width="480" }
 _Bên chùa Thiên Mụ_

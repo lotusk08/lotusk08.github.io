@@ -17,7 +17,7 @@ image:
   alt: Ráng chiều bên sông Sài Gòn
 ---
 
-2023 là một năm có nhiều biến động lớn trên thế giới lẫn Việt Nam. Chuyện kinh doanh chưa bao giờ là dễ dàng, ở Việt Nam - với sự cạnh tranh khốc liệt thì lại càng khó khăn hơn. Nó cũng tác động trực tiếp tới công việc và cuộc sống của bản thân mình.
+Là một năm có nhiều biến động lớn trên thế giới lẫn Việt Nam. Chuyện kinh doanh chưa bao giờ là dễ dàng, ở Việt Nam - với sự cạnh tranh khốc liệt thì lại càng khó khăn hơn. Nó cũng tác động trực tiếp tới công việc và cuộc sống của bản thân mình.
 ## Phượt?
 
 ![Đèo Lò Xo](/assets/img/post/deo-lo-xo.webp "Đèo Lò Xo")

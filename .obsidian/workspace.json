@@ -13,50 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2021-02-18-hoc.md",
+                "file": "_posts/2022-08-08-talk-Vietnam.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "f47372cc6dbd1a9d",
+            "id": "85182eb205ced72d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+                "file": "_posts/2022-11-10-hoai-niem.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "8292c3ab3845c1c0",
+            "id": "2f7050d1b960c1b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-04-01-ly-tri.md",
+                "file": "_posts/2021-05-28-gioi.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "48aa430f83743c0c",
+            "id": "5453bf2484b73ccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-03-08-xanh-sm.md",
+                "file": "_posts/2011-10-31-nao-tam-ly.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "d8e7658f18bbb10b",
+            "id": "2db19a9c1fe1b379",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,9 +66,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "0eb14e8d24292b6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2021-07-15-an.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "86205b766cb47412",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2021-12-04-choi.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+                "file": "_posts/2021-05-28-gioi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+                "file": "_posts/2021-05-28-gioi.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md"
+                "file": "_posts/2021-05-28-gioi.md"
               }
             }
           },
@@ -207,7 +231,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md"
+                "file": "_posts/2021-05-28-gioi.md"
               }
             }
           },
@@ -236,58 +260,58 @@
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8e7658f18bbb10b",
+  "active": "2f7050d1b960c1b4",
   "lastOpenFiles": [
-    "_site/assets/img/post/thu-cung-2.webp",
-    "assets/img/post/thu-cung-2.webp",
-    "_site/assets/img/post/thu-cung.webp",
-    "assets/img/post/thu-cung.webp",
-    "_site/assets/img/post/mam-ca.webp",
-    "assets/img/post/mam-ca.webp",
-    "_site/assets/img/post/working-space.webp",
-    "assets/img/post/working-space.webp",
-    "_site/assets/img/post/marathon.webp",
-    "assets/img/post/marathon.webp",
-    "_site/assets/img/post/cmt-2023.webp",
-    "_posts/2023-03-08-xanh-sm.md",
     "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
-    "_site/2023-mot-nam-nhin-lai/index.html",
-    "_site/2023-mot-nam-nhin-lai",
+    "_posts/2011-10-31-nao-tam-ly.md",
+    "_posts/2021-05-28-gioi.md",
+    "_site/tu-su/index.html",
+    "_site/tu-su",
+    "_site/choi/index.html",
+    "_site/choi",
+    "_site/an/index.html",
+    "_site/an",
+    "_site/gioi/index.html",
+    "_site/gioi",
+    "_site/tet-2021/index.html",
+    "_site/tet-2021",
+    "_site/assets/img/post/tet-2021.webp",
+    "_site/assets/img/post/lam-2015.webp",
+    "_site/assets/img/post/choi.webp",
+    "_posts/2021-12-04-choi.md",
+    "_posts/2021-07-15-an.md",
+    "assets/img/post/choi.webp",
+    "_posts/2015-12-15-vui-hay-met.md",
+    "_posts/2021-01-30-tet-2021.md",
+    "assets/img/post/lam-2015.webp",
+    "_posts/2022-12-25-tu-su.md",
+    "assets/img/post/tet-2021.webp",
+    "_posts/2022-11-10-hoai-niem.md",
+    "_posts/2022-08-08-talk-Vietnam.md",
+    "_site/assets/img/post/vespa-2022.webp",
+    "_site/assets/img/post/ql27b.webp",
+    "assets/img/post/vespa-2022.webp",
+    "_posts/2021-02-18-hoc.md",
+    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
+    "_posts/2023-04-01-ly-tri.md",
+    "_posts/2023-03-08-xanh-sm.md",
+    "_posts/2011-04-29-tha-huong.md",
+    "_site/assets/img/post/thu-cung-2.webp",
     "_posts/2023-05-26-gojek-datbike.md",
     "_posts/2023-07-23-an-nam.md",
     "_tabs/productions.md",
-    "_site/xanh-sm/index.html",
-    "_site/xanh-sm",
-    "_site/2023-03-08-xanh-sm/index.html",
-    "_site/2023-03-08-xanh-sm",
     "_posts/2023-03-23-morning-coffee.md",
-    "_site/topics/coffee/index.html",
-    "_site/topics/coffee",
-    "_site/categories/english/index.html",
-    "_site/categories/english",
     "_posts/2023-09-01-obsidian.md",
-    "_posts/2023-04-01-ly-tri.md",
     "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2023-11-10-my-pet.md",
     "_posts/2022-08-23-quit-job.md",
     "_posts/2020-07-25-ket-giao.md",
-    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
-    "_posts/2021-02-18-hoc.md",
     "_posts/2021-09-18-san-pham-cong-dong.md",
     "_posts/2022-04-30-goodbye-thai-khuong.md",
-    "_posts/2022-08-29-Gen-Z.md",
-    "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
-    "_posts/2023-04-27-noi-so-AI.md",
-    "_posts/2024-04-28-nao-tam-ly.md",
-    "_tabs/topics.md",
-    "_drafts/2020-03-05-luat-viet-hoa.md",
-    "_posts/2011-06-04-forget.md",
-    "_posts/2011-04-29-tha-huong.md",
-    "_posts/2010-09-23-say-tau-xe.md",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

@@ -49,12 +49,17 @@ Có người từng nói: mất 3 năm để học nói, cách lắng nghe thì 
 ## Chạy xe đạp
 
 Bắt đầu từ 2019 thì mình nhận ra có vẻ thích đi xe đạp, và đạp xe từ đó. Thời điểm đầu năm 2022 mình có đặt mua một vài món linh kiện xe đạp từ nước ngoài về để nâng cấp chiếc xe Giant Revolf F1. Nhưng rồi, sự thiếu hiểu biết khiến mình trả học phí. Những món linh kiện mình đặt mua về không phù hợp "tiêu chuẩn" của chiếc xe đang chạy. Lúc ấy mình chỉ có 2 lựa chọn: hoặc là đổi cả sườn xe, hoặc là bán rẻ những thứ vừa mua. Mình mua trực tiếp không qua dịch vụ, nên được mời đóng thuế rất nhiệt tình.
+
 > Tự mua và khai báo hải quan khi nhập một chi tiết/linh kiện xe đạp (từ .de) có biểu thuế lên tới 45%, riêng sườn xe đạp nếu nhập thì có thể tới 70%.
 {: .prompt-info }
+
 Có ấn tượng nào đậm sâu hơn việc mất tiền ngu? Cái gì đến cũng đến, mình đặt mua đồ và ráp một chiếc hoàn toàn mới theo đúng ý mình.
+
 ![My bike](/assets/img/post/my-bike.webp "Mình đã tự ráp chiếc Surly ECR này")
 _Chiếc xe này nhìn quen quen đúng không?_
+
 Nó đó! Là chiếc đã lên báo và gây xôn xao dư luận trong một thời gian. Là nhân vật chính trong những "quote" drama đó, mình đọc hết tất cả những comment có thể và nhận ra: tích cực thì ít, mà tiêu cực thì nhiều. Người ta không làm được thì cũng cho rằng người khác cũng như họ. Mình chỉ là đang làm điều mình thích thôi.
+
 ![Chàng trai đạp xe đi làm](/assets/img/post/dap-xe-di-lam.webp "Đạp xe đi làm")
 
 Sau khi trả học phí cho việc tự nâng cấp xe đạp của mình thì mình lại tiếp tục đóng học phí cho bạn gái của mình. Bài học vẫn là chiếc xe đạp. Nhưng lần này thì rộng hơn, lan tới giới "Xebiz". Và rồi, sau tất cả, chiếc xe thứ 2 cũng hoàn thiện. Vậy là, khi đi chơi xa, mình đã có thêm một cái đuôi léo nhéo ì xèo. Cũng vui tai lắm. haha!
@@ -72,18 +77,25 @@ Chuyến đi thú vị nhất thì có lẽ là đổ đèo Khánh Lê từ Đà
 ### Dropbox
 Đây là cloud chính mà mình dùng. Vì sao thì mình sẽ giải thích bên dưới. Mình dùng nó để lưu mọi thứ về công việc và ảnh chụp bằng máy ảnh. Mình có dùng cả android và ios, và sử dụng Dropbox để share ảnh máy này qua máy kia.  
 ![we cycling around HCMC](/assets/img/post/we-cycling-around-HCMC.webp "Mình chụp ảnh bằng Android và xem lại trên iPhone")   
-Khác biệt chính của Dropbox và Drive của GG là cơ chế sync và chính sách về dịch vụ. Một vài điểm lưu ý:
+Khác biệt chính của Dropbox và Drive của GG là cơ chế sync cùng chính sách về dịch vụ. 
+
+Một vài điểm lưu ý:
+
 #### Cơ chế sync
 - Dropbox sử dụng cơ chế sync từng phần, đại khái nó chỉ sync những điểm thay đổi của file, hiếm khi sync toàn bộ trừ khi file không còn toàn vẹn dữ liệu.
-Dropbox có thể sync cấu trúc dữ liệu phức tạp như folder lồng trong folder, ví dụ:  Works/Company A/2023/Jan/21-20/Media/Photos/Ảnh chụp của Steve.png
+Dropbox có thể sync cấu trúc dữ liệu phức tạp như folder lồng trong folder, ví dụ:  `Works/Company A/2023/Jan/21-20/Media/Photos/Ảnh chụp của Steve.png`{: .filepath}
 - Google Drive có thể upload lên nhưng khi download xuống thì thường không ổn định, mình thường xuyên bị thiếu file, mất file sau khi download folder. Chỉ có thể stream.
+
 #### Băng thông
 - Drive có giới hạn băng thông và số lượt tải lên/xuống theo thời gian để cân bằng hệ thống. Ở góc độ nào đó thì Drive là hàng bình dân, sản phẩm đại chúng nên họ chú trọng số lượng hơn.
 - Dropbox có phí duy trì thuê bao thuộc hàng cao nên phân khúc cũng rất rõ ràng. Băng thông và tốc độ tải cao hơn hẳn Drive.
+
 ![Dropbox](/assets/img/post/Dropbox.webp "Dropbox mình đang sử dụng"){: w="320" .right}
+
 #### Về chính sách dịch vụ
 - Dropbox lưu trữ và không can thiệp vào dữ liệu người dùng, kể cả khi ngưng trả tiền thì vẫn download được dữ liệu về. Có nghĩa là họ không xoá dữ liệu của người dùng, chỉ không upload thêm được nữa nếu quên trả tiền thôi. Khi tài khoản có sự cố gì, mọi dữ liệu đều được bảo lưu cho đến khi mình có cách xử lý.
 - Drive thì hên xui, nó có rất nhiều rules công khai và rule không công khai. Thực tế áp dụng thì tuỳ nhân phẩm mỗi người. Dữ liệu bị xoá và khoá tài khoản là điều không lạ. Cho dù là tài khoản cá nhân hay tổ chức.
+
 #### Mình có sử dụng không?
 Có, mình dùng Dropbox từ 2008, hiện tại đang dùng Dropbox One.
 Ngoài ra, mình cũng sử dụng Google Drive cá nhân 100Gb và Google Workspace 8Tb cho tổ chức.

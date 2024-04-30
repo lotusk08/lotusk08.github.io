@@ -11,7 +11,7 @@ redirect_from:
 ![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp)
 _The first motorbike e-commerce store in Vietnam_
 ![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp){: width="410" .right}
-Since 2018, the e-commerce boom in Vietnam, led by Lazada, Shopee, and Tiki, has been educating the market with substantial investments. Despite the unconventional idea of selling motorbikes online, we took the plunge. Within two weeks, we made our first sale. During the peak 11.11 promotion, we achieved a remarkable revenue of 2 billion VND in a single day. Hoang Viet got 1 trillion VND in revenue on that year.
+Since 2018, the e-commerce boom in Vietnam, led by Lazada, Shopee, and Tiki, has been educating the market with substantial investments. Despite the unconventional idea of selling motorbikes online, we took the plunge. Within two weeks, we made our first sale. During the peak 11.11 promotion, we achieved a remarkable revenue of 2 billion VND in a single day. Hoang Viet got 1 trillion VND in revenue that year.
 
 ## Video - memorable markers
 

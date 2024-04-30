@@ -20,6 +20,42 @@
             }
           },
           {
+            "id": "02ed8cbf6d968a69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_tabs/about.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a73f09769d1f4c00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2017-01-30-dao-ly.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3bf16642f570a36e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_tabs/productions.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "9f7af1120c693bff",
             "type": "leaf",
             "state": {
@@ -32,6 +68,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -91,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2019-06-14-hut-thuoc.md",
+                "file": "_posts/2017-01-30-dao-ly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2019-06-14-hut-thuoc.md",
+                "file": "_posts/2017-01-30-dao-ly.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2019-06-14-hut-thuoc.md"
+                "file": "_posts/2017-01-30-dao-ly.md"
               }
             }
           }
@@ -162,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2019-06-14-hut-thuoc.md"
+                "file": "_posts/2017-01-30-dao-ly.md"
               }
             }
           },
@@ -195,8 +232,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a90856583c21ee72",
+  "active": "a73f09769d1f4c00",
   "lastOpenFiles": [
+    "_site/dao-ly/index.html",
+    "_site/dao-ly",
+    "_site/2017-01-30-dao-ly/index.html",
+    "_site/2017-01-30-dao-ly",
+    "_site/assets/img/post/dao-ly.webp",
+    "assets/img/post/dao-ly.webp",
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+    "_posts/2017-01-30-dao-ly.md",
+    "_tabs/about.md",
+    "_tabs/productions.md",
+    "_posts/2019-06-14-hut-thuoc.md",
     "_site/assets/img/post/cafe-khong-thuoc.webp",
     "assets/img/post/cafe-khong-thuoc.webp",
     "_site/assets/img/post/bo-thuoc-la.webp",
@@ -205,9 +253,6 @@
     "assets/img/post/working-coffee.webp",
     "_site/assets/img/post/zippo.webp",
     "assets/img/post/zippo.webp",
-    "_site/assets/img/post/cafe-sang-thuoc.webp",
-    "assets/img/post/cafe-sang-thuoc.webp",
-    "_site/assets/img/post/quan-su.webp",
     "assets/js/dist/misc.min.js",
     "assets/js/dist/post.min.js",
     "assets/js/dist/page.min.js",
@@ -215,14 +260,10 @@
     "assets/js/dist/home.min.js",
     "assets/js/dist/commons.min.js",
     "assets/js/dist",
-    "rollup.config-1714459753142.cjs",
     "_posts/2023-06-16-golf-vietnam.md",
-    "_posts/2019-06-14-hut-thuoc.md",
     "_posts/2023-03-23-morning-coffee.md",
     "_posts/2022-11-10-hoai-niem.md",
     "_posts/2015-12-15-vui-hay-met.md",
-    "_site/hut-thuoc/index.html",
-    "_site/hut-thuoc",
     "_posts/2018-12-10-tu-tinh.md",
     "node_modules/lru-cache/README.md",
     "node_modules/lru-cache/README 2.md",
@@ -234,15 +275,11 @@
     "categories.md",
     "_posts/2023-09-01-obsidian.md",
     "_posts/2021-05-28-gioi.md",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2011-10-31-nao-tam-ly.md",
     "_posts/2021-12-04-choi.md",
     "_posts/2021-07-15-an.md",
     "_posts/2021-01-30-tet-2021.md",
     "_posts/2022-12-25-tu-su.md",
-    "_posts/2022-08-08-talk-Vietnam.md",
-    "_posts/2021-02-18-hoc.md",
-    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

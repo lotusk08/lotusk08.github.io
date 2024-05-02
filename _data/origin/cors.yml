@@ -1,19 +1,22 @@
-# CDNs
-
-cdns:
-  # Google Fonts
+# Resource Hints
+resource_hints:
   - url: https://fonts.googleapis.com
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
   - url: https://fonts.gstatic.com
-    args: crossorigin
-  - url: https://fonts.googleapis.com
-  # jsDelivr CDN
+    links:
+      - rel: preconnect
+        opts: [crossorigin]
+      - rel: dns-prefetch
   - url: https://cdn.jsdelivr.net
-  # polyfill.io for math (cdnjs.cloudflare.com/polyfill)
-  - url: https://cdnjs.cloudflare.com
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
 
-# fonts
 
-webfonts: https://fonts.googleapis.com/css2?family=Roboto&family=Roboto:wght@400;600;700;900&display=swap
+# Web Fonts
+webfonts: https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Roboto:wght@400;600;700;900&display=swap
 
 # Libraries
 

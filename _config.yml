@@ -69,6 +69,8 @@ analytics:
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
 
 # Pageviews settings
 pageviews:
@@ -216,7 +218,7 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - rollup.config.js
+  - "*.config.js"
   - package*.json
 
 jekyll-archives:

@@ -15,7 +15,7 @@ Since 2018, the e-commerce boom in Vietnam, led by Lazada, Shopee, and Tiki, has
 
 ## Video - memorable markers
 
-And the most memorable markers are the moments I captured in the following video.
+The most memorable markers are the moments I captured in the following video.
 
 {% include embed/youtube.html id='C3aVBHVbomM' %}
 
@@ -29,18 +29,19 @@ This melody embodies the soul of Thai Khuong, a place I considered my second hom
 ## Website
 ![Thai Khuong website](/assets/img/site/tkt-website.webp){: .w-50 .right}
 
-### Based on customer journey
+### Based on the customer journey
 In my career, I've crafted numerous websites tailored to diverse audiences, including companies, community groups, and personal ventures. Beyond captivating UI design, a website's success hinges on content relevance and strategic optimization.
 Through meticulous investment of time, creativity, and resources, we've curated an exemplary website experience.
 ![Cover profile](/assets/img/site/TK-cover-profile.webp)
 
 ### Content first
-In my mind, a business's mission is not only to make money but also to resolve the customers' problems. Understanding what customers face is a part of it. By expanding customer's knowledge, we can help them know what they don't know. We have a lot of high-end services as a product of business in the world; it's so hard to understand. That's why we need the marketing department to do some things like educational activities to get the best fit for themself.
+A business's mission is not only to make money but also to resolve the customers' problems. Understanding what customers face is a part of it. By expanding customers' knowledge, we can help them know what they don't know. We have a lot of high-end services as a product of business in the world; it's so hard to understand. That's why we need the marketing department to do some things like educational activities to get the best fit for themself.
 
-So, following the 4w 1h structure, we can adapt what customers read/see/hear/feel and make a new generation. Example with luxury stem cell health care therapy:
+So, through the 4w 1h methods, we can adapt what customers read/see/hear/feel and make a new generation. 
 
-![Medeze Stem Cell](https://dl.dropboxusercontent.com/scl/fi/xgjm7brpab97dngc5e9z7/medeze-stemcell.gif?rlkey=cluw8n4nuwbv3qfqmz1ipgsai&dl=0 "Medeze Stem Cell")
-
+> Example with luxury health care: ***stem cell  therapy***
+![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "Medeze Stem Cell")
+{: .prompt-info }
 The origin website is [Medeze](https://medeze.vn). I made it in 2022.
 
 ## Brochure - profile design
@@ -59,7 +60,7 @@ _Thai Khuong Services_
 ![TKS Teams](/assets/img/post/tks-workshop.webp "Xưởng dịch vụ"){: width="390" .normal}
 
 
-## Real time marketing report
+## Real-time marketing report
 
 ![Real time report](/assets/img/site/real-time-report.webp){: .shadow .rounded-5 w='480' .left}
 <iframe src="https://drive.google.com/file/d/1UcHd98MBmscR8XycaV-QTpIHTD6Xnyme/preview" width="280" height="320"></iframe>

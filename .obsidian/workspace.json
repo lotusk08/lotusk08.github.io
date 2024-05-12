@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2017-01-30-dao-ly.md",
+                "file": "_tabs/productions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2017-01-30-dao-ly.md",
+                "file": "_tabs/productions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2017-01-30-dao-ly.md"
+                "file": "_tabs/productions.md"
               }
             }
           }
@@ -199,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2017-01-30-dao-ly.md"
+                "file": "_tabs/productions.md"
               }
             }
           },
@@ -232,10 +232,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a73f09769d1f4c00",
+  "active": "3bf16642f570a36e",
   "lastOpenFiles": [
-    "_posts/2012-10-27-di-day.md",
+    "node_modules/stylelint/lib/rules/declaration-block-no-shorthand-property-overrides/index 2.mjs",
+    "node_modules/stylelint/lib/rules/declaration-block-no-shorthand-property-overrides/index 2.cjs",
+    "_site/assets/lib/package 2.json",
+    "_site/assets/lib/README 2.md",
+    "_site/assets/lib/LICENSE 2",
+    "assets/lib/LICENSE 2",
+    "assets/lib/package 2.json",
+    "assets/lib/README 2.md",
+    "_site/assets/img/post/2024-05-04 13.51.41.gif",
+    "assets/img/post/2024-05-04 13.51.41.gif",
     "_posts/2017-01-30-dao-ly.md",
+    "_posts/2012-10-27-di-day.md",
     "_site/dao-ly/index.html",
     "_site/dao-ly",
     "_site/2017-01-30-dao-ly/index.html",
@@ -252,14 +262,7 @@
     "assets/img/post/bo-thuoc-la.webp",
     "_site/assets/img/post/working-coffee.webp",
     "assets/img/post/working-coffee.webp",
-    "_site/assets/img/post/zippo.webp",
-    "assets/img/post/zippo.webp",
     "assets/js/dist/misc.min.js",
-    "assets/js/dist/post.min.js",
-    "assets/js/dist/page.min.js",
-    "assets/js/dist/categories.min.js",
-    "assets/js/dist/home.min.js",
-    "assets/js/dist/commons.min.js",
     "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2023-03-23-morning-coffee.md",
     "_posts/2022-11-10-hoai-niem.md",
@@ -277,9 +280,6 @@
     "_posts/2021-05-28-gioi.md",
     "_posts/2011-10-31-nao-tam-ly.md",
     "_posts/2021-12-04-choi.md",
-    "_posts/2021-07-15-an.md",
-    "_posts/2021-01-30-tet-2021.md",
-    "_posts/2022-12-25-tu-su.md",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

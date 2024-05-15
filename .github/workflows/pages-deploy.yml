@@ -63,7 +63,7 @@ jobs:
 
   deploy:
     environment:
-      name: github-pages
+      name: stevehoang.com
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build

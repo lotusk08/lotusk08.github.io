@@ -16,7 +16,12 @@
   
   [**Live site** → ][stevehoang.com]
 
+  [![stevehoang.com](/docs/stevehoang.com.webp)][stevehoang.com]
+ 
 </div>
+
+## Optimized pagespeed
+[![stevehoang.com](/docs/pagespeed.webp)][stevehoang.com]
 
 ## Deploy & public by [Cloudflare][cf]
 Fix error `Gems in the groups 'development' and 'test' were not installed.` in Cloudflare with config the variables for your Preview/Production environment
@@ -26,6 +31,8 @@ Variable name|Value
 BUNDLE_WITHOUT|""
 
 ## Comment system by [Waline][waline]
+[![stevehoang.com](/docs/comment-system.webp)][stevehoang.com]
+
 Deploy & running on [Deta Space][deta]
 Sync dark/light theme color config in [waline.html][waline.html]
 

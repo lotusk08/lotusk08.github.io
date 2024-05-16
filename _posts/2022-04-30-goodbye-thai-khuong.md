@@ -14,6 +14,7 @@ math: false
 mermaid: false
 image:
   path: /assets/img/post/tk-doc.webp
+  lqip: data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAQCdASoQAAsABUB8JbACdAEKD0HjnIAAy02lldPtTJ8PpH4GW58wI6mb4k7KCB3IgwFFHyLnQeJ3mwnjqpZeWmjdsLcXsdPBrC+hgl0neZKeOa7fgCD7T2jNS3yCXyzbKRUAAAA=
   alt: Thai Khuong Documents
 ---
 Mình đã chính thức ngừng làm việc tại vị trí Trưởng Phòng Marketing tại Thái Khương sau gần 4 năm gắn bó.

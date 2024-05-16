@@ -13,6 +13,7 @@ math: false
 mermaid: false
 image:
   path: /assets/img/post/lam-2015.webp
+  lqip: data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAwABUB8JZgCdAECmY+kPO7BoAD+70tNBoXD54lrAUQIJbpSlJQtUwbns5tb4pp0iYlpnhjg7dJ4igNceAuU8AA=
   alt: Làm nghề cửu vạn
 ---
 Trước đây, có người hỏi mình:

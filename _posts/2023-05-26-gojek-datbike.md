@@ -14,6 +14,7 @@ math: false
 mermaid: false
 image:
   path: /assets/img/post/datbike-gojek.webp
+  lqip: data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAkABUB8JYwC7AEChN2AAPyO5HDWh/QNZtYRjeP98x054Yql6/iqwgp0/xLHG3njC+A/JCbO/AAA
   alt: Những chiếc Datbike mặc áo Gojek
 ---
 Tháng 5 - 2023, GoJek và DatBike công bố *chiến lược hợp tác* : sử dụng xe điện đi giao hàng và chở khách. [Báo](https://tuoitre.vn/gojek-hop-tac-dat-bike-dua-xe-may-dien-phuc-vu-van-chuyen-hanh-khach-20230524132950417.htm) và các [kênh mạng xã hội](https://tinhte.vn/thread/gojek-bat-tay-voi-dat-bike-dung-xe-dien-weaver-de-giao-hang-va-cho-khach.3670681/) đưa tin rầm rộ cho việc họ sang tay 10 chiếc xe hai bánh chạy bằng điện.
@@ -58,7 +59,7 @@ Có lẽ sẽ tiện lợi nếu DatBike có thiết kế để rút pin ra thay
 
 - Kết cấu:
 Cấu trúc xe DatBike có trọng tâm vốn đã rất cao, hiện tại theo hình ảnh từ GoJek thì họ còn gắn thêm baga sau cho cao thêm chút nữa. Shipper bình thường chở hàng chắc 20kg là ít, chưa kể là tui thấy vài bữa giật lên xuống là nó gãy cái baga này thôi. Có thể tham khảo kết cấu xe Cake bên dưới để thấy thiết kế được tối ưu cho xe chở hàng ra sao.
-![Cake bike](/assets/img/post/cake-bike.webp "Cake bike - xe được sinh ra để chở hàng")
+![Cake bike](/assets/img/post/cake-bike.webp "Cake bike - xe được sinh ra để chở hàng"){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkABUB8JZwAAscPXsJV4wAA/gbs+bbXVIPGbYQZaAW4EgvD2E2dLwJsm/NlzHliiSB6UKF2ps+CCzW3rJM6CLkAAA=="}
 
 - Trải nghiệm của tài xế:
 Sử dụng cái gì thì đúng mục đích của nó, chiếc DatBike này vốn không được thiết kế để đi thồ hàng. Hiện tại, sau một thời gian triển khai, Jek đã chuyển hoàn toàn việc chở hàng sang chở "hàng" - Just kidding.

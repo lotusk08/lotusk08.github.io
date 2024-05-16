@@ -10,7 +10,8 @@ toc: true
 math: false
 mermaid: false
 image:
-  path: /assets/img/post/about-me.webp
+  path: /assets/img/post/
+  lqip: 
   alt: 
 ---
 ## 

@@ -18,6 +18,12 @@
 
 </div>
 
+## lqip script
+
+```bash
+node tools/lqip/index.js
+```
+
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [ci]: https://github.com/lotusk08/lotusk08.github.io/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
 [codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard

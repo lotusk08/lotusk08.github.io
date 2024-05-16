@@ -26,7 +26,12 @@
     "_includes/",
     "_layouts/",
     "_plugins/",
-    "_sass/"
+    "_sass/",
+    "_data/",
+    "_data/",
+    "_javascript/",
+    "tools/",
+    "assets/"
   ],
   "livePreview": false,
   "showUnsupportedFiles": true,

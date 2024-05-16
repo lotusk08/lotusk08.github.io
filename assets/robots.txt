@@ -9,8 +9,6 @@ Disallow: /norobots/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
 
----
-# Not AI
 User-agent: GPTBot
 Disallow: /
 User-agent: ChatGPT-User

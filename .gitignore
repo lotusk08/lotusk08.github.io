@@ -20,6 +20,8 @@ package-lock.json
 .vscode
 !.vscode/settings.json
 !.vscode/extensions.json
+!.nova
+!.husky
 
 # Misc
 .DS_Store

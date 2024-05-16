@@ -2,7 +2,7 @@
 <div align="center">
 
   <!-- markdownlint-disable-next-line -->
-  # My peronal blog's source code
+  # My personal blog's source code
   
   [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][gem]&nbsp;
   [![CI](https://github.com/lotusk08/lotusk08.github.io/actions/workflows/ci.yml/badge.svg?branch=master&event=push)][ci]&nbsp;
@@ -18,7 +18,31 @@
 
 </div>
 
-## lqip script
+## Deploy & public by [Cloudflare][cf]
+Fix error `Gems in the groups 'development' and 'test' were not installed.` in Cloudflare with config the variables for your Preview/Production environment
+
+Variable name|Value
+---|---
+BUNDLE_WITHOUT|""
+
+## Comment system by [Waline][waline]
+Deploy & running on [Deta Space][deta]
+Sync dark/light theme color config in [waline.html][waline.html]
+
+```html
+let head = document.getElementsByTagName("head")[0];
+let css = head.lastChild;
+let cssContent = css.textContent.replace("__waline__css__", "");
+let cssContentPerferredDark = "@media (prefers-color-scheme: dark){html:not([data-mode])" + cssContent + "}";
+let cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
+css.textContent = cssContentPerferredDark;
+let style = document.createElement('style');
+style.textContent = cssContentSelectedDark;
+head.appendChild(style);
+```
+
+## Low Quality Image Placeholders by [lqip-modern][lqip] generator
+Generation lqip base64 by running script:
 
 ```bash
 node tools/lqip/index.js
@@ -29,8 +53,12 @@ node tools/lqip/index.js
 [codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard
 [license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
 [npm]: https://www.npmjs.com/package/jekyll-theme-chirpy
-[cf]: https://dafccd0e.lotusk08-github-io.pages.dev
+[cf]: https://lotusk08-github-io.pages.dev
 [dmca]: https://www.dmca.com/r/84e1gg7
 [jekyllrb]: https://jekyllrb.com/
 [stevehoang.com]: https://stevehoang.com
 [lib]: https://github.com/lotusk08/theme-static-assets
+[lqip]: https://github.com/transitive-bullshit/lqip-modern
+[waline]: https://github.com/walinejs/waline
+[waline.html]: https://github.com/lotusk08/lotusk08.github.io/blob/34bf7b0643f7aae4fa812745794a020d9ce5863f/_includes/comments/waline.html
+[deta]: https://deta.space/?horizon=SBc6FJKM9G

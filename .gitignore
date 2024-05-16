@@ -31,3 +31,7 @@ package-lock.json
 !.nojekyll
 !.travis.yml
 !.markdownlint.yaml
+
+# Obsidian
+! .obsidian
+! .obsidian/workspace.json

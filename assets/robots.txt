@@ -8,3 +8,16 @@ User-agent: *
 Disallow: /norobots/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
+
+---
+# Not AI
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /

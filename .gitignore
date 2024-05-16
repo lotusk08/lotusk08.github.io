@@ -23,3 +23,11 @@ package-lock.json
 
 # Misc
 .DS_Store
+
+# Hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+!.markdownlint.yaml

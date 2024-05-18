@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "404: Page not found"
+title: "404 - Page not found"
 permalink: /404.html
 
 redirect_from:
@@ -11,4 +11,16 @@ redirect_from:
 
 {% include lang.html %}
 
-<p class="lead">{{ site.data.locales[lang].not_found.statment }}</p>
+  <div class="wrapper">
+    <main aria-label="Content">
+      <div class="not-found">
+        <div class="container">
+          <div class="title">404</div>
+          <p>😕 Hmm... Seems you lost from my journey.</p>
+          <a href="{{ site.url }}">back home ➔</a>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

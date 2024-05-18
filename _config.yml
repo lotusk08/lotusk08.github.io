@@ -16,7 +16,7 @@ timezone: Asia/Saigon
 
 title: Steve Hoang # the main title
 
-tagline: A blog from my life, my story, my journey. # it will display as the sub-title
+tagline: A blog from my life, my story, and my journey. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Life's too short to sweat the small stuff. Enjoy yourself, fall in love, and embrace every moment without regrets. Don't let anyone dim your shine. Live the life you've always dreamed of!
@@ -131,7 +131,7 @@ comments:
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+# Self-hosted static assets, optional › https://github.com/lotusk08/web-static-assets
 assets:
   self_host:
     enabled: # boolean, keep empty means false

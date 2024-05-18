@@ -37,3 +37,7 @@ clipboard:
 
 mathjax:
   js: /assets/lib/mathjax/tex-chtml.js
+
+waline:
+  js: /assets/lib/waline/waline.umd.min.js
+  css: /assets/lib/waline/waline.min.css

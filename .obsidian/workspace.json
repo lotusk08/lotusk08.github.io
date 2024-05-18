@@ -54,9 +54,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "b38085c33fa6dfbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_tabs/productions.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tabs/about.md",
+                "file": "_tabs/productions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tabs/about.md",
+                "file": "_tabs/productions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tabs/about.md"
+                "file": "_tabs/productions.md"
               }
             }
           }
@@ -187,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_tabs/about.md"
+                "file": "_tabs/productions.md"
               }
             }
           },
@@ -220,8 +232,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46c3e194649d7768",
+  "active": "b38085c33fa6dfbb",
   "lastOpenFiles": [
+    "docs/stevehoang.com.webp",
+    "docs/pagespeed.webp",
+    "docs/comment-system.webp",
+    "node_modules/supports-hyperlinks/index 2.js",
+    "node_modules/supports-hyperlinks/package 2.json",
+    "node_modules/supports-hyperlinks/readme 2.md",
+    "node_modules/supports-hyperlinks/browser 2.js",
+    "node_modules/supports-hyperlinks/license 2",
+    "node_modules/supports-hyperlinks/index 2.d.ts",
+    "_tabs/about.md",
     "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_drafts/New post.md",
     "tools/lqip/packpage.json",
@@ -248,16 +270,8 @@
     "_posts/2021-12-04-choi.md",
     "_posts/2022-04-30-goodbye-thai-khuong.md",
     "_posts/2022-08-08-talk-Vietnam.md",
-    "_posts/2022-08-23-quit-job.md",
-    "_posts/2022-08-29-Gen-Z.md",
-    "_posts/2022-11-10-hoai-niem.md",
     "_site/2023-mot-nam-nhin-lai/index.html",
     "_site/2023-mot-nam-nhin-lai",
-    "_site/2023-12-31-2023-mot-nam-nhin-lai/index.html",
-    "_site/2023-12-31-2023-mot-nam-nhin-lai",
-    "node_modules/sharp/build/Release/sharp-darwin-x64.node",
-    "node_modules/sharp/build/Release",
-    "node_modules/sharp/build",
     "node_modules/lqip-modern/preview.jpg",
     "_site/assets/img/site/medeze-stemcell.gif",
     "assets/img/site/medeze-stemcell.gif",
@@ -266,8 +280,6 @@
     "_site/assets/img/site/tks-employee.webp",
     "_site/assets/img/site/tk-teams.webp",
     "_site/assets/img/site/thai-khuong-song.webp",
-    "_site/assets/img/site/stk-planning.webp",
-    "_site/assets/img/site/real-time-report.webp",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

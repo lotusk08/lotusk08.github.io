@@ -36,16 +36,21 @@ BUNDLE_WITHOUT|""
 Deploy & running on [Deta Space][deta]
 Sync dark/light theme color config in [waline.html][waline.html]
 
-```html
-let head = document.getElementsByTagName("head")[0];
-let css = head.lastChild;
-let cssContent = css.textContent.replace("__waline__css__", "");
-let cssContentPerferredDark = "@media (prefers-color-scheme: dark){html:not([data-mode])" + cssContent + "}";
-let cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
-css.textContent = cssContentPerferredDark;
-let style = document.createElement('style');
-style.textContent = cssContentSelectedDark;
-head.appendChild(style);
+```javascript
+
+const updateCssForDarkMode = () => {
+  const head = document.head;
+  const css = head.lastChild;
+  const cssContent = css.textContent.replace("__waline__css__", "");
+  const cssContentPreferredDark = `@media (prefers-color-scheme: dark){html:not([data-mode])${cssContent}}`;
+  const cssContentSelectedDark = `html[data-mode=dark]${cssContent}`;
+  css.textContent = cssContentPreferredDark;
+  const style = document.createElement('style');
+  style.textContent = cssContentSelectedDark;
+  head.appendChild(style);
+};
+
+updateCssForDarkMode();
 ```
 
 ## Low Quality Image Placeholders by [lqip-modern][lqip] generator

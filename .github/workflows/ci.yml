@@ -4,6 +4,7 @@ on:
     branches:
       - "main"
       - "master"
+      - "hotfix/**"
     paths-ignore:
       - ".github/**"
       - "!.github/workflows/ci.yml"

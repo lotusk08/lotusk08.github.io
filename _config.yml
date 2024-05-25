@@ -220,6 +220,7 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
+  - "topics 2/experience"
 
 jekyll-archives:
   enabled: [categories, tags]

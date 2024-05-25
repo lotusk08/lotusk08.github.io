@@ -6,4 +6,6 @@ gemspec
 
 group :test do
   gem "html-proofer", "~> 5.0"
+  gem 'csv'
+  gem 'base64'
 end

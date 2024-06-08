@@ -9,7 +9,7 @@ const SRC_DEFAULT = '_javascript';
 const DIST_DEFAULT = 'assets/js/dist';
 
 const SRC_PWA = `${SRC_DEFAULT}/pwa`;
-const DIST_PWA = '_app';
+const DIST_PWA = 'assets/js/dist';
 
 const banner = `/*!
  * ${pkg.name} v${pkg.version} | © ${pkg.since} ${pkg.author} | ${pkg.license} Licensed | ${pkg.homepage}

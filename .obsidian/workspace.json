@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "2cef36c4dd77fc58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-08-goodbye-brad.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "8ecc8d1e5184031d",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -188,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md",
+                "file": "_posts/2024-06-08-goodbye-brad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md",
+                "file": "_posts/2024-06-08-goodbye-brad.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md"
+                "file": "_posts/2024-06-08-goodbye-brad.md"
               }
             }
           }
@@ -259,7 +271,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md"
+                "file": "_posts/2024-06-08-goodbye-brad.md"
               }
             }
           },
@@ -292,10 +304,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "63bdde07dabbba12",
+  "active": "2cef36c4dd77fc58",
   "lastOpenFiles": [
-    "_posts/2023-09-01-obsidian.md",
     "_posts/2023-04-27-noi-so-AI.md",
+    "_posts/2023-09-01-obsidian.md",
     "_posts/2023-03-23-morning-coffee.md",
     "_posts/2022-08-08-talk-Vietnam.md",
     "_tabs/productions.md",

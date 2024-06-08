@@ -61,6 +61,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "_posts/2024-06-08-goodbye-brad.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8a74b29432bfffa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-01-obsidian.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c6b17ebd7a77dc3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "_tabs/productions.md",
                 "mode": "source",
                 "source": true
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tabs/productions.md",
+                "file": "_posts/2024-06-08-goodbye-brad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tabs/productions.md",
+                "file": "_posts/2024-06-08-goodbye-brad.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tabs/productions.md"
+                "file": "_posts/2024-06-08-goodbye-brad.md"
               }
             }
           }
@@ -199,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_tabs/productions.md"
+                "file": "_posts/2024-06-08-goodbye-brad.md"
               }
             }
           },
@@ -234,6 +258,21 @@
   },
   "active": "b38085c33fa6dfbb",
   "lastOpenFiles": [
+    "_posts/2023-09-01-obsidian.md",
+    "_posts/2024-06-08-goodbye-brad.md",
+    "_tabs/productions.md",
+    "_site/assets/img/post/working-on-finalcutpro.webp",
+    "assets/img/post/working-on-finalcutpro.webp",
+    "_site/topics/index.html",
+    "_site/productions/index.html",
+    "_site/categories/index.html",
+    "_site/goodbye-brad/index.html",
+    "_site/goodbye-brad",
+    "_site/assets/img/post/goodbye-brad.webp",
+    "_site/topics/automobile/index.html",
+    "_site/topics/automobile",
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+    "assets/img/post/goodbye-brad.webp",
     "docs/stevehoang.com.webp",
     "docs/pagespeed.webp",
     "docs/comment-system.webp",
@@ -241,14 +280,8 @@
     "node_modules/supports-hyperlinks/package 2.json",
     "node_modules/supports-hyperlinks/readme 2.md",
     "node_modules/supports-hyperlinks/browser 2.js",
-    "node_modules/supports-hyperlinks/license 2",
-    "node_modules/supports-hyperlinks/index 2.d.ts",
     "_tabs/about.md",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_drafts/New post.md",
-    "tools/lqip/packpage.json",
-    "tools/lqip/index.js",
-    "tools/lqip",
     "_posts/2010-09-23-say-tau-xe.md",
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
     "_posts/2011-01-12-them.md",
@@ -267,19 +300,9 @@
     "_posts/2021-05-28-gioi.md",
     "_posts/2021-07-15-an.md",
     "_posts/2021-09-18-san-pham-cong-dong.md",
-    "_posts/2021-12-04-choi.md",
-    "_posts/2022-04-30-goodbye-thai-khuong.md",
-    "_posts/2022-08-08-talk-Vietnam.md",
-    "_site/2023-mot-nam-nhin-lai/index.html",
-    "_site/2023-mot-nam-nhin-lai",
     "node_modules/lqip-modern/preview.jpg",
     "_site/assets/img/site/medeze-stemcell.gif",
     "assets/img/site/medeze-stemcell.gif",
-    "_site/assets/img/site/tkt-website.webp",
-    "_site/assets/img/site/tks-teams.webp",
-    "_site/assets/img/site/tks-employee.webp",
-    "_site/assets/img/site/tk-teams.webp",
-    "_site/assets/img/site/thai-khuong-song.webp",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

@@ -5,7 +5,6 @@ author: steve
 date: 2023-03-23 12:24 +0700
 categories:
   - English
-  - Vietnamese
 tags:
   - business
   - coffee
@@ -18,10 +17,10 @@ image:
   lqip: data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAwABUB8JbAC7ADaPn3uGAAA9r7eN97UNRsLL87kTKTIjp0a71Ln5I+2WalL8t3eBoXP48BPO29YfGjJ8od7PIVhvxg+1OIoHrHATX4AAAAA
   alt: Morning coffee
 ---
-## Tách cafe ban sáng
-- Một người bình thường không thể đọc hàng triệu ấn bản/ngày! Nhưng con bot thì được, thậm chí còn đưa ra dự kiến và tóm tắt.
-- Tìm kiếm thông tin chưa bao giờ dễ như bây giờ.
-- Rủi ro cũng càng cao nếu nguồn thông tin đầu vào có vấn đề.
+## A cup of morning coffee
+- An ordinary person cannot read millions of publications per day! But a bot can even provide forecasts and summaries.
+- Searching for information has never been easier than now.
+- Risks are even higher if the input information source is problematic.
 
 ## Some economic trends
 1. Digitalization: The increasing use of digital technology is transforming the way businesses operate and how consumers interact with products and services.

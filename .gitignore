@@ -8,6 +8,7 @@ Gemfile.lock
 .jekyll-metadata
 _site
 
+
 # RubyGems
 *.gem
 
@@ -17,7 +18,7 @@ package-lock.json
 
 # IDE configurations
 .idea
-.vscode
+.vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 !.nova

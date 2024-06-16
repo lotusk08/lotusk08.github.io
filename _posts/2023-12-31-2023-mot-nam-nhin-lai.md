@@ -147,6 +147,6 @@ Thế giới càng phát triển, càng hiện đại thì con người chúng t
 _Nuôi thú cưng giúp mình thay đổi tâm trạng và điều tiết cảm xúc tốt hơn_
 
 
-[^footnote]: Nghĩa địa
+[^footnote]: Nghĩa trang
 [^fn-2]: 1 vòng golf 18hole có giá bán cá nhân trung bình khoảng 3,5 đến 5 triệu (giá ngày cuối tuần). Sân golf có giá cao nhất tại Việt Nam là nhóm sân của BRG. Trong khi đó, một tháng lương cơ bản được quy định trong luật của Việt Nam chỉ khoảng hơn 4triệu.
 [^fn-3]: Handicap là điểm thể hiện trình độ của người chơi golf, điểm càng nhỏ (gần 1) thì càng giỏi. Single là nhóm điểm handicap từ 9 đến 1.

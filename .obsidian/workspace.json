@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "260b3bf2c85831ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "46c3e194649d7768",
             "type": "leaf",
             "state": {
@@ -68,50 +56,34 @@
             }
           },
           {
-            "id": "01c455a1c0f66f5e",
+            "id": "75727525d02225e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-03-23-morning-coffee.md",
+                "file": "_drafts/2024-04-20-coffee.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "63bdde07dabbba12",
+            "id": "cf46e66c83899aca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md",
-                "mode": "source",
-                "source": true
+                "currentVersion": "1.6.3"
               }
             }
           },
           {
-            "id": "8ecc8d1e5184031d",
+            "id": "0aaecf42e02056b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "_posts/2022-08-08-talk-Vietnam.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8a74b29432bfffa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-01-obsidian.md",
-                "mode": "source",
-                "source": true
+                "currentVersion": "1.6.2"
               }
             }
           },
@@ -128,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -188,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md",
+                "file": "_drafts/2024-04-20-coffee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md",
+                "file": "_drafts/2024-04-20-coffee.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md"
+                "file": "_drafts/2024-04-20-coffee.md"
               }
             }
           }
@@ -259,7 +231,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2023-04-27-noi-so-AI.md"
+                "file": "_drafts/2024-04-20-coffee.md"
               }
             }
           },
@@ -292,30 +264,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "63bdde07dabbba12",
+  "active": "75727525d02225e8",
   "lastOpenFiles": [
+    "_posts/2024-06-16-cv?.md",
     "_posts/2023-09-01-obsidian.md",
-    "_posts/2023-04-27-noi-so-AI.md",
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-03-23-morning-coffee.md",
+    "_site/cv/index.html",
+    "_site/cv",
+    "_drafts/2024-04-20-coffee.md",
+    "node_modules/date-fns/locale/gl/_lib/formatDistance/index.js",
+    "node_modules/date-fns/locale/pl/_lib/formatRelative/index.js",
+    "node_modules/date-fns/esm/locale/sq/_lib/formatDistance/index.js",
+    "node_modules/date-fns/locale/gu/_lib/formatLong/index.js",
+    "node_modules/date-fns/locale/gu/_lib/formatLong/index 2.js",
+    "node_modules/@semantic-release/git/node_modules/npm-run-path/package.json",
+    "node_modules/date-fns/locale/oc/_lib/formatRelative/index.js",
+    "node_modules/npm/node_modules/postcss-selector-parser/dist/util/ensureObject.js",
+    "_posts/2024-06-08-goodbye-brad.md",
+    "_posts/2023-04-27-noi-so-AI.md",
     "_posts/2022-08-08-talk-Vietnam.md",
     "_tabs/productions.md",
-    "tools/test.sh",
-    "tools/run.sh",
-    "tools/release.sh",
-    "tools/init.sh",
     "assets/img/post/working-on-finalcutpro.webp",
     "assets/img/post/goodbye-brad.webp",
-    "_posts/2024-06-08-goodbye-brad.md",
-    "_app/sw.min.js",
-    "_app/app.min.js",
-    "_app",
-    "tools/test",
-    "tools/run",
-    "tools/release",
     "_posts/2019-08-09-getting-started.md",
     "_site/assets/img/post/working-on-finalcutpro.webp",
     "_site/assets/img/post/goodbye-brad.webp",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "docs/stevehoang.com.webp",
     "docs/pagespeed.webp",
     "docs/comment-system.webp",
@@ -334,9 +308,6 @@
     "_posts/2018-12-10-tu-tinh.md",
     "_posts/2019-06-14-hut-thuoc.md",
     "_posts/2020-07-25-ket-giao.md",
-    "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
-    "_posts/2021-01-30-tet-2021.md",
-    "_posts/2021-02-18-hoc.md",
     "node_modules/lqip-modern/preview.jpg",
     "_site/assets/img/site/medeze-stemcell.gif",
     "assets/img/site/medeze-stemcell.gif",

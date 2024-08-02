@@ -10762,6 +10762,8 @@ var Frontmatter = class {
 };
 
 // src/Book.ts
+var import_path = __toModule(require("path"));
+var nodeFs = __toModule(require("fs"));
 var TurndownService = require_turndown_browser_cjs();
 var Book = class {
   constructor(plugin, book) {
@@ -10817,16 +10819,23 @@ var Book = class {
   createFile(book, path) {
     return __async(this, null, function* () {
       const fileName = this.getBody(this.plugin.settings.fileName);
-      const fullName = `${path}${fileName}.md`;
-      try {
-        const fs = this.plugin.app.vault.adapter;
-        const fileAlreadyExists = yield fs.exists(fullName);
-        if (fileAlreadyExists && !this.plugin.settings.overwrite) {
-          return;
+      const fullPath = `${path}/${fileName}.md`;
+      const file = this.plugin.app.vault.getFileByPath(fullPath);
+      if (file && !this.plugin.settings.overwrite)
+        return;
+      const bookContent = book.getContent();
+      if ((0, import_path.isAbsolute)(fullPath)) {
+        nodeFs.writeFile(fullPath, bookContent, (error) => {
+          if (error)
+            console.log(`Error writing ${fullPath}`, error);
+        });
+      } else {
+        try {
+          const fs = this.plugin.app.vault.adapter;
+          yield fs.write(fullPath, bookContent);
+        } catch (error) {
+          console.log(`Error writing ${fullPath}`, error);
         }
-        yield fs.write(fullName, book.getContent());
-      } catch (error) {
-        console.log(`Error writing ${fullName}`, error);
       }
     });
   }
@@ -10869,13 +10878,15 @@ var Book = class {
 
 // src/Shelf.ts
 var import_obsidian = __toModule(require("obsidian"));
+var nodeFs2 = __toModule(require("fs"));
+var import_path2 = __toModule(require("path"));
 var Shelf = class {
   constructor(plugin, shelfName) {
     this.plugin = plugin;
     this.shelfName = shelfName;
     this.books = [];
-    this.path = `${plugin.settings.targetFolderPath}/`;
-    this.url = `${plugin.settings.goodreadsBaseUrl}${shelfName}`;
+    this.path = `${plugin.settings.targetFolderPath}`;
+    this.url = `${plugin.settings.goodreadsBaseUrl}${shelfName.toLocaleLowerCase()}`;
   }
   setBook(book) {
     this.books.push(book);
@@ -10885,12 +10896,19 @@ var Shelf = class {
   }
   createFolder() {
     return __async(this, null, function* () {
-      try {
-        yield this.plugin.app.vault.createFolder(this.path);
-      } catch (e) {
-        if (e.message.includes("already exists"))
-          return;
-        console.warn(e);
+      if ((0, import_path2.isAbsolute)(this.path)) {
+        nodeFs2.mkdir(this.path, { recursive: true }, (err) => {
+          if (err)
+            console.log(err);
+        });
+      } else {
+        try {
+          yield this.plugin.app.vault.createFolder(this.path);
+        } catch (e) {
+          if (e.message.includes("already exists"))
+            return;
+          console.warn(e);
+        }
       }
     });
   }
@@ -10964,8 +10982,8 @@ var Settings = class extends import_obsidian2.PluginSettingTab {
     containerEl.createEl("p", {
       text: "Only the first 100 items of a shelf are added to the RSS feed. So if you have more than 100 books, you have to split them into multiple shelves."
     });
-    new import_obsidian2.Setting(containerEl).setName("Target Folder").setDesc("If you leave this empty, the books will be created in the root directory.").addText((text) => text.setPlaceholder("").setValue(this.plugin.settings.targetFolderPath).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.targetFolderPath = value;
+    new import_obsidian2.Setting(containerEl).setName("Target Folder").setDesc("Path to where to store the book notes. Can be either a relative path within the vault, or absolute outside of the vault. If you leave this empty, the books will be created in the root directory.").addText((text) => text.setPlaceholder("").setValue(this.plugin.settings.targetFolderPath).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.targetFolderPath = value.replace(/[\\/]+$/g, "");
       yield this.plugin.saveSettings();
     })));
     new import_obsidian2.Setting(containerEl).setName("RSS Base URL").setDesc("Please add your RSS Base URL here (everything before the shelf name).").setTooltip("https://www.goodreads.com/ ... &shelf=").addText((text) => text.setValue(this.plugin.settings.goodreadsBaseUrl).onChange((value) => __async(this, null, function* () {

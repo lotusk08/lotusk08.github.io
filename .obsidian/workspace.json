@@ -8,66 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1f141b5db504e6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2010-09-23-say-tau-xe.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b2551a57a8323255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/New post.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "46c3e194649d7768",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_tabs/about.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b38085c33fa6dfbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_tabs/productions.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "75727525d02225e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2024-04-20-coffee.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "cf46e66c83899aca",
             "type": "leaf",
             "state": {
@@ -100,7 +40,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -160,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2024-04-20-coffee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2024-04-20-coffee.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_drafts/2024-04-20-coffee.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -230,9 +165,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "_drafts/2024-04-20-coffee.md"
-              }
+              "state": {}
             }
           },
           {
@@ -264,25 +197,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75727525d02225e8",
+  "active": "cf46e66c83899aca",
   "lastOpenFiles": [
+    "_app/sw.min.js",
+    "_app/app.min.js",
+    "_app",
+    "assets/js/dist/misc.min.js",
+    "assets/js/dist/post.min.js",
+    "assets/js/dist/page.min.js",
+    "assets/js/dist/categories.min.js",
+    "assets/js/dist/home.min.js",
+    "assets/js/dist/commons.min.js",
+    "assets/js/dist",
+    "rollup.config-1722606229702.cjs",
     "_posts/2024-06-16-cv?.md",
-    "_posts/2023-09-01-obsidian.md",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
-    "_posts/2023-03-23-morning-coffee.md",
-    "_site/cv/index.html",
-    "_site/cv",
-    "_drafts/2024-04-20-coffee.md",
-    "node_modules/date-fns/locale/gl/_lib/formatDistance/index.js",
-    "node_modules/date-fns/locale/pl/_lib/formatRelative/index.js",
-    "node_modules/date-fns/esm/locale/sq/_lib/formatDistance/index.js",
-    "node_modules/date-fns/locale/gu/_lib/formatLong/index.js",
-    "node_modules/date-fns/locale/gu/_lib/formatLong/index 2.js",
-    "node_modules/@semantic-release/git/node_modules/npm-run-path/package.json",
-    "node_modules/date-fns/locale/oc/_lib/formatRelative/index.js",
-    "node_modules/npm/node_modules/postcss-selector-parser/dist/util/ensureObject.js",
     "_posts/2024-06-08-goodbye-brad.md",
     "_posts/2023-04-27-noi-so-AI.md",
+    "_posts/2023-03-23-morning-coffee.md",
+    "_posts/2023-09-01-obsidian.md",
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+    "_drafts/2024-04-20-coffee.md",
     "_posts/2022-08-08-talk-Vietnam.md",
     "_tabs/productions.md",
     "assets/img/post/working-on-finalcutpro.webp",

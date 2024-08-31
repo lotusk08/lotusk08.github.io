@@ -8,32 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf46e66c83899aca",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
-            "id": "0aaecf42e02056b4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.2"
-              }
-            }
-          },
-          {
-            "id": "c6b17ebd7a77dc3a",
+            "id": "4f4ff1d28eb83ca4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tabs/productions.md",
+                "file": "_drafts/2024-04-20-coffee.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c8134b20dfbcd762",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2010-09-23-say-tau-xe.md",
                 "mode": "source",
                 "source": true
               }
@@ -99,6 +91,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_drafts/2024-04-20-coffee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_drafts/2024-04-20-coffee.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_drafts/2024-04-20-coffee.md"
+              }
             }
           }
         ],
@@ -165,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "_drafts/2024-04-20-coffee.md"
+              }
             }
           },
           {
@@ -197,8 +195,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf46e66c83899aca",
+  "active": "4f4ff1d28eb83ca4",
   "lastOpenFiles": [
+    "_posts/2010-09-23-say-tau-xe.md",
+    "_drafts/2024-04-20-coffee.md",
+    "_drafts/2019-08-08-write-a-new-post.md",
+    "_drafts/2020-03-05-luat-viet-hoa.md",
+    "_tabs/productions.md",
     "_site/cv/index.html",
     "_site/cv",
     "_site/goodbye-brad/index.html",
@@ -209,7 +212,6 @@
     "_site/my-pet",
     "_site/obsidian/index.html",
     "_site/obsidian",
-    "_site/an-nam/index.html",
     "_site/assets/img/site/tkt-website.webp",
     "_site/assets/img/site/tks-teams.webp",
     "_site/assets/img/site/tks-employee.webp",
@@ -241,10 +243,6 @@
     "_posts/2022-04-30-goodbye-thai-khuong.md",
     "_posts/2021-12-04-choi.md",
     "_posts/2021-09-18-san-pham-cong-dong.md",
-    "_posts/2021-07-15-an.md",
-    "_posts/2021-05-28-gioi.md",
-    "_posts/2021-02-18-hoc.md",
-    "_posts/2021-01-30-tet-2021.md",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

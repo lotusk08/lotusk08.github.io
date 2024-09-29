@@ -44,7 +44,7 @@ Có một lần, đi sự kiện, gặp một cô bé ở bộ phận khác bị
 Hôm sau, bạn trở thành idol của cả công ty. Con trai mà ga lăng quá đỗi.
 
 Nhưng, mấy ai biết, bạn từng bị bạn gái chia tay vì vô tâm vụng về.
-Hai người đi chơi cùng nhau, cô ấy chóng mặt, bạn chỉ biết đứng như trời chồng mặc kệ, để cô ấy tự sang đường, tự vào siêu thị mua kẹo, rồi tự tới bệnh viện kiểm tra.
+Hai người đi chơi cùng nhau, cô ấy chóng mặt, bạn chỉ biết đứng như trời trồng mặc kệ, để cô ấy tự sang đường, tự vào siêu thị mua kẹo, rồi tự tới bệnh viện kiểm tra.
 Sau khi níu kéo cô ấy không thành, trong túi bạn lúc nào cũng có kẹo.
 
 ---

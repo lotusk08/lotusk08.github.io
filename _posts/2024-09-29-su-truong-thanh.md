@@ -1,6 +1,6 @@
 ---
 title: Sự trưởng thành
-description: Chúng ta ko hề xấu nhưng ... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển và đôi khi hơi tiêu cực và có chút lệch lạc. 
+description: Chúng ta không hề xấu nhưng ... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển và đôi khi hơi tiêu cực và có chút lệch lạc. 
 author: steve
 date: 2024-09-29 12:43 +0700
 categories:
@@ -98,5 +98,5 @@ Họ cũng từng sống cuộc đời của họ bằng những nỗ lực khô
 >Không có một người trẻ nào có thể sống đúng ngay từ ban đầu cả... Ai cũng sẽ từng mắc sai lầm rồi từ sai lầm đó chúng ta hoàn thiện dc con người mình trở thành một phiên bản tốt hơn . Khéo léo, nhanh nhạy, thấu tình đạt lý, hiểu đời hiểu người, biết cách đối nhân xử thế hơn. Không có người nào trưởng thành mà người không xước xát, không có sự hoàn hảo nào mà không xuất phát từ sự thiếu sót, sai lầm, đau khổ.
 >_Thích Minh Niệm_
 
-> Bản thân chúng ta ko hề xấu nhưng ... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển và đôi khi hơi tiêu cực và có chút lệch lạc. Mong rằng những người từng chứng kiến và hứng chịu sự thiếu sót của ta không để ở trong lòng...
+> Bản thân chúng ta không hề xấu nhưng ... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển và đôi khi hơi tiêu cực và có chút lệch lạc. Mong rằng những người từng chứng kiến và hứng chịu sự thiếu sót của ta không để ở trong lòng...
 {: .prompt-tip}

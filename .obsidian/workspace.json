@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "57fb7b7064fbc61c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2019-06-14-hut-thuoc.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c8134b20dfbcd762",
+            "id": "b1c35f0cc736615e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,18 +38,6 @@
               "type": "markdown",
               "state": {
                 "file": "_tabs/about.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "608d6e149733c7b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-08-goodbye-brad.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -152,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tabs/about.md",
+                "file": "_posts/2024-09-29-su-truong-thanh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tabs/about.md",
+                "file": "_posts/2024-09-29-su-truong-thanh.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tabs/about.md"
+                "file": "_posts/2024-09-29-su-truong-thanh.md"
               }
             }
           }
@@ -223,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_tabs/about.md"
+                "file": "_posts/2024-09-29-su-truong-thanh.md"
               }
             }
           },
@@ -256,29 +232,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "31a146e4b494fbd3",
+  "active": "b1c35f0cc736615e",
   "lastOpenFiles": [
-    "_posts/2024-09-29-su-truong-thanh.md",
-    "_posts/2024-06-08-goodbye-brad.md",
-    "_drafts/2019-08-08-write-a-new-post.md",
-    "_drafts/2019-08-08-text-and-typography.md",
-    "_posts/2019-06-14-hut-thuoc.md",
     "_drafts/2024-04-20-coffee.md",
-    "_site/assets/img/post/su-truong-thanh.webp",
-    "assets/img/post/su-truong-thanh.webp",
-    "_site/su-truong-thanh/index.html",
-    "_site/su-truong-thanh",
     "_posts/2010-09-23-say-tau-xe.md",
-    "_drafts/2020-03-05-luat-viet-hoa.md",
-    "_tabs/productions.md",
-    "_site/cv/index.html",
-    "_site/cv",
-    "_site/goodbye-brad/index.html",
-    "_site/goodbye-brad",
-    "_site/2023-mot-nam-nhin-lai/index.html",
-    "_site/2023-mot-nam-nhin-lai",
-    "_site/my-pet/index.html",
-    "_site/my-pet",
+    "assets/js/dist/sw.min.js",
+    "assets/js/dist/app.min.js",
+    "assets/js/dist/misc.min.js",
+    "assets/js/dist/post.min.js",
+    "assets/js/dist/page.min.js",
+    "assets/js/dist/categories.min.js",
+    "assets/js/dist/home.min.js",
+    "assets/js/dist/commons.min.js",
+    "assets/js/dist",
+    "rollup.config-1727601564461.cjs",
     "_site/assets/img/site/tkt-website.webp",
     "_site/assets/img/site/tks-teams.webp",
     "_site/assets/img/site/tks-employee.webp",
@@ -287,7 +254,11 @@
     "_site/assets/img/site/stk-planning.webp",
     "_site/assets/img/site/real-time-report.webp",
     "_site/assets/img/site/reading-book.webp",
+    "_site/assets/img/site/old-website.webp",
+    "_site/assets/img/site/medeze-stemcell.gif",
+    "_posts/2024-09-29-su-truong-thanh.md",
     "_posts/2024-06-16-cv?.md",
+    "_posts/2024-06-08-goodbye-brad.md",
     "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-11-10-my-pet.md",
     "_posts/2023-09-01-obsidian.md",
@@ -304,6 +275,11 @@
     "_posts/2022-08-29-Gen-Z.md",
     "_posts/2022-08-23-quit-job.md",
     "_posts/2022-08-08-talk-Vietnam.md",
+    "_posts/2022-04-30-goodbye-thai-khuong.md",
+    "_posts/2021-12-04-choi.md",
+    "_posts/2021-09-18-san-pham-cong-dong.md",
+    "_posts/2021-07-15-an.md",
+    "_posts/2021-05-28-gioi.md",
     "Notes/Untitled.canvas",
     "Files/Books/Untitled.canvas",
     "Files/Books/Books Collection.canvas",

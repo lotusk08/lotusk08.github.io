@@ -739,6 +739,9 @@ $btn-mb: 0.5rem;
   }
 
   .site-title {
+    @extend %clickable-transition;
+    @extend %sidebar-link-hover;
+
     font-family: inherit;
     font-weight: 900;
     font-size: 1.75rem;
@@ -746,13 +749,8 @@ $btn-mb: 0.5rem;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
-
-    a {
-      @extend %clickable-transition;
-      @extend %sidebar-link-hover;
-
-      color: var(--site-title-color);
-    }
+    width: fit-content;
+    color: var(--site-title-color);
   }
 
   .site-subtitle {

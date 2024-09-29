@@ -44,4 +44,4 @@ Save my contact info easily:
 
 ---
 
-I’m available to hire! Let’s talk!
+Are you seeking collaboration opportunities? [Let’s talk!](mailto:hi@stevehoang.com)

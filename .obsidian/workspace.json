@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "31a146e4b494fbd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_tabs/about.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "608d6e149733c7b6",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-29-su-truong-thanh.md",
+                "file": "_tabs/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-29-su-truong-thanh.md",
+                "file": "_tabs/about.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-29-su-truong-thanh.md"
+                "file": "_tabs/about.md"
               }
             }
           }
@@ -211,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2024-09-29-su-truong-thanh.md"
+                "file": "_tabs/about.md"
               }
             }
           },
@@ -244,10 +256,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c8134b20dfbcd762",
+  "active": "31a146e4b494fbd3",
   "lastOpenFiles": [
-    "_posts/2024-06-08-goodbye-brad.md",
     "_posts/2024-09-29-su-truong-thanh.md",
+    "_posts/2024-06-08-goodbye-brad.md",
     "_drafts/2019-08-08-write-a-new-post.md",
     "_drafts/2019-08-08-text-and-typography.md",
     "_posts/2019-06-14-hut-thuoc.md",

@@ -1,6 +1,6 @@
 ---
 title: Sự trưởng thành
-description: Chúng ta không hề xấu nhưng ... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển và đôi khi hơi tiêu cực và có chút lệch lạc. 
+description: Chúng ta không hề xấu nhưng ... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển, đôi khi hơi tiêu cực và cũng có chút lệch lạc.
 author: steve
 date: 2024-09-29 12:43 +0700
 categories:
@@ -21,16 +21,15 @@ image:
 ---
 ## EQ
 
-Có một hôm anh sếp đối tác cùng đi ăn, cầm nhầm cốc nước của một người bạn lên uống một ngụm.
+Có một hôm anh sếp đối tác cùng đi ăn, cầm lộn ly nước của người bạn và uống.
+Uống xong, anh sếp mới ngờ ngợ nhận ra. Ảnh liền xin lỗi rối rít.
 
-Uống xong, anh sếp mới ngờ ngợ nhận ra. Anh xin lỗi rối rít.
-
-Bạn vui vẻ đáp, có nhầm gì đâu anh, cốc này em cố tình rót cho anh đấy mà.
+Người bạn vui vẻ đáp, có nhầm gì đâu anh, ly đó là do em cố tình rót cho anh mà.
 Ai cũng bớt sượng.
 
-Sau này khi nói về câu chuyện đấy, anh sếp khen bạn “nhảy số nhanh thật”, cứu anh một pha mất mặt.
+Sau này khi nói về câu chuyện đấy, anh sếp đó khen người bạn “nhảy số nhanh thật”, cứu ảnh một phen mất mặt.
 
-Bạn kể rằng: ngày xưa bạn đi thử việc cùng ông sếp Nhật. Có một lần tương tự khách hàng cầm nhầm cái nĩa của bạn. Họ xin lỗi, bạn bảo không sao. Họ chu đáo lấy cho bạn cái nĩa khác.
+Bạn kể rằng: ngày xưa bạn đi thử việc cùng ông sếp Nhật. Có một lần tương tự khách hàng cầm lộn cái nĩa của bạn. Họ xin lỗi, người bạn nói không sao. Họ chu đáo lấy cho bạn cái nĩa khác.
 Hôm sau bạn bị cho nghỉ việc.
 
 ---
@@ -91,12 +90,13 @@ Năm đi làm tiếp theo, bạn rút kinh nghiệm lại: ai cũng đi làm, l�
 ---
 ## Chúng ta
 Những người bạn đó, gặp bên ngoài, ai cũng toả sáng.
-Nhưng họ từng ngu ngốc. Từng kém cỏi vụng về.
+Nhưng... họ từng ngu ngốc, cũng từng kém cỏi vụng về.
 
-Họ cũng từng sống cuộc đời của họ bằng những nỗ lực không thể vô dụng hơn được nữa.
+Họ cũng từng sống cuộc đời của họ và nỗ lực sửa chữa những sai lầm trước đó. Thứ mà đã khiếp họ trả giá khi vấp ngã.
 
 >Không có một người trẻ nào có thể sống đúng ngay từ ban đầu cả... Ai cũng sẽ từng mắc sai lầm rồi từ sai lầm đó chúng ta hoàn thiện được con người mình trở thành một phiên bản tốt hơn . Khéo léo, nhanh nhạy, thấu tình đạt lý, hiểu đời hiểu người, biết cách đối nhân xử thế hơn. Không có người nào trưởng thành mà người không xước xát, không có sự hoàn hảo nào mà không xuất phát từ sự thiếu sót, sai lầm, đau khổ.
 >_Thích Minh Niệm_
 
-> Bản thân chúng ta không hề xấu nhưng ... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển và đôi khi hơi tiêu cực và có chút lệch lạc. Mong rằng những người từng chứng kiến và hứng chịu sự thiếu sót của ta không để ở trong lòng...
+> Bản thân mỗi chúng ta không ai xấu. Nhưng... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển, đôi khi hơi tiêu cực và cũng có chút lệch lạc.
+> Mong rằng những người từng chứng kiến và hứng chịu sự thiếu sót của ta không để ở trong lòng...
 {: .prompt-tip}

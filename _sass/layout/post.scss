@@ -1,6 +1,6 @@
-/*
-  Post-specific style
-*/
+/**
+ * Post-specific styles
+ */
 
 %btn-post-nav {
   width: 50%;
@@ -97,7 +97,7 @@ header {
 
         &:hover {
           i {
-            @extend %btn-share-hovor;
+            @extend %btn-share-hover;
           }
         }
       }
@@ -258,9 +258,8 @@ header {
 
     .toc-link {
       display: block;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+
+      @extend %text-ellipsis;
 
       &:hover {
         color: var(--toc-highlight);
@@ -380,12 +379,13 @@ header {
   $slide-in: slide-in 0.3s ease-out;
   $slide-out: slide-out 0.3s ease-out;
   $curtain-height: 2rem;
+  $backdrop: blur(5px);
 
   border-color: var(--toc-popup-border-color);
   border-width: 1px;
   border-radius: $radius-lg;
   color: var(--text-color);
-  background: var(--main-bg);
+  background: var(--card-bg);
   margin-top: $topbar-height;
   min-width: 20rem;
   font-size: 1.05rem;
@@ -422,8 +422,15 @@ header {
     }
   }
 
-  button:focus-visible {
-    box-shadow: none;
+  button {
+    > i {
+      font-size: 1.25rem;
+      vertical-align: middle;
+    }
+
+    &:focus-visible {
+      box-shadow: none;
+    }
   }
 
   ul {
@@ -461,20 +468,20 @@ header {
   }
 
   &::-webkit-backdrop {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: $backdrop;
+    backdrop-filter: $backdrop;
   }
 
   &::backdrop {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: $backdrop;
+    backdrop-filter: $backdrop;
   }
 
   &::after {
     display: flex;
     content: '';
     position: relative;
-    background: linear-gradient(transparent, var(--main-bg) 70%);
+    background: linear-gradient(transparent, var(--card-bg) 70%);
     height: $curtain-height;
   }
 
@@ -501,10 +508,11 @@ header {
   }
 
   p {
+    @extend %text-ellipsis;
+
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: break-spaces;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -526,7 +534,7 @@ header {
   max-width: 100%;
 }
 
-%btn-share-hovor {
+%btn-share-hover {
   color: var(--btn-share-hover-color) !important;
 }
 
@@ -558,10 +566,8 @@ header {
 /* Hide SideBar and TOC */
 @media all and (max-width: 849px) {
   .post-navigation {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
+    @include pl-pr(0);
+    @include ml-mr(-0.5rem);
   }
 }
 

@@ -157,5 +157,16 @@
     }
   },
   "active": "68f750bbc52a864e",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "assets/js/dist/sw.min.js",
+    "assets/js/dist/app.min.js",
+    "assets/js/dist/misc.min.js",
+    "assets/js/dist/post.min.js",
+    "assets/js/dist/page.min.js",
+    "assets/js/dist/categories.min.js",
+    "assets/js/dist/home.min.js",
+    "assets/js/dist/commons.min.js",
+    "assets/js/dist",
+    "rollup.config-1729433050450.cjs"
+  ]
 }

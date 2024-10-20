@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "67f5875037070b01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2021-02-18-hoc.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2021-02-18-hoc"
-            }
-          },
-          {
             "id": "7442ab1ba2e45634",
             "type": "leaf",
             "state": {
@@ -50,6 +36,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -105,14 +92,25 @@
       {
         "id": "5120dd920fafff00",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
+          {
+            "id": "08988d16574709a5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
           {
             "id": "81500aa6a1cfb129",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-20-a-year-with-too.md",
+                "file": "_drafts/2024-04-20-coffee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-10-20-a-year-with-too"
+              "title": "Backlinks for 2024-04-20-coffee"
             }
           },
           {
@@ -131,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-20-a-year-with-too.md",
+                "file": "_drafts/2024-04-20-coffee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-10-20-a-year-with-too"
+              "title": "Outgoing links from 2024-04-20-coffee"
             }
           },
           {
@@ -152,15 +150,22 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "2da7c5e0020a076b",
+        "type": "tabs",
+        "dimension": 23.870967741935484,
+        "children": [
           {
-            "id": "08988d16574709a5",
+            "id": "a1574058e235e9da",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "mindmap",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "dot-network",
+              "title": "Mind Map of 2024-04-20-coffee"
             }
           }
         ]
@@ -168,6 +173,7 @@
       {
         "id": "eeee85089d6f0c34",
         "type": "tabs",
+        "dimension": 42.795698924731184,
         "children": [
           {
             "id": "1686d8b08f607586",
@@ -175,29 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2024-10-20-a-year-with-too.md"
+                "file": "_drafts/2024-04-20-coffee.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2024-10-20-a-year-with-too"
-            }
-          },
-          {
-            "id": "849f3f622b541a2c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_posts/2024-10-20-a-year-with-too.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 2024-10-20-a-year-with-too"
+              "title": "File properties for 2024-04-20-coffee"
             }
           },
           {
@@ -206,10 +193,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-20-a-year-with-too.md"
+                "file": "_drafts/2024-04-20-coffee.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-10-20-a-year-with-too"
+              "title": "Outline of 2024-04-20-coffee"
             }
           }
         ]
@@ -229,13 +216,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "68f750bbc52a864e",
+  "active": "7442ab1ba2e45634",
   "lastOpenFiles": [
-    "_drafts/2019-08-08-text-and-typography.md",
     "_posts/2024-10-20-a-year-with-too.md",
+    "_drafts/2024-04-20-coffee.md",
+    "_drafts/2019-08-08-write-a-new-post.md",
+    "_drafts/2019-08-08-text-and-typography.md",
     "_posts/2010-09-23-say-tau-xe.md",
     "_posts/2011-01-12-them.md",
-    "_drafts/2024-04-20-coffee.md",
     "_posts/2021-02-18-hoc.md",
     "_posts/2021-01-30-tet-2021.md",
     "_posts/2020-11-25-mo-hinh-kinh-doanh-cua-microsoft.md",
@@ -275,7 +263,6 @@
     "_posts/2023-03-23-morning-coffee.md",
     "_posts/2023-03-08-xanh-sm.md",
     "_posts/2022-12-25-tu-su.md",
-    "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
-    "_posts/2022-11-10-hoai-niem.md"
+    "_posts/2022-12-17-2022-mot-nam-nhin-lai.md"
   ]
 }

@@ -11142,3 +11142,5 @@ var Booksidian = class extends import_obsidian3.Plugin {
  * http://github.com/janl/mustache.js
  */
 /*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
+
+/* nosourcemap */

@@ -1,7 +1,6 @@
 {
-  "hideRibbon": true,
   "hideStatus": false,
-  "hideTabs": true,
+  "hideTabs": false,
   "hideScroll": true,
   "hideSidebarButtons": true,
   "hideTooltips": true,
@@ -11,5 +10,6 @@
   "hideInstructions": true,
   "hidePropertiesReading": true,
   "hideVault": true,
+  "hideRibbon": true,
   "hideMeta": true
 }

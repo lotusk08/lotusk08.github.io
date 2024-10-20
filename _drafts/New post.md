@@ -10,7 +10,7 @@ toc: true
 math: false
 mermaid: false
 image:
-  path: /assets/img/post/
+  path: /assets/img/post/too-one-year-old.webp
   lqip: 
   alt: 
 ---

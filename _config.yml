@@ -16,7 +16,7 @@ timezone: Asia/Saigon
 
 title: Steve Hoang # the main title
 
-tagline: A blog from my life, my story, and my journey. # it will display as the sub-title
+tagline: Born to be different! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Life's too short to sweat the small stuff. Enjoy yourself, fall in love, and embrace every moment without regrets. Don't let anyone dim your shine. Live the life you've always dreamed of!
@@ -42,7 +42,7 @@ social:
   - https://github.com/lotusk08 # change to your github homepage
     # Uncomment below to add more social links
   - https://www.facebook.com/sky.quietly
-  - https://www.linkedin.com/in/steve-hoang-a59076a3
+  - https://www.linkedin.com/in/steve-hoang-asia
   - https://www.reddit.com/user/lotusk08
 
 # Site Verification Settings

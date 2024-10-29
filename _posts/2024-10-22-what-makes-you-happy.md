@@ -14,35 +14,49 @@ toc: true
 math: false
 mermaid: false
 ---
-## The question:
+## The Question:
 
->What makes you happy?
+> What makes you happy?
 {: .prompt-warning }
 
-My mind froze for a few seconds when I saw this question. I don't remember what was important to me a long time ago.
+I paused for a moment when I saw this question. It’s strange—I can't even remember what used to matter most to me.
 
 ## People
 
-While searching the internet, I found some answers like these:
-- Receiving something from someone: a gift, time, help, or maybe even just an answer.
-- Some people feel alive regardless of how many milestones they reach: wealth, glory, or achievements.
-- Others feel happy owning something, doing something, even if it's only temporary or limited.
+As I searched online, I stumbled upon a few perspectives that resonated:
+- Happiness for some is receiving something: a gift, time, a helping hand, or even just an answer.
+- Some feel alive regardless of milestones—wealth, glory, or achievements.
+- Others find joy in owning or experiencing things, even if only temporarily.
 
-They live their lives. Some things are right, some things aren't. It's just who they are.
+They live their lives, some things feel right, others not so much. It’s simply who they are.
+
+## The Truth
+
+In reality, we often hold onto perceptions that might be a bit off-center:
+
+> - Many of us don’t actually enjoy the hard work of personal growth; we’re just drawn to the rewards it brings.
+- Success isn’t always what we’re after—we’re often just looking for the praise it brings.
+- Money itself may not be what we seek; it’s the comfort and experiences money provides.
+- Learning and knowledge? We tend to value these more for their utility than for the joy of learning itself.
+- Love for our partners may often hinge on the benefits they bring to our lives.
+- Families may not always be cherished for who they are but rather for the sense of security they provide.
+- Nature captivates us, but often it’s the pleasure it offers that we’re drawn to.
+- And life itself—sometimes, it’s only the pleasant moments we truly love.
+{: .prompt-info }
+
+It’s easy to convince ourselves that we’re passionate about something when, in fact, we might just desire its rewards. Does happiness lie here? Maybe... but it feels a little incomplete.
 
 ## Me
 
-I wake up every day, go to work, do my job, come home... another day arrives, and I do it all over again to earn money... grinding day by day, like a boring open-world video game!
+Each day, I wake up, work, come home… then do it all over again, day by day, grinding through routines—almost like an open-world game with no real plot!
 
-One day...
+One day, I noticed something:
 
-I realized that I easily forget what happens to me, but it's hard to say goodbye to anyone or anything I love.
-I live with [Too](/my-pet/) and my girlfriend.
-I can hurt, but they don't.
+I forget things easily, yet saying goodbye to people or places I love is always difficult. I share my life with [Too](/my-pet/) and my girlfriend. I can hurt, but they don’t.
 
->The most important things in my life are those around me, not the things I own.
+> What matters most isn’t what I own; it’s who’s around me.
 {: .prompt-tip }
 
 ## You?
 
-So... how about you? What makes you happy?
+So… how about you? What makes you happy?

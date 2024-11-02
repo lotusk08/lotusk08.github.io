@@ -1,6 +1,6 @@
 ---
 title: What makes you happy?
-description: Each day, I wake up, work, come home… then do it all over again, day by day, grinding through routines—almost like an open-world game with no real plot!
+description: I paused for a moment when I saw this question. It’s strange—I can't even remember what used to matter most to me.
 author: steve
 date: 2024-10-22 14:04 +0700
 categories:

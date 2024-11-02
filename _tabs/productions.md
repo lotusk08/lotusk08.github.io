@@ -8,29 +8,31 @@ redirect_from:
 ---
 ## From concept to fruition
 ### Launching Vietnam's first motorbike e-commerce store
-![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAwABUB8JQBdgBPW7n8YAP7fvZn11e3xh6jkSyiFWV/aawW4leX9Su/UfZxJX+YfsEIQmAA="}
+![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSC8AAAARL0CWjRy0uPm2o3iGj4iY0KGqgQhqk0EA00GAVwPTv8x9SRDR/wnIQd3D+GeOAgBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" }
 _Vietnam's first motorbike e-commerce store_
-![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSDAAAAARL0AmbRtVUXrvmol5WETEgj1UNRBBbTIIYDoI8Gpg+pe5Lwki+j8BOah7GP/MUQBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" width="410" .right}
-When e-commerce took off in Vietnam in 2018, led by platforms like Lazada, Shopee, and Tiki, I saw an opportunity. Despite the unconventional idea of selling motorbikes online, I decided to take the plunge. Within two weeks, the first sale was made. Then came 11.11, a day that brought in 2 billion VND in sales alone. That year, Hoang Viet achieved over 1 trillion VND in revenue, and I learned firsthand the power of risk-taking in the digital marketplace.
+
+![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSDAAAAARL0AmbRtVUXrvmol5WETEgj1UNRBBbTIIYDoI8Gpg+pe5Lwki+j8BOah7GP/MUQBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" width="420" .right}
+When e-commerce took off in Vietnam in 2018, led by platforms like Lazada, Shopee, and Tiki, I saw an opportunity. Despite the unconventional idea of selling motorbikes online, I decided to take the plunge.
+
+Within two weeks, the first sale was made. Then came 11.11, a day that brought in 2 billion VND in sales alone. That year, Hoang Viet achieved over 1 trillion VND in revenue, and I learned firsthand the power of risk-taking in the digital marketplace.
 
 ## Video – Memorable milestones
-
 Some milestones are too memorable to keep to myself. Here’s a video capturing a few moments that meant a lot along the way.
-
 {% include embed/youtube.html id='C3aVBHVbomM' %}
 
 ## Thai Khuong Song: A personal composition
-
-![Thai khuong song](/assets/img/site/thai-khuong-song.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAwABUB8JQAAQuKNhowAAPzXHvzAILcBEIETaMTjsbCB0lhINUrjSqlPrZCqlyKsd5khRTqo5ezGYUxZSlIA" width="520" .left}
+![Thai khuong song](/assets/img/site/thai-khuong-song.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAwABUB8JQAAQuKNhowAAPzXHvzAILcBEIETaMTjsbCB0lhINUrjSqlPrZCqlyKsd5khRTqo5ezGYUxZSlIA" width="320" .left}
 Inspired by the spirit of Thai Khuong, a place I consider a second home, this melody is my personal tribute. I hope it stirs the same passion and energy in others that I felt while creating it.
 
 <iframe width="100%" height="360" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1063996978&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 ## Crafting a customer-centric website
-![Thai Khuong website](/assets/img/site/tkt-website.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsABUB8JbAC7AEKqqm/sSDAAP7XmctSKxz2LdNvw1EGmNZZLDYI9ZwZFufhDIPMJuJy710EkFJdHaY5NM2yZem4wc8AI4fr731gDzAAAA==" .w-50 .right}
+![Thai Khuong website](/assets/img/site/tkt-website.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsABUB8JbAC7AEKqqm/sSDAAP7XmctSKxz2LdNvw1EGmNZZLDYI9ZwZFufhDIPMJuJy710EkFJdHaY5NM2yZem4wc8AI4fr731gDzAAAA==" width="320" .right}
 
 ### Based on the customer journey
-In my journey of building websites, I’ve worked with various audiences—from companies to community groups. Beyond the aesthetics, I focused on making each site relevant and meaningful for its users. Investing time, creativity, and resources in each one, I’ve aimed to make every visitor’s experience an impactful one.
+In my journey of building websites, I’ve worked with various audiences—from companies to community groups. Beyond the aesthetics, I focused on making each site relevant and meaningful for its users.
+
+Investing time, creativity, and resources in each one, I’ve aimed to make every visitor’s experience an impactful one.
 ![Cover profile](/assets/img/site/TK-cover-profile.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA="}
 
 ### Content with a purpose

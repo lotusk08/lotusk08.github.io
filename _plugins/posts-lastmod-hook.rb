@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 #
 # Check for changed posts
+require 'jekyll'
 
 Jekyll::Hooks.register :posts, :post_init do |post|
 

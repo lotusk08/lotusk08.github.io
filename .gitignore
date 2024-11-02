@@ -38,3 +38,4 @@ package-lock.json
 # Obsidian
 ! .obsidian
 ! .obsidian/workspace.json
+.DS_Store

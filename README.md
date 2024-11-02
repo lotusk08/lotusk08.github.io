@@ -33,7 +33,7 @@ BUNDLE_WITHOUT|""
 ## Comment system by [Waline][waline]
 [![stevehoang.com](/docs/comment-system.webp)][stevehoang.com]
 
-Deploy & running on [Deta Space][deta]
+Deploy & running on [Vercel][vercel] with [MongoDB][mon]
 Sync dark/light theme color config in [waline.html][waline.html]
 
 ```javascript
@@ -67,10 +67,11 @@ node tools/lqip/index.js
 [npm]: https://www.npmjs.com/package/jekyll-theme-chirpy
 [cf]: https://lotusk08-github-io.pages.dev
 [dmca]: https://www.dmca.com/r/84e1gg7
-[jekyllrb]: https://jekyllrb.com/
+[jekyllrb]: https://jekyllrb.com
 [stevehoang.com]: https://stevehoang.com
 [lib]: https://github.com/lotusk08/theme-static-assets
 [lqip]: https://github.com/transitive-bullshit/lqip-modern
 [waline]: https://github.com/walinejs/waline
 [waline.html]: https://github.com/lotusk08/lotusk08.github.io/blob/34bf7b0643f7aae4fa812745794a020d9ce5863f/_includes/comments/waline.html
-[deta]: https://deta.space/?horizon=SBc6FJKM9G
+[vercel]: http://vercel.com
+[mon]: http://mongodb.com

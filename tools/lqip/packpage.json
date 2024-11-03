@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lqip-modern": "^2.1.0"
+    "lqip-modern": "^2.0.0"
   }
 }

@@ -19,8 +19,6 @@ mermaid: false
 > What makes you happy?
 {: .prompt-warning }
 
-I paused for a moment when I saw this question. It’s strange—I can't even remember what used to matter most to me.
-
 ## People
 
 As I searched online, I stumbled upon a few perspectives that resonated:

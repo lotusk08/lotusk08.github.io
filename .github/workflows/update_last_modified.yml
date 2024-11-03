@@ -1,4 +1,4 @@
-name: Update Last Modified Date and Deploy
+name: Update Last Modified Date
 
 on:
   push:
@@ -55,9 +55,6 @@ jobs:
         run: git push origin blog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@2
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}

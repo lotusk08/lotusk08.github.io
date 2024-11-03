@@ -55,8 +55,3 @@ jobs:
         run: git push origin blog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-          accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          projectName: "stevehoang"
-          directory: "_site"

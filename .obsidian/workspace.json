@@ -51,7 +51,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+                "file": "_posts/2022-08-23-quit-job.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2023-12-31-2023-mot-nam-nhin-lai"
+              "title": "Backlinks for 2022-08-23-quit-job"
             }
           },
           {
@@ -144,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+                "file": "_posts/2022-08-23-quit-job.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2023-12-31-2023-mot-nam-nhin-lai"
+              "title": "Outgoing links from 2022-08-23-quit-job"
             }
           },
           {
@@ -179,10 +178,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md"
+                "file": "_posts/2022-08-23-quit-job.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2023-12-31-2023-mot-nam-nhin-lai"
+              "title": "File properties for 2022-08-23-quit-job"
             }
           },
           {
@@ -192,7 +191,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of 2023-12-31-2023-mot-nam-nhin-lai"
+              "title": "Mind Map of 2022-08-23-quit-job"
             },
             "group": "68249de0b8fd0863"
           },
@@ -202,10 +201,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md"
+                "file": "_posts/2022-08-23-quit-job.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2023-12-31-2023-mot-nam-nhin-lai"
+              "title": "Outline of 2022-08-23-quit-job"
             }
           }
         ]
@@ -226,8 +225,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33ac85e06a4e6e40",
+  "active": "e49d1183aee939e3",
   "lastOpenFiles": [
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-09-01-obsidian.md",
     "_posts/2022-08-23-quit-job.md",
     "_posts/2010-09-23-say-tau-xe.md",
@@ -256,7 +256,6 @@
     "_posts/2024-09-29-su-truong-thanh.md",
     "_posts/2024-06-16-cv?.md",
     "_posts/2024-06-08-goodbye-brad.md",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-11-10-my-pet.md",
     "_posts/2023-07-23-an-nam.md",
     "_posts/2023-06-16-golf-vietnam.md",

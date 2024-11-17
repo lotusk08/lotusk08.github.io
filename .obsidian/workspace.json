@@ -21,8 +21,37 @@
               "title": "2022-08-23-quit-job"
             },
             "group": "68249de0b8fd0863"
+          },
+          {
+            "id": "6cf0c6b11a6e479b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-01-obsidian.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2023-09-01-obsidian"
+            }
+          },
+          {
+            "id": "33ac85e06a4e6e40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2023-12-31-2023-mot-nam-nhin-lai"
+            }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -96,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-23-quit-job.md",
+                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2022-08-23-quit-job"
+              "title": "Backlinks for 2023-12-31-2023-mot-nam-nhin-lai"
             }
           },
           {
@@ -115,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-23-quit-job.md",
+                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2022-08-23-quit-job"
+              "title": "Outgoing links from 2023-12-31-2023-mot-nam-nhin-lai"
             }
           },
           {
@@ -150,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2022-08-23-quit-job.md"
+                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2022-08-23-quit-job"
+              "title": "File properties for 2023-12-31-2023-mot-nam-nhin-lai"
             }
           },
           {
@@ -163,7 +192,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of 2022-08-23-quit-job"
+              "title": "Mind Map of 2023-12-31-2023-mot-nam-nhin-lai"
             },
             "group": "68249de0b8fd0863"
           },
@@ -173,10 +202,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-08-23-quit-job.md"
+                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2022-08-23-quit-job"
+              "title": "Outline of 2023-12-31-2023-mot-nam-nhin-lai"
             }
           }
         ]
@@ -197,8 +226,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1686d8b08f607586",
+  "active": "33ac85e06a4e6e40",
   "lastOpenFiles": [
+    "_posts/2023-09-01-obsidian.md",
+    "_posts/2022-08-23-quit-job.md",
     "_posts/2010-09-23-say-tau-xe.md",
     "_site/what-makes-you-happy/index.html",
     "_site/what-makes-you-happy",
@@ -227,7 +258,6 @@
     "_posts/2024-06-08-goodbye-brad.md",
     "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-11-10-my-pet.md",
-    "_posts/2023-09-01-obsidian.md",
     "_posts/2023-07-23-an-nam.md",
     "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2023-05-26-gojek-datbike.md",
@@ -239,7 +269,6 @@
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
     "_posts/2022-11-10-hoai-niem.md",
     "_posts/2022-08-29-Gen-Z.md",
-    "_posts/2022-08-23-quit-job.md",
     "_posts/2022-08-08-talk-Vietnam.md",
     "_posts/2022-04-30-goodbye-thai-khuong.md",
     "_posts/2021-12-04-choi.md",

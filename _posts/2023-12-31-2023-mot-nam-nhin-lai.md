@@ -135,7 +135,7 @@ Mình có nghe đâu đó nói rằng: Người Việt thường tự hại nhau
 
 Trong mối quan hệ công việc, tính sòng phẳng cũng không phải là ưu điểm của người Việt Nam. Giữa sếp và nhân viên, kiểu gì cũng dính chút "ơn huệ, tình nghĩa". Và, đến khi họ chia tay, chủ đề câu chuyện sẽ có màu kịch bản: người bội bạc.
 
-Chuyện thường thấy: người ở cấp bậc càng cao càng có nhiều "đạo lý" để chia sẻ hơn. Có đại nhân còn đăng đàn mạng xã hội để giáo dục follower. Mình không có ý nói anh em nhà F nào đó hay bán đạo lý online đâu.
+Người ở nấc thang càng cao trong danh vọng càng có nhiều "đạo lý" để chia sẻ hơn. Mình thường thấy mấy Founder khởi nghiệp thất bại về làm thầy, mở lớp dạy và bán khoá học. Có một số người thành công nhờ người khác như anh em nhà F-soft nào đó cũng hay bán đạo lý online.
 
 ### Thú cưng
 ![Nuôi thú cưng](/assets/img/post/thu-cung.webp "Nuôi thú cưng"){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAwABUB8JZAC7AD0j28Si3augAD+8v9TnkCGnO44Q1PwvqFJCOe7KD2NFqlaV1y/kbpkoslL0i/5vOooAAAA" width="680"}

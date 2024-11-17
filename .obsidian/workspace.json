@@ -77,7 +77,7 @@
       {
         "id": "5120dd920fafff00",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 35.342465753424655,
         "children": [
           {
             "id": "08988d16574709a5",
@@ -139,26 +139,9 @@
         ]
       },
       {
-        "id": "2da7c5e0020a076b",
-        "type": "tabs",
-        "dimension": 23.870967741935484,
-        "children": [
-          {
-            "id": "a1574058e235e9da",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {},
-              "icon": "dot-network",
-              "title": "Mind Map of 2022-08-23-quit-job"
-            }
-          }
-        ]
-      },
-      {
         "id": "eeee85089d6f0c34",
         "type": "tabs",
-        "dimension": 42.795698924731184,
+        "dimension": 64.65753424657535,
         "children": [
           {
             "id": "1686d8b08f607586",
@@ -170,6 +153,16 @@
               },
               "icon": "lucide-info",
               "title": "File properties for 2022-08-23-quit-job"
+            }
+          },
+          {
+            "id": "a1574058e235e9da",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mind Map of 2022-08-23-quit-job"
             }
           },
           {
@@ -202,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e49d1183aee939e3",
+  "active": "1686d8b08f607586",
   "lastOpenFiles": [
     "_posts/2010-09-23-say-tau-xe.md",
     "_site/what-makes-you-happy/index.html",

@@ -19,7 +19,8 @@
               },
               "icon": "lucide-file",
               "title": "2022-08-23-quit-job"
-            }
+            },
+            "group": "68249de0b8fd0863"
           }
         ],
         "stacked": true
@@ -163,7 +164,8 @@
               "state": {},
               "icon": "dot-network",
               "title": "Mind Map of 2022-08-23-quit-job"
-            }
+            },
+            "group": "68249de0b8fd0863"
           },
           {
             "id": "25bc95d7bfdb9cb9",

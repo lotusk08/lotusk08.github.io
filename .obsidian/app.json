@@ -36,5 +36,6 @@
   "livePreview": false,
   "showUnsupportedFiles": true,
   "defaultViewMode": "source",
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "showRibbon": false
 }

@@ -15,5 +15,6 @@
   "copy-as-html",
   "text-extractor",
   "obsidian-excalidraw-plugin",
-  "OA-file-hider"
+  "OA-file-hider",
+  "obsidian-git"
 ]

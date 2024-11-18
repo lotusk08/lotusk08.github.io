@@ -903,6 +903,7 @@ $btn-mb: 0.5rem;
 /* --- top-bar --- */
 
 #topbar-wrapper {
+  padding-top: 30px;
   height: $topbar-height;
   background-color: var(--topbar-bg);
 }
@@ -1470,6 +1471,7 @@ search {
   }
 
   #topbar-wrapper {
+    padding-top: 30px;
     left: $sidebar-width-large;
   }
 

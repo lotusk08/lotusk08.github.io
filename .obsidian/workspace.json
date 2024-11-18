@@ -8,46 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e49d1183aee939e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-08-23-quit-job.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2022-08-23-quit-job"
-            },
-            "group": "68249de0b8fd0863"
-          },
-          {
-            "id": "6cf0c6b11a6e479b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-01-obsidian.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2023-09-01-obsidian"
-            }
-          },
-          {
             "id": "33ac85e06a4e6e40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2023-12-31-2023-mot-nam-nhin-lai"
+              "title": "New tab"
             }
           }
         ],
@@ -124,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-23-quit-job.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2022-08-23-quit-job"
+              "title": "Backlinks"
             }
           },
           {
@@ -143,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-23-quit-job.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2022-08-23-quit-job"
+              "title": "Outgoing links"
             }
           },
           {
@@ -177,11 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "_posts/2022-08-23-quit-job.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for 2022-08-23-quit-job"
+              "title": "File properties"
             }
           },
           {
@@ -192,19 +155,16 @@
               "state": {},
               "icon": "dot-network",
               "title": "Mind Map of 2022-08-23-quit-job"
-            },
-            "group": "68249de0b8fd0863"
+            }
           },
           {
             "id": "25bc95d7bfdb9cb9",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2022-08-23-quit-job.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 2022-08-23-quit-job"
+              "title": "Outline"
             }
           }
         ]
@@ -225,22 +185,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e49d1183aee939e3",
+  "active": "33ac85e06a4e6e40",
   "lastOpenFiles": [
+    "assets/js/dist/sw.min.js",
+    "assets/js/dist/app.min.js",
+    "assets/js/dist/misc.min.js",
+    "assets/js/dist/post.min.js",
+    "assets/js/dist/page.min.js",
+    "assets/js/dist/categories.min.js",
+    "assets/js/dist/home.min.js",
+    "assets/js/dist/commons.min.js",
+    "assets/js/dist",
+    "rollup.config-1731923262855.cjs",
+    "_sass/dist/bootstrap 2.css",
     "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-09-01-obsidian.md",
     "_posts/2022-08-23-quit-job.md",
     "_posts/2010-09-23-say-tau-xe.md",
-    "_site/what-makes-you-happy/index.html",
-    "_site/what-makes-you-happy",
-    "_site/a-year-with-too/index.html",
-    "_site/a-year-with-too",
-    "_site/su-truong-thanh/index.html",
-    "_site/su-truong-thanh",
-    "_site/cv/index.html",
-    "_site/cv",
-    "_site/goodbye-brad/index.html",
-    "_site/goodbye-brad",
     "_site/assets/img/site/tkt-website.webp",
     "_site/assets/img/site/tks-teams.webp",
     "_site/assets/img/site/tks-employee.webp",
@@ -271,7 +232,6 @@
     "_posts/2022-08-08-talk-Vietnam.md",
     "_posts/2022-04-30-goodbye-thai-khuong.md",
     "_posts/2021-12-04-choi.md",
-    "_posts/2021-09-18-san-pham-cong-dong.md",
-    "_posts/2021-07-15-an.md"
+    "_posts/2021-09-18-san-pham-cong-dong.md"
   ]
 }

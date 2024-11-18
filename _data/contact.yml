@@ -11,9 +11,9 @@
 #   icon: 'fab fa-reddit'
 #   url: 'https://www.reddit.com/user/lotusk08'
 
-- type: facebook
-  icon: 'fab fa-facebook'
-  url: 'https://www.facebook.com/sky.quietly'
+# - type: facebook
+#   icon: 'fab fa-facebook'
+#   url: 'https://www.facebook.com/stevehoang.me/'
 
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"

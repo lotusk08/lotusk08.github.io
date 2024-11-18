@@ -196,12 +196,8 @@
     "assets/js/dist/home.min.js",
     "assets/js/dist/commons.min.js",
     "assets/js/dist",
-    "rollup.config-1731923262855.cjs",
-    "_sass/dist/bootstrap 2.css",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
-    "_posts/2023-09-01-obsidian.md",
-    "_posts/2022-08-23-quit-job.md",
-    "_posts/2010-09-23-say-tau-xe.md",
+    "rollup.config-1731933479167.cjs",
+    "rollup.config-1731932207093.cjs",
     "_site/assets/img/site/tkt-website.webp",
     "_site/assets/img/site/tks-teams.webp",
     "_site/assets/img/site/tks-employee.webp",
@@ -217,7 +213,9 @@
     "_posts/2024-09-29-su-truong-thanh.md",
     "_posts/2024-06-16-cv?.md",
     "_posts/2024-06-08-goodbye-brad.md",
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-11-10-my-pet.md",
+    "_posts/2023-09-01-obsidian.md",
     "_posts/2023-07-23-an-nam.md",
     "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2023-05-26-gojek-datbike.md",
@@ -229,9 +227,11 @@
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
     "_posts/2022-11-10-hoai-niem.md",
     "_posts/2022-08-29-Gen-Z.md",
+    "_posts/2022-08-23-quit-job.md",
     "_posts/2022-08-08-talk-Vietnam.md",
     "_posts/2022-04-30-goodbye-thai-khuong.md",
     "_posts/2021-12-04-choi.md",
-    "_posts/2021-09-18-san-pham-cong-dong.md"
+    "_posts/2021-09-18-san-pham-cong-dong.md",
+    "_posts/2021-07-15-an.md"
   ]
 }

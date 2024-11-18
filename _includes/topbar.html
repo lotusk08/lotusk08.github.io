@@ -10,34 +10,40 @@
 
       {% if paths.size == 0 or page.layout == 'home' %}
         <!-- index page -->
-        <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
+        <span>Steve Hoang</span>
 
       {% else %}
         {% for item in paths %}
           {% if forloop.first %}
+            <!-- First breadcrumb -->
             <span>
               <a href="{{ '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs.home | capitalize -}}
+                Steve Hoang
               </a>
             </span>
 
           {% elsif forloop.last %}
-            {% if page.collection == 'tabs' %}
-              <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
+            <!-- Last breadcrumb -->
+            {% if page.layout == 'tag' and item == 'topics' %}
+              <span>{{ site.data.locales[include.lang].tabs.topics | default: "Topics" }}</span>
+            {% elsif page.layout == 'tag' and item == 'topic' %}
+              <span>{{ site.data.locales[include.lang].tabs.topic | default: "Topic" }}</span>
             {% else %}
-              <span>{{ page.title }}</span>
+              <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
             {% endif %}
 
-          {% elsif page.layout == 'category' or page.layout == 'tag' %}
+          {% else %}
+            <!-- Intermediate breadcrumb -->
             <span>
               <a href="{{ item | append: '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
+                {{ site.data.locales[include.lang].tabs[item] | default: item | capitalize }}
               </a>
             </span>
           {% endif %}
         {% endfor %}
       {% endif %}
     </nav>
+
     <!-- endof #breadcrumb -->
 
     <button type="button" id="sidebar-trigger" class="btn btn-link">

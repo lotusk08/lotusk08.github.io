@@ -9,7 +9,7 @@
       {% assign paths = page.url | split: '/' %}
 
       {% if paths.size == 0 or page.layout == 'home' %}
-        <!-- index page -->
+        <!-- Home page -->
         <span>Steve Hoang</span>
 
       {% else %}
@@ -24,21 +24,27 @@
 
           {% elsif forloop.last %}
             <!-- Last breadcrumb -->
-            {% if page.layout == 'tag' and item == 'topics' %}
-              <span>{{ site.data.locales[include.lang].tabs.topics | default: "Topics" }}</span>
-            {% elsif page.layout == 'tag' and item == 'topic' %}
-              <span>{{ site.data.locales[include.lang].tabs.topic | default: "Topic" }}</span>
+            {% if page.layout == 'tag' or page.layout == 'tags' %}
+              <span>{{ item | capitalize }}</span>
             {% else %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
             {% endif %}
 
           {% else %}
             <!-- Intermediate breadcrumb -->
-            <span>
-              <a href="{{ item | append: '/' | relative_url }}">
-                {{ site.data.locales[include.lang].tabs[item] | default: item | capitalize }}
-              </a>
-            </span>
+            {% if item == 'topics' or item == 'topic' %}
+              <span>
+                <a href="{{ item | append: '/' | relative_url }}">
+                  {{ site.data.locales[include.lang].tabs[item] | default: item | capitalize }}
+                </a>
+              </span>
+            {% else %}
+              <span>
+                <a href="{{ item | append: '/' | relative_url }}">
+                  {{ item | capitalize }}
+                </a>
+              </span>
+            {% endif %}
           {% endif %}
         {% endfor %}
       {% endif %}

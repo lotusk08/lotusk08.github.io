@@ -8,49 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7442ab1ba2e45634",
+            "id": "33ac85e06a4e6e40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/2024-04-20-coffee.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2024-04-20-coffee"
-            }
-          },
-          {
-            "id": "5a896499c46a1e42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_tabs/productions.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "productions"
-            }
-          },
-          {
-            "id": "60ddea19ba153186",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2010-09-23-say-tau-xe.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2010-09-23-say-tau-xe"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -106,7 +73,7 @@
       {
         "id": "5120dd920fafff00",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 35.342465753424655,
         "children": [
           {
             "id": "08988d16574709a5",
@@ -124,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2024-04-20-coffee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-04-20-coffee"
+              "title": "Backlinks"
             }
           },
           {
@@ -143,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2024-04-20-coffee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-04-20-coffee"
+              "title": "Outgoing links"
             }
           },
           {
@@ -168,10 +133,20 @@
         ]
       },
       {
-        "id": "2da7c5e0020a076b",
+        "id": "eeee85089d6f0c34",
         "type": "tabs",
-        "dimension": 23.870967741935484,
+        "dimension": 64.65753424657535,
         "children": [
+          {
+            "id": "1686d8b08f607586",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
           {
             "id": "a1574058e235e9da",
             "type": "leaf",
@@ -179,26 +154,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of 2010-09-23-say-tau-xe"
-            }
-          }
-        ]
-      },
-      {
-        "id": "eeee85089d6f0c34",
-        "type": "tabs",
-        "dimension": 42.795698924731184,
-        "children": [
-          {
-            "id": "1686d8b08f607586",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "_posts/2010-09-23-say-tau-xe.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for 2010-09-23-say-tau-xe"
+              "title": "Mind Map of 2022-08-23-quit-job"
             }
           },
           {
@@ -206,11 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_drafts/2024-04-20-coffee.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 2024-04-20-coffee"
+              "title": "Outline"
             }
           }
         ]
@@ -231,40 +185,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "60ddea19ba153186",
+  "active": "33ac85e06a4e6e40",
   "lastOpenFiles": [
-    "_posts/2024-11-17-.md",
+    "_site/assets/contact.vcf",
+    "assets/contact.vcf",
+    "node_modules/buffer/index.d.ts",
+    "node_modules/buffer/LICENSE",
+    "node_modules/buffer/index.js",
+    "node_modules/buffer/package.json",
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+    "_posts/2023-09-01-obsidian.md",
+    "_posts/2022-08-23-quit-job.md",
     "_posts/2010-09-23-say-tau-xe.md",
-    "_tabs/productions.md",
-    "_site/wrangler.toml",
-    "assets/js/dist/sw.min.js",
-    "assets/js/dist/app.min.js",
-    "assets/js/dist/misc.min.js",
-    "assets/js/dist/post.min.js",
-    "assets/js/dist/page.min.js",
-    "assets/js/dist/categories.min.js",
-    "assets/js/dist/home.min.js",
-    "assets/js/dist/commons.min.js",
-    "assets/js/dist",
-    "_site/assets/img/site/hv-e-commerce-policy.webp",
-    "assets/img/site/hv-e-commerce-policy.webp",
-    "_site/assets/img/site/img-4954.webp",
-    "assets/img/site/img-4954.webp",
-    "assets/img/site/IMG_4954.webp",
-    "_site/assets/img/site/IMG_4954.png",
-    "assets/img/site/IMG_4954.png",
-    "_site/assets/img/site/I'm-Steve.webp",
-    "assets/img/site/I'm-Steve.webp",
-    "_site/assets/img/site/i'm-steve.webp",
+    "_site/what-makes-you-happy/index.html",
+    "_site/what-makes-you-happy",
+    "_site/a-year-with-too/index.html",
+    "_site/a-year-with-too",
+    "_site/su-truong-thanh/index.html",
+    "_site/assets/img/site/tkt-website.webp",
+    "_site/assets/img/site/tks-teams.webp",
+    "_site/assets/img/site/tks-employee.webp",
+    "_site/assets/img/site/tk-teams.webp",
+    "_site/assets/img/site/thai-khuong-song.webp",
+    "_site/assets/img/site/stk-planning.webp",
+    "_site/assets/img/site/real-time-report.webp",
+    "_site/assets/img/site/reading-book.webp",
+    "_site/assets/img/site/old-website.webp",
+    "_site/assets/img/site/medeze-stemcell.gif",
     "_posts/2024-10-22-what-makes-you-happy.md",
-    "_drafts/2024-04-20-coffee.md",
     "_posts/2024-10-20-a-year-with-too.md",
     "_posts/2024-09-29-su-truong-thanh.md",
     "_posts/2024-06-16-cv?.md",
     "_posts/2024-06-08-goodbye-brad.md",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-11-10-my-pet.md",
-    "_posts/2023-09-01-obsidian.md",
     "_posts/2023-07-23-an-nam.md",
     "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2023-05-26-gojek-datbike.md",
@@ -276,8 +229,9 @@
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
     "_posts/2022-11-10-hoai-niem.md",
     "_posts/2022-08-29-Gen-Z.md",
-    "_posts/2022-08-23-quit-job.md",
     "_posts/2022-08-08-talk-Vietnam.md",
-    "_posts/2022-04-30-goodbye-thai-khuong.md"
+    "_posts/2022-04-30-goodbye-thai-khuong.md",
+    "_posts/2021-12-04-choi.md",
+    "_posts/2021-09-18-san-pham-cong-dong.md"
   ]
 }

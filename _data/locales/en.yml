@@ -54,12 +54,12 @@ notification:
 
 post:
   written_by: by
-  posted: Posted
+  posted:
   updated: Updated
   words: words
   pageview_measure: views
   read_time:
-    unit: min
+    unit: minute
     prompt: read
   relate_posts: Further Reading
   share: Share

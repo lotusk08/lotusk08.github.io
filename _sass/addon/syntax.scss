@@ -222,7 +222,7 @@ div {
     @extend %cursor-pointer;
     @extend %rounded;
 
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     height: $code-header-height;
     width: $code-header-height;
     padding: 0;
@@ -247,10 +247,10 @@ div {
     }
 
     &:not([timeout]):hover {
-      background-color: rgba(128, 128, 128, 0.37);
+      background-color: rgba(128, 128, 128, 0);
 
       i {
-        color: white;
+        color: rgb(253, 126, 20);
       }
     }
   }
@@ -276,11 +276,6 @@ div {
         width: $code-dot-size;
         height: $code-dot-size;
         border-radius: 50%;
-        background-color: var(--code-header-muted-color);
-        box-shadow: ($code-dot-size + $code-dot-gap) 0 0
-            var(--code-header-muted-color),
-          ($code-dot-size + $code-dot-gap) * 2 0 0
-            var(--code-header-muted-color);
       }
 
       span {

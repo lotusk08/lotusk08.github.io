@@ -90,7 +90,7 @@ img {
 }
 
 blockquote {
-  border-left: 0.125rem solid var(--blockquote-border-color);
+  border-left: 0.25rem solid var(--blockquote-border-color);
   padding-left: 1rem;
   color: var(--blockquote-text-color);
   margin-top: 0.5rem;
@@ -100,17 +100,15 @@ blockquote {
   }
 
   &[class^='prompt-'] {
-    border-left: 0;
+    border-left: .25rem;
+    border-radius: 0 8px 8px 0;
     position: relative;
-    padding: 1rem 1rem 1rem 3rem;
+    padding: 0.5rem 1rem 0.75rem 1rem;
     color: var(--prompt-text-color);
 
-    @extend %rounded;
 
     &::before {
-      text-align: center;
       width: 3rem;
-      position: absolute;
       left: 0.25rem;
       margin-top: 0.4rem;
       text-rendering: auto;
@@ -120,6 +118,7 @@ blockquote {
 
   @include prompt('tip', '\f0eb', $fa-style: 'regular');
   @include prompt('info', '\f06a', $rotate: 180);
+  @include prompt('important','\f06a');
   @include prompt('warning', '\f06a');
   @include prompt('danger', '\f071');
 }

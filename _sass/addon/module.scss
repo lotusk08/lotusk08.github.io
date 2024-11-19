@@ -201,6 +201,7 @@
 @mixin prompt($type, $fa-content, $fa-style: 'solid', $rotate: 0) {
   &.prompt-#{$type} {
     background-color: var(--prompt-#{$type}-bg);
+    border-left: 0.25rem solid var(--prompt-#{$type}-border-color);
 
     &::before {
       content: $fa-content;

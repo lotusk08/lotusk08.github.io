@@ -24,10 +24,10 @@ image:
 Có một hôm anh sếp đối tác cùng đi ăn, cầm lộn ly nước của người bạn và uống.
 Uống xong, anh sếp mới ngờ ngợ nhận ra. Ảnh liền xin lỗi rối rít.
 
-Người bạn vui vẻ đáp, có nhầm gì đâu anh, ly đó là do em cố tình rót cho anh mà.
+Người bạn vui vẻ đáp, có nhầm gì đâu anh, ly đó là em rót cho anh mà.
 Ai cũng bớt sượng.
 
-Sau này khi nói về câu chuyện đấy, anh sếp đó khen người bạn “nhảy số nhanh thật”, cứu ảnh một phen mất mặt.
+Sau này, khi kể về câu chuyện đó, anh sếp khen người bạn “nhảy số nhanh thật”, cứu ảnh một phen mất mặt.
 
 Bạn kể rằng: ngày xưa bạn đi thử việc cùng ông sếp Nhật. Có một lần tương tự khách hàng cầm lộn cái nĩa của bạn. Họ xin lỗi, người bạn nói không sao. Họ chu đáo lấy cho bạn cái nĩa khác.
 Hôm sau bạn bị cho nghỉ việc.
@@ -38,12 +38,12 @@ Có một bạn trai thường mang kẹo trong túi. Bạn không hay ăn nhưn
 
 Lâu lâu, bạn lại mang ra mời mọi người.
 
-Có một lần, đi sự kiện, gặp một cô bé ở bộ phận khác bị hạ đường huyết, bạn xách giỏ kẹo ngọt của mình ra, đưa cô ấy kèm ly nước. Bạn nói cô bé nghỉ ngơi, chuyện còn lại để bạn hỗ trợ.
+Có một lần, đi sự kiện, gặp một cô bé ở bộ phận khác bị hạ đường huyết, bạn xách giỏ kẹo ngọt của mình ra, đưa cô ấy cùng ly nước. Bạn nói cô bé nghỉ ngơi, chuyện còn lại để bạn hỗ trợ.
 
-Hôm sau, bạn trở thành idol của cả công ty. Con trai mà ga lăng quá đỗi.
+Hôm sau, bạn trở thành idol của công ty. Con trai mà ga lăng dễ sợ.
 
-Nhưng, mấy ai biết, bạn từng bị bạn gái chia tay vì vô tâm vụng về.
-Hai người đi chơi cùng nhau, cô ấy chóng mặt, bạn chỉ biết đứng như trời trồng mặc kệ, để cô ấy tự sang đường, tự vào siêu thị mua kẹo, rồi tự tới bệnh viện kiểm tra.
+Nhưng, mấy ai biết, bạn từng bị chia tay vì vô tâm vụng về.
+Hai người đi chơi cùng nhau, cô ấy chóng mặt, bạn chỉ biết đứng như trời trồng, cô ấy tự sang đường, tự vô siêu thị mua kẹo, rồi tự tới bệnh viện.
 Sau khi níu kéo cô ấy không thành, trong túi bạn lúc nào cũng có kẹo.
 
 ---
@@ -63,7 +63,7 @@ Có một bận nói chuyện xàm giờ nghỉ, bạn kể: lúc mới ra trư�
 Lần nào không bị đuổi thì bị chê.
 Bạn làm bảng biểu từ 800 nhầm thành 79 triệu. Nghiệm thu phải gởi đối tác ngày 3, ngày 5 bạn mới nhớ ra rồi vội vàng tổng hợp. Vừa trễ, vừa sai, ai cũng không thoải mái.
 
-Sếp của bạn lúc đó nói cho bạn lên chính thức cho đúng luật. Nếu sai lầm vẫn lặp lại, bạn phải tự xin nghỉ. Vừa áp lực tâm lý, vừa non kinh nghiệm. Bạn lại phải tìm môi trường mới.
+Sếp cho bạn đó lên chính thức cho đúng luật. Nếu sai lầm vẫn lặp lại, bạn phải ra đi. Vừa áp lực tâm lý, vừa non kinh nghiệm. Bạn phải tìm môi trường mới.
 
 ---
 ## Ăn
@@ -99,4 +99,4 @@ Họ cũng từng sống cuộc đời của họ và nỗ lực sửa chữa nh
 
 > Bản thân mỗi chúng ta không ai xấu. Nhưng... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển, đôi khi hơi tiêu cực và cũng có chút lệch lạc.
 > Mong rằng những người từng chứng kiến và hứng chịu sự thiếu sót của ta không để ở trong lòng...
-{: .prompt-tip}
+{: .prompt-important}

@@ -1,79 +1,55 @@
-<!-- https://waline.js.org/ -->
-<script src="{{ site.data.origin[type].waline.js | relative_url }}"></script>
 <link rel="stylesheet" href="{{ site.data.origin[type].waline.css | relative_url }}" />
-<div id="waline"></div>
-<script type="text/javascript">
-  (function() {
-    const locale = {
-      nick: 'Name',
-      mail: 'Mail',
-      link: 'Website',
-      placeholder: '{{ site.comments.waline.placeholder }}',
-      sofa: '',
-      comment: '',
-      word: 'word',
-      submit: 'Reply',
-      latest: 'Newest',
-      oldest: '',
-      hottest: 'Most relevant',
-    };
 
-    Waline.init({
-      el: '#waline',
-      serverURL: '{{ site.comments.waline.server }}',
-      lang: 'en-US',
-      count: 'false',
-      login: 'disable',
-      search: 'false',
-      dark: "__waline__css__",
-      emoji: [
-        "{{ site.data.origin[type].waline.emojis | relative_url }}/qq",
-        '{{ site.data.origin[type].waline.emojis | relative_url }}/weibo',
-        '{{ site.data.origin[type].waline.emojis | relative_url }}/tieba',
-        '{{ site.data.origin[type].waline.emojis | relative_url }}/bilibili',
-      ],
-      locale,
-    });
+<script type="module">
+  import { init } from "{{ site.data.origin[type].waline.js | relative_url }}";
 
-    const updateCssForDarkMode = () => {
-      const head = document.head;
-      const css = head.lastChild;
-      const cssContent = css.textContent.replace("__waline__css__", "");
-      const cssContentPreferredDark = `@media (prefers-color-scheme: dark){html:not([data-mode])${cssContent}}`;
-      const cssContentSelectedDark = `html[data-mode=dark]${cssContent}`;
-      css.textContent = cssContentPreferredDark;
-      const style = document.createElement('style');
-      style.textContent = cssContentSelectedDark;
-      head.appendChild(style);
-    };
+  let walineThread = document.createElement('div');
+  walineThread.id = 'waline';
 
-    updateCssForDarkMode();
-  })();
+  const footer = document.querySelector('footer');
+  footer.insertAdjacentElement("beforebegin", walineThread);
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const setColors = (theme) => {
-      const activeColor = theme === 'dark' ? '#d28445' : '#0550ae';
-      const themeColor = theme === 'dark' ? '#ff800b' : '#0d6efd';
-      document.documentElement.style.setProperty('--waline-active-color', activeColor);
-      document.documentElement.style.setProperty('--waline-theme-color', themeColor);
-    };
-
-    const getCurrentTheme = () => {
-      const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const dataMode = document.documentElement.getAttribute('data-mode');
-      return dataMode === 'dark' || (dataMode !== 'light' && isDarkMode) ? 'dark' : 'light';
-    };
-
-    setColors(getCurrentTheme());
-
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
-      setColors(event.matches ? 'dark' : 'light');
-    });
-
-    const observer = new MutationObserver(() => {
-      setColors(getCurrentTheme());
-    });
-
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-mode'] });
+  const locale = {
+    nick: 'Name',
+    mail: 'Mail',
+    link: 'Website',
+    placeholder: '{{ site.comments.waline.placeholder }}',
+    sofa: '',
+    comment: '',
+    word: 'word',
+    submit: 'Reply',
+    latest: 'Newest',
+    oldest: '',
+    hottest: 'Most relevant',
+  };
+  init({
+    el: '#waline',
+    serverURL: '{{ site.comments.waline.server }}',
+    lang: 'en',
+    meta: ['nick'],
+    count: 'false',
+    login: 'disable',
+    search: 'false',
+    emoji: [
+      "{{ site.data.origin[type].waline.emojis | relative_url }}/qq",
+      '{{ site.data.origin[type].waline.emojis | relative_url }}/tieba',
+      '{{ site.data.origin[type].waline.emojis | relative_url }}/tw-emoji',
+      '{{ site.data.origin[type].waline.emojis | relative_url }}/bilibili',
+    ],
+    dark: "__waline__css__",
+    locale,
   });
+  let head = document.getElementsByTagName("head")[0];
+  let css = head.lastChild;
+  let cssContent = css.textContent.replace("__waline__css__", "");
+  let cssContentPerferredDark = "@media (prefers-color-scheme: dark){html:not([data-mode])" + cssContent + "}";
+  let cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
+  css.textContent = cssContentPerferredDark;
+  let style = document.createElement('style');
+  style.textContent = cssContentSelectedDark;
+  head.appendChild(style);
+
+  document.documentElement.style.setProperty('--waline-theme-color', 'var(--link-color)');
+  document.documentElement.style.setProperty('--waline-active-color', 'var(--sidebar-active-color)');
 </script>
+

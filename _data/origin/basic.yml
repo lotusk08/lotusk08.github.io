@@ -39,5 +39,6 @@ mathjax:
   js: /assets/lib/mathjax/tex-chtml.js
 
 waline:
-  js: /assets/lib/waline/waline.umd.min.js
-  css: /assets/lib/waline/waline.min.css
+  js: /assets/lib/client/dist/waline.js
+  css: /assets/lib/client/dist/waline.css
+  emojis: /assets/lib/emojis

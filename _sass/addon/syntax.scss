@@ -222,7 +222,7 @@ div {
     @extend %cursor-pointer;
     @extend %rounded;
 
-    border: 0px solid transparent;
+    border: none;
     height: $code-header-height;
     width: $code-header-height;
     padding: 0;

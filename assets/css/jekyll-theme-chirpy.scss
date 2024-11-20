@@ -9,6 +9,42 @@
 
 /* append your custom style below */
 
+/* Back-to-top progress bar */
+#progress-circle {
+  margin: -1px;
+  top: -2.75rem;
+  position: relative;
+  transform: rotate(-90deg);
+}
+
+#progress-circle circle {
+  stroke: var(--btn-backtotop-color);
+  stroke-dasharray: 2 * 3.14 * 20;
+  stroke-dashoffset: 2 * 3.14 * 20;
+  transition: stroke-dashoffset 0.2s;
+}
+
+/* Scroll percentage text */
+#scroll-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  color: var(--btn-backtotop-color);
+  pointer-events: none;
+  padding: 0.2rem;
+  border-radius: 50%;
+  background-color: var(--button-bg);
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.4s ease;
+}
+
+#scroll-percentage.visible {
+  opacity: 1;
+  background-color: var(--button-bg);
+}
+
 /* 404 CSS */
 /* Wrapper */
 .wrapper {

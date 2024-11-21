@@ -1,6 +1,8 @@
 {
   "workspace.color" : 1,
   "workspace.name" : "stevehoang.com",
+  "workspace.preview_server_allow_external" : true,
+  "workspace.preview_server_port" : 4000,
   "workspace.preview_type" : "custom",
-  "workspace.preview_url" : "https:\/\/127.0.0.1:4000\/"
+  "workspace.preview_url" : "http:\/\/127.0.0.1:4000"
 }

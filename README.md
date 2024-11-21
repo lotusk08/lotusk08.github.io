@@ -38,19 +38,18 @@ Sync dark/light theme color config in [waline.html][waline.html]
 
 ```javascript
 
-const updateCssForDarkMode = () => {
-  const head = document.head;
-  const css = head.lastChild;
-  const cssContent = css.textContent.replace("__waline__css__", "");
-  const cssContentPreferredDark = `@media (prefers-color-scheme: dark){html:not([data-mode])${cssContent}}`;
-  const cssContentSelectedDark = `html[data-mode=dark]${cssContent}`;
-  css.textContent = cssContentPreferredDark;
-  const style = document.createElement('style');
-  style.textContent = cssContentSelectedDark;
-  head.appendChild(style);
-};
+let head = document.getElementsByTagName("head")[0];
+let css = head.lastChild;
+let cssContent = css.textContent.replace("__waline__css__", "");
+let cssContentPerferredDark = "@media (prefers-color-scheme: dark){html:not([data-mode])" + cssContent + "}";
+let cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
+css.textContent = cssContentPerferredDark;
+let style = document.createElement('style');
+style.textContent = cssContentSelectedDark;
+head.appendChild(style);
 
-updateCssForDarkMode();
+document.documentElement.style.setProperty('--waline-theme-color', 'var(--link-color)');
+document.documentElement.style.setProperty('--waline-active-color', 'var(--sidebar-active-color)');
 ```
 
 ## Low Quality Image Placeholders by [lqip-modern][lqip] generator
@@ -59,6 +58,13 @@ Generation lqip base64 by running script:
 ```bash
 node tools/lqip/index.js
 ```
+## Customizations
+- Font replace: 'Lato => Inter'
+- Personal styling:
+  - feat: back-to-top progress bar & scroll percentage text.
+  - feat: adjust style code blocks.
+  - feat: restyle prompt-alerts/note blocks.
+  - feat: adjust breadcumb (desktop) & topbar (mobile) content.
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [ci]: https://github.com/lotusk08/lotusk08.github.io/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster

@@ -12,3 +12,8 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Add these gems explicitly
+gem 'logger'
+gem 'csv'
+gem 'base64', require: false # Optional: Use `require: false` if you don't need to auto-load

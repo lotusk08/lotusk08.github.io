@@ -218,7 +218,7 @@ div {
     @extend %cursor-pointer;
     @extend %rounded;
 
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     height: v.$code-header-height;
     width: v.$code-header-height;
     padding: 0;
@@ -243,10 +243,10 @@ div {
     }
 
     &:not([timeout]):hover {
-      background-color: rgba(128, 128, 128, 0.37);
+      background-color: rgba(128, 128, 128, 0);
 
       i {
-        color: white;
+        color: var(--sidebar-active-color);
       }
     }
   }

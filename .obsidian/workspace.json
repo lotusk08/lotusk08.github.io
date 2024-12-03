@@ -4,17 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "3ebaccfbba588b81",
+        "id": "828a8dbe7a9ad5be",
         "type": "tabs",
         "children": [
           {
-            "id": "33ac85e06a4e6e40",
+            "id": "408b40fcfeb0c8ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-11-21-start-up.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2024-11-21-start-up"
+            }
+          },
+          {
+            "id": "7439a9d77641f5a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2024-04-20-coffee.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2024-04-20-coffee"
+            }
+          },
+          {
+            "id": "1075d58b4bf0c22a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2023-12-31-2023-mot-nam-nhin-lai"
             }
           }
         ],
@@ -142,9 +174,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "_posts/2024-11-21-start-up.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for 2024-11-21-start-up"
             }
           },
           {
@@ -185,35 +219,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33ac85e06a4e6e40",
+  "active": "408b40fcfeb0c8ad",
   "lastOpenFiles": [
+    "_site/khoi-nghiep/index.html",
+    "_site/khoi-nghiep",
+    "_drafts/2024-04-20-coffee.md",
+    "_posts/2024-11-21-start-up.md",
+    "_site/start-up/index.html",
+    "_site/start-up",
+    "_site/page5/index.html",
+    "_site/page5",
+    "_site/khoi-nghiep-start-up/index.html",
+    "_site/khoi-nghiep-start-up",
+    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
+    "_tabs/productions.md",
+    "assets/js/dist/sw.min.js",
+    "assets/js/dist/app.min.js",
+    "assets/js/dist/theme.min.js",
+    "_posts/2024-10-22-what-makes-you-happy.md",
     "assets/img/post/ket-giao.webp",
     "assets/img/post/dsc05994.webp",
     "assets/img/post/DSC05994.webp",
     "assets/img/post/DSC05994.jpg",
-    "_site/what-makes-you-happy/index.html",
-    "_site/what-makes-you-happy",
-    "_site/a-year-with-too/index.html",
-    "_site/a-year-with-too",
-    "_site/su-truong-thanh/index.html",
-    "_site/su-truong-thanh",
-    "_site/cv/index.html",
-    "_site/cv",
-    "_site/goodbye-brad/index.html",
-    "_site/goodbye-brad",
     "_site/assets/img/site/tkt-website.webp",
     "_site/assets/img/site/tks-teams.webp",
     "_site/assets/img/site/tks-employee.webp",
     "_site/assets/img/site/tk-teams.webp",
     "_site/assets/img/site/thai-khuong-song.webp",
     "_site/assets/img/site/stk-planning.webp",
-    "_site/assets/img/site/real-time-report.webp",
-    "_posts/2024-10-22-what-makes-you-happy.md",
     "_posts/2024-10-20-a-year-with-too.md",
     "_posts/2024-09-29-su-truong-thanh.md",
     "_posts/2024-06-16-cv?.md",
     "_posts/2024-06-08-goodbye-brad.md",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2023-11-10-my-pet.md",
     "_posts/2023-09-01-obsidian.md",
     "_posts/2023-07-23-an-nam.md",
@@ -229,9 +266,6 @@
     "_posts/2022-08-29-Gen-Z.md",
     "_posts/2022-08-23-quit-job.md",
     "_posts/2022-08-08-talk-Vietnam.md",
-    "_posts/2022-04-30-goodbye-thai-khuong.md",
-    "_posts/2021-12-04-choi.md",
-    "_posts/2021-09-18-san-pham-cong-dong.md",
-    "_posts/2021-07-15-an.md"
+    "_posts/2022-04-30-goodbye-thai-khuong.md"
   ]
 }

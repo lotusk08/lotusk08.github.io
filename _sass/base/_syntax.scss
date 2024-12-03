@@ -218,11 +218,12 @@ div {
     @extend %cursor-pointer;
     @extend %rounded;
 
-    border: 0px solid transparent;
+    border: none;
     height: v.$code-header-height;
     width: v.$code-header-height;
     padding: 0;
-    background-color: inherit;
+    background-color: transparent;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
 
     i {
       color: var(--code-header-icon-color);

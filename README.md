@@ -4,7 +4,7 @@
   <!-- markdownlint-disable-next-line -->
   # My personal blog's source code
   
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][gem]&nbsp;
+  [![Theme Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][theme]&nbsp;
   [![CI](https://github.com/lotusk08/lotusk08.github.io/actions/workflows/ci.yml/badge.svg?branch=master&event=push)][ci]&nbsp;
   [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)][codacy]&nbsp;
   [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)][license]&nbsp;
@@ -59,14 +59,14 @@ Generation lqip base64 by running script:
 node tools/lqip/index.js
 ```
 ## Customizations
-- Font replace: 'Lato => Inter'
+- Font replace: 'Lato => System Fonts Stack'
 - Personal styling:
   - feat: back-to-top progress bar & scroll percentage text.
   - feat: adjust style code blocks.
   - feat: restyle prompt-alerts/note blocks.
   - feat: adjust breadcumb (desktop) & topbar (mobile) content.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[theme]: https://rubygems.org/gems/jekyll-theme-chirpy
 [ci]: https://github.com/lotusk08/lotusk08.github.io/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
 [codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard
 [license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE

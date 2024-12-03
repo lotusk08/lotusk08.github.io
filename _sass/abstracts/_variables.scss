@@ -26,5 +26,18 @@ $code-icon-width: 1.75rem !default;
 
 /* fonts */
 
-$font-family-base: Roboto, sans-serif !default;
-$font-family-heading: Inter, sans-serif !default;
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-monospace: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+body {
+  font-family: $font-family-base;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+}
+
+code, pre, kbd, samp {
+  font-family: $font-monospace; /* Apply the system monospace font stack */
+}

@@ -1,13 +1,21 @@
 # Resource Hints
 resource_hints:
+  - url: https://fonts.googleapis.com
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
+  - url: https://fonts.gstatic.com
+    links:
+      - rel: preconnect
+        opts: [crossorigin]
+      - rel: dns-prefetch
   - url: https://cdn.jsdelivr.net
     links:
       - rel: preconnect
       - rel: dns-prefetch
 
-
 # Web Fonts
-webfonts: ''
+webfonts: https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap
 
 # Libraries
 

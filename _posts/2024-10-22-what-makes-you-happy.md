@@ -30,9 +30,8 @@ They live their lives, some things feel right, others not so much. It’s simply
 
 ## The Truth
 
-In reality, we often hold onto perceptions that might be a bit off-center:
-
-> - Many of us don’t actually enjoy the hard work of personal growth; we’re just drawn to the rewards it brings.
+> In reality, we often hold onto perceptions that might be a bit off-center:
+- Many of us don’t actually enjoy the hard work of personal growth; we’re just drawn to the rewards it brings.
 - Success isn’t always what we’re after—we’re often just looking for the praise it brings.
 - Money itself may not be what we seek; it’s the comfort and experiences money provides.
 - Learning and knowledge? We tend to value these more for their utility than for the joy of learning itself.

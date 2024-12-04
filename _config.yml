@@ -121,7 +121,7 @@ comments:
   # Giscus options › https://giscus.app
   waline:
     server: https://line.stevehoang.com/
-    placeholder: How about you?
+    placeholder: Leave a comment!
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:

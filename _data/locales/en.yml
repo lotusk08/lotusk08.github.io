@@ -76,11 +76,11 @@ post:
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: "%b %e, %Y"
-    dayjs: "ll"
+    strftime: "%B %e, %Y"
+    dayjs: "MMMM D, YYYY"
   archives:
-    strftime: "%b"
-    dayjs: "MMM"
+    strftime: "%B"
+    dayjs: "MMMM"
 
 # categories page
 categories:

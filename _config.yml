@@ -216,9 +216,8 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - "*.config.js"
-  - package*.json
-  - "topics 2/experience"
+  - "*.js"
+  - "package*.json"
 
 jekyll-archives:
   enabled: [categories, tags]

@@ -254,15 +254,29 @@ header {
   background: linear-gradient(var(--main-bg) 50%, transparent);
 }
 
+/* TOC panel */
 #toc-wrapper {
+  opacity: 0; /* Start hidden */
   top: 0;
-  transition: top 0.2s ease-in-out;
-  -webkit-animation: fade-up 0.8s;
-  animation: fade-up 0.8s;
+  transition: opacity 0.7s ease-in-out; /* Smooth opacity transition */
+  -webkit-animation: fade-up 0.5s;
+  animation: fade-up 0.5s;
   overflow-y: auto;
   max-height: 100vh;
   scrollbar-width: none;
   margin-top: 2rem;
+
+
+  /* When hovering over the TOC, show it */
+  &:hover {
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out, visibility 0s linear 0s; /* Immediate visibility when hovered */
+  }
+
+  &.visible {
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out, visibility 0s linear 0s;
+  }
 
   ul {
     list-style: none;
@@ -285,7 +299,6 @@ header {
     }
 
     /* Overwrite TOC plugin style */
-
     .toc-link {
       display: block;
 

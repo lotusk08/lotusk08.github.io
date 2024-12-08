@@ -178,6 +178,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
+    justify-content: center;
 
     @include bp.xxxl {
       padding-left: 2.75rem;
@@ -232,6 +233,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     }
 
     .icon-border {
+      display: none;
       @extend %no-cursor;
       @include mx.ml-mr(calc((v.$sb-btn-gap - $btn-border-width) / 2));
 

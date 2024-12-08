@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
       clearTimeout(tocTimeout);
       tocTimeout = setTimeout(() => {
         tocWrapper.classList.remove('visible'); // Hide the TOC after 1.2 seconds of inactivity
-      }, 1000); // TOC hides after 1 seconds of inactivity
+      }, 500); // TOC hides after 1 seconds of inactivity
     }
   };
 

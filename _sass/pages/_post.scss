@@ -258,9 +258,9 @@ header {
 #toc-wrapper {
   opacity: 0; /* Start hidden */
   top: 0;
-  transition: opacity 0.7s ease-in-out; /* Smooth opacity transition */
-  -webkit-animation: fade-up 0.5s;
-  animation: fade-up 0.5s;
+  transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+  -webkit-animation: fade-up 0.3s;
+  animation: fade-up 0.3s;
   overflow-y: auto;
   max-height: 100vh;
   scrollbar-width: none;
@@ -270,12 +270,12 @@ header {
   /* When hovering over the TOC, show it */
   &:hover {
     opacity: 1;
-    transition: opacity 0.6s ease-in-out, visibility 0s linear 0s; /* Immediate visibility when hovered */
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0s; /* Immediate visibility when hovered */
   }
 
   &.visible {
     opacity: 1;
-    transition: opacity 0.6s ease-in-out, visibility 0s linear 0s;
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
   }
 
   ul {

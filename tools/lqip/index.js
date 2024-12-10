@@ -1,9 +1,10 @@
-const lqip = require('lqip-modern');
 const fs = require('fs');
 const path = require('path');
 
 async function ls(dirPath) {
   console.log('starting');
+  const lqip = (await import('lqip-modern')).default;
+
   const dir = await fs.promises.opendir(dirPath);
   for await (const file of dir) {
     if (file.name.includes('.webp')) {

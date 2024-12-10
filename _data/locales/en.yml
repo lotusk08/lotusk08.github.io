@@ -40,7 +40,7 @@ copyright:
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
 
-meta: Built and deployed with :THEME :PLATFORM.
+meta: Built & deployed with :THEME :PLATFORM.
 # Using the :THEME theme for :PLATFORM.
 
 not_found:

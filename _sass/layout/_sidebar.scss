@@ -16,8 +16,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
-  border-right: 1px solid var(--sidebar-border-color);
+  /*background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border-color);*/
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -122,6 +122,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   ul {
     margin-bottom: 2rem;
+    border-right: 1px solid var(--tb-border-color);
 
     li.nav-item {
       opacity: 0.9;
@@ -178,7 +179,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
-    justify-content: center;
+    /*justify-content: center;*/
 
     @include bp.xxxl {
       padding-left: 2.75rem;

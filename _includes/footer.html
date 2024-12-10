@@ -13,34 +13,26 @@
 
     {{ site.data.locales[lang].post.written_by }}
 
-    <strong>
+    <span
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="{{ site.data.locales[include.lang].copyright.verbose }}"
+    >
       {% if authors %}
         {% for author in authors %}
           {% assign author_data = site.data.authors[author] %}
           {% if author_data.url %}
-            <a href="{{ author_data.url }}">{{ author_data.name }}</a>.
+            <strong><a href="{{ author_data.url }}">{{ author_data.name }}</a></strong>.
           {% else %}
             {{ author_data.name }}
           {% endif %}
           {% unless forloop.last %}, {% endunless %}
         {% endfor %}
       {% else %}
-        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
       {% endif %}
-    </strong>
+    </span>
 
-    {% if site.data.locales[include.lang].copyright.brief %}
-      <span
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="{{ site.data.locales[include.lang].copyright.verbose }}"
-      >
-        {{ site.data.locales[include.lang].copyright.brief }}
-      </span>
-    {% endif %}
-  </p>
-
-  <p>
     {%- capture _platform -%}
       <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
     {%- endcapture -%}
@@ -58,4 +50,47 @@
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
   </p>
+
+  <div class="footer-social">
+    {% for entry in site.data.contact %}
+      {% case entry.type %}
+        {% when 'github', 'twitter' %}
+          {%- capture url -%}
+            https://{{ entry.type }}.com/{{ site[entry.type].username }}
+          {%- endcapture -%}
+        {% when 'email' %}
+          {% assign email = site.social.email | split: '@' %}
+          {%- capture url -%}
+            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+          {%- endcapture -%}
+        {% when 'rss' %}
+          {% assign url = '/feed.xml' | relative_url %}
+        {% else %}
+          {% assign url = entry.url %}
+      {% endcase %}
+
+      {% if url %}
+        <a
+          href="{{ url }}"
+          aria-label="{{ entry.type }}"
+          {% assign link_types = '' %}
+
+          {% unless entry.noblank %}
+            target="_blank"
+            {% assign link_types = 'noopener noreferrer' %}
+          {% endunless %}
+
+          {% if entry.type == 'mastodon' %}
+            {% assign link_types = link_types | append: ' me' | strip %}
+          {% endif %}
+
+          {% unless link_types == empty %}
+            rel="{{ link_types }}"
+          {% endunless %}
+        >
+          <i class="{{ entry.icon }}"></i>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
 </footer>

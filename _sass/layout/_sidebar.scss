@@ -16,8 +16,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
-  border-right: 1px solid var(--sidebar-border-color);
+  /*background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border-color);*/
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -122,6 +122,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   ul {
     margin-bottom: 2rem;
+    border-right: 1px solid var(--tb-border-color);
 
     li.nav-item {
       opacity: 0.9;
@@ -138,11 +139,12 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
         display: flex;
         align-items: center;
-        border-radius: 0.35rem;
         font-weight: 700;
+        border: 1px solid transparent;
 
         &:hover {
-          background-color: var(--sidebar-hover-bg);
+          color: var(--sidebar-active-color);
+          border-bottom: 1px solid var(--tb-border-color);
         }
 
         i {
@@ -154,16 +156,17 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
+          border: 1px solid transparent;
         }
       }
 
       &.active {
         .nav-link {
           color: var(--sidebar-active-color);
-          background-color: var(--sidebar-hover-bg);
 
           span {
             opacity: 1;
+            border-bottom: 1px solid var(--tb-border-color);
           }
         }
       }
@@ -178,6 +181,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
+    /*justify-content: center;*/
 
     @include bp.xxxl {
       padding-left: 2.75rem;
@@ -232,6 +236,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     }
 
     .icon-border {
+      display: none;
       @extend %no-cursor;
       @include mx.ml-mr(calc((v.$sb-btn-gap - $btn-border-width) / 2));
 

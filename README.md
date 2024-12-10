@@ -65,6 +65,10 @@ node tools/lqip/index.js
   - feat: adjust style code blocks.
   - feat: restyle prompt-alerts/note blocks.
   - feat: adjust breadcumb (desktop) & topbar (mobile) content.
+  - feat: TOC auto hidden/show with scrolling/hover
+  - style: moving social icon from sidebar to footer
+  - style: merge tag to archive page. Moving about page to footer. Hide tab, about, category.
+  - style: restyle sidebar: remove background, restyle nav.link hover effect.
 
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy
 [ci]: https://github.com/lotusk08/lotusk08.github.io/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster

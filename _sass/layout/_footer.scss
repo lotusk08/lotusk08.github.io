@@ -7,6 +7,9 @@ footer {
   background-color: var(--main-bg);
   height: v.$footer-height;
   border-top: 1px solid var(--main-border-color);
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
 
   @extend %text-xs;
 
@@ -32,5 +35,36 @@ footer {
   p {
     text-align: center;
     margin-bottom: 0;
+  }
+}
+
+.footer-social {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  order: -1;
+  &:not(:last-child) {
+  margin-right: v.$sb-btn-gap;
+
+  @include bp.xxxl {
+    margin-right: v.$sb-btn-gap-lg;
+    }
+  }
+
+  a {
+    color: var(--sidebar-btn-color);
+    margin-right: 1rem;
+
+    &:hover {
+      color: var(--sidebar-active-color) !important;
+      border: none;
+    }
+
+    i {
+      font-size: 1.1rem;
+      margin: 0 10px 10px 0px;
+    }
   }
 }

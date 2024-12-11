@@ -5,52 +5,6 @@
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
   "
 >
-  <p>
-    {{- '©' }}
-    <time>{{ 'now' | date: '%Y' }}</time>
-
-    {% assign authors = page.author | default: page.authors %}
-
-    {{ site.data.locales[lang].post.written_by }}
-
-    <span
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="{{ site.data.locales[include.lang].copyright.verbose }}"
-    >
-      {% if authors %}
-        {% for author in authors %}
-          {% assign author_data = site.data.authors[author] %}
-          {% if author_data.url %}
-            <strong><a href="{{ author_data.url }}">{{ author_data.name }}</a></strong>.
-          {% else %}
-            {{ author_data.name }}
-          {% endif %}
-          {% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      {% else %}
-        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
-      {% endif %}
-    </span>
-
-    {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-    {%- endcapture -%}
-
-    {%- capture _theme -%}
-      <a
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="v{{ theme.version }}"
-        href="https://github.com/cotes2020/jekyll-theme-chirpy"
-        target="_blank"
-        rel="noopener"
-      >Chirpy</a>
-    {%- endcapture -%}
-
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
-  </p>
-
   <div class="footer-social">
     {% for entry in site.data.contact %}
       {% case entry.type %}
@@ -93,4 +47,50 @@
       {% endif %}
     {% endfor %}
   </div>
+
+  <p>
+    {{- '©' }}
+    <time>{{ 'now' | date: '%Y' }}</time>
+
+    {% assign authors = page.author | default: page.authors %}
+
+    {{ site.data.locales[lang].post.written_by }}
+
+    <span
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="{{ site.data.locales[include.lang].copyright.verbose }}"
+    >
+      {% if authors %}
+        {% for author in authors %}
+          {% assign author_data = site.data.authors[author] %}
+          {% if author_data.url %}
+            <strong><a href="{{ author_data.url }}">{{ author_data.name }}</a></strong>.
+          {% else %}
+            {{ author_data.name }}
+          {% endif %}
+          {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      {% else %}
+        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+      {% endif %}
+    </span>
+
+    {%- capture _platform -%}
+      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+    {%- endcapture -%}
+
+    {%- capture _theme -%}
+      <a
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="Chirpy v{{ theme.version }}"
+        href="https://github.com/lotusk08/lotusk08.github.io"
+        target="_blank"
+        rel="noopener"
+      >Jekyll</a>
+    {%- endcapture -%}
+
+    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+  </p>
 </footer>

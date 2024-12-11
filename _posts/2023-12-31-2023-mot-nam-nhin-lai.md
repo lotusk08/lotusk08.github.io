@@ -35,12 +35,12 @@ _Cầu Thác Nước_
 _Xe hư thì sửa thôi, mình có mang đồ nghề nên tự thay dây côn_
 
 ### Thăm bạn cũ
-Chàng trai này là một thợ máy lành nghề, từng là KOL một thời với biệt danh *Thần gió* trong giới xe cổ Việt Nam. Quãng đường 1700km từ Sài Gòn ra Hà Nội, chạy Vespa Super trong 2x tiếng...
+Chàng trai này là một thợ máy lành nghề, từng là KOL một thời với biệt danh *Thần gió* trong giới xe cổ Việt Nam. Quãng đường 1700km từ Sài Gòn ra Hà Nội, bạn đi trong 27 tiếng với chiếc Vespa Super...
 
 ![Cafe cùng Diệp](/assets/img/post/my-friend.webp "Cafe cùng Diệp"){: lqip="data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQAAwABUB8JQBOgCPgW1mjzaubRAAA/rew1GQPwF/y1Dsl21OL6b2CASmwdOGqPS2LYh12kC4SVQaZCTUAW1bxVsdZFMc9Pkfl07jYzZnIRqSDAAA="}
 _Cafe cùng Diệp_
 
-Một điều đáng tiếc, thời cuộc thay đổi, kinh tế biến động; bạn bỏ nghề thợ máy -thứ màn bạn đam mê và rất giỏi, đầu tư vào một quán cafe... lại là cafe... và, nằm im ở đó.
+Một điều đáng tiếc, thời cuộc thay đổi, kinh tế biến động; bạn bỏ nghề thợ máy -thứ mà bạn đam mê và rất giỏi, đầu tư vào một quán cafe... lại là cafe... và, nằm im ở đó.
 
 ### Du ngoạn
 ![Ghé chùa Linh Ứng](/assets/img/post/linh-ung-2023.webp "Chùa Linh Ứng"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAwABUB8JbACsAdwBmjc4WOO6NgA/gm2+2C+HP1Ba/t0tg5UySxfW35Gn2y1fj1MYdsnRGfZOpSuGra3RlHWA3Cfw/Zz8W2FuoQCRpfuKufBmeh08rZFIAA="}

@@ -220,14 +220,11 @@ header {
 @-webkit-keyframes fade-up {
   from {
     opacity: 0;
-    position: relative;
-    top: 2rem;
+    margin-top: 4rem;
   }
 
   to {
     opacity: 1;
-    position: relative;
-    top: 0;
   }
 }
 
@@ -247,6 +244,7 @@ header {
 %top-cover {
   content: '';
   display: block;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
@@ -258,16 +256,12 @@ header {
 #toc-wrapper {
   opacity: 0; /* Start hidden */
   top: 0;
-  transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
-  -webkit-animation: fade-up 0.3s;
-  animation: fade-up 0.3s;
+  transition: top 0.2s ease-in-out;
   overflow-y: auto;
   max-height: 100vh;
   scrollbar-width: none;
   margin-top: 2rem;
 
-
-  /* When hovering over the TOC, show it */
   &:hover {
     opacity: 1;
     transition: opacity 0.3s ease-in-out, visibility 0s linear 0s; /* Immediate visibility when hovered */
@@ -276,6 +270,11 @@ header {
   &.visible {
     opacity: 1;
     transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
+  }
+
+  &:not(.invisible) {
+    -webkit-animation: fade-up 0.8s;
+    animation: fade-up 0.8s;
   }
 
   ul {
@@ -287,10 +286,6 @@ header {
     li {
       &:not(:last-child) {
         margin: 0.4rem 0;
-      }
-
-      &:first-child {
-        margin-top: 0;
       }
 
       a {

@@ -1,15 +1,18 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center">
-
-  <!-- markdownlint-disable-next-line -->
-  # My personal blog's source code
-
-  Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, host in Github with [submodule][lib], deployed on Cloudflare.
- 
+<img src="./assets/img/site/avatar.webp" width="190" align="right" alt="Steve Hoang" />
+<div id="abc">
+  <ul align="center" style="list-style: none;">
+    <summary>
+      <h1>My personal blog's source code</h1>
+    </summary>
+  </ul>
 </div>
 
+Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, host in Github with [submodule][lib], deployed on Cloudflare.
+ 
 
-## Deploy & public by [Cloudflare][cf]
+
+## Deploy & public by Cloudflare
 Fix error `Gems in the groups 'development' and 'test' were not installed.` in Cloudflare with config the variables for your Preview/Production environment
 
 Variable name|Value

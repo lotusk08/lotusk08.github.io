@@ -12,7 +12,7 @@ Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, host in Github with [submod
  
 
 
-## Deploy & public by Cloudflare
+## Deploy & public by [Cloudflare][cf]
 Fix error `Gems in the groups 'development' and 'test' were not installed.` in Cloudflare with config the variables for your Preview/Production environment
 
 Variable name|Value
@@ -59,6 +59,7 @@ node tools/lqip/index.js
   - style: merge tag to archive page. Moving about page to footer. Hide tab, about, category.
   - style: restyle sidebar: remove background, restyle nav.link hover effect.
 
+[cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy
 [jekyllrb]: https://jekyllrb.com
 [stevehoang.com]: https://stevehoang.com

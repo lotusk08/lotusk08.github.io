@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line -->
-<img src="./assets/img/site/avatar.webp" width="190" align="right" alt="Steve Hoang" />
+<img src="./assets/img/cat.webp" width="220" align="right" alt="Steve Hoang" />
 <div id="abc">
   <ul align="center" style="list-style: none;">
     <summary>

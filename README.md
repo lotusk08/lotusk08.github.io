@@ -1,12 +1,15 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center">
-
-  <!-- markdownlint-disable-next-line -->
-  # My personal blog's source code
-
-  Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, host in Github with [submodule][lib], deployed on Cloudflare.
- 
+<img src="./assets/img/cat.webp" width="220" align="right" alt="Steve Hoang" />
+<div id="abc">
+  <ul align="center" style="list-style: none;">
+    <summary>
+      <h1>My personal blog's source code</h1>
+    </summary>
+  </ul>
 </div>
+
+Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, host in Github with [submodule][lib], deployed on Cloudflare.
+ 
 
 
 ## Deploy & public by [Cloudflare][cf]
@@ -47,6 +50,7 @@ node tools/lqip/index.js
 ## Customizations
 - Font replace: 'Lato => System Fonts Stack'
 - Personal styling:
+  - feat: name effective (sidebar).
   - feat: back-to-top progress bar & scroll percentage text.
   - feat: adjust style code blocks.
   - feat: restyle prompt-alerts/note blocks.
@@ -56,6 +60,7 @@ node tools/lqip/index.js
   - style: merge tag to archive page. Moving about page to footer. Hide tab, about, category.
   - style: restyle sidebar: remove background, restyle nav.link hover effect.
 
+[cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy
 [jekyllrb]: https://jekyllrb.com
 [stevehoang.com]: https://stevehoang.com

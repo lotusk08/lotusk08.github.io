@@ -9,6 +9,17 @@
 
 /* append your custom style below */
 
+/* Name effect */
+.site-title span {
+  animation: 10s ease-in-out 1s fade-away;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-away {
+  from { opacity: 1; }
+  to { opacity: 0.1; }
+}
+
 /* Back-to-top progress bar */
 #progress-circle {
   margin: -1px;

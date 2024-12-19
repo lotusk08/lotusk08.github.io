@@ -50,6 +50,7 @@ node tools/lqip/index.js
 ## Customizations
 - Font replace: 'Lato => System Fonts Stack'
 - Personal styling:
+  - feat: name effective (sidebar).
   - feat: back-to-top progress bar & scroll percentage text.
   - feat: adjust style code blocks.
   - feat: restyle prompt-alerts/note blocks.

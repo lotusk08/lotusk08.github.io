@@ -256,7 +256,7 @@ header {
 #toc-wrapper {
   opacity: 0; /* Start hidden */
   top: 0;
-  transition: top 0.2s ease-in-out;
+  transition: opacity 1.2s ease-in-out;
   overflow-y: auto;
   max-height: 100vh;
   scrollbar-width: none;

@@ -256,7 +256,7 @@ header {
 #toc-wrapper {
   opacity: 0; /* Start hidden */
   top: 0;
-  transition: top 0.2s ease-in-out;
+  transition: opacity 1.2s ease-in-out;
   overflow-y: auto;
   max-height: 100vh;
   scrollbar-width: none;
@@ -284,12 +284,8 @@ header {
     padding-left: 0;
 
     li {
-      &:not(:last-child) {
-        margin: 0.4rem 0;
-      }
-
       a {
-        padding: 0.2rem 0 0.2rem 1.25rem;
+        padding: 0.4rem 0 0.4rem 1.25rem;
       }
     }
 

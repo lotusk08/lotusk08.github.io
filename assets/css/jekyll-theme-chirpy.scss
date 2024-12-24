@@ -20,6 +20,19 @@
   to { opacity: 0.1; }
 }
 
+/* Auto hide nav */
+.nav {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  animation: fade-away 0.8s ease-in-out 0.8s forwards;
+}
+
+.nav:hover {
+  opacity: 1;
+  animation: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
 /* Back-to-top progress bar */
 #progress-circle {
   margin: -1px;

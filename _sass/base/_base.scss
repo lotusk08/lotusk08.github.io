@@ -130,13 +130,10 @@ main {
 }
 
 .content {
-  font-size: 1.08rem;
+  font-size: calc(1rem + 0.15vw);
+  font-weight: 400;
   margin-top: 2rem;
   overflow-wrap: break-word;
-
-  @include bp.xl {
-    font-size: 1.03rem;
-  }
 
   a {
     &.popup {

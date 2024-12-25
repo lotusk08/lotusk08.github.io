@@ -308,15 +308,3 @@
     color: #90a959;
   }
 }
-
-html[data-mode="dark"] {
-
-  ::-webkit-scrollbar-track {
-    background: var(--main-bg);
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--main-border-color);
-  }
-
-  scrollbar-color: var(--main-border-color) var(--main-bg);
-}

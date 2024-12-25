@@ -35,6 +35,27 @@ html {
   @include bp.lg {
     overflow-y: scroll;
   }
+
+  /* Webkit scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  & {
+    scrollbar-color: var(--main-border-color) var(--main-bg);
+    scrollbar-width: thin;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--main-bg);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--main-border-color);
+    border-radius: 4px;
+    border: 2px solid var(--main-bg);
+  }
 }
 
 body {

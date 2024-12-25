@@ -39,6 +39,7 @@ copyright:
   verbose: >-
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+    Some rights reserved.
 
 meta: Built & deployed with :THEME.
 # Using the :THEME theme for :PLATFORM.
@@ -53,7 +54,7 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: by
+  written_by:
   posted:
   updated: Updated
   words: words

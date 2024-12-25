@@ -59,6 +59,7 @@ node tools/lqip/index.js
   - style: moving social icon from sidebar to footer
   - style: merge tag to archive page. Moving about page to footer. Hide tab, about, category.
   - style: restyle sidebar: remove background, restyle nav.link hover effect.
+  - fix: theme color switching.
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

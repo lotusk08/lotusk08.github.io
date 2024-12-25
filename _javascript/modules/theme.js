@@ -1,8 +1,3 @@
-/**
- * Theme management class
- *
- * To reduce flickering during page load, this script should be loaded synchronously.
- */
 class Theme {
   static #modeKey = 'mode';
   static #modeAttr = 'data-mode';
@@ -82,6 +77,7 @@ class Theme {
       if (lastMode !== this.visualState) {
         this.#notify();
       }
+      this.updateThemeColor();
     });
 
     if (!this.#hasMode) {
@@ -93,6 +89,8 @@ class Theme {
     } else {
       this.#setLight();
     }
+
+    this.updateThemeColor();
   }
 
   /**
@@ -105,6 +103,7 @@ class Theme {
       this.#sysDark ? this.#setLight() : this.#setDark();
     }
     this.#notify();
+    this.updateThemeColor();
   }
 
   static #setDark() {
@@ -127,6 +126,22 @@ class Theme {
    */
   static #notify() {
     window.postMessage({ id: this.ID }, '*');
+  }
+
+  /**
+   * Updates the meta theme-color tag based on the current theme
+   */
+  static updateThemeColor() {
+    const metaTag = document.querySelector('meta[name="theme-color"]');
+    if (!metaTag) return;
+
+    const currentTheme = this.visualState;
+
+    if (currentTheme === this.DARK) {
+      metaTag.setAttribute('content', '#1B1B1E');
+    } else {
+      metaTag.setAttribute('content', '#ffffff');
+    }
   }
 }
 

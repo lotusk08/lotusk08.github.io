@@ -308,24 +308,3 @@
     color: #90a959;
   }
 }
-
-/* Scrollbar styles for dark mode */
-html[data-mode="dark"] ::-webkit-scrollbar {
-  width: 12px;
-}
-
-html[data-mode="dark"] ::-webkit-scrollbar-track {
-  background: #1B1B1E;
-}
-
-html[data-mode="dark"] ::-webkit-scrollbar-thumb {
-  background-color: #333;
-  border-radius: 6px;
-  border: 3px solid #1B1B1E;
-}
-
-/* For Firefox */
-html[data-mode="dark"] {
-  scrollbar-color: #333 #1B1B1E;
-  scrollbar-width: thin;
-}

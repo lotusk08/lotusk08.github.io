@@ -78,6 +78,7 @@ class Theme {
         this.#notify();
       }
       this.updateThemeColor();
+      this.updateTopBarColor(); // Update top bar color on system preference change
     });
 
     if (!this.#hasMode) {
@@ -91,6 +92,7 @@ class Theme {
     }
 
     this.updateThemeColor();
+    this.updateTopBarColor(); // Ensure top bar color is set at initialization
   }
 
   /**
@@ -104,6 +106,7 @@ class Theme {
     }
     this.#notify();
     this.updateThemeColor();
+    this.updateTopBarColor(); // Ensure top bar color is set after flipping
   }
 
   static #setDark() {
@@ -132,15 +135,42 @@ class Theme {
    * Updates the meta theme-color tag based on the current theme
    */
   static updateThemeColor() {
-    const metaTag = document.querySelector('meta[name="theme-color"]');
-    if (!metaTag) return;
+    // Look for all meta theme-color tags and remove them
+    const existingTags = document.querySelectorAll('meta[name="theme-color"]');
+    existingTags.forEach(tag => tag.remove());
 
+    // Create a new meta tag for the theme color
+    const newMetaTag = document.createElement('meta');
+    newMetaTag.name = 'theme-color';
+
+    // Get the current background color from --main-bg CSS variable
+    const root = document.documentElement;
     const currentTheme = this.visualState;
+    const mainBgColor = getComputedStyle(root).getPropertyValue('--main-bg').trim();
 
-    if (currentTheme === this.DARK) {
-      metaTag.setAttribute('content', '#1B1B1E');
+    // Set the color based on the current theme
+    newMetaTag.content = mainBgColor;
+
+    // Append the updated meta tag to the head
+    document.head.appendChild(newMetaTag);
+  }
+
+  /**
+   * Updates the top browser color based on the current theme using the --main-bg variable.
+   */
+  static updateTopBarColor() {
+    const root = document.documentElement;
+    const mainBgColor = getComputedStyle(root).getPropertyValue('--main-bg').trim();
+
+    // Update the top browser bar color (for example, mobile browser address bar)
+    const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (metaThemeColor) {
+      metaThemeColor.setAttribute('content', mainBgColor);
     } else {
-      metaTag.setAttribute('content', '#ffffff');
+      const newMetaTag = document.createElement('meta');
+      newMetaTag.name = 'theme-color';
+      newMetaTag.content = mainBgColor;
+      document.head.appendChild(newMetaTag);
     }
   }
 }

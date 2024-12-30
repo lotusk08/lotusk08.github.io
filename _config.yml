@@ -185,7 +185,7 @@ defaults:
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
-      permalink: /:title/
+      permalink: /:title
   - scope:
       path: _drafts
     values:
@@ -195,7 +195,7 @@ defaults:
       type: tabs # see `site.collections`
     values:
       layout: page
-      permalink: /:title/
+      permalink: /:title
 
 sass:
   style: compressed

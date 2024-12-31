@@ -15,7 +15,7 @@ Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in 
 
 ## Front Matter
 
-Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
+Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter) as below at the top of the post:
 
 ```yaml
 ---
@@ -87,7 +87,7 @@ Additionally, the `description` text will also be displayed under the post title
 
 ## Table of Contents
 
-By default, the **T**able **o**f **C**ontents (TOC) is displayed on the right panel of the post. If you want to turn it off globally, go to `_config.yml`{: .filepath} and set the value of variable `toc` to `false`. If you want to turn off TOC for a specific post, add the following to the post's [Front Matter](https://jekyllrb.com/docs/front-matter/):
+By default, the **T**able **o**f **C**ontents (TOC) is displayed on the right panel of the post. If you want to turn it off globally, go to `_config.yml`{: .filepath} and set the value of variable `toc` to `false`. If you want to turn off TOC for a specific post, add the following to the post's [Front Matter](https://jekyllrb.com/docs/front-matter):
 
 ```yaml
 ---
@@ -247,7 +247,7 @@ image:
 ---
 ```
 
-> You can observe LQIP in the preview image of post \"[Text and Typography](../text-and-typography/)\".
+> You can observe LQIP in the preview image of post \"[Text and Typography](/text-and-typography)\".
 
 For normal images:
 
@@ -437,7 +437,7 @@ Or adding `render_with_liquid: false` (Requires Jekyll 4.0 or higher) to the pos
 
 We use [**MathJax**][mathjax] to generate mathematics. For website performance reasons, the mathematical feature won't be loaded by default. But it can be enabled by:
 
-[mathjax]: https://www.mathjax.org/
+[mathjax]: https://www.mathjax.org
 
 ```yaml
 ---
@@ -502,4 +502,4 @@ Then you can use it like other markdown languages: surround the graph code with 
 
 ## Learn More
 
-For more knowledge about Jekyll posts, visit the [Jekyll Docs: Posts](https://jekyllrb.com/docs/posts/).
+For more knowledge about Jekyll posts, visit the [Jekyll Docs: Posts](https://jekyllrb.com/docs/posts).

@@ -56,6 +56,7 @@ node tools/lqip/index.js
   - feat: restyle prompt-alerts/note blocks.
   - feat: adjust breadcumb (desktop) & topbar (mobile) content.
   - feat: TOC auto hidden/show with scrolling/hover
+  - feat: URLs without trailing slashes
   - style: moving social icon from sidebar to footer
   - style: merge tag to archive page. Moving about page to footer. Hide tab, about, category.
   - style: restyle sidebar: remove background, restyle nav.link hover effect.

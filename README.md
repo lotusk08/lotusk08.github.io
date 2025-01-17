@@ -12,12 +12,12 @@ Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, host in Github with [submod
  
 
 
-## Deploy & public by [Cloudflare][cf]
-Fix error `Gems in the groups 'development' and 'test' were not installed.` in Cloudflare with config the variables for your Preview/Production environment
+## Deploy & public by [CloudFlare][cf]
+Fix error while building like this `Could not find html-proofer-5.0.9, async-2.21.1, nokogiri-1.18.1-x86_64-linux-gnu, pdf-reader-2.13.0, ... in locally installed gems (Bundler::GemNotFound). Failed: Error while executing user command. Exited with error code: 1` in Cloudflare with config the variables for your Preview/Production environment
 
 Variable name|Value
 ---|---
-BUNDLE_WITHOUT|""
+BUNDLE_WITHOUT|test
 
 ## Comment system by [Waline][waline]
 [![stevehoang.com](/docs/comment-system.webp)][stevehoang.com]
@@ -56,6 +56,7 @@ node tools/lqip/index.js
   - feat: restyle prompt-alerts/note blocks.
   - feat: adjust breadcumb (desktop) & topbar (mobile) content.
   - feat: TOC auto hidden/show with scrolling/hover
+  - feat: URLs without trailing slashes
   - style: moving social icon from sidebar to footer
   - style: merge tag to archive page. Moving about page to footer. Hide tab, about, category.
   - style: restyle sidebar: remove background, restyle nav.link hover effect.

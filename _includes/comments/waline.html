@@ -18,28 +18,33 @@
     comment: '',
     word: 'word',
     submit: 'Reply',
-    latest: 'Newest',
+    latest: '',
     oldest: '',
-    hottest: 'Most relevant',
+    hottest: '',
+    reactionTitle: '',
   };
+
+  const emojiPath = "{{ site.data.origin[type].waline.emojis | relative_url }}";
+  const emojiSets = emojiPath ? [
+    `${emojiPath}/qq`
+  ] : [];
+
   init({
     el: '#waline',
     serverURL: '{{ site.comments.waline.server }}',
     lang: 'en',
     meta: ['nick'],
-    count: 'false',
+    count: false,
     login: 'disable',
-    search: 'false',
-    emoji: [
-      "{{ site.data.origin[type].waline.emojis | relative_url }}/qq",
-      '{{ site.data.origin[type].waline.emojis | relative_url }}/tieba',
-      '{{ site.data.origin[type].waline.emojis | relative_url }}/tw-emoji',
-      '{{ site.data.origin[type].waline.emojis | relative_url }}/bilibili',
-    ],
+    search: false,
+    emoji: emojiSets,
     dark: "__waline__css__",
     locale,
-    reaction: 'false',
+    pageview: false,
+    reaction: false,
+    comment: false
   });
+
   let head = document.getElementsByTagName("head")[0];
   let css = head.lastChild;
   let cssContent = css.textContent.replace("__waline__css__", "");

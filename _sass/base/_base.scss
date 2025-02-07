@@ -10,6 +10,9 @@
 }
 
 html {
+  scrollbar-color: var(--main-border-color) var(--main-bg);
+  scrollbar-width: thin;
+
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
     &[data-mode='light'] {
@@ -40,11 +43,6 @@ html {
   ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
-  }
-
-  & {
-    scrollbar-color: var(--main-border-color) var(--main-bg);
-    scrollbar-width: thin;
   }
 
   ::-webkit-scrollbar-track {

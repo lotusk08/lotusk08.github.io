@@ -1,70 +1,80 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Back-to-Top Button Logic
   const btn = document.getElementById('back-to-top');
-  if (btn) {
-    // Create SVG container and progress circle
-    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  if (!btn) return; // Early return if button doesn't exist
 
-    svg.setAttribute("id", "progress-circle");
-    svg.setAttribute("width", "44");
-    svg.setAttribute("height", "44");
+  // Create SVG container and progress circle
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
 
-    circle.setAttribute("cx", "22");
-    circle.setAttribute("cy", "22");
-    circle.setAttribute("r", "20");
-    circle.setAttribute("stroke-width", "1");
-    circle.setAttribute("stroke-dasharray", `${2 * Math.PI * 20}`);
-    circle.setAttribute("stroke-dashoffset", `${2 * Math.PI * 20}`);
-    circle.setAttribute("fill", "none");
-    circle.style.stroke = "var(--btn-backtotop-color)";
+  svg.setAttribute("id", "progress-circle");
+  svg.setAttribute("width", "44");
+  svg.setAttribute("height", "44");
 
-    svg.appendChild(circle);
-    btn.appendChild(svg);
+  circle.setAttribute("cx", "22");
+  circle.setAttribute("cy", "22");
+  circle.setAttribute("r", "20");
+  circle.setAttribute("stroke-width", "1");
+  circle.setAttribute("stroke-dasharray", `${2 * Math.PI * 20}`);
+  circle.setAttribute("stroke-dashoffset", `${2 * Math.PI * 20}`);
+  circle.setAttribute("fill", "none");
+  circle.style.stroke = "var(--btn-backtotop-color)";
 
-    // Create scroll percentage text
-    const percentageText = document.createElement("div");
-    percentageText.id = "scroll-percentage";
-    percentageText.textContent = "0%";
-    btn.appendChild(percentageText);
+  svg.appendChild(circle);
+  btn.appendChild(svg);
 
-    const circumference = 2 * Math.PI * 20;
-    let scrollTimeout;
+  // Create scroll percentage text
+  const percentageText = document.createElement("div");
+  percentageText.id = "scroll-percentage";
+  percentageText.textContent = "0%";
+  btn.appendChild(percentageText);
 
-    const updateScrollProgress = () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const circumference = 2 * Math.PI * 20;
+  let scrollTimeout;
 
-      if (docHeight > 0) {
-        const scrollFraction = scrollTop / docHeight;
-        const drawLength = circumference * scrollFraction;
-        const scrollPercentage = Math.round(scrollFraction * 100);
+  const updateScrollProgress = () => {
+    if (!document.documentElement) return;
+    
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const docHeight = Math.max(
+      document.documentElement.scrollHeight,
+      document.documentElement.offsetHeight,
+      document.documentElement.clientHeight
+    ) - window.innerHeight;
 
-        // Update the circle progress
-        circle.style.strokeDashoffset = circumference - drawLength;
+    if (docHeight > 0) {
+      const scrollFraction = Math.min(Math.max(scrollTop / docHeight, 0), 1);
+      const drawLength = circumference * scrollFraction;
+      const scrollPercentage = Math.round(scrollFraction * 100);
 
-        // Show the percentage text with background
-        percentageText.textContent = `${scrollPercentage}`;
-        percentageText.classList.add('visible');
+      // Update the circle progress
+      circle.style.strokeDashoffset = circumference - drawLength;
 
-        // Hide the percentage text after a delay
-        clearTimeout(scrollTimeout);
-        scrollTimeout = setTimeout(() => {
-          percentageText.classList.remove('visible');
-        }, 500);
-      }
-    };
+      // Show the percentage text with background
+      percentageText.textContent = `${scrollPercentage}`;
+      percentageText.classList.add('visible');
 
-    // Use requestAnimationFrame to smooth scroll updates
-    window.addEventListener('scroll', () => {
+      // Hide the percentage text after a delay
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        percentageText.classList.remove('visible');
+      }, 500);
+    }
+  };
+
+  // Use requestAnimationFrame and add error handling
+  window.addEventListener('scroll', () => {
+    try {
       window.requestAnimationFrame(updateScrollProgress);
-    });
+    } catch (error) {
+      console.error('Error updating scroll progress:', error);
+    }
+  });
 
-    // Scroll to top on click
-    btn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  }
+  // Scroll to top on click
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
   // TOC Wrapper Logic
   const tocWrapper = document.getElementById('toc-wrapper');

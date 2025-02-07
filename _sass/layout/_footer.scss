@@ -44,6 +44,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
   &:not(:last-child) {
   margin-right: v.$sb-btn-gap;
 
@@ -63,7 +64,7 @@ footer {
 
     i {
       font-size: 1.1rem;
-      margin: 0 10px 10px 0px;
+      margin: 0 10px 10px 0;
     }
   }
 }

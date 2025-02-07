@@ -16,14 +16,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  /*background: var(--sidebar-bg);
-  border-right: 1px solid var(--sidebar-border-color);*/
-
-  /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 
-  /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
     display: none;
   }
@@ -181,7 +176,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
-    /*justify-content: center;*/
 
     @include bp.xxxl {
       padding-left: 2.75rem;
@@ -237,6 +231,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
     .icon-border {
       display: none;
+
       @extend %no-cursor;
       @include mx.ml-mr(calc((v.$sb-btn-gap - $btn-border-width) / 2));
 

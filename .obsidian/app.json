@@ -5,7 +5,7 @@
   "attachmentFolderPath": "/assets/img/post",
   "promptDelete": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "showInlineTitle": false,
   "spellcheck": false,
   "autoConvertHtml": true,
@@ -33,7 +33,7 @@
     "tools/",
     "assets/"
   ],
-  "livePreview": false,
+  "livePreview": true,
   "showUnsupportedFiles": true,
   "defaultViewMode": "source",
   "propertiesInDocument": "hidden"

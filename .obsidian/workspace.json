@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-12-21-kindness.md",
+                "file": "_posts/2024-12-19-ai.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-12-21-kindness"
+              "title": "2024-12-19-ai"
             }
           }
         ],
@@ -41,7 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -127,14 +128,15 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "eeee85089d6f0c34",
@@ -147,10 +149,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2024-12-21-kindness.md"
+                "file": "_posts/2024-12-19-ai.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2024-12-21-kindness"
+              "title": "File properties for 2024-12-19-ai"
             }
           },
           {
@@ -169,13 +171,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-12-19-ai.md"
+                "file": "_posts/2024-12-19-ai.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of 2024-12-19-ai"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -189,12 +195,24 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "f4c8c31ba952b73b",
   "lastOpenFiles": [
+    "node_modules/@rollup/rollup-darwin-arm64",
+    "node_modules/@img/sharp-wasm32",
+    "node_modules/@rollup/rollup-android-arm64",
+    "node_modules/@img/sharp-win32-ia32",
+    "node_modules/@img/sharp-linuxmusl-x64",
+    "node_modules/@img/sharp-win32-x64",
+    "node_modules/@img/sharp-linuxmusl-arm64",
+    "node_modules/@img/sharp-linux-x64",
+    "node_modules/@img/sharp-linux-arm",
+    "node_modules/@img/sharp-linux-s390x",
+    "node_modules/@img/sharp-linux-arm64",
+    "node_modules/husky/README.md",
+    "_posts/2024-12-21-kindness.md",
     "_drafts/2019-08-08-text-and-typography.md",
     "_site/assets/img/favicons/web-app-manifest-512x512.png",
     "_site/assets/img/favicons/web-app-manifest-192x192.png",
@@ -204,19 +222,8 @@
     "assets/img/favicons/web-app-manifest-192x192.png",
     "assets/img/favicons/favicon.svg",
     "assets/img/favicons/favicon-96x96.png",
-    "_site/kindness/index.html",
-    "_site/kindness",
-    "_site/ai/index.html",
-    "_site/ai",
-    "_site/start-up/index.html",
-    "_site/start-up",
-    "_site/what-makes-you-happy/index.html",
-    "_site/what-makes-you-happy",
-    "_site/a-year-with-too/index.html",
-    "_site/a-year-with-too",
     "_site/assets/img/site/tkt-website.webp",
     "_site/assets/img/site/tks-teams.webp",
-    "_posts/2024-12-21-kindness.md",
     "_posts/2024-12-19-ai.md",
     "_posts/2024-11-21-start-up.md",
     "_posts/2024-10-22-what-makes-you-happy.md",
@@ -238,8 +245,6 @@
     "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
     "_posts/2022-11-10-hoai-niem.md",
     "_posts/2022-08-29-Gen-Z.md",
-    "_posts/2022-08-23-quit-job.md",
-    "_posts/2022-08-08-talk-Vietnam.md",
-    "_posts/2022-04-30-goodbye-thai-khuong.md"
+    "_posts/2022-08-23-quit-job.md"
   ]
 }

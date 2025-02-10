@@ -11,6 +11,5 @@
   "enabledCssSnippets": [
     "text-justify"
   ],
-  "monospaceFontFamily": "JetBrains Mono",
-  "showRibbon": false
+  "monospaceFontFamily": "JetBrains Mono"
 }

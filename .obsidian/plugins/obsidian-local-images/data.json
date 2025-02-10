@@ -5,5 +5,5 @@
   "cleanContent": true,
   "showNotifications": true,
   "include": ".*\\.md",
-  "mediaRootDirectory": "assets/img/post"
+  "mediaRootDirectory": "/assets/img/post"
 }

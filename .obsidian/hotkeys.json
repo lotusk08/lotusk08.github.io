@@ -49,5 +49,13 @@
       ],
       "key": "N"
     }
+  ],
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
   ]
 }

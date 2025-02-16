@@ -2,10 +2,10 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "_posts",
-  "attachmentFolderPath": "assets/img/post",
+  "attachmentFolderPath": "/assets/img/post",
   "promptDelete": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "showInlineTitle": false,
   "spellcheck": false,
   "autoConvertHtml": true,
@@ -33,9 +33,8 @@
     "tools/",
     "assets/"
   ],
-  "livePreview": false,
+  "livePreview": true,
   "showUnsupportedFiles": true,
   "defaultViewMode": "source",
-  "propertiesInDocument": "hidden",
-  "showRibbon": false
+  "propertiesInDocument": "hidden"
 }

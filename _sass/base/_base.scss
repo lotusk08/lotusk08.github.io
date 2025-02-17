@@ -239,15 +239,11 @@ main {
   }
 } /* .content */
 
-.tag:hover {
-  @extend %tag-hover;
-}
-
 .post-tag {
   display: inline-block;
   min-width: 2rem;
   text-align: center;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   border: 1px solid var(--btn-border-color);
   padding: 0 0.4rem;
   color: var(--text-muted-color);
@@ -360,7 +356,8 @@ main {
 /* Overwrite bootstrap outline button */
 .btn.btn-outline-primary {
   &:not(.disabled):hover {
-    border-color: #007bff !important;
+    background-color: var(--active-color) !important;
+    border-color: var(--active-color) !important;
   }
 }
 

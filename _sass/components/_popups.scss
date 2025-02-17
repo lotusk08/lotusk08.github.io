@@ -31,6 +31,14 @@
     button {
       font-size: 90%;
       min-width: 4rem;
+      background: var(--link-color);
+      border-color: var(--link-color);
+
+      &:hover {
+        background: var(--active-color);
+        border-color: var(--active-color);
+        transition: 0.35s ease-in-out;
+      }
     }
   }
 

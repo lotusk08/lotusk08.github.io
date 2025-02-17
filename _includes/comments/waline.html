@@ -10,7 +10,9 @@
   walineThread.id = "waline";
 
   const footer = document.querySelector("footer");
-  footer.insertAdjacentElement("beforebegin", walineThread);
+  if (footer) {
+    footer.insertAdjacentElement("beforebegin", walineThread);
+  }
 
   const locale = {
     nick: "Name",
@@ -30,40 +32,49 @@
   const emojiPath = "{{ site.data.origin[type].waline.emojis | relative_url }}";
   const emojiSets = emojiPath ? [`${emojiPath}/qq`] : [];
 
-  init({
-    el: "#waline",
-    serverURL: "{{ site.comments.waline.server }}",
-    lang: "en",
-    meta: ["nick"],
-    count: false,
-    login: "disable",
-    search: false,
-    emoji: emojiSets,
-    dark: "__waline__css__",
-    locale,
-    pageview: false,
-    reaction: false
-  });
+  try {
+    init({
+      el: "#waline",
+      serverURL: "{{ site.comments.waline.server }}",
+      lang: "en",
+      meta: ["nick"],
+      count: false,
+      login: "disable",
+      search: false,
+      emoji: emojiSets,
+      dark: "__waline__css__",
+      locale,
+      pageview: false,
+      reaction: false,
+      path: window.location.pathname
+    });
 
-  const head = document.getElementsByTagName("head")[0];
-  const css = head.lastChild;
-  const cssContent = css.textContent.replace("__waline__css__", "");
-  const cssContentPerferredDark =
-    "@media (prefers-color-scheme: dark){html:not([data-mode])" +
-    cssContent +
-    "}";
-  const cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
-  css.textContent = cssContentPerferredDark;
-  const style = document.createElement("style");
-  style.textContent = cssContentSelectedDark;
-  head.appendChild(style);
+    const head = document.getElementsByTagName("head")[0];
+    if (head) {
+      const css = head.lastChild;
+      if (css && css.textContent) {
+        const cssContent = css.textContent.replace("__waline__css__", "");
+        const cssContentPerferredDark =
+          "@media (prefers-color-scheme: dark){html:not([data-mode])" +
+          cssContent +
+          "}";
+        const cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
+        css.textContent = cssContentPerferredDark;
+        const style = document.createElement("style");
+        style.textContent = cssContentSelectedDark;
+        head.appendChild(style);
+      }
+    }
 
-  document.documentElement.style.setProperty(
-    "--waline-theme-color",
-    "var(--link-color)"
-  );
-  document.documentElement.style.setProperty(
-    "--waline-active-color",
-    "var(--active-color)"
-  );
+    document.documentElement.style.setProperty(
+      "--waline-theme-color",
+      "var(--link-color)"
+    );
+    document.documentElement.style.setProperty(
+      "--waline-active-color",
+      "var(--active-color)"
+    );
+  } catch (error) {
+    console.error("Failed to initialize Waline:", error);
+  }
 </script>

@@ -1,15 +1,21 @@
 @use '../abstracts/breakpoints' as bp;
 
 .tag {
-  border-radius: 0.7em;
+  border-radius: 0.5em;
   padding: 6px 8px 7px;
   margin-right: 0.8rem;
   line-height: 3rem;
   letter-spacing: 0;
-  border: 1px solid var(--tag-border) !important;
+  border: 1px solid var(--btn-border-color) !important;
   box-shadow: 0 0 3px 0 var(--tag-shadow);
 
-  span {
+  &:hover {
+    background: var(--active-color);
+    transition: all 0.35s ease-in-out;
+    color: white !important;
+  }
+
+  sup {
     margin-left: 0.6em;
     font-size: 0.7em;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

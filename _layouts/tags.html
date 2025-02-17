@@ -15,7 +15,7 @@ layout: page
     <div>
       <a class="tag" href="{{ t | slugify | url_encode | prepend: '/topics/' | append: '/' | relative_url }}">
         {{ t -}}
-        <span class="text-muted">{{ site.tags[t].size }}</span>
+        <sup class="text-muted">{{ site.tags[t].size }}</sup>
       </a>
     </div>
   {% endfor %}

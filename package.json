@@ -21,12 +21,14 @@
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",
     "test": "npm run lint:scss",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lqip": "node tools/update-lqip.js"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
-    "lqip-modern": "^2.2.1"
+    "lqip-modern": "^2.2.1",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",

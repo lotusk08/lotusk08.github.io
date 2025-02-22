@@ -3,8 +3,11 @@ title: Sản phẩm cộng đồng
 description: Nơi mà cộng đồng tham gia vào quá trình thiết kế sản phẩm, cải tạo sản phẩm, thương mại sản phẩm, marketing sản phẩm cho đến chăm sóc hậu mãi.
 author: steve
 date: 2021-09-18 10:30:00 +0700
-categories: [Vietnamese]
-tags: [business, community]
+categories:
+  - Vietnamese
+tags:
+  - business
+  - community
 pin: false
 toc: true
 math: false
@@ -42,7 +45,7 @@ Nếu ai từng đọc bài viết trước của mình về chuyện Apple làm
 
 Trong quy luật thị trường cung – cầu, nguồn cung thường xuất hiện khi có nhu cầu của người tiêu dùng. Đến thời điểm mình viết những dòng này, khái niệm trên vẫn đúng và còn được mở rộng sang nhiều lĩnh vực khác nữa. Đại đa số các doanh nghiệp tồn tại được là nhờ họ mang lại thứ mà khách hàng cần (cũng chính vì điều này mà nhiều startup với ý tưởng rất hay nhưng không thể tồn tại vì chưa chạm đến nhu cầu của khách hàng).
 
-![Amazon halo](/assets/img/post/Amazon-halo.webp "Cộng đồng người dùng thiết bị đeo của Amazon"){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAA0ABUB8JaQAAuq9vpPgAP7lqo3C28Rb9e41V8vxPhs2ifg7lO4pj5KKpQ6TZArAtBjozhgAAA=="}
+![Amazon halo](/assets/img/post/Amazon-halo.webp "Cộng đồng người dùng thiết bị đeo của Amazon"){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAA0ABUB8JaQAAuq9vpPgAP7lqo3C28Rb9e41V8vxPhs2ifg7lO4pj5KKpQ6TZArAtBjozhgAAA==" }
 _Amazon Halo Community_
 
 Nếu bạn có một sản phẩm thử nghiệm, và bạn cũng “tình cờ” kết nối được một nhóm những người có một điểm chung về đam mê/mong muốn; bạn có thể gửi cho nhóm những người ấy dùng thử và góp ý.
@@ -53,7 +56,7 @@ Và để một sản phẩm có tính cộng đồng ra đời, nó phải ch�
 
 Ví dụ, tạm bỏ qua thuật toán và công nghệ thì nguyên thuỷ TikTok ra đTời là dành cho những người thích âm nhạc và muốn thể hiện cá tính (nhảy theo nhạc, hát theo nhạc, biểu diễn theo nhạc). DevianArt ra đời và tồn tại cũng bởi họ tập hợp một nhóm những người thích sáng tạo và chia sẻ các sản phẩm nghệ thuật số. XDA-devloper ra đời là dành cho những người thích thử nghiệm những cái mới của công nghệ.
 
-![team hero artwork mobile](/assets/img/post/team-hero-artwork-mobile.webp "Cộng đồng cùng tạo ra sản phẩm"){: lqip="data:image/webp;base64,UklGRpQAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDoAAAARL6CobRs4WDL9XtsoLCICe3qCQSRJTgV1vYLfVxAxEByABIjof3ABzjk7PO9dIIBaNSg9C3z/AZIAVlA4IDQAAACQAQCdASoQAAgABUB8JYgCdACbg8AAywB3jAzZL7xahcrTYgljCDFgeuX+d9dz2JNyAAAA"}
+![team hero artwork mobile](/assets/img/post/team-hero-artwork-mobile.webp "Cộng đồng cùng tạo ra sản phẩm"){: lqip="data:image/webp;base64,UklGRpQAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDoAAAARL6CobRs4WDL9XtsoLCICe3qCQSRJTgV1vYLfVxAxEByABIjof3ABzjk7PO9dIIBaNSg9C3z/AZIAVlA4IDQAAACQAQCdASoQAAgABUB8JYgCdACbg8AAywB3jAzZL7xahcrTYgljCDFgeuX+d9dz2JNyAAAA" }
 _Github Social graph_
 
 Những điểm chung của người trong nhóm này sẽ giúp họ liên kết với nhau như một mạng lưới và hình thành nên cộng đồng khi đủ lớn. Họ trò chuyện cùng nhau, thảo luận với nhau hoặc cùng nhau làm một điều gì, giải quyết một vấn đề nào đó. Đây gọi là social graph. Ví dụ như cộng đồng Github, có nhiều người cùng đóng góp ý của họ vào để giúp nhà phát triển cải tiến sản phẩm phần mềm.
@@ -68,7 +71,7 @@ Và đó mới chỉ là một mình bạn, khi nhiều người như bạn liê
 
 Với các sản phẩm media truyền thống, bạn sẽ chỉ đọc nội dung. Bạn là người tiêu thị nội dung, bạn chỉ là khán giả. Còn với các sản phẩm cộng đồng, người dùng sẽ tương tác lẫn nhau, tương tác với nội dung theo một mạng lưới, chứ không chỉ đi một chiều.
 
-![Duolingo](/assets/img/post/duolingo.webp "Duolingo là một sản phẩm có cộng đồng người dùng cực kỳ lớn"){: lqip="data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAcABUB8JagCdAEO/gOOAAD+8dyCHm7a7JiYUhCnsWdNg2/5CwIFCKAAAA=="}
+![Duolingo](/assets/img/post/duolingo.webp "Duolingo là một sản phẩm có cộng đồng người dùng cực kỳ lớn"){: lqip="data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAcABUB8JagCdAEO/gOOAAD+8dyCHm7a7JiYUhCnsWdNg2/5CwIFCKAAAA==" }
 _Duolingo: người dùng đua với nhau, thảo luận cùng nhau, chia sẻ cùng nhau_
 
 Ví dụ, trong mảng ứng dụng về sức khỏe, Strava tạo ra những tương tác ngang hàng, người tập thể thao giao tiếp với nhau, tập luyện cùng nhau, đọ số cùng nhau. Cũng như Duolingo – ứng dụng học ngoại ngữ đang có thị phần lớn nhất thế giới, người dùng có thể thi đua với nhau để tăng hiệu quả luyện tập, thảo luận với nhau để tìm cách giải quyết các vấn đề về nội dung ngôn ngữ .v.v. Đó chính là sản phẩm cộng đồng.
@@ -92,7 +95,7 @@ Bạn có thể tận dụng các mạng xã hội và yếu tố social của c
 
 Tư duy tập thể là một thuật ngữ trong tiếng Anh – Groupthink. Khi có một cộng đồng đủ lớn, thì tập thể đó có khả năng đồng hoá tư duy và thái độ của những người đối nghịch. Ví dụ, trong một cộng đồng những người sử dụng Macbook, nếu đăng  một status chia sẻ quan điểm tích cực về việc dùng máy tính Windows. Chắc chắn,  sẽ có những góp ý từ nhẹ đến nặng. Đặc biệt là ở Việt Nam. ??‍♂️
 
-![business combat](/assets/img/post/business-combat.webp "Các doanh nghiệp cạnh tranh thông qua cộng đồng"){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkABUB8JZgAAuLtdcDOAAD+76HwtDRpBXnhR7tcGScfRUEcc1hu2kE81aWwxg+rtzu+0aUkzuED1mhR/fA/Fj6D/AAA"}
+![business combat](/assets/img/post/business-combat.webp "Các doanh nghiệp cạnh tranh thông qua cộng đồng"){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAkABUB8JZgAAuLtdcDOAAD+76HwtDRpBXnhR7tcGScfRUEcc1hu2kE81aWwxg+rtzu+0aUkzuED1mhR/fA/Fj6D/AAA" }
 _Bản thân Android và iOS không “đấu đá” nhau, nhưng người dùng của họ thì có_
 
 Với một sản phẩm cộng đồng thì đây là một lợi thế rất lớn đối với mục tiêu tăng trưởng kinh doanh. Một số thương hiệu lớn còn khai thác sự đối lập này để khuếch tán với các chiến dịch thương hiệu và Marketing. Ví dụ như Sam fan và ifan, hay Audi và BMW.

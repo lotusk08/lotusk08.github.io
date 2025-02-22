@@ -27,7 +27,7 @@ On a suggestion from my captain, Mr. John - CEO of Vietnam Star Automobile, I ha
 > Mercedes-Benz stands among the top German luxury car brands in Vietnam, alongside Audi, BMW, Volkswagen, and Porsche. With a diverse product range categorized into Top-End Luxury, Core Luxury, and Entry Luxury, MBV has also introduced electric models like the EQS Sedan, EQS SUV, EQB, and EQE SUV to its Vietnamese customers.
 {: .prompt-info }
 
-![Working on Finalcutpro](/assets/img/post/working-on-finalcutpro.webp "You can see John in this picture"){: lqip="data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoQAAkABUB8JZwAArI8T6swAP7QocOb7Fzl2bcArT3j4kRnuLMsFPwQAAA=" .shadow .rounded-5 }
+![Working on Finalcutpro](/assets/img/post/working-on-finalcutpro.webp "You can see John in this picture"){: lqip="data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoQAAkABUB8JZwAArI8T6swAP7QocOb7Fzl2bcArT3j4kRnuLMsFPwQAAA=" .shadow .rounded-5}
 _The Final Cut Pro working space image_
 
 > This video has been made with Final Cut Pro. The intro uses Adobe After Effects. You can download the all material and VFX to use this farewell template [here](https://www.dropbox.com/scl/fo/mjwu2n2qogqy84lt7pks6/AKJy9EugHBEn9XglcrYsEfw?rlkey=hdz142mi7u1p97422jsw4noi2&dl=0). It's about `23.35GB`.

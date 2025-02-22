@@ -1,6 +1,6 @@
 ---
 title: 2023 - Một năm nhìn lại
-description: 
+description: null
 author: steve
 date: 2023-12-31 13:04 +0700
 categories:
@@ -21,59 +21,59 @@ image:
 Là một năm có nhiều biến động lớn trên thế giới lẫn Việt Nam. Chuyện kinh doanh chưa bao giờ là dễ dàng, ở Việt Nam - với sự cạnh tranh khốc liệt thì lại càng khó khăn hơn. Nó cũng tác động trực tiếp tới công việc và cuộc sống của bản thân mình.
 ## Phượt?
 
-![Đèo Lò Xo](/assets/img/post/deo-lo-xo.webp "Đèo Lò Xo"){: lqip="data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JbACdAC3s2Vqn9l9AADyo6KlVzkfypSKOyIs4vRdVkIB2lrvYp3bY8ZZEjYH46EYA4nNYrOdRaBzfqkupj7Ttwdc5kU4hXfW/c3wcMAAAA=="}
+![Đèo Lò Xo](/assets/img/post/deo-lo-xo.webp "Đèo Lò Xo"){: lqip="data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JbACdAC3s2VqwdydhADyo6KlVzkfypSKOyIs4vRdVkIB2lrvYp3bY8ZZEjYH46EWpV704f7M5qogVuFXWihzpdaCBI1Rz7qGH5f+GlAAAA==" }
 _Trước khi ăn hành ngập mặt, bầu trời lúc nào cũng tươi đẹp như thế!_
 
 Chặng đường từ Kontum xuống Đà Nẵng này chỉ khoảng 230km, đường đèo đang cải tạo nên cũng không đẹp. Thời tiết cũng không dễ chịu, địa hình tiếp giáp giữa núi và đồng bằng duyên hải nên khu vực này mưa nhiều và gió rất mạnh. Có một số đoạn sương mù rất đậm, giảm tầm nhìn xuống dưới 5m.
 
-![Cầu Thác Nước](/assets/img/post/cau-thac-nuoc.webp "Cầu Thác Nước"){: lqip="data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAwABUB8JYgCw7EeiPN3rfwAAP67MBs/iZWZWDbczhlwf6NzQgCqjb5DIInCd/Biw5V2jFrSLNOxp/GsNie6AAA="}
+![Cầu Thác Nước](/assets/img/post/cau-thac-nuoc.webp "Cầu Thác Nước"){: lqip="data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAwABUB8JYgCw7EeiPN3rfwAAP67MBs/iZWZWDbczhlwf6NzQgCqjb5DIInCd/Biw5V2jFrSLNOxp/GsNie6AAA=" }
 _Cầu Thác Nước_
 
 Đoạn Phước Sơn về Đà Nẵng gần như không có đèn đường, hai bên là thành phố buồn[^footnote]. Điều thật sự may mắn là xe mình không bị trục trặc ở tuyến đường xấu kia. Chỉ sau khi đến Đà Nẵng thì mới bị đứt côn. Dù sao thì chiếc Vespa Sprint Veloce này cũng là xe cổ, số tuổi của nó cũng hơn xa mình.
 
-![Thay dây côn](/assets/img/post/sua-xe-2023.webp "Thay dây côn"){: lqip="data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAwABUB8JbACxC8AEp+O1FRcAAD+tANBaENxFOzXGrXAJMHTD89DVtOu9zkhT0/wnSjDJlvddYVhsZWKVFvkVA/qFGZJsZUzjdukus0DmBCW39HS3MAA"}
+![Thay dây côn](/assets/img/post/sua-xe-2023.webp "Thay dây côn"){: lqip="data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAwABUB8JbACxC8AEp+O1FRcAAD+tANBaENxFOzXGrXAJMHTD89DVtOu9zkhT0/wnSjDJlvddYVhsZWKVFvkVA/qFGZJsZUzjdukus0DmBCW39HS3MAA" }
 _Xe hư thì sửa thôi, mình có mang đồ nghề nên tự thay dây côn_
 
 ### Thăm bạn cũ
 Chàng trai này là một thợ máy lành nghề, từng là KOL một thời với biệt danh *Thần gió* trong giới xe cổ Việt Nam. Quãng đường 1700km từ Sài Gòn ra Hà Nội, bạn đi trong 27 tiếng với chiếc Vespa Super...
 
-![Cafe cùng Diệp](/assets/img/post/my-friend.webp "Cafe cùng Diệp"){: lqip="data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQAAwABUB8JQBOgCPgW1mjzaubRAAA/rew1GQPwF/y1Dsl21OL6b2CASmwdOGqPS2LYh12kC4SVQaZCTUAW1bxVsdZFMc9Pkfl07jYzZnIRqSDAAA="}
+![Cafe cùng Diệp](/assets/img/post/my-friend.webp "Cafe cùng Diệp"){: lqip="data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQAAwABUB8JQBOgCPgW1mjzaubRAAA/rew1GQPwF/y1Dsl21OL6b2CASmwdOGqPS2LYh12kC4SVQaZCTUAW1bxVsdZFMc9Pkfl07jYzZnIRqSDAAA=" }
 _Cafe cùng Diệp_
 
 Một điều đáng tiếc, thời cuộc thay đổi, kinh tế biến động; bạn bỏ nghề thợ máy -thứ mà bạn đam mê và rất giỏi, đầu tư vào một quán cafe... lại là cafe... và, nằm im ở đó.
 
 ### Du ngoạn
-![Ghé chùa Linh Ứng](/assets/img/post/linh-ung-2023.webp "Chùa Linh Ứng"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAwABUB8JbACsAdwBmjc4WOO6NgA/gm2+2C+HP1Ba/t0tg5UySxfW35Gn2y1fj1MYdsnRGfZOpSuGra3RlHWA3Cfw/Zz8W2FuoQCRpfuKufBmeh08rZFIAA="}
+![Ghé chùa Linh Ứng](/assets/img/post/linh-ung-2023.webp "Chùa Linh Ứng"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAwABUB8JbACsAdwBmjc4WOO6NgA/gm2+2C+HP1Ba/t0tg5UySxfW35Gn2y1fj1MYdsnRGfZOpSuGra3RlHWA3Cfw/Zz8W2FuoQCRpfuKufBmeh08rZFIAA=" }
 _Ghé chùa Linh Ứng_
 
 Ở Đà Nẵng, chùa Linh Ứng có nhiều giai thoại, cái tên cũng mang ý nghĩa nào đó. Mình vô thần, không quá quan tâm. Chỉ là, khu vực hàng lưu niệm của chùa Linh Ứng bán trầm hương giá rất hợp lý (không đắt kiểu hàng thương hiệu *xứ trầm Nha Trang*, không đắt kiểu dân buôn tỉnh lẻ *cửa hàng ở Sài Gòn, Hà Nội*).
 
-![Cafe đèo Hải Vân](/assets/img/post/cafe-deo-hai-van.webp "Cafe đèo Hải Vân"){: lqip="data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAwABUB8JQBWACGJMfr0kAD+yDy1yYguVSLypocbC17rti4T70VK9DphStPcXumAzfZXeBBximB92VWfn5L3iw7uslJapurtEeE1AAA="}
+![Cafe đèo Hải Vân](/assets/img/post/cafe-deo-hai-van.webp "Cafe đèo Hải Vân"){: lqip="data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAwABUB8JQBWACGJMfr0kAD+yDy1yYguVSLypocbC17rti4T70VK9DphStPcXumAzfZXeBBximB92VWfn5L3iw7uslJapurtEeE1AAA=" }
 _Cafe đèo Hải Vân_
 
 Trong lịch sử Việt Nam, Hải Vân từng là Đệ Nhất Hùng Quan. Ngày xưa đi đèo rất đáng sợ, bây giờ thì đỡ nhiều rồi, có dân cư, có nhà cửa, có khách du lịch nữa. Ngồi đỉnh đèo, nhâm nhi ly cafe Robusta rang cháy vị đắng chát và ngắm... sương mù. Lạnh, tê tê, lòng chỉ muốn đi về, chẳng thấy lãng mạn chút nào.
 
-![Bên chùa Thiên Mụ](/assets/img/post/ben-chua-thien-mu.webp "Bên chùa Thiên Mụ"){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMABAABUB8JQAAVepLu/3xoAD+lLyYWdgSiQOHyJdHyAVcpDZlQKT6VOmKYDKjlUtFJd5/iBLoVdT8LZKoAWdnrr3E7IHAAAA=" width="480" }
+![Bên chùa Thiên Mụ](/assets/img/post/ben-chua-thien-mu.webp "Bên chùa Thiên Mụ"){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMABAABUB8JQAAVepLu/3xoAD+lLyYWdgSiQOHyJdHyAVcpDZlQKT6VOmKYDKjlUtFJd5/iBLoVdT8LZKoAWdnrr3E7IHAAAA=" width="480"}
 _Bên chùa Thiên Mụ_
 
-![Ra Huế](/assets/img/post/di-cung-nhau-hue.webp "Ra Huế"){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAwABUB8JaAC7AEOq7lY4AD+sFOP1PO/5eWunnUAtWJeFRcqBvId62G7xIitTLRqe7V+ier4RQAA"}
+![Ra Huế](/assets/img/post/di-cung-nhau-hue.webp "Ra Huế"){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAwABUB8JYgC06ELAT52oAD+3pYqpln+TElgqoP1LlZ84sWeP3re5TpgKIR9QPWMUtslq9qsW3O0ilYMCmUUlBIb0wugAAA=" }
 _Huế_
 Huế cũng là điểm kết trong chuyến đi khai xuân đó.
 
 ## Trải nghiệm khác
 ### Vừa đi vừa ... ngắm
-![Chạng vạng](/assets/img/post/chang-vang-2023.webp "Chạng vạng"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JbACw7EP/ewmMAAA/vDUbbMbcnqPJFHP1rxFacObmHQL1cyJ6zQYP+f2EAAA"}
+![Chạng vạng](/assets/img/post/chang-vang-2023.webp "Chạng vạng"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JbACw7EP/ewmMAAA/vDUbbMbcnqPJFHP1rxFacObmHQL1cyJ6zQYP+f2EAAA" }
 _Bầu trời ngày hôm đó vẫn luôn xanh như thế!_
 Mình thích đạp xe, và đi làm bằng xe đạp. Đây là đường nội bộ bên trong sân bay Tân Sơn Nhất nên vắng, thoáng. Cảnh hoàng hôn đôi lúc đẹp xiêu lòng.
 
 ### Thể thao
 #### Chơi điều độ
-![Chạy marathon](/assets/img/post/marathon.webp "Chạy marathon"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAsABUB8JYgCw7CDN54AAPDz/kFJKOTUwKErgnfg4qPaWDZxFgPCQ/pHa9L6uX0+kE+CMugNcSAA9NvAAA=="}
+![Chạy marathon](/assets/img/post/marathon.webp "Chạy marathon"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAsABUB8JYgCw7CDN54AAPDz/kFJKOTUwKErgnfg4qPaWDZxFgPCQ/pHa9L6uX0+kE+CMugNcSAA9NvAAA==" }
 _Chơi thể thao vừa phải sẽ giúp cơ thể trẻ hơn_
 Năm 2024 này, mình 33 tuổi. Gặp khác hàng và bạn mới được khen trẻ. Ngại quá trời!
 
 #### Chơi golf
-![Chơi golf](/assets/img/post/golf-2023.webp "Chơi golf"){: lqip="data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAwABUB8JbAAAtcevdAAAP5YatDfhCLrX036Kch8koYqFz/61sJIJMNqkBIAAAA="}
+![Chơi golf](/assets/img/post/golf-2023.webp "Chơi golf"){: lqip="data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAwABUB8JbAAAtcevdAAAP5YatDfhCLrX036Kch8koYqFz/61sJIJMNqkBIAAAA=" }
 _Chơi golf_
 
 Golf ở Việt Nam là một môn thể thao xa xỉ[^fn-2]. Mình làm về golf nên được doanh nghiệp hỗ trợ, hưởng sái hào quang, chưa thể chân chính chạm tới cái tầm thu nhập cao đó.
@@ -90,7 +90,7 @@ Thể thao mà, muốn giỏi luôn cần chút đam mê và luyện tập kỹ 
 Mình có nghe qua câu này: Chỉ có trẻ con mới nói chuyện đúng sai; người trưởng thành, họ bàn chuyện lợi ích. Khi đi làm, đôi khi cái sự đúng sai mình thấy nó không quan trọng bằng sự phù hợp.
 
 ### Bàn
-![Bàn nâng hạ](/assets/img/post/working-space.webp "Bàn nâng hạ"){: lqip="data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAwABUB8JbACw7DHo3rwZquAAP4HeD4Asgx7A/zRE8j1rThmMdHARBL2S6TyHXlseux7NNwkZJRoE9lq/kg7gzhY9Ejm3V+tmptoJNK+8OxGQn7i0AAA"}
+![Bàn nâng hạ](/assets/img/post/working-space.webp "Bàn nâng hạ"){: lqip="data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAwABUB8JbACw7DHo3rwZquAAP4HeD4Asgx7A/zRE8j1rThmMdHARBL2S6TyHXlseux7NNwkZJRoE9lq/kg7gzhY9Ejm3V+tmptoJNK+8OxGQn7i0AAA" }
 _Bàn nâng hạ trong góc làm việc của mình_
 
 Tính năng nâng hạ của bàn làm việc không mới, nó cũng không đến mức là game-changer, không đến nỗi phải must-have. Vì vậy, loại bàn làm việc có tính năng nâng hạ này, thực lòng là: có cũng được, không cũng chẳng sao. Mình mua được lúc giá rất rẻ (khoảng hơn 2tr) nên nó chỉ là ưu điểm khi so với các loại bàn khác.
@@ -131,7 +131,7 @@ Món mắm cà này mình tự làm, nguyên liệu bình dân, sử dụng mắ
 _Lùm xùm xe đạp 3D Superstrata - một start-up của người Việt_
 
 Mình có nghe đâu đó nói rằng: Người Việt thường tự hại nhau. Trong giới Việt Kiều, câu chuyện luôn được đem ra nhắc lại là: làm ơn mắc oán. Đến nỗi, nhiều người sợ nhận đồng hương. Thực tế của mình... cũng vậy.
-![Sợ nhận đồng hương](/assets/img/post/cmt-2023.webp "Sợ nhận đồng hương"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAcABUB8JaQAAusc3QCk4AD+8DnNqP80pQRgIx3jDwvdT4j0AAAA" width="280" .right }
+![Sợ nhận đồng hương](/assets/img/post/cmt-2023.webp "Sợ nhận đồng hương"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAcABUB8JaQAAusc3QCk4AD+8DnNqP80pQRgIx3jDwvdT4j0AAAA" width="280" .right}
 
 Trong mối quan hệ công việc, tính sòng phẳng cũng không phải là ưu điểm của người Việt Nam. Giữa sếp và nhân viên, kiểu gì cũng dính chút "ơn huệ, tình nghĩa". Và, đến khi họ chia tay, chủ đề câu chuyện sẽ có màu kịch bản: người bội bạc.
 
@@ -143,7 +143,7 @@ _Thú cưng - cưng lắm_
 
 Thế giới càng phát triển, càng hiện đại thì con người chúng ta lại càng cách xa nhau. Khoảng cách càng ngắn lại thì cảm xúc càng nhạt nhoà. Lập nghiệp ở nơi mình không sinh ra, thường ai cũng nhiều tâm sự. Những cảm xúc này không phải chia sẻ hay thổ lộ là điều hoà được. Cho đến khi, mình nuôi thú cưng. Cảm xúc cá nhân cũng trở nên cân bằng hơn, bớt đi nhiều sự cộc cằn cáu kỉnh.
 
-![Nuôi thú cưng](/assets/img/post/thu-cung-2.webp "Nuôi thú cưng"){: lqip="data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAwABUB8JQAAX4vfWIC/DwAA/mDlFnIGRwiymWHNBOVTnvCOMAmI31Eivtj02ZeoNNyEEctyvMsN9G/tIiQ5CKvxZDzc99s/xatYlNXoFAoAAAA="}
+![Nuôi thú cưng](/assets/img/post/thu-cung-2.webp "Nuôi thú cưng"){: lqip="data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAwABUB8JQAAX4vfWIC/DwAA/mDlFnIGRwiymWHNBOVTnvCOMAmI31Eivtj02ZeoNNyEEctyvMsN9G/tIiQ5CKvxZDzc99s/xatYlNXoFAoAAAA=" }
 _Nuôi thú cưng giúp mình thay đổi tâm trạng và điều tiết cảm xúc tốt hơn_
 
 

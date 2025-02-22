@@ -8,10 +8,10 @@ redirect_from:
 ---
 ## From concept to fruition
 ### Launching Vietnam's first motorbike e-commerce store
-![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSC8AAAARL0CWjRy0uPm2o3iGj4iY0KGqgQhqk0EA00GAVwPTv8x9SRDR/wnIQd3D+GeOAgBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" }
+![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQAAW7CpsM2NVAAA/t7OZeYxhcp2wU3CFuYmt1xN7ofAmI2Q4S5pNuT5IlRgJOQAAA==" }
 _Vietnam's first motorbike e-commerce store_
 
-![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSDAAAAARL0AmbRtVUXrvmol5WETEgj1UNRBBbTIIYDoI8Gpg+pe5Lwki+j8BOah7GP/MUQBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" width="420" .right}
+![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSC8AAAARL0CWjRy0uPm2o3iGj4iY0KGqgQhqk0EA00GAVwPTv8x9SRDR/wnIQd3D+GeOAgBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" width="420" .right}
 When e-commerce took off in Vietnam in 2018, led by platforms like Lazada, Shopee, and Tiki, I saw an opportunity. Despite the unconventional idea of selling motorbikes online, I decided to take the plunge.
 
 Within two weeks, the first sale was made. Then came 11.11, a day that brought in 2 billion VND in sales alone. That year, Hoang Viet achieved over 1 trillion VND in revenue, and I learned firsthand the power of risk-taking in the digital marketplace.
@@ -33,7 +33,7 @@ Inspired by the spirit of Thai Khuong, a place I consider a second home, this me
 In my journey of building websites, I’ve worked with various audiences—from companies to community groups. Beyond the aesthetics, I focused on making each site relevant and meaningful for its users.
 
 Investing time, creativity, and resources in each one, I’ve aimed to make every visitor’s experience an impactful one.
-![Cover profile](/assets/img/site/TK-cover-profile.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA="}
+![Cover profile](/assets/img/site/TK-cover-profile.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA=" }
 
 ### Content with a purpose
 For me, a business’s mission is about solving customer problems. Especially with specialized fields, like stem cell therapy, it’s essential to offer educational content to help customers make informed decisions. By understanding what they face, I strive to help them know what they don’t know.
@@ -57,22 +57,22 @@ I’ve also worked on various brochures and profiles to showcase these efforts. 
 ## From vision to execution
 Every aspect of building Thai Khuong Service has been an exercise in creativity and commitment. Whether designing team uniforms or building camaraderie among colleagues, I aim to foster an environment that values each individual’s contribution.
 
-![Thai Khuong Services](/assets/img/post/tks.webp "Thai Khuong Services"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkABUB8JZQAAujc65pyYAD+sjFgpT7INiFxt9fImMSkz/aXRj8dWUB0RJALcCdAgAAA"}
+![Thai Khuong Services](/assets/img/post/tks.webp "Thai Khuong Services"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkABUB8JZQAAujc65pyYAD+sjFgpT7INiFxt9fImMSkz/aXRj8dWUB0RJALcCdAgAAA" }
 _Thai Khuong Services_
 
 {: .d-flex .justify-content-center }
-![Planning](/assets/img/site/stk-planning.webp "TKS Planning Service"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .mw-50 .me-2 }
-![Make a different](/assets/img/site/design-tks-uniform.webp "TKS uniform"){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAwABUB8JQAAXRurIo3IyIAA/ofcNdUeQz5HAMO312h0gI1FK8SgLP87HziTHLcLr8/2LEksdrvSTUPyefk3sXwyrAgA" .normal .mw-50 }
+![Planning](/assets/img/site/stk-planning.webp "TKS Planning Service"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .mw-50 .me-2}
+![Make a different](/assets/img/site/design-tks-uniform.webp "TKS uniform"){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JQBOgCHw6UfXuUBcAAD+wdJTEFnVS15+mFh7Ho8qDWH+divZm8c1IPUZLdV2p/EaTdqhbISd6RlL+of40ZsCB2clQAAA" .normal .mw-50}
 
 {: .d-flex .justify-content-center }
-![Employee](/assets/img/site/tks-employee.webp "The firts members"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .mw-50 .me-2 }
-![TKS Teams](/assets/img/site/tks-teams.webp "TKS Teams"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal .mw-50 }
+![Employee](/assets/img/site/tks-employee.webp "The firts members"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .mw-50 .me-2}
+![TKS Teams](/assets/img/site/tks-teams.webp "TKS Teams"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal .mw-50}
 
 
 ## Real-time marketing insights
-![Real time report](/assets/img/site/real-time-report.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+77QlN+SZ/AUtcbqJ7uIDhh0RYZnN/gAA" }
+![Real time report](/assets/img/site/real-time-report.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA" }
 
-![Teams](/assets/img/site/tk-teams.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JZgCw7YvXgf6b9NisWJQAP7mdtUbvbsFUUXHe4+1aufpD0xOgBIWtydWbhWlwBDk4HWznB+EM2Q8AdKQZQcVVSxjVUUjxJuAAA==" width="520" .right }
+![Teams](/assets/img/site/tk-teams.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JZgCw7YvXgf6b9NisWJQAP7mdtUbvbsFUUXHe4+1aufpD0xOgBIWtydWbhWlwBDk4HWznB+EM2Q8AdKQZQcVVSxjVUUjxJuAAA==" width="520" .right}
 In today’s fast-paced marketing environment, data-driven insights make all the difference. Using real-time analytics, I stay agile, continually adapting my strategies to be more impactful and relevant.
 
 This journey has been one of constant learning and adapting, where every project reflects my growth and commitment to creating value in a digital world.

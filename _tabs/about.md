@@ -7,29 +7,29 @@ redirect_from: /about-me/
 ---
 ## Hey there, I'm Steve
 
-![I'm Steve](/assets/img/site/I'm-Steve.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABUB8JZgAAi+KC7X2t6rAAP28sZJFLRwTs5MCmCI0yZUykfW+I8XQX9uc2PDCmowXrlSjjAAA"}
+![I'm Steve](/assets/img/site/I'm-Steve.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JZgAAi6qu5CijAD9vLGSvVQn7jFMkQY4lZ3n2o63bWp2gXTg8BJ5RUrvCAlEO4p9eAAA" }
 _I'm Steve_
 
 As a marketer, I'm driven by a curiosity about how businesses operate—particularly in improving customer experiences and delivering genuine value. I believe it’s possible to achieve success while upholding strong ethical principles, blending profit with purpose.
 
-![About me](/assets/img/site/about-me.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABUB8JbACdADxHF8KaoEAAP7AKlWu0Qig73p1rucOy/e2ScksvXY5Dc0zVVk/+ydl9gPPgAAA"}
+![About me](/assets/img/site/about-me.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABUB8JbACdADxHF8KaoEAAP7AKlWu0Qig73p1rucOy/e2ScksvXY5Dc0zVVk/+ydl9gPPgAAA" }
 _I am who I am. Not whom you think I am!_
 
 In my free time, I'm an avid reader with a taste for a wide range of subjects—from in-depth books to timely articles. My approach is simple: read what interests me and let curiosity guide me to new insights.
 
-![Reading book](/assets/img/site/reading-book.webp){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAwABUB8JaQAAXhUeAAA/Nan+9Q8ejpBl6+ClK4x9G0ftCCMbStXFse0y8UdYzakqKfNBUFmDHND4hiR5e9NcEjkYAAA"}
+![Reading book](/assets/img/site/reading-book.webp){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAwABUB8JaQAAXhUeAAA/Nan+9Q8ejpBl6+ClK4x9G0ftCCMbStXFse0y8UdYzakqKfNBUFmDHND4hiR5e9NcEjkYAAA" }
 _I have read everything I wanted._
 
 I also love hitting the road on my Surly ECR bike, often joined by friends for long, scenic rides. Capturing moments from these journeys fuels another passion: photography.
 
-![Me and bike](/assets/img/site/me-and-bike.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAwABUB8JYgCw7DpMI68kkPYAP5+o7QM5plMx1u+xsHLKYzC6CiftIOIdZdDLjiZa/kCZOP4VzbZF9dmFZdHR9Q6Emc4rWAAAA=="}
+![Me and bike](/assets/img/site/me-and-bike.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAwABUB8JYgCw7DpMI68kkPYAP5+o7QM5plMx1u+xsHLKYzC6CiftIOIdZdDLjiZa/kCZOP4VzbZF9dmFZdHR9Q6Emc4rWAAAA==" }
 _Ho Chi Minh to Ba Dong Beach: 180km one-way bike touring trips in 2022._
 
 ## This Site
 
 I've been sharing my thoughts online since 2009. In 2019, I launched my domain, [skyquietly.com](https://skyquietly.com), on WordPress. Recently, I moved to Jekyll for a cleaner, more customizable experience.
 
-![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CQkSQ2p3HtC8W7fETENbQPVQ1EUJsMApgOArwamP5l7k+BiP5PQA7qHsYfcxRWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'}
+![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CgbRQ4Z+NecIEXIiJu4H2oaiCC2mQQwHQQ4NXA9C9zfwpE9H8CclD3MP6YowBWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'}
 _My old website with WordPress_
 
 This blog is my creative hub where I record insights, share best practices, explore topics I’m passionate about, and document projects. Each page is designed and built by me. The site runs on [Jekyll](https://jekyllrb.com), [hosted on GitHub](https://github.com/lotusk08/lotusk08.github.io), and deployed through [Cloudflare](https://cloudflare.com).

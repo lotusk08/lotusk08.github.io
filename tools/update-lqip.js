@@ -44,28 +44,43 @@ async function processMarkdown(mdPath, lqipMap) {
   // Process front matter first
   content = await processFrontMatter(content, lqipMap);
 
-  // Updated regex to handle image with title
+  // Updated regex to handle various image formats and captions
   const imageRegex =
-    /!\[.*?\]\((\/assets\/img\/.*?\.webp)(?:\s+"[^"]*")?\)({:[^}]*})?/g;
+    /!\[([^\]]*)\]\((?:\.\.\/|\/)?assets\/img\/[^)]+\.webp\)({:[^}]*})?(?:\s*_[^_]*_)?/g;
 
-  content = content.replace(imageRegex, (match, imagePath, existingAttrs) => {
-    const lqipData = lqipMap[imagePath];
+  content = content.replace(imageRegex, (match) => {
+    // Extract parts of the image markdown
+    const altText = match.match(/!\[(.*?)\]/)?.[1] || "";
+    const imagePath = match.match(/\(([^)]+)\)/)?.[1] || "";
+    const attributes = match.match(/{:([^}]*)}/)?.[1] || "";
+    const caption = match.match(/_([^_]+)_$/)?.[1] || "";
+
+    // Convert relative path to absolute path
+    const absolutePath = imagePath.replace("../", "/");
+
+    // Get LQIP data
+    const lqipData = lqipMap[absolutePath];
+
     if (lqipData) {
-      // Preserve title if it exists
-      const titleMatch = match.match(/\(([^)]+)\s+"([^"]+)"\)/);
-      const title = titleMatch ? ` "${titleMatch[2]}"` : "";
+      // Build new attributes
+      let newAttributes = attributes
+        .replace(/\s*lqip="[^"]*"\s*/g, "") // Remove existing LQIP
+        .trim();
 
-      if (existingAttrs) {
-        // Extract existing attributes, removing any duplicate lqip
-        const attrs = existingAttrs
-          .slice(2, -1)
-          .replace(/\s*lqip="[^"]*"\s*/g, " ")
-          .trim();
-        return `![${match.split("![")[1].split("]")[0]}](${imagePath}${title}){: lqip="${lqipData}" ${attrs}}`;
-      } else {
-        return `![${match.split("![")[1].split("]")[0]}](${imagePath}${title}){: lqip="${lqipData}" }`;
+      // Add LQIP and other attributes
+      newAttributes = `lqip="${lqipData}" ${newAttributes}`.trim();
+
+      // Construct the new image markdown
+      let newImage = `![${altText}](${imagePath}){: ${newAttributes}}`;
+
+      // Add caption if it exists
+      if (caption) {
+        newImage += ` _${caption}_`;
       }
+
+      return newImage;
     }
+
     return match;
   });
 

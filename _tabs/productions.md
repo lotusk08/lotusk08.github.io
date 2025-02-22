@@ -8,8 +8,7 @@ redirect_from:
 ---
 ## From concept to fruition
 ### Launching Vietnam's first motorbike e-commerce store
-![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQAAW7CpsM2NVAAA/t7OZeYxhcp2wU3CFuYmt1xN7ofAmI2Q4S5pNuT5IlRgJOQAAA==" }
-_Vietnam's first motorbike e-commerce store_
+![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQAAW7CpsM2NVAAA/t7OZeYxhcp2wU3CFuYmt1xN7ofAmI2Q4S5pNuT5IlRgJOQAAA=="} _Vietnam's first motorbike e-commerce store_
 
 ![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSC8AAAARL0CWjRy0uPm2o3iGj4iY0KGqgQhqk0EA00GAVwPTv8x9SRDR/wnIQd3D+GeOAgBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" width="420" .right}
 When e-commerce took off in Vietnam in 2018, led by platforms like Lazada, Shopee, and Tiki, I saw an opportunity. Despite the unconventional idea of selling motorbikes online, I decided to take the plunge.
@@ -33,7 +32,7 @@ Inspired by the spirit of Thai Khuong, a place I consider a second home, this me
 In my journey of building websites, I’ve worked with various audiences—from companies to community groups. Beyond the aesthetics, I focused on making each site relevant and meaningful for its users.
 
 Investing time, creativity, and resources in each one, I’ve aimed to make every visitor’s experience an impactful one.
-![Cover profile](/assets/img/site/TK-cover-profile.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA=" }
+![Cover profile](/assets/img/site/TK-cover-profile.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA="}
 
 ### Content with a purpose
 For me, a business’s mission is about solving customer problems. Especially with specialized fields, like stem cell therapy, it’s essential to offer educational content to help customers make informed decisions. By understanding what they face, I strive to help them know what they don’t know.
@@ -70,7 +69,7 @@ _Thai Khuong Services_
 
 
 ## Real-time marketing insights
-![Real time report](/assets/img/site/real-time-report.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA" }
+![Real time report](/assets/img/site/real-time-report.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA"}
 
 ![Teams](/assets/img/site/tk-teams.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JZgCw7YvXgf6b9NisWJQAP7mdtUbvbsFUUXHe4+1aufpD0xOgBIWtydWbhWlwBDk4HWznB+EM2Q8AdKQZQcVVSxjVUUjxJuAAA==" width="520" .right}
 In today’s fast-paced marketing environment, data-driven insights make all the difference. Using real-time analytics, I stay agile, continually adapting my strategies to be more impactful and relevant.

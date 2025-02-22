@@ -106,7 +106,6 @@
             }
           }
         ],
-        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -256,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-16-golf-vietnam.md",
+                "file": "_posts/2024-12-19-ai.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2023-06-16-golf-vietnam"
+              "title": "Outline of 2024-12-19-ai"
             }
           }
         ],
@@ -283,52 +282,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b894f239e385434",
+  "active": "f4c8c31ba952b73b",
   "lastOpenFiles": [
+    "_site/about.html",
+    "_site/topics.html",
+    "_site/writting.html",
+    "_site/productions.html",
+    "_site/categories.html",
+    "_site/kindness.html",
+    "_site/ai.html",
+    "_site/start-up.html",
+    "_site/what-makes-you-happy.html",
+    "_site/a-year-with-too.html",
+    "_site/su-truong-thanh.html",
+    "_site/assets/lib/emojis/tw-emoji/263a.png",
+    "_site/assets/lib/emojis/tw-emoji/1f9d0.png",
+    "_site/assets/lib/emojis/tw-emoji/2639.png",
+    "_site/assets/lib/emojis/tw-emoji/1f97a.png",
+    "_site/assets/lib/emojis/tw-emoji/1f978.png",
+    "_site/assets/lib/emojis/tw-emoji/1f976.png",
+    "_site/assets/lib/emojis/tw-emoji/1f975.png",
+    "_site/assets/lib/emojis/tw-emoji/1f974.png",
+    "_site/assets/lib/emojis/tw-emoji/1f973.png",
+    "_site/assets/lib/emojis/tw-emoji/1f972.png",
+    "_site/assets/lib/emojis/qq/README.md",
+    "_site/assets/lib/emojis/tieba/README.md",
+    "_site/assets/lib/emojis/bilibili/README.md",
+    "_site/assets/lib/fontawesome-free/README.md",
+    "_site/assets/lib/README.md",
+    "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2024-06-08-goodbye-brad.md",
     "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
     "_posts/2024-09-29-su-truong-thanh.md",
     "_posts/2024-10-20-a-year-with-too.md",
     "_posts/2024-10-22-what-makes-you-happy.md",
     "_posts/2024-12-19-ai.md",
-    "node_modules/@rollup/rollup-darwin-arm64",
-    "node_modules/@img/sharp-wasm32",
-    "node_modules/@rollup/rollup-android-arm64",
-    "node_modules/@img/sharp-win32-ia32",
-    "node_modules/@img/sharp-linuxmusl-x64",
-    "node_modules/@img/sharp-win32-x64",
-    "node_modules/@img/sharp-linuxmusl-arm64",
-    "node_modules/@img/sharp-linux-x64",
-    "node_modules/@img/sharp-linux-arm",
-    "node_modules/@img/sharp-linux-s390x",
     "node_modules/husky/README.md",
     "_posts/2024-12-21-kindness.md",
     "_drafts/2019-08-08-text-and-typography.md",
-    "_site/assets/img/favicons/web-app-manifest-512x512.png",
-    "_site/assets/img/favicons/web-app-manifest-192x192.png",
-    "_site/assets/img/favicons/favicon.svg",
-    "_site/assets/img/favicons/favicon-96x96.png",
-    "assets/img/favicons/web-app-manifest-512x512.png",
-    "assets/img/favicons/web-app-manifest-192x192.png",
-    "assets/img/favicons/favicon.svg",
-    "assets/img/favicons/favicon-96x96.png",
-    "_site/assets/img/site/tkt-website.webp",
-    "_site/assets/img/site/tks-teams.webp",
     "_posts/2024-11-21-start-up.md",
     "_posts/2024-06-16-cv?.md",
     "_posts/2023-11-10-my-pet.md",
     "_posts/2023-09-01-obsidian.md",
     "_posts/2023-07-23-an-nam.md",
-    "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2023-05-26-gojek-datbike.md",
     "_posts/2023-04-27-noi-so-AI.md",
     "_posts/2023-04-01-ly-tri.md",
     "_posts/2023-03-23-morning-coffee.md",
-    "_posts/2023-03-08-xanh-sm.md",
-    "_posts/2022-12-25-tu-su.md",
-    "_posts/2022-12-17-2022-mot-nam-nhin-lai.md",
-    "_posts/2022-11-10-hoai-niem.md",
-    "_posts/2022-08-29-Gen-Z.md",
-    "_posts/2022-08-23-quit-job.md"
+    "_posts/2023-03-08-xanh-sm.md"
   ]
 }

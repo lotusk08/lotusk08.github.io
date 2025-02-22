@@ -5,7 +5,7 @@
   "attachmentFolderPath": "/assets/img/post",
   "promptDelete": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "showInlineTitle": false,
   "spellcheck": false,
   "autoConvertHtml": true,

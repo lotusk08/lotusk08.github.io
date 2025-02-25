@@ -8,12 +8,16 @@
   </ul>
 </div>
 
-Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, host in Github with [submodule][lib], deployed on Cloudflare.
+Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, deployed on Cloudflare.
  
 
 
 ## Deploy & public by [CloudFlare][cf]
-Fix error while building like this `Could not find html-proofer-5.0.9, async-2.21.1, nokogiri-1.18.1-x86_64-linux-gnu, pdf-reader-2.13.0, ... in locally installed gems (Bundler::GemNotFound). Failed: Error while executing user command. Exited with error code: 1` in Cloudflare with config the variables for your Preview/Production environment
+Fix error while building:
+```bash
+Could not find html-proofer-5.0.9, async-2.21.1, nokogiri-1.18.1-x86_64-linux-gnu, pdf-reader-2.13.0, ... in locally installed gems (Bundler::GemNotFound). Failed: Error while executing user command. Exited with error code: 1
+```
+in Cloudflare with config the variables for your Preview/Production environment
 
 Variable name|Value
 ---|---
@@ -74,12 +78,13 @@ npm run lqip
   - style: merge tag to archive page. Moving about page to footer. Hide tab, about, category.
   - style: restyle sidebar: remove background, restyle nav.link hover effect.
   - fix: theme color switching.
+  - refactor: restyle footer: add license link.
+  - refactor: remove unused code & submodule.
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy
 [jekyllrb]: https://jekyllrb.com
 [stevehoang.com]: https://stevehoang.com
-[lib]: https://github.com/lotusk08/theme-static-assets
 [lqip]: https://github.com/transitive-bullshit/lqip-modern
 [waline]: https://github.com/walinejs/waline
 [waline.html]: https://github.com/lotusk08/lotusk08.github.io/blob/34bf7b0643f7aae4fa812745794a020d9ce5863f/_includes/comments/waline.html

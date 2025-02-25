@@ -1,11 +1,7 @@
 ---
 ---
 
-@use 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
-';
+@use {% if jekyll.environment == 'production' %}'main.bundle'{% else %}'main'{% endif %};
 
 /* append your custom style below */
 

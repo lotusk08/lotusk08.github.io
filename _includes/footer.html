@@ -59,7 +59,7 @@
     <span
       data-bs-toggle="tooltip"
       data-bs-placement="top"
-      title="{{ site.data.locales[include.lang].copyright.verbose }}"
+      title="{{ site.data.locales[include.lang].copyright.mind }}"
     >
       {% if authors %}
         {% for author in authors %}
@@ -75,22 +75,14 @@
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
       {% endif %}
     </span>
-
-    {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-    {%- endcapture -%}
-
-    {%- capture _theme -%}
-      <a
+    {% if site.data.locales[include.lang].copyright.license %}
+      <span
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="Chirpy v{{ theme.version }}"
-        href="https://github.com/lotusk08/lotusk08.github.io"
-        target="_blank"
-        rel="noopener"
-      >Jekyll</a>
-    {%- endcapture -%}
-
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+        title="{{ site.data.locales[include.lang].copyright.verbose }}"
+      >
+      {{- site.data.locales[include.lang].copyright.license -}}
+      </span>
+    {% endif %}
   </p>
 </footer>

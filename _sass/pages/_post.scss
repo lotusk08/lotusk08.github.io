@@ -51,22 +51,6 @@ header {
   margin-top: 6rem;
   border-bottom: 1px double var(--main-border-color);
 
-  .license-wrapper {
-    line-height: 1.2rem;
-
-    > a {
-      @extend %text-highlight;
-
-      &:hover {
-        @extend %link-hover;
-      }
-    }
-
-    span:last-child {
-      @extend %text-sm;
-    }
-  } /* .license-wrapper */
-
   .post-meta a:not(:hover) {
     @extend %link-underline;
   }

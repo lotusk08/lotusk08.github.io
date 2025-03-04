@@ -1,10 +1,10 @@
 <link
   rel="stylesheet"
-  href="{{ site.data.origin[type].waline.css | relative_url }}"
+  href="{{ site.data.cors.waline.css | relative_url }}"
 />
 
 <script type="module">
-  import { init } from "{{ site.data.origin[type].waline.js | relative_url }}";
+  import { init } from "{{ site.data.cors.waline.js | relative_url }}";
 
   const walineThread = document.createElement("div");
   walineThread.id = "waline";
@@ -29,7 +29,7 @@
     reactionTitle: ""
   };
 
-  const emojiPath = "{{ site.data.origin[type].waline.emojis | relative_url }}";
+  const emojiPath = "{{ site.data.cors.waline.emojis | relative_url }}";
   const emojiSets = emojiPath ? [`${emojiPath}/qq`] : [];
 
   try {

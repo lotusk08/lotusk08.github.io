@@ -60,13 +60,11 @@
   {% include_cached favicons.html %}
 
   <!-- Resource Hints -->
-  {% unless site.assets.self_host.enabled %}
-    {% for hint in site.data.origin.cors.resource_hints %}
-      {% for link in hint.links %}
-        <link rel="{{ link.rel }}" href="{{ hint.url }}" {{ link.opts | join: ' ' }}>
-      {% endfor %}
+  {% for hint in site.data.cors.resource_hints %}
+    {% for link in hint.links %}
+      <link rel="{{ link.rel }}" href="{{ hint.url }}" {{ link.opts | join: ' ' }}>
     {% endfor %}
-  {% endunless %}
+  {% endfor %}
 
   <!-- Bootstrap -->
   {% unless jekyll.environment == 'production' %}
@@ -74,24 +72,24 @@
   {% endunless %}
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ '/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css'| relative_url }}">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="{{ site.data.origin[type].fontawesome.css | relative_url }}">
+  <link rel="stylesheet" href="{{ site.data.cors.fontawesome.css | relative_url }}">
 
   <!-- 3rd-party Dependencies -->
 
   {% if site.toc and page.toc %}
-    <link rel="stylesheet" href="{{ site.data.origin[type].toc.css | relative_url }}">
+    <link rel="stylesheet" href="{{ site.data.cors.toc.css | relative_url }}">
   {% endif %}
 
   {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
-    <link rel="stylesheet" href="{{ site.data.origin[type]['lazy-polyfill'].css | relative_url }}">
+    <link rel="stylesheet" href="{{ site.data.cors['lazy-polyfill'].css | relative_url }}">
   {% endif %}
 
   {% if page.layout == 'page' or page.layout == 'post' %}
     <!-- Image Popup -->
-    <link rel="stylesheet" href="{{ site.data.origin[type].glightbox.css | relative_url }}">
+    <link rel="stylesheet" href="{{ site.data.cors.glightbox.css | relative_url }}">
   {% endif %}
 
   <!-- Scripts -->

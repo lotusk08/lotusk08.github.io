@@ -1,18 +1,15 @@
 {
-  "name": "jekyll-theme-chirpy",
-  "version": "7.2.4",
-  "description": "A minimal, responsive, and feature-rich Jekyll theme for technical writing.",
+  "name": "Steve's blog",
+  "version": "1.2.4",
+  "description": "My blog's source code and notes",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
+    "url": "git+https://github.com/lotusk08/lotusk08.github.io.git"
   },
-  "author": "Cotes Chung",
+  "author": "Steve Hoang",
   "license": "MIT",
   "since": 2019,
-  "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
-  },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
+  "homepage": "https://stevehoang.com",
   "scripts": {
     "build": "concurrently npm:build:*",
     "build:css": "node purgecss.js",

@@ -5,20 +5,13 @@ class ScrollProgressManager {
     this.circumference = 2 * Math.PI * 20;
     this.scrollTimeout = null;
     this.tocTimeout = null;
-    this.isScrolling = false;
 
     if (this.btn) {
       this.initializeBackToTop();
     }
-
     if (this.tocWrapper) {
       this.initializeTOC();
     }
-
-    // Throttled scroll handler
-    this.throttledScrollHandler = this.throttle(() => {
-      this.handleScroll();
-    }, 16); // ~60fps
 
     this.bindEvents();
   }
@@ -33,7 +26,6 @@ class ScrollProgressManager {
   }
 
   createScrollElements() {
-    // Create SVG elements
     const svg = this.createSVGElement("svg", {
       id: "progress-circle",
       width: "44",
@@ -53,7 +45,6 @@ class ScrollProgressManager {
 
     svg.appendChild(circle);
 
-    // Create percentage text element
     const percentageText = document.createElement("div");
     percentageText.id = "scroll-percentage";
     percentageText.textContent = "0%";
@@ -62,10 +53,7 @@ class ScrollProgressManager {
   }
 
   createSVGElement(type, attributes) {
-    const element = document.createElementNS(
-      "http://www.w3.org/2000/svg",
-      type
-    );
+    const element = document.createElementNS("http://www.w3.org/2000/svg", type);
     Object.entries(attributes).forEach(([key, value]) => {
       element.setAttribute(key, value);
     });
@@ -97,14 +85,10 @@ class ScrollProgressManager {
   }
 
   updateUI(drawLength, scrollPercentage) {
-    // Update circle progress
     this.circle.style.strokeDashoffset = this.circumference - drawLength;
-
-    // Update percentage text
-    this.percentageText.textContent = scrollPercentage;
+    this.percentageText.textContent = `${scrollPercentage}`;
     this.percentageText.classList.add("visible");
 
-    // Hide percentage after delay
     clearTimeout(this.scrollTimeout);
     this.scrollTimeout = setTimeout(() => {
       this.percentageText.classList.remove("visible");
@@ -118,43 +102,34 @@ class ScrollProgressManager {
     }, duration);
   }
 
-  handleScroll() {
-    if (this.btn) {
-      requestAnimationFrame(() => this.updateScrollProgress());
-    }
-
-    if (this.tocWrapper) {
-      this.tocWrapper.classList.add("visible");
-      clearTimeout(this.tocTimeout);
-      this.tocTimeout = setTimeout(() => {
-        this.tocWrapper.classList.remove("visible");
-      }, 1200);
-    }
-  }
-
-  throttle(func, limit) {
-    let inThrottle;
-    return function (...args) {
-      if (!inThrottle) {
-        func.apply(this, args);
-        inThrottle = true;
-        setTimeout(() => (inThrottle = false), limit);
-      }
-    };
-  }
-
   bindEvents() {
-    window.addEventListener("scroll", this.throttledScrollHandler);
+    window.addEventListener('scroll', () => {
+      requestAnimationFrame(() => {
+        try {
+          if (this.btn) {
+            this.updateScrollProgress();
+          }
+          if (this.tocWrapper) {
+            this.tocWrapper.classList.add('visible');
+            clearTimeout(this.tocTimeout);
+            this.tocTimeout = setTimeout(() => {
+              this.tocWrapper.classList.remove('visible');
+            }, 1200);
+          }
+        } catch (error) {
+          console.error('Error in scroll handler:', error);
+        }
+      });
+    });
 
     if (this.btn) {
-      this.btn.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+      this.btn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     }
   }
 }
 
-// Initialize when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
   new ScrollProgressManager();
 });

@@ -21,7 +21,7 @@ package-lock.json
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
-!.nova
+.nova/*
 !.husky
 
 # Misc

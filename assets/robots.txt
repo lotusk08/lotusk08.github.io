@@ -4,7 +4,7 @@ permalink: /robots.txt
 ---
 
 User-agent: *
-
+Allow: /
 Disallow: /norobots/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
@@ -18,4 +18,14 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 User-agent: PerplexityBot
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: Cohere-ai
+Disallow: /
+User-agent: Claude-2
+Disallow: /
+User-agent: Anthropic-AI
 Disallow: /

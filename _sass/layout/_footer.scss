@@ -45,17 +45,9 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 
-  &:not(:last-child) {
-  margin-right: v.$sb-btn-gap;
-
-  @include bp.xxxl {
-    margin-right: v.$sb-btn-gap-lg;
-    }
-  }
-
   a {
     color: var(--sidebar-btn-color);
-    margin-right: 1rem;
+    padding-right: 1rem;
 
     &:hover {
       color: var(--sidebar-active-color) !important;

@@ -6,6 +6,7 @@
 %-btn-post-nav {
   width: 50%;
   position: relative;
+  border-radius: unset;
   border-color: var(--btn-border-color);
 }
 
@@ -30,7 +31,8 @@ header {
 
     em,
     time {
-      @extend %text-highlight;
+      /* @extend %text-highlight;
+      font-weight: 400; */
     }
 
     em {
@@ -114,8 +116,8 @@ header {
   --wc-stm-font-family: v.$font-family-base;
   --wc-stm-dialog-background-color: var(--card-bg);
   --wc-stm-form-button-border: 1px solid var(--btn-border-color);
-  --wc-stm-form-submit-background-color: var(--sidebar-btn-bg);
-  --wc-stm-form-cancel-background-color: var(--sidebar-btn-bg);
+  --wc-stm-form-submit-background-color: var(--side-btn-bg);
+  --wc-stm-form-cancel-background-color: var(--side-btn-bg);
   --wc-stm-form-button-background-color-hover: #007bff;
   --wc-stm-form-button-color-hover: white;
 
@@ -135,7 +137,6 @@ header {
 .post-navigation {
   @include bp.lt(bp.get(lg)) {
     @include mx.pl-pr(0);
-    @include mx.ml-mr(-0.5rem);
   }
 
   .btn {
@@ -167,20 +168,53 @@ header {
     &::before {
       color: var(--text-muted-color);
       font-size: 0.65rem;
-      text-transform: uppercase;
       content: attr(aria-label);
+      display: block;
     }
 
     &:first-child {
-      border-radius: v.$radius-lg 0 0 v.$radius-lg;
+      border-radius: v.$radius-lg 0 0 0;
+      border-top: 1px;
+      border-left: 1px;
+      border-color: var(--btn-border-color);
       left: 0.5px;
+
+      &::before {
+        content: "Previous";
+        color: var(--text-muted-color);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(5px, 2px);
+      }
+
+      &:hover:not(.disabled)::before {
+        color: whitesmoke;
+      }
     }
 
     &:last-child {
-      border-radius: 0 v.$radius-lg v.$radius-lg 0;
+      border-radius: 0 0 v.$radius-lg 0;
+      border-bottom: 1px;
+      border-right: 1px;
+      border-color: var(--btn-border-color);
       right: 0.5px;
+
+      &::before {
+        content: "Next";
+        color: var(--text-muted-color);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(-5px, -2px);
+      }
+
+      &:hover:not(.disabled)::before {
+        color: whitesmoke;
+      }
     }
   }
+
 
   p {
     font-size: 1.1rem;
@@ -337,7 +371,6 @@ header {
   top: 0;
   z-index: 1;
   margin: 0 -1rem;
-  height: v.$topbar-height;
   background: var(--main-bg);
   border-bottom: 1px solid var(--main-border-color);
   transition: all 0.2s ease-in-out;

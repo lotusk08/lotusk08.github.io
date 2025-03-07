@@ -1,44 +1,78 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
-hide: true
-order: 5
-redirect_from: /about-me/
+icon: fa-solid fa-layer-group
+order: 2
+redirect_from:
+  - /my-products
+  - /marketing
+  - /productions
 ---
-## Hey there, I'm Steve
+## From concept to fruition
+### Launching Vietnam's first motorbike e-commerce store
+![Hoang Viet's E-commerces policy](/assets/img/site/hv-e-commerce-policy.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQAAW7CpsM2NVAAA/t7OZeYxhcp2wU3CFuYmt1xN7ofAmI2Q4S5pNuT5IlRgJOQAAA=="} _Vietnam's first motorbike e-commerce store_
 
-![I'm Steve](/assets/img/site/I'm-Steve.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JZgAAi6qu5CijAD9vLGSvVQn7jFMkQY4lZ3n2o63bWp2gXTg8BJ5RUrvCAlEO4p9eAAA"} _I'm Steve_
+![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSC8AAAARL0CWjRy0uPm2o3iGj4iY0KGqgQhqk0EA00GAVwPTv8x9SRDR/wnIQd3D+GeOAgBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" width="420" .right}
+When e-commerce took off in Vietnam in 2018, led by platforms like Lazada, Shopee, and Tiki, I saw an opportunity. Despite the unconventional idea of selling motorbikes online, I decided to take the plunge.
 
-As a marketer, I'm driven by a curiosity about how businesses operate—particularly in improving customer experiences and delivering genuine value. I believe it’s possible to achieve success while upholding strong ethical principles, blending profit with purpose.
+Within two weeks, the first sale was made. Then came 11.11, a day that brought in 2 billion VND in sales alone. That year, Hoang Viet achieved over 1 trillion VND in revenue, and I learned firsthand the power of risk-taking in the digital marketplace.
 
-![About me](/assets/img/site/about-me.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABUB8JbACdADxHF8KaoEAAP7AKlWu0Qig73p1rucOy/e2ScksvXY5Dc0zVVk/+ydl9gPPgAAA"} _I am who I am. Not whom you think I am!_
+## Video – Memorable milestones
+Some milestones are too memorable to keep to myself. Here’s a video capturing a few moments that meant a lot along the way.
+{% include embed/youtube.html id='C3aVBHVbomM' %}
 
-In my free time, I'm an avid reader with a taste for a wide range of subjects—from in-depth books to timely articles. My approach is simple: read what interests me and let curiosity guide me to new insights.
+## Thai Khuong Song: A personal composition
+![Thai khuong song](/assets/img/site/thai-khuong-song.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAwABUB8JQAAQuKNhowAAPzXHvzAILcBEIETaMTjsbCB0lhINUrjSqlPrZCqlyKsd5khRTqo5ezGYUxZSlIA" width="320" .left}
+Inspired by the spirit of Thai Khuong, a place I consider a second home, this melody is my personal tribute. I hope it stirs the same passion and energy in others that I felt while creating it.
 
-![Reading book](/assets/img/site/reading-book.webp){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAwABUB8JaQAAXhUeAAA/Nan+9Q8ejpBl6+ClK4x9G0ftCCMbStXFse0y8UdYzakqKfNBUFmDHND4hiR5e9NcEjkYAAA"} _I have read everything I wanted._
+<iframe width="100%" height="360" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1063996978&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-I also love hitting the road on my Surly ECR bike, often joined by friends for long, scenic rides. Capturing moments from these journeys fuels another passion: photography.
+## Crafting a customer-centric website
+![Thai Khuong website](/assets/img/site/tkt-website.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsABUB8JbAC7AEKqqm/sSDAAP7XmctSKxz2LdNvw1EGmNZZLDYI9ZwZFufhDIPMJuJy710EkFJdHaY5NM2yZem4wc8AI4fr731gDzAAAA==" width="320" .right}
 
-![Me and bike](/assets/img/site/me-and-bike.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAwABUB8JYgCw7DpMI68kkPYAP5+o7QM5plMx1u+xsHLKYzC6CiftIOIdZdDLjiZa/kCZOP4VzbZF9dmFZdHR9Q6Emc4rWAAAA=="} _Ho Chi Minh to Ba Dong Beach: 180km one-way bike touring trips in 2022._
+### Based on the customer journey
+In my journey of building websites, I’ve worked with various audiences—from companies to community groups. Beyond the aesthetics, I focused on making each site relevant and meaningful for its users.
 
-## This Site
+Investing time, creativity, and resources in each one, I’ve aimed to make every visitor’s experience an impactful one.
+![Cover profile](/assets/img/site/TK-cover-profile.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA="}
 
-I've been sharing my thoughts online since 2009. In 2019, I launched my domain, [skyquietly.com](https://skyquietly.com), on WordPress. Recently, I moved to Jekyll for a cleaner, more customizable experience.
+### Content with a purpose
+For me, a business’s mission is about solving customer problems. Especially with specialized fields, like stem cell therapy, it’s essential to offer educational content to help customers make informed decisions. By understanding what they face, I strive to help them know what they don’t know.
 
-![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CgbRQ4Z+NecIEXIiJu4H2oaiCC2mQQwHQQ4NXA9C9zfwpE9H8CclD3MP6YowBWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'} _My old website with WordPress_
+>Made for [Medeze](https://medeze.vn) in 2022, this project reflects that  education-based marketing approach.
+![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "Medeze Stem Cell")
+{: .prompt-info }
 
-This blog is my creative hub where I record insights, share best practices, explore topics I’m passionate about, and document projects. Each page is designed and built by me. The site runs on [Jekyll](https://jekyllrb.com), [hosted on GitHub](https://github.com/lotusk08/lotusk08.github.io), and deployed through [Cloudflare](https://cloudflare.com).
+## Designing brochures and profiles
+I’ve also worked on various brochures and profiles to showcase these efforts. Here are some that I’m especially proud of:
+<div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+  <iframe src="https://drive.google.com/file/d/1BerQAn-mQzwjKTKo-m8HqqL6y8iojidX/preview" style="width: 390px; height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+  <iframe src="https://drive.google.com/file/d/1b1OMeqmvNW7yyOlMIgxSy4X24aa3Wzaw/preview" style="width: 390px; height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+</div>
 
-## Get in Touch
+<div style="display: flex; justify-content: center; gap: 1rem;">
+  <iframe src="https://drive.google.com/file/d/12n-nsfyAl--NMFHmVU__X7q1IxKkfvOf/preview" style="width: 280px; height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+  <iframe src="https://drive.google.com/file/d/1UpH7tiuTO1O7KyHst8ZLFTNMHYc1cHBE/preview" style="width: 500px; height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+</div>
 
-![Contact light](/assets/img/site/contact-light.webp){: lqip="data:image/webp;base64,UklGRvoAAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSGoAAAARL6CmbQM2VEDzbSMi8LKDq9h241ZWFwLRU/uvjYD8HABRICSi/0FduXfz+XpV98nsCCwe4edsO+BZcavqEJB/6EWRXuohIp1J4IDHZy1ID4CIIqtfs3+7E7hKXanMe7ZmPToCTvJ7N2IGVlA4IGoAAAAQAgCdASoQABAABUB8JaQAD4eMjhU5Q38SAOHcNppOqx+FVbc141tGyxDzjNG961uB8MY17WW164Zh227T81/nOGJj08zvhpc2rQPdZA5yxHdi8RD3lNfVMThZQJltajED0FUJNcHykAAA" .light .rounded-10 w='160' h='160' .right}
-![Contact dark](/assets/img/site/contact-dark.webp){: lqip="data:image/webp;base64,UklGRrwAAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSGoAAAARL6CmbQM2VEDzbSMi8LKDq9h241ZWFwLRU/uvjYD8HABRICSi/0FduXfz+XpV98nsCCwe4edsO+BZcavqEJB/6EWRXuohIp1J4IDHZy1ID4CIIqtfs3+7E7hKXanMe7ZmPToCTvJ7N2IGVlA4ICwAAAAQAgCdASoQABAABUB8JaQAAvh4FbuMfHgAAP7qoi6IM0QX0BFppAaOikAAAA==" .dark .rounded-10 w='160' h='160' .right}
+## From vision to execution
+Every aspect of building Thai Khuong Service has been an exercise in creativity and commitment. Whether designing team uniforms or building camaraderie among colleagues, I aim to foster an environment that values each individual’s contribution.
 
-Need my contact info? Here’s how to save it:
-- If you’re on your phone, tap [**Contact**](/assets/contact.vcf).
-- On another device? Scan the QR code with your phone.
+![Thai Khuong Services](/assets/img/post/tks.webp "Thai Khuong Services"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkABUB8JZQAAujc65pyYAD+sjFgpT7INiFxt9fImMSkz/aXRj8dWUB0RJALcCdAgAAA" }
+_Thai Khuong Services_
 
----
+{: .d-flex .justify-content-center }
+![Planning](/assets/img/site/stk-planning.webp "TKS Planning Service"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .mw-50 .me-2}
+![Make a different](/assets/img/site/design-tks-uniform.webp "TKS uniform"){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JQBOgCHw6UfXuUBcAAD+wdJTEFnVS15+mFh7Ho8qDWH+divZm8c1IPUZLdV2p/EaTdqhbISd6RlL+of40ZsCB2clQAAA" .normal .mw-50}
 
-Looking to collaborate or chat about potential projects? [Let’s connect!](mailto:hi@stevehoang.com)
+{: .d-flex .justify-content-center }
+![Employee](/assets/img/site/tks-employee.webp "The firts members"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .mw-50 .me-2}
+![TKS Teams](/assets/img/site/tks-teams.webp "TKS Teams"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal .mw-50}
 
+
+## Real-time marketing insights
+![Real time report](/assets/img/site/real-time-report.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA"}
+
+![Teams](/assets/img/site/tk-teams.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JZgCw7YvXgf6b9NisWJQAP7mdtUbvbsFUUXHe4+1aufpD0xOgBIWtydWbhWlwBDk4HWznB+EM2Q8AdKQZQcVVSxjVUUjxJuAAA==" width="520" .right}
+In today’s fast-paced marketing environment, data-driven insights make all the difference. Using real-time analytics, I stay agile, continually adapting my strategies to be more impactful and relevant.
+
+This journey has been one of constant learning and adapting, where every project reflects my growth and commitment to creating value in a digital world.

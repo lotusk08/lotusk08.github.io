@@ -3,87 +3,89 @@
 <header id="topbar-wrapper" aria-label="Top Bar">
   <div
     id="topbar"
-    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
+    class="d-flex align-items-center justify-content-between col-12 col-lg-11 col-xl-9 px-md-4 h-100"
   >
     <nav id="breadcrumb" aria-label="Breadcrumb">
-      {% assign paths = page.url | split: '/' %}
+      {% assign paths = page.url | split: '/' %} {% if paths.size == 0 or
+      page.layout == 'home' %}
+      <!-- Home page -->
+      <span><strong>Steve</strong></span>
 
-      {% if paths.size == 0 or page.layout == 'home' %}
-        <!-- Home page -->
-        <span><strong>Steve</strong></span>
+      {% else %} {% for item in paths %} {% if forloop.first %}
+      <!-- First breadcrumb -->
+      <span>
+        <a href="{{ '/' | relative_url }}">
+          <strong>Steve</strong>
+        </a>
+      </span>
 
+      {% elsif forloop.last %}
+      <!-- Last breadcrumb -->
+      {% if page.layout == 'tag' or page.layout == 'tags' %}
+      <span>{{ item | capitalize }}</span>
       {% else %}
-        {% for item in paths %}
-          {% if forloop.first %}
-            <!-- First breadcrumb -->
-            <span>
-              <a href="{{ '/' | relative_url }}">
-                <strong>Steve</strong>
-              </a>
-            </span>
-
-          {% elsif forloop.last %}
-            <!-- Last breadcrumb -->
-            {% if page.layout == 'tag' or page.layout == 'tags' %}
-              <span>{{ item | capitalize }}</span>
-            {% else %}
-              <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
-            {% endif %}
-
-          {% else %}
-            <!-- Intermediate breadcrumb -->
-            {% if item == 'topics' or item == 'topic' %}
-              <span>
-                <a href="{{ item | append: '/' | relative_url }}">
-                  {{ site.data.locales[include.lang].tabs[item] | default: item | capitalize }}
-                </a>
-              </span>
-            {% else %}
-              <span>
-                <a href="{{ item | append: '/' | relative_url }}">
-                  {{ item | capitalize }}
-                </a>
-              </span>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-      {% endif %}
+      <span
+        >{{ site.data.locales[include.lang].tabs[item] | default: page.title
+        }}</span
+      >
+      {% endif %} {% else %}
+      <!-- Intermediate breadcrumb -->
+      {% if item == 'topics' or item == 'topic' %}
+      <span>
+        <a href="{{ item | append: '/' | relative_url }}">
+          {{ site.data.locales[include.lang].tabs[item] | default: item |
+          capitalize }}
+        </a>
+      </span>
+      {% else %}
+      <span>
+        <a href="{{ item | append: '/' | relative_url }}">
+          {{ item | capitalize }}
+        </a>
+      </span>
+      {% endif %} {% endif %} {% endfor %} {% endif %}
     </nav>
 
     <!-- endof #breadcrumb -->
-
-    <button type="button" id="sidebar-trigger" class="btn btn-link">
-      <i class="fas fa-bars fa-fw"></i>
-    </button>
-
-    <div id="topbar-title">
-      {% if page.layout == 'home' %}
-        {{- site.data.locales[include.lang].title | default: site.title -}}
-      {% elsif page.collection == 'tabs' or page.layout == 'page' %}
-        {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}
-        {{- site.data.locales[include.lang].tabs[tab_key] | default: page.title -}}
-      {% else %}
-        {{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}
-      {% endif %}
-    </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
       <i class="fas fa-search fa-fw"></i>
     </button>
 
-    <search id="search" class="align-items-center ms-3 ms-lg-0">
-      <i class="fas fa-search fa-fw"></i>
-      <input
-        class="form-control"
-        id="search-input"
-        type="search"
-        aria-label="search"
-        autocomplete="off"
-        placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
+    <div class="topbar-right d-flex align-items-center ms-3 ms-lg-0">
+      <search id="search" class="align-items-center">
+        <input
+          class="form-control"
+          id="search-input"
+          type="search"
+          aria-label="search"
+          autocomplete="off"
+          placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
+        />
+        <i class="fas fa-search fa-fw"></i>
+      </search>
+      <button
+        type="button"
+        id="search-cancel"
+        class="btn btn-link text-decoration-none"
       >
-    </search>
-    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
-      {{- site.data.locales[include.lang].search.cancel -}}
-    </button>
+        {{- site.data.locales[include.lang].search.cancel -}}
+      </button>
+
+      <span class="icon-border"></span>
+
+      <div class="theme-toggle-wrapper">
+        {% unless site.theme_mode %}
+        <button
+          type="button"
+          class="btn btn-link"
+          aria-label="Switch Mode"
+          id="mode-toggle"
+        >
+          <i class="fas fa-adjust"></i>
+        </button>
+        {% endunless %}
+      </div>
+    </div>
   </div>
 </header>

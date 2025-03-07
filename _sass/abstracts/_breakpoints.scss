@@ -1,12 +1,12 @@
 @use 'sass:map';
 
 $-breakpoints: (
-  // 1 column
+  // Single column mobile
   sm: 576px,
   md: 768px,
-  // 2 columns
-  lg: 850px,
-  // 3 columns
+  // Two columns
+  lg: 992px,  // Increased from 850px for better content flow
+  // Three columns
   xl: 1200px,
   xxl: 1400px,
   xxxl: 1650px

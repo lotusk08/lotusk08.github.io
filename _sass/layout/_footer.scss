@@ -44,19 +44,22 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  column-gap: v.$sb-btn-gap * 2;
+
+  @include bp.lt(bp.get(lg)) {
+    margin-bottom: v.$sb-btn-gap;
+  }
 
   a {
-    color: var(--sidebar-btn-color);
-    padding-right: 1rem;
+    color: var(--side-btn-color);
 
     &:hover {
-      color: var(--sidebar-active-color) !important;
+      color: var(--active-color);
       border: none;
     }
 
     i {
-      font-size: 1.1rem;
-      margin: 0 10px 10px 0;
+      font-size: 140%;
     }
   }
 }

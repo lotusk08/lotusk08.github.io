@@ -80,6 +80,11 @@ npm run lqip
   - fix: theme color switching.
   - refactor: restyle footer: add license link.
   - refactor: remove unused code & submodule.
+  - refactor: remove sidebar.
+  
+  ## Upgrade UI
+  - Single column - easy to read.
+  - Responsive & adjust text
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

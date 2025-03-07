@@ -1,5 +1,5 @@
-@use 'variables' as v;
-@use 'mixins' as mx;
+@use "variables" as v;
+@use "mixins" as mx;
 
 %heading {
   color: var(--heading-color);
@@ -17,14 +17,18 @@
     .anchor {
       visibility: hidden;
       opacity: 0;
-      transition: opacity 0.25s ease-in, visibility 0s ease-in 0.25s;
+      transition:
+        opacity 0.25s ease-in,
+        visibility 0s ease-in 0.25s;
     }
 
     &:hover {
       .anchor {
         visibility: visible;
         opacity: 1;
-        transition: opacity 0.25s ease-in, visibility 0s ease-in 0s;
+        transition:
+          opacity 0.25s ease-in,
+          visibility 0s ease-in 0s;
       }
     }
   }
@@ -91,14 +95,6 @@
     padding: 0;
     color: #6d6c6c;
   }
-}
-
-%sidebar-links {
-  color: var(--sidebar-muted-color);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 %text-clip {

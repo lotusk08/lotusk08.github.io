@@ -2,7 +2,7 @@
  * This script make #search-result-wrapper switch to unload or shown automatically.
  */
 
-const btnSbTrigger = document.getElementById('sidebar-trigger');
+const btnSbTrigger = document.getElementById('mode-toggle');
 const btnSearchTrigger = document.getElementById('search-trigger');
 const btnCancel = document.getElementById('search-cancel');
 const content = document.querySelectorAll('#main-wrapper>.container>.row');
@@ -19,7 +19,7 @@ const UNLOADED = 'd-none';
 const FOCUS = 'input-focus';
 const FLEX = 'd-flex';
 
-/* Actions in mobile screens (Sidebar hidden) */
+/* Actions in mobile screens (Sidebar hidden - old) */
 class MobileSearchBar {
   static on() {
     btnSbTrigger.classList.add(UNLOADED);

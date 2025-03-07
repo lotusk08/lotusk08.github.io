@@ -1,4 +1,4 @@
-import { basic, initTopbar, initSidebar } from './modules/layouts';
+import { basic, initTopbar } from './modules/layouts';
 
 import {
   loadImg,
@@ -12,7 +12,6 @@ import {
 loadImg();
 initToc();
 imgPopup();
-initSidebar();
 initLocaleDatetime();
 initClipboard();
 initTopbar();

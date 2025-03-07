@@ -7,7 +7,7 @@ layout:
   category: Category
   tag: Topic
 
-# The tabs of sidebar
+# The tabs of sidebar (old)
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
@@ -58,8 +58,8 @@ post:
   relate_posts: Further Reading
   share: Share
   button:
-    next: Newer
-    previous: Older
+    next: Next
+    previous: Previous
     copy_code:
       succeed: Copied!
     share_link:

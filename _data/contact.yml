@@ -7,9 +7,9 @@
   icon: 'fab fa-linkedin'
   url:  'https://www.linkedin.com/in/steve-hoang-asia/'
 
-# - type: reddit
-#   icon: 'fab fa-reddit'
-#   url: 'https://www.reddit.com/user/lotusk08'
+- type: reddit
+  icon: 'fab fa-square-reddit'
+  url: 'https://www.reddit.com/user/lotusk08'
 
 # - type: facebook
 #   icon: 'fab fa-facebook'

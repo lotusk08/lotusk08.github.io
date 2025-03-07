@@ -10,7 +10,7 @@ timezone: Asia/Saigon
 
 title: Steve Hoang # the main title
 
-tagline: Born to be different! # it will display as the sub-title
+#tagline: I am who I am, not whom you think I am! # Born to be different! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   I am who I am, not whom you think I am!
@@ -92,8 +92,8 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 cdn:
 
-# the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/82992510?v=4
+# The avatar on homepage, support local or CORS resources
+avatar: /assets/img/site/i-am-who-i-am-avatar.webp
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -138,7 +138,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 9
 
 # The base URL of your site
 baseurl: ""

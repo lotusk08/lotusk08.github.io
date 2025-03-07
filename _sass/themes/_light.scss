@@ -33,17 +33,17 @@
     rgba(250, 250, 250, 0) 100%
   );
 
-  /* Sidebar */
+  /* Side color */
   --site-title-color: rgb(113, 113, 113);
   --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
-  --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
-  --sidebar-active-color: #0d6efd;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
-  --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
-  --avatar-border-color: white;
+  --side-bg: #f6f8fa;
+  --side-border-color: #efefef;
+  --side-muted-color: #545454;
+  --side-active-color: #0d6efd;
+  --side-hover-bg: rgb(223, 233, 241, 0.64);
+  --side-btn-bg: white;
+  --side-btn-color: #8e8e8e;
+  --avatar-border-color: #f1f1f1;
 
   /* Topbar */
   --topbar-bg: rgb(255, 255, 255, 0.7);
@@ -55,7 +55,7 @@
   /* Home page */
   --post-list-text-color: dimgray;
   --btn-patinator-text-color: #555555;
-  --btn-paginator-hover-color: var(--sidebar-bg);
+  --btn-paginator-hover-color: var(--side-bg);
 
   /* Posts */
   --toc-highlight: #0550ae;

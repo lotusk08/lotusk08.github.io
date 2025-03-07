@@ -1,7 +1,7 @@
-@use '../abstracts/variables' as v;
-@use '../abstracts/breakpoints' as bp;
-@use '../abstracts/mixins' as mx;
-@use '../abstracts/placeholders';
+@use "../abstracts/variables" as v;
+@use "../abstracts/breakpoints" as bp;
+@use "../abstracts/mixins" as mx;
+@use "../abstracts/placeholders";
 
 @for $i from 1 through 5 {
   h#{$i} {
@@ -65,13 +65,12 @@ blockquote {
     margin-bottom: 0;
   }
 
-  &[class^='prompt-'] {
-    border-left: .25rem;
+  &[class^="prompt-"] {
+    border-left: 0.25rem;
     border-radius: 0 8px 8px 0;
     position: relative;
     padding: 0.5rem 1rem 0.75rem 1rem;
     color: var(--prompt-text-color);
-
 
     &::before {
       width: 3rem;
@@ -82,11 +81,11 @@ blockquote {
     }
   }
 
-  @include mx.prompt('tip', '\f0eb', $fa-style: 'regular');
-  @include mx.prompt('info', '\f06a', $rotate: 180);
-  @include mx.prompt('important','\f06a');
-  @include mx.prompt('warning', '\f071');
-  @include mx.prompt('danger', '\f071');
+  @include mx.prompt("tip", "\f0eb", $fa-style: "regular");
+  @include mx.prompt("info", "\f06a", $rotate: 180);
+  @include mx.prompt("important", "\f06a");
+  @include mx.prompt("warning", "\f071");
+  @include mx.prompt("danger", "\f071");
 }
 
 kbd {
@@ -148,7 +147,7 @@ sup {
 }
 
 main {
-  line-height: 1.75;
+  line-height: 1.6;
 
   h1 {
     margin-top: 2rem;
@@ -176,7 +175,7 @@ main {
 
   @include bp.lte(bp.get(sm)) {
     .content {
-      > blockquote[class^='prompt-'] {
+      > blockquote[class^="prompt-"] {
         @include mx.ml-mr(-1rem);
 
         border-radius: 0;

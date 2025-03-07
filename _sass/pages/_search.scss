@@ -1,19 +1,28 @@
-@use '../abstracts/breakpoints' as bp;
-@use '../abstracts/variables' as v;
-@use '../abstracts/placeholders';
+@use "../abstracts/breakpoints" as bp;
+@use "../abstracts/variables" as v;
+@use "../abstracts/placeholders";
 
 search {
   display: flex;
   width: 100%;
-  border-radius: 0.5rem;
-  border: 1px solid var(--search-border-color);
+  border-radius: 0 0 4px 0;
+  border-bottom: 1px solid var(--search-border-color);
+  border-right: 1px solid var(--search-border-color);
   background: var(--main-bg);
   padding: 0 0.5rem;
 
   i {
     z-index: 2;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--search-icon-color);
+
+    &.hidden {
+      display: none;
+    }
+  }
+
+  &:focus-within i {
+    display: none;
   }
 
   @include bp.lt(bp.get(lg)) {
@@ -22,16 +31,6 @@ search {
 
   @include bp.lg {
     max-width: v.$search-max-width;
-  }
-
-  @include bp.xl {
-    margin-right: 4rem;
-  }
-
-  @include bp.xxxl {
-    margin-right: calc(
-      v.$main-content-max-width / 4 - v.$search-max-width - 0.75rem
-    );
   }
 }
 
@@ -140,7 +139,8 @@ search {
   background: center;
   border: 0;
   border-radius: 0;
-  padding: 0.18rem 0.3rem;
+  padding: 0.18rem 0.45rem;
+  font-size: 0.9rem;
   color: var(--text-color);
   height: auto;
 
@@ -178,7 +178,7 @@ search {
     }
 
     &::before {
-      content: '#';
+      content: "#";
       color: var(--text-muted-color);
       padding-right: 0.2rem;
     }

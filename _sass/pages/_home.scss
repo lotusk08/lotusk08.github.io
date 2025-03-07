@@ -1,6 +1,78 @@
-@use '../abstracts/variables' as v;
-@use '../abstracts/breakpoints' as bp;
-@use '../abstracts/placeholders';
+@use "../abstracts/variables" as v;
+@use "../abstracts/breakpoints" as bp;
+@use "../abstracts/placeholders";
+
+%name-hover {
+  &:hover {
+    color: var(--active-color);
+  }
+}
+
+#avatar {
+  display: block;
+  width: 6.5rem;
+  height: 6.5rem;
+  overflow: hidden;
+  box-shadow: var(--avatar-border-color) 0 0 0 2px;
+  transform: translateZ(0); /* fixed the zoom in Safari */
+
+  @include bp.sm {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  img {
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.profile-wrapper {
+  @extend %clickable-transition;
+
+  margin-top: 6.3rem;
+  margin-bottom: 7.2rem;
+  width: 100%;
+
+  @include bp.lg {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  @include bp.xxxl {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+  }
+}
+
+.site-title {
+  @extend %clickable-transition;
+  @extend %name-hover;
+
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: 0.25px;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  width: fit-content;
+  color: var(--site-title-color);
+}
+
+.site-subtitle {
+  font-size: 95%;
+  color: var(--site-subtitle-color);
+  margin-top: 0.25rem;
+  word-spacing: 1px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 #post-list {
   margin-top: 2rem;

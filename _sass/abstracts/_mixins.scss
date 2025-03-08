@@ -49,7 +49,7 @@
   transform: translateX(-50%);
 }
 
-@mixin prompt($type, $fa-content, $fa-style: 'solid', $rotate: 0) {
+@mixin prompt($type, $fa-content, $fa-style: "solid", $rotate: 0) {
   &.prompt-#{$type} {
     background-color: var(--prompt-#{$type}-bg);
     border-left: 0.25rem solid var(--prompt-#{$type}-border-color);
@@ -58,9 +58,11 @@
       content: $fa-content;
       color: var(--prompt-#{$type}-icon-color);
       font: var(--fa-font-#{$fa-style});
+      display: inline-block;
 
       @if $rotate != 0 {
         transform: rotate(#{$rotate}deg);
+        transform-origin: center;
       }
     }
   }

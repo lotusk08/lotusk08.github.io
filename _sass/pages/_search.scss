@@ -5,7 +5,7 @@
 search {
   display: flex;
   width: 100%;
-  border-radius: 0 0 4px 0;
+  border-radius: 0 0 v.$radius-sm 0;
   border-bottom: 1px solid var(--search-border-color);
   border-right: 1px solid var(--search-border-color);
   background: var(--main-bg);

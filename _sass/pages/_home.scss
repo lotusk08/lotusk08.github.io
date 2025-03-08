@@ -217,6 +217,7 @@
     &.active {
       .page-link {
         background-color: var(--btn-paginator-hover-color);
+        z-index: unset;
       }
     }
 

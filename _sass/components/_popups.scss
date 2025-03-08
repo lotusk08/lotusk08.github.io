@@ -59,11 +59,11 @@
       animation: popup 0.8s;
 
       @include bp.xxl {
-        min-width: 25rem;
+        min-width: 22rem;
       }
 
       @include bp.xxxl {
-        min-width: 30rem;
+        min-width: 25rem;
       }
     }
   }

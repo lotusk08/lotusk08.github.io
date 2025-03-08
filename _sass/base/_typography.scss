@@ -73,7 +73,6 @@ blockquote {
     color: var(--prompt-text-color);
 
     &::before {
-      width: 3rem;
       left: 0.25rem;
       margin-top: 0.4rem;
       text-rendering: auto;
@@ -99,9 +98,9 @@ kbd {
   padding-top: 0.1rem;
   color: var(--kbd-text-color);
   background-color: var(--kbd-bg-color);
-  border-radius: v.$radius-sm;
+  border-radius: calc(v.$radius-sm) / 2;
   border: solid 1px var(--kbd-wrap-color);
-  box-shadow: inset 0 -2px 0 var(--kbd-wrap-color);
+  box-shadow: inset 0 -1.5px 0 var(--kbd-wrap-color);
 }
 
 hr {

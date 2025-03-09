@@ -46,7 +46,7 @@ async function processMarkdown(mdPath, lqipMap) {
 
   // Updated regex to handle various image formats and captions
   const imageRegex =
-    /!\[([^\]]*)\]\((?:\.\.\/|\/)?assets\/img\/[^)]+\.webp\)({:[^}]*})?(?:\s*_[^_]*_)?/g;
+    /!\[([^\]]*)\]\(((?:\.\.\/|\/)?assets\/img\/[^)]+\.webp)\)({:[^}]*})?(?:\s*_[^_]*_)?/g;
 
   content = content.replace(imageRegex, (match) => {
     // Extract parts of the image markdown
@@ -55,11 +55,9 @@ async function processMarkdown(mdPath, lqipMap) {
     const attributes = match.match(/{:([^}]*)}/)?.[1] || "";
     const caption = match.match(/_([^_]+)_$/)?.[1] || "";
 
-    // Convert relative path to absolute path
+    // Try both relative and absolute paths
     const absolutePath = imagePath.replace("../", "/");
-
-    // Get LQIP data
-    const lqipData = lqipMap[absolutePath];
+    let lqipData = lqipMap[absolutePath] || lqipMap[imagePath];
 
     if (lqipData) {
       // Build new attributes
@@ -102,12 +100,17 @@ async function generateLQIP(baseDir) {
       } else if (file.name.endsWith(".webp")) {
         try {
           const result = await lqip(fullPath);
-          // Create Jekyll-style path (/assets/img/...)
+          // Handle both path formats
           const jekyllPath =
             "/" + path.relative(baseDir, fullPath).split(path.sep).join("/");
+          const altPath =
+            "../" + path.relative(baseDir, fullPath).split(path.sep).join("/");
 
           lqipMap[jekyllPath] = result.metadata.dataURIBase64;
+          lqipMap[altPath] = result.metadata.dataURIBase64; // Store both path formats
+
           console.log(`Generated LQIP for: ${jekyllPath}`);
+          console.log(`Also stored as: ${altPath}`);
         } catch (err) {
           console.error(`Error processing file ${fullPath}:`, err);
         }

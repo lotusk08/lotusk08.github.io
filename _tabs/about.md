@@ -95,9 +95,9 @@ Work’s been a calm ride—learning as I go, doing what I can.
 
 ### Golf Membership Tournament 2022
 
-![Golf Autumn](/assets/img/post/long-bien-golf-course-autumn.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAoABUB8JagCdAD6GJeNQPQAAPjeVCUOGualvvqK/OnskzU+uL06nx/nTpmLtWl9oEEYS+IAAA=="} _A peaceful autumn scene at Long Bien Golf Course_
-
 ![Caddy](/assets/img/post/long-bien-golf-course-caddy.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQABAABUB8JbACdADzewXSAAD8OfWf0gwpgttNRrABJa2cQE9o2cBuDbhvbiKVgvAfnQYMGH4qWUAA" width="480"} _A quiet moment on coures_
+
+![Golf Autumn](/assets/img/post/long-bien-golf-course-autumn.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAoABUB8JagCdAD6GJeNQPQAAPjeVCUOGualvvqK/OnskzU+uL06nx/nTpmLtWl9oEEYS+IAAA=="} _A peaceful autumn scene at Long Bien Golf Course_
 
 ![Diamond Membership](../assets/img/post/diamond-membership-golf-tournament-2022.webp){: lqip="data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAQCdASoQAAsABUB8JQAAHWoAAP68aS0HjRmUNXwJWIr8Gq320LTuhaO4W0k93Xp2dhL88sQAAA=="} _The Golf Tournament for Diamond Membership_
 

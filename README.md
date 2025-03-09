@@ -81,6 +81,7 @@ npm run lqip
   - refactor: restyle footer: add license link.
   - refactor: remove unused code & submodule.
   - refactor: remove sidebar.
+  - feat(page): toc enable (not by default)
   
   ## Upgrade UI
   - Single column - easy to read.

@@ -105,8 +105,8 @@ _Thai Khuong Services_
 
 Marketing shifts fast. I use real-time data to watch it and adjust quietly—keeping things on track without much noise.
 
-Work’s been a calm ride—learning as I go, doing what I can.
-
+Work’s been a calm ride—learning as I go, and doing what I can.
+[Goodbye, Thai Khuong...](/goodbye-thai-khuong)
 ## Each event stays with me
 
 ### Golf Membership Tournament 2022
@@ -119,8 +119,16 @@ Work’s been a calm ride—learning as I go, doing what I can.
 
 ![The Ruby Membership Trophy](../assets/img/post/trophy-ruby-membership-golf-tournament-2022.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsABUB8JQBOgB6o9xYAAADN7GNgy6SFSCXnHMXyP5KyFQOCB2tAcFQNSwFH8BCKKcWmnHG/bazyj9Vl/XeIkJnWVeOBQUAAAA=="} _The Ruby Membership Trophy_
 
+The [golf market in Vietnam](/golf-vietnam) from a marketing perspective.
+
 ### Mercedes-Benz STAR DRIVE 2024
 
 ![Course](../assets/img/post/course-mercedes-benz-testdrive-event.webp){: lqip="data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAQCdASoQAAsABUB8JYwC7ADNy+AA/qulqUGFMF33krW2z+OLL+jcswDMXNzcZg0PvBTO14AAAA=="} _The Mercedes-Benz test drive path_
 
-![Team](../assets/img/post/team-mercedes-benz-testdrive-event.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAsABUB8JYwAAUIA9YAA/NjpRttlIZILyP2IPfuAxMVrrmOTbgfy3OsOSNpxWKgqJlplVyqXt/WX7OHAAA=="} _The team behind the Mercedes event_
+![Team](../assets/img/post/team-mercedes-benz-testdrive-event.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAsABUB8JYwAAUIA9YAA/NjpRttlIZILyP2IPfuAxMVrrmOTbgfy3OsOSNpxWKgqJlplVyqXt/WX7OHAAA=="} _The team behind the Mercedes-Benz event_
+
+[Goodbye, Brad...](/goodbye-brad) CEO Mercedes-Benz Vietnam
+
+### Make some shift... happen!
+I may not know software development, but I can understand how it works. Additionally, I can adjust it for myself or someone else!
+![Lucky draw](../assets/img/post/luckydraw-software.gif)_Lucky draw: the popular game for year-end parties in Vietnam._

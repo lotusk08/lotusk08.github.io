@@ -22,7 +22,9 @@ As we bid farewell to Brad Kelly, the outgoing General Director of Mercedes-Benz
 
 {% include embed/youtube.html id='JvNCc7IsynI' %}
 
-On a suggestion from my captain, Mr. John - CEO of Vietnam Star Automobile, I have created a video clip to commemorate Mr. Kelly’s contributions during his farewell gathering. As a member of Vietnam Star, a partner company of MBV, it’s been an honor to collaborate and witness the growth and achievements under Mr. Kelly’s leadership. His legacy will undoubtedly inspire us as we embrace the future with Mr. Bitterlich at the steering wheel.
+On a suggestion from Mr. John - CEO of Vietnam Star Automobile, I have created a video clip to commemorate Mr. Kelly’s contributions during his farewell gathering. As a member of Vietnam Star, a partner company of MBV, it’s been an honor to collaborate and witness the growth and achievements under Mr. Kelly’s leadership. His legacy will undoubtedly inspire us as we embrace the future with Mr. Bitterlich at the steering wheel.
+
+![Mr. Bitterlich](../assets/img/post/mr.bitterlich-ceo-mercedes-benz-vietnam-2024.webp){: lqip="data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAsABUB8JbAC7ADvmFusAAD+7BFGdq3sF2bwmDyZrOlV22sGbSpyaeH0x3l82LTweXKrCS6EuU7wf4ubaJ9h0zqOsLehvKMtnf0qkgyW6IAA"} _Mr. Bitterlich (highest) - CEO of Mercedes-Benz Vietnam from 2024_
 
 > Mercedes-Benz stands among the top German luxury car brands in Vietnam, alongside Audi, BMW, Volkswagen, and Porsche. With a diverse product range categorized into Top-End Luxury, Core Luxury, and Entry Luxury, MBV has also introduced electric models like the EQS Sedan, EQS SUV, EQB, and EQE SUV to its Vietnamese customers.
 {: .prompt-info }

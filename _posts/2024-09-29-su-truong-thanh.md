@@ -81,7 +81,7 @@ Bạn cầm trái dưa chấm với đường, miệng thì nhai, nước mắt 
 ---
 ## Người
 
-Có một người bạn, gặp điều gì khó, bạn vẫn bình tĩnh đối mặt. Gặp người khó, bạn vẫn có khách dung hoà mà đạt được mục đích. Bạn đi làm luôn vui vẻ hoà đồng, sự nghiệp và đam mê hoà quyện, bạn thăng tiến như một cánh diều ngày gió. 
+Có một người bạn, gặp điều gì khó, bạn vẫn bình tĩnh đối mặt. Gặp người khó, bạn vẫn có cách dung hoà mà đạt được mục đích. Bạn đi làm luôn vui vẻ hoà đồng, sự nghiệp và đam mê hoà quyện, bạn thăng tiến như một cánh diều ngày gió. 
 
 Một ngày nọ, ngồi lai rai bên ly rượu, bạn kể lại: Hồi mới đi làm năm đầu tiên, vốn tính nết cũng nhút nhát, mới vô công ty ai sai gì thì làm đó, dù có không thích cũng vẫn làm. Đến một ngày, bạn mệt mỏi quá đỗi và từ chối, nụ cười của những người mà bạn giúp ngày trước quay lại thành sự chỉ trích cùng ánh mắt phán xét về thái độ của bạn. Bạn đi tìm công việc mới.
 

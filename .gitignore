@@ -21,7 +21,6 @@ package-lock.json
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
-.nova/*
 !.husky
 
 # Misc
@@ -36,6 +35,5 @@ package-lock.json
 !.markdownlint.yaml
 
 # Obsidian
-! .obsidian
 ! .obsidian/workspace.json
 .DS_Store

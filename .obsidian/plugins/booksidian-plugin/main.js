@@ -10750,7 +10750,7 @@ var Frontmatter = class {
       const value = this.currentYAML[key];
       const [prefix, postfix] = value.split(key);
       if (key === "shelves") {
-        output[key] = this.book.shelves.split(",").sort().map((shelf) => {
+        output[key] = this.book.shelves.sort().map((shelf) => {
           return `${prefix}${shelf}${postfix}`;
         });
       } else {
@@ -10802,10 +10802,10 @@ var Book = class {
     return turndownService.turndown(html);
   }
   getShelves(shelves, dateRead) {
-    if (!shelves.split(",").includes("read") && (!shelves || dateRead)) {
-      return shelves ? `${shelves},read` : "read";
-    }
-    return shelves;
+    const outputShelves = shelves.split(",").map((shelf) => shelf.trim()).filter((shelf) => shelf);
+    if (dateRead && !outputShelves.contains("read"))
+      outputShelves.push("read");
+    return outputShelves;
   }
   getBody(currentBody) {
     return new Body(currentBody, this).getBody();
@@ -10951,6 +10951,7 @@ var Shelf = class {
 
 // src/Settings.ts
 var import_obsidian2 = __toModule(require("obsidian"));
+var debouncedSaveSettings = (0, import_obsidian2.debounce)((callback) => callback(), 500, true);
 var Settings = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
@@ -10986,10 +10987,26 @@ var Settings = class extends import_obsidian2.PluginSettingTab {
       this.plugin.settings.targetFolderPath = value.replace(/[\\/]+$/g, "");
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("RSS Base URL").setDesc("Please add your RSS Base URL here (everything before the shelf name).").setTooltip("https://www.goodreads.com/ ... &shelf=").addText((text) => text.setValue(this.plugin.settings.goodreadsBaseUrl).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.goodreadsBaseUrl = value;
-      yield this.plugin.saveSettings();
-    })));
+    new import_obsidian2.Setting(containerEl).setName("RSS Base URL").setDesc("Please add your RSS Base URL here (everything before the shelf name).").setTooltip("https://www.goodreads.com/ ... &shelf=").addText((text) => {
+      text.setValue(this.plugin.settings.goodreadsBaseUrl).setPlaceholder("https://www.goodreads.com/ ... &shelf=").onChange((value) => __async(this, null, function* () {
+        debouncedSaveSettings(() => __async(this, null, function* () {
+          const validPattern = /^https?:\/\/.*?\/review\/list_rss\/\d+\?key=[a-zA-Z0-9-_]+&shelf=/;
+          const result = value.trim().match(validPattern);
+          if (result) {
+            this.plugin.settings.goodreadsBaseUrl = result[0];
+            text.inputEl.value = result[0];
+          } else if (value.trim().length === 0) {
+            this.plugin.settings.goodreadsBaseUrl = "";
+          } else {
+            new import_obsidian2.Notice("Booksidian: Could not parse RSS Base URL");
+            return;
+          }
+          yield this.plugin.saveSettings();
+        }));
+      }));
+      text.inputEl.style.minWidth = "18rem";
+      text.inputEl.style.maxWidth = "18rem";
+    });
     new import_obsidian2.Setting(containerEl).setName("Your Goodreads Shelves").setDesc("Here you can specify which shelves you'd like to export. Please separate the values with a comma and make sure you got the names right. ").setTooltip("You can check the proper naming in the RSS url.").addTextArea((text) => {
       text.inputEl.rows = 6;
       text.setPlaceholder("Your Shelves").setValue(this.plugin.settings.goodreadsShelves).onChange((value) => __async(this, null, function* () {

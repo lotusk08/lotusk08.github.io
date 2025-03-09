@@ -33,7 +33,7 @@ Các chi phí khác có thể phát sinh thêm như: quy hoạch và làm điể
 
 ## Mục đích?
 Chưa biết nhóm chi phí bên trên sẽ tính vào ngân sách của bộ phận truyền thông, bộ phận phát triển/kinh doanh, hay là bộ phận vận hành nào đó,... Nhưng chắc chắn bộ phận nào chi thì KPI do bộ phận đó gánh.
-Và, KPI - mục đích của sự kiện này là gì thì cũng chỉ có người trong cuộc mới rõ, từ góc nhìn bên ngoài chúng ta thực sự không dễ nhìn nhận, tuy nhiên:
+Và, KPI - mục đích của sự kiện này có lẽ cũng chỉ người trong cuộc mới rõ, từ góc nhìn bên ngoài chúng ta thực sự không dễ nhìn nhận, tuy nhiên:
 
 ### Lợi
 - Lên báo, truyền thông được một đợt. Và có lẽ cũng chỉ có một đợt thôi. Hiệu quả tạm chưa bàn, đèn nhà ai người đó rạng - tiền nhà ai người đó xài, nên tự liệu cơm mà chọn cá. Start-up mà, nhận vốn từ quỹ để xài thì phải nai lưng ra để trả.

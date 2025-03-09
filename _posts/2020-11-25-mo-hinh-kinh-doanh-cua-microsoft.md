@@ -55,7 +55,7 @@ Tuy là một thành viên trong hội đồng quản trị lâu năm, nhưng Bi
 
 Nếu bạn muốn tìm đọc thêm các sự kiện thú vị và khám phá các cột mốc quan trọng của Microsoft, bạn có thể xem tại [lịch sử của Microsoft](https://news.microsoft.com/about/)[.](https://stevehoang.com/)
 
-### Mô hình kinh doanh của Microsoft là gì?
+### Mô hình kinh doanh của Microsoft?
 
 Microsoft cung cấp hệ điều hành, phần mềm máy tính cho các doanh nghiệp và người tiêu dùng, giúp mọi người dễ dàng sử dụng các thiết bị và ứng dụng cho công việc và giải trí. 
 
@@ -91,7 +91,7 @@ Tuy nhiên, [mô hình kinh doanh của Apple](https://www.garyfox.co/apple-bus
 
 Bất chấp sự cạnh tranh gay gắt, Microsoft đã phát triển nhóm sản phẩm của mình vượt ra ngoài hệ điều hành. Họ cũng đã thực hiện việc mua lại một lượng lớn cách thương hiệu và bằng sáng chế để điều chỉnh lại một số chiến lược.
 
-## Chiến lược kinh doanh của Microsoft là gì?
+## Chiến lược kinh doanh của Microsoft?
 
 ![Microsoft solution ecosystem](/assets/img/post/Microsoft-solution-ecosystem.webp "Hệ sinh thái sản phẩm của Microsoft"){: lqip="data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAwAQCdASoQAAkABUB8JZwAA3AA/u/So0Bqt3KxusAAAA==" }
 _Mô hình kinh doanh của Microsoft trong tương lai dựa trên AI_

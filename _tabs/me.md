@@ -10,7 +10,7 @@ redirect_from:
 ---
 ## Hey there, I'm Steve
 
-![I'm Steve](/assets/img/site/I'm-Steve.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JZgAAi6qu5CijAD9vLGSvVQn7jFMkQY4lZ3n2o63bWp2gXTg8BJ5RUrvCAlEO4p9eAAA"} _I'm Steve_
+![I'm Steve](/assets/img/site/I'm-Steve.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JZgAAi6qu5CijAD9vLGSvVQn7jFMkQY4lZ3n2o63bWp2gXTg8BJ5RUrvCAlEO4p9eAAA" width="680"} _I'm Steve_
 
 As a marketer, I'm driven by a curiosity about how businesses operate—particularly in improving customer experiences and delivering genuine value. I believe it’s possible to achieve success while upholding strong ethical principles, blending profit with purpose.
 

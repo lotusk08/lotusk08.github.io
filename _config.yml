@@ -184,6 +184,7 @@ defaults:
     values:
       layout: page
       permalink: /:title
+      toc: true
 
 sass:
   style: compressed

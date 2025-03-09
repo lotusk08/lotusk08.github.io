@@ -35,7 +35,7 @@ Some work bits stuck with me. Here’s a short video of a few things that happen
 
 ## Thai Khuong Song: A wave tune
 
-![Thai khuong song](/assets/img/site/thai-khuong-song.webp "A calm shot of Thai Khuong that inspired a melody"){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAsABUB8JQAAQuKNhowAAPzXHvzAILcBEIETaMTjsbCB0lhINUrjSqlPrZCqlyKsd5khRTqo5ezGYUxZSlIA" width="320" .left}
+![Thai khuong song](/assets/img/site/thai-khuong-song.webp "A calm shot of Thai Khuong that inspired a melody"){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAsABUB8JQAAQuKNhowAAPzXHvzAILcBEIETaMTjsbCB0lhINUrjSqlPrZCqlyKsd5khRTqo5ezGYUxZSlIA" width="360" .left}
 
 Inspired by the spirit of Thai Khuong, a place I consider a second home, this melody is my personal tribute. I hope it stirs the same passion and energy in others that I felt while creating it.
 
@@ -64,7 +64,23 @@ I think businesses should help people out. For complex stuff like stem cell ther
 
 I’ve put together a few brochures and profiles for work. Here are ones I like:
 
-<div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;"> <iframe src="https://drive.google.com/file/d/1BerQAn-mQzwjKTKo-m8HqqL6y8iojidX/preview" style="width: 390px; height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe> <!-- A straightforward company brochure --> <iframe src="https://drive.google.com/file/d/1b1OMeqmvNW7yyOlMIgxSy4X24aa3Wzaw/preview" style="width: 390px; height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe> <!-- A basic business profile --> </div> <div style="display: flex; justify-content: center; gap: 1rem;"> <iframe src="https://drive.google.com/file/d/12n-nsfyAl--NMFHmVU__X7q1IxKkfvOf/preview" style="width: 280px; height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe> <!-- A simple product flyer --> <iframe src="https://drive.google.com/file/d/1UpH7tiuTO1O7KyHst8ZLFTNMHYc1cHBE/preview" style="width: 500px; height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe> <!-- A quiet service summary --> </div>
+<div class="row mb-4">
+  <div class="col-md-6 mb-3">
+    <iframe src="https://drive.google.com/file/d/1BerQAn-mQzwjKTKo-m8HqqL6y8iojidX/preview" class="w-100 h-100" style="min-height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+  </div>
+  <div class="col-md-6 mb-3">
+    <iframe src="https://drive.google.com/file/d/1b1OMeqmvNW7yyOlMIgxSy4X24aa3Wzaw/preview" class="w-100 h-100" style="min-height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 mb-3">
+    <iframe src="https://drive.google.com/file/d/12n-nsfyAl--NMFHmVU__X7q1IxKkfvOf/preview" class="w-100 h-100" style="min-height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+  </div>
+  <div class="col-md-8 mb-3">
+    <iframe src="https://drive.google.com/file/d/1UpH7tiuTO1O7KyHst8ZLFTNMHYc1cHBE/preview" class="w-100 h-100" style="min-height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+  </div>
+</div>
 
 ## B2B - Building together
 

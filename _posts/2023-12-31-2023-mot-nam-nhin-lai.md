@@ -1,6 +1,6 @@
 ---
 title: 2023 - Một năm nhìn lại
-description: 
+description: null
 author: steve
 date: 2023-12-31 13:04 +0700
 categories:
@@ -10,7 +10,6 @@ tags:
   - personality
   - golf
   - cuisine
-  - remembrance
   - photography
   - travel
   - friends

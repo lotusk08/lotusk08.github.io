@@ -10,7 +10,6 @@ tags:
   - personality
   - friends
   - photography
-  - remembrance
   - learn
   - travel
   - books

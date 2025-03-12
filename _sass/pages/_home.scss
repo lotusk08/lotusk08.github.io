@@ -98,10 +98,10 @@
     background: none;
 
     %img-radius {
-      border-radius: v.$radius-ex 0 v.$radius-ex 0;
+      border-radius: calc(v.$radius-lg * 2) 0 0 0;
 
       @include bp.md {
-        border-radius: v.$radius-ex 0 v.$radius-ex 0;
+        border-radius: 0 0 calc(v.$radius-lg * 2) 0;
       }
     }
 

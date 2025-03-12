@@ -87,7 +87,7 @@
 }
 
 %rounded-x {
-  border-radius: v.$radius-ex 0 v.$radius-ex 0;
+  border-radius: calc(v.$radius-lg * 2) 0 calc(v.$radius-lg * 2) 0;
 }
 
 %img-caption {

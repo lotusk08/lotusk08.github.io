@@ -88,30 +88,23 @@ tail_includes:
       </div>
     {% endif %}
 
-    <!-- tags -->
-    {% if page.tags.size > 0 %}
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        {% for tag in page.tags %}
-          <a
-            href="{{ site.baseurl }}/topics/{{ tag | slugify | url_encode }}/"
-            class="post-tag no-text-decoration"
-          >
-            {{- tag -}}
-          </a>
-        {% endfor %}
-      </div>
-    {% endif %}
     <div
       class="d-flex justify-content-between align-items-center mt-3 pb-2"
     >
       <div>
-        <!-- lastmod date -->
-        {% if page.last_modified_at and page.last_modified_at != page.date %}
-          <span>
-            {{ site.data.locales[lang].post.updated }}
-            {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
-          </span>
+        <!-- tags -->
+        {% if page.tags.size > 0 %}
+          <div class="post-tags">
+            <i class="fa fa-tags fa-fw me-1"></i>
+            {% for tag in page.tags %}
+              <a
+                href="{{ site.baseurl }}/topics/{{ tag | slugify | url_encode }}/"
+                class="post-tag no-text-decoration"
+              >
+                {{- tag -}}
+              </a>
+            {% endfor %}
+          </div>
         {% endif %}
       </div>
 

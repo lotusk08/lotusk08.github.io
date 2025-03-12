@@ -86,6 +86,10 @@
   border-radius: v.$radius-lg;
 }
 
+%rounded-x {
+  border-radius: v.$radius-ex 0 v.$radius-ex 0;
+}
+
 %img-caption {
   + em {
     display: block;

@@ -141,7 +141,9 @@ header {
 
   .btn {
     @extend %-btn-post-nav;
+    color: var(--text-color); // Default color for the button text
 
+<<<<<<< HEAD
     color: var(--text-color);
 
     &:hover:not(.disabled) {
@@ -151,12 +153,20 @@ header {
 
       &::before {
         color: whitesmoke;
+=======
+    &:hover:not(.disabled) {
+      background-color: var(--main-bg);
+      border-color: var(--main-bg);
+      color: var(--active-color); // Maintain the same text color as non-hover state
+
+      &::before {
+        color: whitesmoke; // Keep the existing hover color for the "Previous"/"Next" labels
+>>>>>>> main
       }
     }
 
     &.disabled {
       @extend %-btn-post-nav;
-
       pointer-events: auto;
       cursor: not-allowed;
       background: none;
@@ -265,7 +275,6 @@ header {
     opacity: 0;
     margin-top: 4rem;
   }
-
   to {
     opacity: 1;
   }
@@ -276,7 +285,6 @@ header {
     opacity: 0;
     margin-top: 4rem;
   }
-
   to {
     opacity: 1;
   }

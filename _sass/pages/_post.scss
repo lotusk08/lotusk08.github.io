@@ -532,7 +532,7 @@ header {
   @include mx.label(inherit, 400, inherit);
 
   &::after {
-    content: ':';
+    content: '';
   }
 }
 

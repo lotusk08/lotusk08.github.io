@@ -109,14 +109,14 @@ main {
 }
 
 .post-preview {
-  @extend %rounded;
+  @extend %rounded-x;
 
   border: 0;
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
 
   &::before {
-    @extend %rounded;
+    @extend %rounded-x;
 
     content: "";
     width: 100%;
@@ -356,8 +356,8 @@ main {
 /* Overwrite bootstrap outline button */
 .btn.btn-outline-primary {
   &:not(.disabled):hover {
-    background-color: var(--active-color) !important;
-    border-color: var(--active-color) !important;
+    background-color: var(--active-color);
+    border-color: var(--active-color);
   }
 }
 

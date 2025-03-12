@@ -83,9 +83,10 @@ npm run lqip
   - refactor: remove sidebar.
   - feat(page): toc enable (not by default)
   
-  ## Upgrade UI
+  ## Upgrade UI (from 1.2.5)
   - Single column - easy to read.
   - Responsive & adjust text
+  - style: change border style to diagonal
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

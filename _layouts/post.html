@@ -102,6 +102,21 @@ tail_includes:
         {% endfor %}
       </div>
     {% endif %}
+    <div
+      class="d-flex justify-content-between align-items-center mt-3 pb-2"
+    >
+      <div>
+        <!-- lastmod date -->
+        {% if page.last_modified_at and page.last_modified_at != page.date %}
+          <span>
+            {{ site.data.locales[lang].post.updated }}
+            {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
+          </span>
+        {% endif %}
+      </div>
+
+      {% include post-sharing.html lang=lang %}
+    </div>
     <!-- .post-tail-bottom -->
   </div>
   <!-- div.post-tail-wrapper -->

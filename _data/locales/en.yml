@@ -49,14 +49,14 @@ notification:
 post:
   written_by:
   posted:
-  updated: Updated
+  updated: Updated on
   words: words
   pageview_measure: views
   read_time:
     unit: minute
     prompt: read
   relate_posts: Further Reading
-  share: Share
+  share:
   button:
     next: Next
     previous: Previous

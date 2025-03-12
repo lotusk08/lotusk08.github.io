@@ -5,9 +5,8 @@
 search {
   display: flex;
   width: 100%;
-  border-radius: 0 0 v.$radius-sm 0;
+  border-radius: 0 0 v.$radius-lg 0;
   border-bottom: 1px solid var(--search-border-color);
-  border-right: 1px solid var(--search-border-color);
   background: var(--main-bg);
   padding: 0 0.5rem;
 
@@ -139,7 +138,7 @@ search {
   background: center;
   border: 0;
   border-radius: 0;
-  padding: 0.18rem 0.45rem;
+  padding: 0.18rem 0.25rem;
   font-size: 0.9rem;
   color: var(--text-color);
   height: auto;

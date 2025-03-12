@@ -142,12 +142,14 @@ header {
   .btn {
     @extend %-btn-post-nav;
 
-    &:not(:hover) {
-      color: var(--link-color);
-    }
+    color: var(--text-color);
 
-    &:hover {
-      &:not(.disabled)::before {
+    &:hover:not(.disabled) {
+      background-color: var(--main-bg);
+      border-color: var(--main-bg);
+      color: var(--active-color);
+
+      &::before {
         color: whitesmoke;
       }
     }
@@ -159,10 +161,10 @@ header {
       cursor: not-allowed;
       background: none;
       color: gray;
-    }
 
-    &.btn-outline-primary.disabled:focus {
-      box-shadow: none;
+      &.btn-outline-primary:focus {
+        box-shadow: none;
+      }
     }
 
     &::before {
@@ -173,48 +175,73 @@ header {
     }
 
     &:first-child {
-      border-radius: v.$radius-lg 0 0 0;
+      border-radius: v.$radius-ex 0 v.$radius-ex 0;
       border-top: 1px;
       border-left: 1px;
+      border-right: 1px;
       border-color: var(--btn-border-color);
-      left: 0.5px;
+      left: 2px;
+
+      @include bp.md {
+        left: 1.6px;
+      }
+
+      @include bp.xl {
+        left: 1.25px;
+      }
+
+      @include bp.xxxl {
+        left: 0.75px;
+      }
 
       &::before {
         content: "Previous";
         color: var(--text-muted-color);
         position: absolute;
-        top: 0;
+        bottom: 0;
         left: 0;
-        transform: translate(5px, 2px);
+        transform: translate(5px, -2px);
       }
 
       &:hover:not(.disabled)::before {
-        color: whitesmoke;
+        color: var(--link-color);
       }
     }
 
     &:last-child {
-      border-radius: 0 0 v.$radius-lg 0;
+      border-radius: v.$radius-ex 0 v.$radius-ex 0;
       border-bottom: 1px;
       border-right: 1px;
+      border-left: 1px;
       border-color: var(--btn-border-color);
-      right: 0.5px;
+      right: 2px;
+
+      @include bp.md {
+        right: 1.6px;
+      }
+
+      @include bp.xl {
+        right: 1.25px;
+      }
+
+      @include bp.xxxl {
+        right: 0.75px;
+      }
 
       &::before {
         content: "Next";
         color: var(--text-muted-color);
         position: absolute;
-        bottom: 0;
+        top: 0;
         right: 0;
-        transform: translate(-5px, -2px);
+        transform: translate(-5px, 2px);
       }
 
       &:hover:not(.disabled)::before {
-        color: whitesmoke;
+        color: var(--link-color);
       }
     }
   }
-
 
   p {
     font-size: inherit;
@@ -222,7 +249,7 @@ header {
     margin-top: 1rem;
     white-space: normal;
   }
-} /* .post-navigation */
+}  /* .post-navigation */
 
 @media (hover: hover) {
   .post-navigation {

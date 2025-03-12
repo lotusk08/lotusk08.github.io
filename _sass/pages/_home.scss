@@ -92,14 +92,16 @@
   }
 
   .card {
+    @extend %rounded-x;
+
     border: 0;
     background: none;
 
     %img-radius {
-      border-radius: v.$radius-lg v.$radius-lg 0 0;
+      border-radius: v.$radius-ex 0 0 0;
 
       @include bp.md {
-        border-radius: 0 v.$radius-lg v.$radius-lg 0;
+        border-radius: 0 0 v.$radius-ex 0;
       }
     }
 

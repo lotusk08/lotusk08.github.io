@@ -35,6 +35,10 @@
   }
 }
 
+strong {
+  font-weight: 600;
+}
+
 a {
   @extend %link-color;
 

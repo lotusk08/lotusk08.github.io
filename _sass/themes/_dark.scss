@@ -8,16 +8,16 @@
   --active-color: #fd7e14;
 
   /* Common color */
-  --text-color: rgb(175, 176, 177);
+  --text-color: #cecdcd;
   --text-muted-color: #868686;
   --text-muted-highlight-color: #aeaeae;
-  --heading-color: #cccccc;
+  --heading-color: #d7d5d3;
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
   --link-color: #c67839;
   --link-underline-color: rgb(111, 72, 0);
-  --button-bg: #1e1e1e;
+  --button-bg: var(--main-bg);
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
@@ -40,12 +40,12 @@
   --side-muted-color: #868686;
   --side-active-color: #fd7e14;
   --side-hover-bg: #262626;
-  --side-btn-bg: #232328;
+  --side-btn-bg: var(--main-bg);
   --side-btn-color: #787878;
   --avatar-border-color: #cececee6;
 
   /* Topbar */
-  --topbar-bg: rgb(27, 27, 30, 0.64);
+  --topbar-bg: var(--main-bg);
   --topbar-text-color: var(--text-color);
   --search-border-color: rgb(55, 55, 55);
   --search-icon-color: rgb(100, 102, 105);
@@ -67,7 +67,7 @@
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
   --card-bg: #1e1e1e;
-  --card-hovor-bg: #464d51;
+  --card-hovor-bg: #393939;
   --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
     rgb(137, 135, 135, 0.24) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;

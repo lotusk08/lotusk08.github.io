@@ -74,6 +74,13 @@
       "--waline-active-color",
       "var(--active-color)"
     );
+
+    const customStyle = document.createElement("style");
+    customStyle.textContent = `
+      .wl-count { visibility: hidden; }
+      .wl-panel { background: var(--main-bg) !important; }
+    `;
+    document.head.appendChild(customStyle);
   } catch (error) {
     console.error("Failed to initialize Waline:", error);
   }

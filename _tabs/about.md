@@ -52,8 +52,8 @@ I’ve built and kept the sites simple, just focusing on what visitors need.
 No fuss, just effort to make them helpful.
 
 {: .d-flex .justify-content-center }
-![Digital customer behavior](/assets/img/post/digital-customer-behavior.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAoABUB8JaQAAuhInKniAAD2t3We/1QKcUaZal4udWhqGL9eAAAA" .normal}
-![Thai Khuong Pump website SEO](../assets/img/post/thaikhuongpump-seo.webp){: lqip="data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQAAkABUB8JZwAAud7hWAAAP7tTMK4RIdUEIOkAAA=" .normal}
+![Digital customer behavior](/assets/img/post/digital-customer-behavior.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAoABUB8JaQAAuhInKniAAD2t3We/1QKcUaZal4udWhqGL9eAAAA" .normal .me-2 }
+![Thai Khuong Pump website SEO](../assets/img/post/thaikhuongpump-seo.webp){: lqip="data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQAAkABUB8JZwAAud7hWAAAP7tTMK4RIdUEIOkAAA=" .normal }
 
 ### Content that matters
 
@@ -93,12 +93,12 @@ Thai Khuong Service came from small ideas and teamwork. I helped with things lik
 _Thai Khuong Services_
 
 {: .d-flex .justify-content-center }
-![Planning](/assets/img/site/stk-planning.webp "A quick sketch of Thai Khuong plans"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .mw-50 .me-2} 
-![Make a different](/assets/img/site/design-tks-uniform.webp "The team’s simple uniforms"){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JQBOgCHw6UfXuUBcAAD+wdJTEFnVS15+mFh7Ho8qDWH+divZm8c1IPUZLdV2p/EaTdqhbISd6RlL+of40ZsCB2clQAAA" .normal .mw-50}
+![Planning](/assets/img/site/stk-planning.webp "A quick sketch of Thai Khuong plans"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .me-2} 
+![Make a different](/assets/img/site/design-tks-uniform.webp "The team’s simple uniforms"){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JQBOgCHw6UfXuUBcAAD+wdJTEFnVS15+mFh7Ho8qDWH+divZm8c1IPUZLdV2p/EaTdqhbISd6RlL+of40ZsCB2clQAAA" .normal }
 
 {: .d-flex .justify-content-center }
-![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .mw-50 .me-2} 
-![TKS Teams](/assets/img/site/tks-teams.webp "The Thai Khuong team at work"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal .mw-50}
+![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .me-2} 
+![TKS Teams](/assets/img/site/tks-teams.webp "The Thai Khuong team at work"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal }
 
 ## Watching things move
 
@@ -143,8 +143,8 @@ Although I'm not studying design, I can create 2D graphics for both vector and b
 ![VIP card template](../assets/img/post/vip-card.webp){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAsABUB8JQAAXZrMM74AAP7KnWt68OhDHfwOzu5L3y5qRaAGMvqARJNOqvaGwSSdiOONWPKnsq/ReuDJltsTQtAAAA==" width="420"} _Card design template_
 
 {: .d-flex .justify-content-center }
-![Member card template 1](../assets/img/post/member-card-option-1.webp){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsABUB8JZACdAEOunCugAD+x3iwmmni/y7tmamkCV5D8aScUMsHSybyavmGZ1oTlj8AAAA=" .normal}
-![Member card template 2](../assets/img/post/member-card-option-2.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JZACdH8AGBrF0AAA/tYTFH4pSEWOZU/bvy7b5nU3iNIWMws+HdXH+CkDoSFIW6lDKgd5cAAAAA==" .normal}
+![Member card template 1](../assets/img/post/member-card-option-1.webp){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsABUB8JZACdAEOunCugAD+x3iwmmni/y7tmamkCV5D8aScUMsHSybyavmGZ1oTlj8AAAA=" .normal .me-2 }
+![Member card template 2](../assets/img/post/member-card-option-2.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JZACdH8AGBrF0AAA/tYTFH4pSEWOZU/bvy7b5nU3iNIWMws+HdXH+CkDoSFIW6lDKgd5cAAAAA==" .normal }
 ### Video...
 I rarely make video clips, even though most people are excited to see them. I find the process exhausting, as it takes a lot of time to combine content and emotions with sound and effects.
 
@@ -156,13 +156,13 @@ I enjoy photography and the process of creating images; each photo captures pric
 ![The road way](../assets/img/post/the-road-way.webp){: lqip="data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JbACdAEJKhC+AAD+022ac+J+8wgtyl+9m8dm3HLqv+DBKliasraAAAA=" width="480"}
 
 {: .d-flex .justify-content-center }
-![Angle](../assets/img/post/angel.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdADdYHRXWnAA/uhG7hMKH4Wkv6EDCe8HYkhcXfoHDP2ftOgUR0qFTEE4xvaahFXTiW0RB4AA" .normal .em-2}
-![Flower](../assets/img/post/flower.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JYwAApLJjHN6aAD+6jAo9vWwmXXnsYNenfzTYfmtdqMLYopkBeiy1Yj65IyWrvvBcgAA" .normal}
+![Angle](../assets/img/post/angel.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdADdYHRXWnAA/uhG7hMKH4Wkv6EDCe8HYkhcXfoHDP2ftOgUR0qFTEE4xvaahFXTiW0RB4AA" .normal .me-2}
+![Flower](../assets/img/post/flower.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JYwAApLJjHN6aAD+6jAo9vWwmXXnsYNenfzTYfmtdqMLYopkBeiy1Yj65IyWrvvBcgAA" .normal }
 
 ![People](../assets/img/post/people.webp){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABUB8JZwAAflcqKqxgAD87/g39ezW5Em295b4VHXx9WgDMrEj0Z/vWuJZNZGN2+ncGttWS1w6ZLFViRQ2nugAAA=="} _Jobs..._
 
 {: .d-flex .justify-content-center }
-![My vespa sprints veloce](../assets/img/post/my-vespa.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAsABUB8JQBdgCHu0wWr5FuRgAD+79C+ogxYaR4oW5XA4/yZTrsyjgF+8WyNF9XHxvVU3Gw399gKh9sHr8AA" .normal}
-![My love](../assets/img/post/em.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABUB8JbACdADQ9z1FwAD+6IzCtpl/lD6U0+nNVS8dBVP/NU6foZFpVGyxkJDa607nKNnASf8KWvn98GAA" .normal}
+![My vespa sprints veloce](../assets/img/post/my-vespa.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAsABUB8JQBdgCHu0wWr5FuRgAD+79C+ogxYaR4oW5XA4/yZTrsyjgF+8WyNF9XHxvVU3Gw399gKh9sHr8AA" .normal .me-2}
+![My love](../assets/img/post/em.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABUB8JbACdADQ9z1FwAD+6IzCtpl/lD6U0+nNVS8dBVP/NU6foZFpVGyxkJDa607nKNnASf8KWvn98GAA" .normal }
 
 ![Me  Steve](../assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="} _I am who I am, I'm Steve!_

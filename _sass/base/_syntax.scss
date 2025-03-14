@@ -119,7 +119,7 @@ div[class^='language-'] {
     @include bp.sm {
       @include mx.ml-mr(0);
 
-      border-radius: v.$radius-lg;
+      border-radius: v.$radius-sm;
     }
   }
 
@@ -127,25 +127,14 @@ div[class^='language-'] {
     @include bp.sm {
       @include mx.ml-mr(0);
 
-      $dot-margin: 1rem;
-
       &::before {
         content: '';
         display: inline-block;
-        margin-left: $dot-margin;
-        width: v.$code-dot-size;
-        height: v.$code-dot-size;
-        border-radius: 50%;
-        background-color: var(--code-header-muted-color);
-        box-shadow: (v.$code-dot-size + v.$code-dot-gap) 0 0
-            var(--code-header-muted-color),
-          (v.$code-dot-size + v.$code-dot-gap) * 2 0 0
-            var(--code-header-muted-color);
       }
 
       span {
         // center the text of label
-        margin-left: calc(($dot-margin + v.$code-dot-size) / 2 * -1);
+        margin-left: 0;
       }
     }
   }

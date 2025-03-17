@@ -4,6 +4,39 @@
 @use {% if jekyll.environment == 'production' %}'main.bundle'{% else %}'main'{% endif %};
 
 /* append your custom style below */
+/* PDF embed file styles */
+.pdf-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 520px;
+  border: 1px solid var(--btn-border-color);
+  border-radius: 6px;
+
+  object {
+    position: absolute;
+    top: -44px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 44px);
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      top: 0;
+      height: 100%;
+    }
+  }
+}
+
+.pdf-container-sm {
+  height: 360px;
+}
+
+@-moz-document url-prefix() {
+  .pdf-container object {
+    top: -44px;
+    height: calc(100% + 44px);
+  }
+}
 
 /* 404 CSS - Wrapper */
 .wrapper {

@@ -16,7 +16,9 @@ toc: true
 ![I'm Steve](/assets/img/site/about-me-steve.webp){: lqip="data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkABUB8JbACdACxOIwAAPuZBoEn81ZyeN6BWBAWc1FcXohHYH4ehQwKc53AefW/W2tjqaXnJHLHQAA="} _Just me, Steve_
 
 ![I love events](/assets/img/site/talk-about-something.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCFTFdjBNdwAAP7ZmZP8HJ6idbPf1WDmp/RQ7H1xKHB2XoX47iAOiP9Q0/F0VQF8PJxc+DhwLatcyiAAAAA=" .left width="400"}
+
 ## I am...
+
 Steve - My name. Also know as Vietnamese: Hoàng Thắng
 
 I work in marketing, finding clarity in complexity.
@@ -24,6 +26,7 @@ I work in marketing, finding clarity in complexity.
 I uncover how businesses function, understand customer journeys, and add value where it matters most—balancing purpose with profit through quiet, deliberate action.
 
 ## Lesson
+
 ### B2C & Ecommerce
 
 ![Hoang Viet's E-commerce policy](/assets/img/site/hv-e-commerce-policy.webp "A simple e-commerce policy page I worked on"){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQAAW7CpsM2NVAAA/t7OZeYxhcp2wU3CFuYmt1xN7ofAmI2Q4S5pNuT5IlRgJOQAAA=="} _Vietnam’s first motorbike e-commerce store_
@@ -40,17 +43,18 @@ Lesson
 : Ignite with passion, stand out with difference
 
 ### B2B
+
 ![Thai Khuong Services](/assets/img/post/tks.webp "The Thai Khuong Services logo in use"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkABUB8JZQAAujc65pyYAD+sjFgpT7INiFxt9fImMSkz/aXRj8dWUB0RJALcCdAgAAA" }
 _Thai Khuong Services_
 
 Another business unit of Thai Khuong and Vietnam's first subscription-based industrial service. It originated from my innovation during COVID-19 revenue disruption, perfecting a sustainable business model with a complete customer lifecycle approach. By adding revenue streams from services, we reduced dependence on distribution activities. The company expanded nearly 200% in the following year.
 
 {: .d-flex .justify-content-center }
-![Planning](/assets/img/site/stk-planning.webp "A quick sketch of Thai Khuong plans"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .me-2} 
+![Planning](/assets/img/site/stk-planning.webp "A quick sketch of Thai Khuong plans"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .me-2}
 ![Make a different](/assets/img/site/design-tks-uniform.webp "The team’s simple uniforms"){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JQBOgCHw6UfXuUBcAAD+wdJTEFnVS15+mFh7Ho8qDWH+divZm8c1IPUZLdV2p/EaTdqhbISd6RlL+of40ZsCB2clQAAA" .normal }
 
 {: .d-flex .justify-content-center }
-![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .me-2} 
+![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .me-2}
 ![TKS Teams](/assets/img/site/tks-teams.webp "The Thai Khuong team at work"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal }
 
 With real-time data analytics, we can identify shifts and make precise adjustments—maintaining momentum through informed adaptation rather than reactive responses.
@@ -58,11 +62,14 @@ With real-time data analytics, we can identify shifts and make precise adjustmen
 ![Real time report](/assets/img/site/real-time-report.webp "A basic view of live marketing data"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA"}
 
 ## Marketing
+
 ### Customer Engagement
+
 At first glance, marketing involves numerous tasks and considerable workload. These activities extend throughout the entire customer interaction journey - from first awareness, through research phases, purchase decisions, to becoming brand advocates. Marketing managers must oversee communication strategies, multichannel engagement, and the evolving brand-customer relationship.
 ![Customer Journey in the Media Ecosystem](../assets/img/post/customer-journey-in-the-media-ecosystem.webp "From Awareness to Advocacy: Customer Journey in the Media Ecosystem"){: lqip="data:image/webp;base64,UklGRsQAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSEgAAAARL6CmbSM4ViCd39suIgLHvsAokuxUk6eAIiCf7nxHBeRfTTxE9H8OADMA1JtkcO/rlW8p/7O9wy8wdnMsqVan3OeqegumBgZWUDggVgAAAPABAJ0BKhAACQAFQHwlmAJ0APDumtLUAAD+g2otvrNdLAixP6/5fWcLZf1XogOEOVmQwK/w1RRT3U3cjARdLZYiQwXiVMgAQbi+SdOJKmfDoJE9cAAA"} _From Awareness to Advocacy: Customer Journey in the Media Ecosystem_
 
 ### Team Structure
+
 When building an effective marketing team from zero, I recommend organizing around three core functions:
 
 - Content creation
@@ -70,12 +77,16 @@ When building an effective marketing team from zero, I recommend organizing arou
 - Communications and PR
 
 ### Implementation Strategy
-In today's global marketplace, while external platforms like social media, press, and TV are valuable, __marketing efforts should be anchored in owned assets__: manufacturing facilities, offices, branches, websites, apps, distribution networks, employees, and existing customers. These proprietary resources form the foundation of authentic marketing initiatives.
+
+In today's global marketplace, while external platforms like social media, press, and TV are valuable, **marketing efforts should be anchored in owned assets**: manufacturing facilities, offices, branches, websites, apps, distribution networks, employees, and existing customers. These proprietary resources form the foundation of authentic marketing initiatives.
+
 > ...sometimes, being kind to existing customers is more important than chasing after new ones. _[Kindness...](/kindness)_
-{: .prompt-important }
+> {: .prompt-important }
 
 ## Digital
+
 ### Websites
+
 ![Homepage thaikhuongpump.com](/assets/img/site/TK-cover-profile.webp "A minimal cover image for Thai Khuong"){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA=" width="480"}_This site - [thaikhuongpump.com](https://thaikhuongpump.com) was reborn in 2018-2019_
 
 The approach to web development is intentionally minimalist—focusing solely on visitor needs without unnecessary elements. Every design choice serves functionality, creating experiences that respect users' time and objectives.
@@ -85,15 +96,19 @@ The approach to web development is intentionally minimalist—focusing solely on
 ![Digital customer behavior](/assets/img/post/digital-customer-behavior.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAoABUB8JaQAAuhInKniAAD2t3We/1QKcUaZal4udWhqGL9eAAAA" .normal .me-2}
 
 ### Contents
+
 Businesses should illuminate, not complicate. For sensitive areas like stem cell therapy, I've developed transparent information frameworks that empower informed decision-making.
+
 > Created for [Medeze](https://medeze.vn) in 2022, it’s focused on user experience through education strategy approach.
 > ![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "A short animation explaining Medeze’s stem cell work")
-{: .prompt-info }
+> {: .prompt-info }
 
 ## Event
+
 ### Golf
 
 #### Hao Khi Dong A
+
 ![Hao Khi Dong A - Gala](../assets/img/post/hao-khi-dong-a-trao-giai.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAQCdASoQAAsABUB8JbACdABlA8AA/bWqrBMr4o2IkMlbkI0BdffJi1w9EevV+jWYRn7eB8AfSiCdso2qMZJ5HpimXHBkBzx3+wV2Uru/YJsplpAAAA=="} _Hao Khi Dong A_
 
 {: .d-flex .justify-content-center }
@@ -121,8 +136,8 @@ Businesses should illuminate, not complicate. For sensitive areas like stem cell
 ![Diamond golf tournament - gala](../assets/img/post/diamond-tournament-gala.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsABUB8JbACdADHeNpdAWAA9kcuXuVP1dHowft/b6dxvlxaP6VYk9o/SF3P/6DfheY6XBgWZKTdJyeYJzOJba4J2kQCHfNwXv31VZAAAA==" .normal .me-1}
 
 #### Ruby Membership Golf Tournament
-![Ruby golf tournament - Trophy](../assets/img/post/trophy-ruby-membership-golf-tournament-2022.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsABUB8JQBOgB6o9xYAAADN7GNgy6SFSCXnHMXyP5KyFQOCB2tAcFQNSwFH8BCKKcWmnHG/bazyj9Vl/XeIkJnWVeOBQUAAAA=="} _The Ruby Membership Golf Tournament - Trophy_
 
+![Ruby golf tournament - Trophy](../assets/img/post/trophy-ruby-membership-golf-tournament-2022.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsABUB8JQBOgB6o9xYAAADN7GNgy6SFSCXnHMXyP5KyFQOCB2tAcFQNSwFH8BCKKcWmnHG/bazyj9Vl/XeIkJnWVeOBQUAAAA=="} _The Ruby Membership Golf Tournament - Trophy_
 
 {: .d-flex .justify-content-center }
 ![Ruby golf tournament - golfer](../assets/img/post/ruby-golf-tournament-goler.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsABUB8JbAC7ADL3a/bl8AA/uOEyAqB0b39d80vgXmj6/4hXJkt4w9wMVw3JknVdlVQAt9I60BckRf5t8DxICjjI/+VUGpHeF3m444AAA==" .normal .me-2}
@@ -134,12 +149,14 @@ Businesses should illuminate, not complicate. For sensitive areas like stem cell
 ![Ruby golf tournament - Gala - 1](../assets/img/post/ruby-golf-tournament-gala.webp){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAsABUB8JZQCw7D0ZAETKSvSgAD+A72z1643T4hBUKWvZ1T4boc/4EV16nWGyIYvw1Jzadvo+YI7ffqW9DiZnx6nsAAA" .normal}
 
 #### Golf courses
+
 ![Caddy](/assets/img/post/long-bien-golf-course-caddy.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQABAABUB8JbACdADzewXSAAD8OfWf0gwpgttNRrABJa2cQE9o2cBuDbhvbiKVgvAfnQYMGH4qWUAA" width="480"} _A moment of contemplation on the course_
 ![Golf Autumn](/assets/img/post/long-bien-golf-course-autumn.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAoABUB8JagCdAD6GJeNQPQAAPjeVCUOGualvvqK/OnskzU+uL06nx/nTpmLtWl9oEEYS+IAAA=="} _The subtle beauty of autumn at Long Bien Golf Course_
 
 The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 
 ### Mercedes-Benz
+
 ![Star Drive](../assets/img/post/star-drive-venue-van-phuc.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkABUB8JZQC7ADhkzqDHkAA/VGMsqRqWfED9D1F03uwVPANDAHDVDSJb4s+YROjVDcchEblHnbQdd8ZPgAA"} _Star Drive - The national testdrive events by Mercedes-Benz Vietnam_
 
 {: .d-flex .justify-content-center }
@@ -160,8 +177,11 @@ The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 [Goodbye, Brad...](/goodbye-brad) CEO Mercedes-Benz Vietnam
 
 ## Creative
+
 ### Design
+
 #### 2D
+
 ![VIP card template](../assets/img/post/vip-card.webp){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAsABUB8JQAAXZrMM74AAP7KnWt68OhDHfwOzu5L3y5qRaAGMvqARJNOqvaGwSSdiOONWPKnsq/ReuDJltsTQtAAAA==" width="420"} _Card design template_
 
 {: .d-flex .justify-content-center }
@@ -169,25 +189,42 @@ The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 ![Member card template 2](../assets/img/post/member-card-option-2.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JZACdH8AGBrF0AAA/tYTFH4pSEWOZU/bvy7b5nU3iNIWMws+HdXH+CkDoSFIW6lDKgd5cAAAAA==" .normal}
 
 #### Publications
-<div class="row mb-4">
-  <div class="col-md-6 mb-3">
-    <iframe src="https://drive.google.com/file/d/1BerQAn-mQzwjKTKo-m8HqqL6y8iojidX/preview" class="w-100 h-100" style="min-height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
-  </div>
-  <div class="col-md-6 mb-3">
-    <iframe src="https://drive.google.com/file/d/1b1OMeqmvNW7yyOlMIgxSy4X24aa3Wzaw/preview" class="w-100 h-100" style="min-height: 520px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
-  </div>
-</div>
 
 <div class="row">
+  <div class="col-md-6 mb-3">
+    <div class="pdf-container">
+      <object data="/assets/pdf/TKT brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+        <p>Unable to display PDF file. <a href="/assets/pdf/TKT brochure.pdf">Download</a> instead.</p>
+      </object>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="pdf-container">
+      <object data="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+        <p>Unable to display PDF file. <a href="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf">Download</a> instead.</p>
+      </object>
+    </div>
+  </div>
+</div>
+<div class="row">
   <div class="col-md-4 mb-3">
-    <iframe src="https://drive.google.com/file/d/12n-nsfyAl--NMFHmVU__X7q1IxKkfvOf/preview" class="w-100 h-100" style="min-height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+    <div class="pdf-container pdf-container-sm">
+      <object data="/assets/pdf/TKS brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+        <p>Unable to display PDF file. <a href="/assets/pdf/TKS brochure.pdf">Download</a> instead.</p>
+      </object>
+    </div>
   </div>
   <div class="col-md-8 mb-3">
-    <iframe src="https://drive.google.com/file/d/1UpH7tiuTO1O7KyHst8ZLFTNMHYc1cHBE/preview" class="w-100 h-100" style="min-height: 360px; border: 1px solid #ddd; border-radius: 5px;"></iframe>
+    <div class="pdf-container pdf-container-sm">
+      <object data="/assets/pdf/MOD - Application.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+        <p>Unable to display PDF file. <a href="/assets/pdf/MOD - Application.pdf">Download</a> instead.</p>
+      </object>
+    </div>
   </div>
 </div>
 
 ### Video
+
 ![Video edit](../assets/img/post/filming.webp){: lqip="data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JZgCdAYwTjbWsm5gAAD+a94bijV2Gqwfa9pLxkn32SM7xgxd6SQoed2MB48fpRY/drY7sdPO54IlLndha6yuqkiBDTsbPLfIBnc7iEAAAA==" width="480"}
 
 I rarely make video clips, even though most people are excited to see them. I approach video creation selectively. It demands patience to weave content, emotion, sound, and visual rhythm into something meaningful.
@@ -195,6 +232,7 @@ I rarely make video clips, even though most people are excited to see them. I ap
 {% include embed/youtube.html id='C3aVBHVbomM' %}
 
 ### Code
+
 While I'm not a software developer by trade, I possess a solid understanding of software functionality and can make necessary adjustments for my own needs or those of others.
 ![Lucky draw](../assets/img/post/luckydraw-software.gif)_Lucky draw: the popular game for year-end parties in Vietnam_
 
@@ -207,6 +245,7 @@ I crafted this tune to evoke the same passion and energy that inspired its creat
 <iframe width="100%" height="360" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1063996978&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 ### Photography
+
 I enjoy photography and the process of creating images; each photo captures priceless moments.
 
 ![The road way](../assets/img/post/the-road-way.webp){: lqip="data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JbACdAEJKhC+AAD+022ac+J+8wgtyl+9m8dm3HLqv+DBKliasraAAAA=" width="480"} _The path forward_
@@ -222,6 +261,7 @@ I enjoy photography and the process of creating images; each photo captures pric
 ![My love](../assets/img/post/em.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABUB8JbACdADQ9z1FwAD+6IzCtpl/lD6U0+nNVS8dBVP/NU6foZFpVGyxkJDa607nKNnASf8KWvn98GAA" .normal}
 
 ## Philosophy
+
 The true impact rarely needs fanfare.
 
 ![Me  Steve](../assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="} _I am who I am. I'm Steve!_

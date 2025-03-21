@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -205,10 +205,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2025-03-18-thinking-tool.md"
+                "file": "_tabs/about.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2025-03-18-thinking-tool"
+              "title": "File properties for about"
             }
           },
           {
@@ -217,8 +217,8 @@
             "state": {
               "type": "mindmap",
               "state": {},
-              "icon": "dot-network",
-              "title": "Mind Map of 2024-06-08-goodbye-brad"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -227,15 +227,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "_tabs/about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of about"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -251,19 +253,20 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a904bf1ccd37d85b",
+  "active": "25bc95d7bfdb9cb9",
   "lastOpenFiles": [
-    "_site/topics/learn/index.html",
-    "_site/topics/learn",
-    "_site/topics/learn 2/index.html",
-    "_site/topics/learn 2",
-    "_site/thinking-tool.html",
-    "_site/topics/markdown/index.html",
-    "_site/topics/markdown",
-    "_site/topics/mindmaps/index.html",
-    "_site/topics/mindmaps",
-    "_site/topics/application/index.html",
-    "_site/topics/application",
+    "_posts/2025-03-18-thinking-tool.md",
+    "assets/js/dist/sw.min.js",
+    "assets/js/dist/app.min.js",
+    "assets/js/dist/theme.min.js",
+    "assets/js/dist/misc.min.js",
+    "assets/js/dist/post.min.js",
+    "assets/js/dist/page.min.js",
+    "assets/js/dist/categories.min.js",
+    "assets/js/dist/home.min.js",
+    "assets/js/dist/commons.min.js",
+    "assets/js/dist",
+    "_tabs/about.md",
     "_site/obsidian.md",
     "_site/assets/img/site/tkt-website.webp",
     "_site/assets/img/site/tks-teams.webp",
@@ -275,12 +278,10 @@
     "_site/assets/img/site/stevehoang.com.webp",
     "_site/assets/img/site/steve-avatar.webp",
     "_site/assets/img/site/real-time-report.webp",
-    "_tabs/about.md",
     "_posts/2023-09-01-obsidian.md",
     "_drafts/2024-04-20-coffee.md",
     "_drafts/New post.md",
     "obsidian.md",
-    "_posts/2025-03-18-thinking-tool.md",
     "_posts/2011-04-29-tha-huong.md",
     "_posts/2024-06-08-goodbye-brad.md",
     "_posts/2024-12-21-kindness.md",

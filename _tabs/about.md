@@ -101,7 +101,7 @@ Businesses should illuminate, not complicate. For sensitive areas like stem cell
 
 > Created for [Medeze](https://medeze.vn) in 2022, it’s focused on user experience through education strategy approach.
 > ![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "A short animation explaining Medeze’s stem cell work")
-> {: .prompt-info }
+{: .prompt-info }
 
 ## Event
 

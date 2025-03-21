@@ -10754,7 +10754,11 @@ var Frontmatter = class {
           return `${prefix}${shelf}${postfix}`;
         });
       } else {
-        output[key] = `${prefix}${this.book[key]}${postfix}`;
+        if (value == `[[${key}]]` && this.book[key] == "") {
+          output[key] = "";
+        } else {
+          output[key] = `${prefix}${this.book[key]}${postfix}`;
+        }
       }
     });
     return yaml.dump(output);
@@ -10803,7 +10807,7 @@ var Book = class {
   }
   getShelves(shelves, dateRead) {
     const outputShelves = shelves.split(",").map((shelf) => shelf.trim()).filter((shelf) => shelf);
-    if (dateRead && !outputShelves.contains("read"))
+    if (dateRead && !outputShelves.includes("read"))
       outputShelves.push("read");
     return outputShelves;
   }
@@ -10841,6 +10845,8 @@ var Book = class {
   }
   cleanTitle(title, full) {
     this.series = "";
+    this.seriesName = "";
+    this.seriesNumber = 0;
     this.subtitle = "";
     let series = "";
     if (title.includes("(") && title.includes("#")) {
@@ -10857,7 +10863,18 @@ var Book = class {
     return title.trim();
   }
   getSeries(title) {
-    const match = title.match(/\((.*?)\)/);
+    if (this.series) {
+      return this.series;
+    }
+    let match = title.match(/.+ \(((.+?),? #(\d+))\)/);
+    if (match) {
+      this.series = match[1].trim();
+      this.seriesName = match[2].trim();
+      this.seriesNumber = parseInt(match[3].trim(), 10);
+      return `(${match[1]})`;
+    }
+    console.log(`New get series parser failed for "${title}", falling back to legacy parser.`);
+    match = title.match(/\((.*?)\)/);
     if (match && match[1].contains("#")) {
       this.series = match[1].trim();
       return match[0];
@@ -10960,7 +10977,7 @@ var Settings = class extends import_obsidian2.PluginSettingTab {
   }
   getSelectedCount() {
     const selected = Object.keys(this.getYAML()).length;
-    const total = 18;
+    const total = 20;
     return `${selected}/${total}`;
   }
   getYAML() {
@@ -11058,7 +11075,7 @@ var Settings = class extends import_obsidian2.PluginSettingTab {
         text: "You can add custom frontmatter to your books. Please use the dropdown to choose the frontmatter you'd like to add."
       });
     }
-    new import_obsidian2.Setting(containerEl).setName("Available Fields").addDropdown((dropdown) => dropdown.addOption("", `${this.getSelectedCount()}`).addOption("id", `${this.getDisplay("id")}`).addOption("author", `${this.getDisplay("author")}`).addOption("title", `${this.getDisplay("title", "title (formatted for filenames/links)")}`).addOption("fullTitle", `${this.getDisplay("fullTitle", "fullTitle (formatted, includes subtitle)")}`).addOption("rawTitle", `${this.getDisplay("rawTitle")}`).addOption("subtitle", `${this.getDisplay("subtitle")}`).addOption("pages", `${this.getDisplay("pages")}`).addOption("series", `${this.getDisplay("series")}`).addOption("description", `${this.getDisplay("description")}`).addOption("cover", `${this.getDisplay("cover")}`).addOption("isbn", `${this.getDisplay("isbn")}`).addOption("review", `${this.getDisplay("review")}`).addOption("rating", `${this.getDisplay("rating")}`).addOption("avgRating", `${this.getDisplay("avgRating")}`).addOption("dateAdded", `${this.getDisplay("dateAdded")}`).addOption("dateRead", `${this.getDisplay("dateRead")}`).addOption("datePublished", `${this.getDisplay("datePublished")}`).addOption("shelves", `${this.getDisplay("shelves")}`).addOption("bookPage", `${this.getDisplay("bookPage")}`).onChange((value) => __async(this, null, function* () {
+    new import_obsidian2.Setting(containerEl).setName("Available Fields").addDropdown((dropdown) => dropdown.addOption("", `${this.getSelectedCount()}`).addOption("id", `${this.getDisplay("id")}`).addOption("author", `${this.getDisplay("author")}`).addOption("title", `${this.getDisplay("title", "title (formatted for filenames/links)")}`).addOption("fullTitle", `${this.getDisplay("fullTitle", "fullTitle (formatted, includes subtitle)")}`).addOption("rawTitle", `${this.getDisplay("rawTitle")}`).addOption("subtitle", `${this.getDisplay("subtitle")}`).addOption("pages", `${this.getDisplay("pages")}`).addOption("series", `${this.getDisplay("series")}`).addOption("seriesName", `${this.getDisplay("seriesName")}`).addOption("seriesNumber", `${this.getDisplay("seriesNumber")}`).addOption("description", `${this.getDisplay("description")}`).addOption("cover", `${this.getDisplay("cover")}`).addOption("isbn", `${this.getDisplay("isbn")}`).addOption("review", `${this.getDisplay("review")}`).addOption("rating", `${this.getDisplay("rating")}`).addOption("avgRating", `${this.getDisplay("avgRating")}`).addOption("dateAdded", `${this.getDisplay("dateAdded")}`).addOption("dateRead", `${this.getDisplay("dateRead")}`).addOption("datePublished", `${this.getDisplay("datePublished")}`).addOption("shelves", `${this.getDisplay("shelves")}`).addOption("bookPage", `${this.getDisplay("bookPage")}`).onChange((value) => __async(this, null, function* () {
       this.optionIsSelected(value) ? delete this.currentYAML[value] : this.currentYAML[value] = value;
       yield this.plugin.saveSettings();
       this.display();

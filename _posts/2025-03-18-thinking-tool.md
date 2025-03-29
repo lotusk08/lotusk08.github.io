@@ -59,5 +59,5 @@ I forked it immediately. I customized it to my liking, built it, and deployed it
 > I hope everyone gets to experience something like this too.
 {: .prompt-important }
 
-This tool here: [think.stevehoang.com](https://think.stevehoang.com). This tool helps map out thoughts clearly.
+[think.stevehoang.com](https://think.stevehoang.com) - 
 It's open, feel free to try, use or sharing!

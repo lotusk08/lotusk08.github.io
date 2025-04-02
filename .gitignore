@@ -37,3 +37,6 @@ package-lock.json
 # Obsidian
 ! .obsidian
 ! .obsidian/workspace.json
+
+# Claude
+CLAUDE.md

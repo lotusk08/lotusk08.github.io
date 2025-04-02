@@ -35,8 +35,8 @@ package-lock.json
 !.markdownlint.yaml
 
 # Obsidian
+! .obsidian
 ! .obsidian/workspace.json
-.DS_Store
 
 # Claude
 CLAUDE.md

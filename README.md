@@ -87,6 +87,7 @@ npm run lqip
   - Single column - easy to read.
   - Responsive & adjust text
   - style: change border style to diagonal
+  - style(syntax): change highlight theme to ayu
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

@@ -126,7 +126,7 @@
     display: none;
   }
 
-  /* --- Syntax highlight theme from `rougify style github` --- */
+  /* --- Syntax highlight theme: Ayu Light Theme (based on rougify style) --- */
 
   .highlight table td {
     padding: 5px;
@@ -138,8 +138,8 @@
 
   .highlight,
   .highlight .w {
-    color: #24292f;
-    background-color: #fafaf6;
+    color: #5c6773;
+    background-color: #fafafa;
   }
 
   .highlight .k,
@@ -149,53 +149,53 @@
   .highlight .kr,
   .highlight .kt,
   .highlight .kv {
-    color: #cf222e;
+    color: #ff7733;
   }
 
   .highlight .gr {
-    color: #f6f8fa;
+    color: #fafafa;
   }
 
   .highlight .gd {
-    color: #82071e;
-    background-color: #ffebe9;
+    color: #f51818;
+    background-color: #ffeeee;
   }
 
   .highlight .nb {
-    color: #953800;
+    color: #ff7733;
   }
 
   .highlight .nc {
-    color: #953800;
+    color: #e6b450;
   }
 
   .highlight .no {
-    color: #953800;
+    color: #e6b450;
   }
 
   .highlight .nn {
-    color: #953800;
+    color: #e6b450;
   }
 
   .highlight .sr {
-    color: #116329;
+    color: #86b300;
   }
 
   .highlight .na {
-    color: #116329;
+    color: #86b300;
   }
 
   .highlight .nt {
-    color: #116329;
+    color: #86b300;
   }
 
   .highlight .gi {
-    color: #116329;
-    background-color: #dafbe1;
+    color: #86b300;
+    background-color: #eeffee;
   }
 
   .highlight .kc {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .l,
@@ -208,27 +208,27 @@
   .highlight .il,
   .highlight .mo,
   .highlight .mx {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .sb {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .bp {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .ne {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .nl {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .py {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .nv,
@@ -236,21 +236,21 @@
   .highlight .vg,
   .highlight .vi,
   .highlight .vm {
-    color: #0550ae;
+    color: #36a3d9;
   }
 
   .highlight .o,
   .highlight .ow {
-    color: #0550ae;
+    color: #ff7733;
   }
 
   .highlight .gh {
-    color: #0550ae;
+    color: #36a3d9;
     font-weight: bold;
   }
 
   .highlight .gu {
-    color: #0550ae;
+    color: #36a3d9;
     font-weight: bold;
   }
 
@@ -265,21 +265,21 @@
   .highlight .sx,
   .highlight .s1,
   .highlight .ss {
-    color: #0a3069;
+    color: #86b300;
   }
 
   .highlight .nd {
-    color: #8250df;
+    color: #a37acc;
   }
 
   .highlight .nf,
   .highlight .fm {
-    color: #8250df;
+    color: #f29718;
   }
 
   .highlight .err {
-    color: #f6f8fa;
-    background-color: #82071e;
+    color: #fafafa;
+    background-color: #f51818;
   }
 
   .highlight .c,
@@ -290,32 +290,32 @@
   .highlight .cpf,
   .highlight .c1,
   .highlight .cs {
-    color: #68717a;
+    color: #828c99;
   }
 
   .highlight .gl {
-    color: #68717a;
+    color: #828c99;
   }
 
   .highlight .gt {
-    color: #68717a;
+    color: #828c99;
   }
 
   .highlight .ni {
-    color: #24292f;
+    color: #5c6773;
   }
 
   .highlight .si {
-    color: #24292f;
+    color: #f07178;
   }
 
   .highlight .ge {
-    color: #24292f;
+    color: #5c6773;
     font-style: italic;
   }
 
   .highlight .gs {
-    color: #24292f;
+    color: #5c6773;
     font-weight: bold;
   }
 }

@@ -9,7 +9,7 @@ import Tooltip from 'bootstrap/js/src/tooltip';
 
 const clipboardSelector = '.code-header>button';
 
-const ICON_DEFAULT = 'far fa-clipboard';
+const ICON_DEFAULT = 'far fa-clone';
 const ICON_SUCCESS = 'fas fa-check';
 
 const ATTR_TIMEOUT = 'timeout';

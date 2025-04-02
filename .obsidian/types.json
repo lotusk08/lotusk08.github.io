@@ -10,7 +10,7 @@
     "modification_time": "datetime",
     "category": "text",
     "title": "text",
-    "published": "date",
+    "published": "checkbox",
     "priority": "number",
     "datePublished": "datetime",
     "avgRating": "text",

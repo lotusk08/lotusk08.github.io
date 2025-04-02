@@ -260,8 +260,4 @@ I enjoy photography and the process of creating images; each photo captures pric
 ![My vespa sprints veloce](../assets/img/post/my-vespa.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAsABUB8JQBdgCHu0wWr5FuRgAD+79C+ogxYaR4oW5XA4/yZTrsyjgF+8WyNF9XHxvVU3Gw399gKh9sHr8AA" .normal .me-2}
 ![My love](../assets/img/post/em.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABUB8JbACdADQ9z1FwAD+6IzCtpl/lD6U0+nNVS8dBVP/NU6foZFpVGyxkJDa607nKNnASf8KWvn98GAA" .normal}
 
-## Philosophy
-
-The true impact rarely needs fanfare.
-
-![Me  Steve](../assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="} _I am who I am. I'm Steve!_
+![Me  Steve](../assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="} _**I am who I am. I'm Steve!**_

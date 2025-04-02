@@ -14,34 +14,36 @@
   padding: 0;
   width: v.$back2top-size;
   height: v.$back2top-size;
-  border-radius: 50%;
+  border-radius: 2px;
   border: 1px solid var(--btn-backtotop-border-color);
+  transform: rotate(45deg);
   transition:
     opacity 0.5s ease-in-out,
     transform 0.2s ease-out;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 
   @include bp.lg {
     right: 5%;
     bottom: calc(v.$footer-height - v.$back2top-size / 2);
   }
 
-  @include bp.xxl {
-    right: calc((100vw - 240px - 1140px) / 2 + 3rem);
-  }
-
-  @include bp.xxxl {
-    right: calc((100vw - 300px - v.$main-content-max-width) / 2 + 2rem);
-  }
-
   &:hover {
-    transform: translate3d(0, -5px, 0);
-    -webkit-transform: translate3d(0, -5px, 0);
+    transform: rotate(45deg) scale(1.1);
+    -webkit-transform: rotate(45deg) scale(1.1);
   }
 
   i {
     line-height: v.$back2top-size;
     position: relative;
-    bottom: 2px;
+    bottom: 1.2px;
+    transform: rotate(-45deg);
+    transition: opacity 0.2s ease;
+  }
+  
+  &:hover i {
+    opacity: 0;
+    color: var(--active-color);
   }
 
   &.show {
@@ -52,17 +54,21 @@
 
 /* Back-to-top progress bar */
 #progress-circle {
-  margin: -1px;
-  top: -2.75rem;
-  position: relative;
-  transform: rotate(-90deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
-#progress-circle circle {
+#progress-circle path {
   stroke: var(--btn-backtotop-color);
-  stroke-dasharray: 2 * 3.14 * 20;
-  stroke-dashoffset: 2 * 3.14 * 20;
+  stroke-dasharray: 160;
+  stroke-dashoffset: 160;
   transition: stroke-dashoffset 0.1s;
+  opacity: 0.35;
 }
 
 /* Scroll percentage text */
@@ -70,13 +76,12 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1rem;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  font-size: 0.75rem;
   color: var(--btn-backtotop-color);
   pointer-events: none;
   padding: 0.3rem;
-  border-radius: 50%;
-  background-color: var(--button-bg);
+  border-radius: 2px;
   opacity: 0;
   transition:
     opacity 0.2s ease,
@@ -85,5 +90,4 @@
 
 #scroll-percentage.visible {
   opacity: 1;
-  background-color: var(--button-bg);
 }

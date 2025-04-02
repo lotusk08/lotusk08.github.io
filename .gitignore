@@ -37,3 +37,6 @@ package-lock.json
 # Obsidian
 ! .obsidian/workspace.json
 .DS_Store
+
+# Claude
+CLAUDE.md

@@ -6,7 +6,7 @@ permalink: '/:path/swconf.js'
 
 const swconf = {
   {% if site.pwa.cache.enabled %}
-    cacheName: 'steve-blog-{{ "now" | date: "%s" }}',
+    cacheName: 'chirpy-{{ "now" | date: "%s" }}',
 
     {%- comment -%} Resources added to the cache during PWA installation. {%- endcomment -%}
     resources: [

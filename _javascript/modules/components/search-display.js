@@ -1,27 +1,27 @@
-const LOADED = "d-block";
-const UNLOADED = "d-none";
-const FOCUS = "input-focus";
-const FLEX = "d-flex";
+/**
+ * This script make #search-result-wrapper switch to unload or shown automatically.
+ */
 
-class SearchElements {
-  static elements = {
-    btnSbTrigger: document.getElementById("mode-toggle"),
-    btnSearchTrigger: document.getElementById("search-trigger"),
-    btnCancel: document.getElementById("search-cancel"),
-    content: document.querySelectorAll("#main-wrapper>.container>.row"),
-    topbarTitle: document.getElementById("topbar-title"),
-    search: document.getElementById("search"),
-    resultWrapper: document.getElementById("search-result-wrapper"),
-    results: document.getElementById("search-results"),
-    input: document.getElementById("search-input"),
-    hints: document.getElementById("search-hints")
-  };
-}
+const btnSbTrigger = document.getElementById('mode-toggle');
+const btnSearchTrigger = document.getElementById('search-trigger');
+const btnCancel = document.getElementById('search-cancel');
+const content = document.querySelectorAll('#main-wrapper>.container>.row');
+const topbarTitle = document.getElementById('topbar-title');
+const search = document.getElementById('search');
+const resultWrapper = document.getElementById('search-result-wrapper');
+const results = document.getElementById('search-results');
+const input = document.getElementById('search-input');
+const hints = document.getElementById('search-hints');
 
+// CSS class names
+const LOADED = 'd-block';
+const UNLOADED = 'd-none';
+const FOCUS = 'input-focus';
+const FLEX = 'd-flex';
+
+/* Actions in mobile screens (Sidebar hidden - old) */
 class MobileSearchBar {
   static on() {
-    const { btnSbTrigger, btnSearchTrigger, search, btnCancel, topbarTitle } =
-      SearchElements.elements;
     btnSbTrigger.classList.add(UNLOADED);
     topbarTitle.classList.add(UNLOADED);
     btnSearchTrigger.classList.add(UNLOADED);
@@ -30,8 +30,6 @@ class MobileSearchBar {
   }
 
   static off() {
-    const { btnSbTrigger, btnSearchTrigger, search, btnCancel, topbarTitle } =
-      SearchElements.elements;
     btnCancel.classList.remove(LOADED);
     search.classList.remove(FLEX);
     btnSbTrigger.classList.remove(UNLOADED);
@@ -45,7 +43,6 @@ class ResultSwitch {
 
   static on() {
     if (!this.resultVisible) {
-      const { resultWrapper, content } = SearchElements.elements;
       resultWrapper.classList.remove(UNLOADED);
       content.forEach((el) => {
         el.classList.add(UNLOADED);
@@ -56,9 +53,7 @@ class ResultSwitch {
 
   static off() {
     if (this.resultVisible) {
-      const { results, hints, resultWrapper, content, input } =
-        SearchElements.elements;
-      results.innerHTML = "";
+      results.innerHTML = '';
 
       if (hints.classList.contains(UNLOADED)) {
         hints.classList.remove(UNLOADED);
@@ -68,41 +63,38 @@ class ResultSwitch {
       content.forEach((el) => {
         el.classList.remove(UNLOADED);
       });
-      input.textContent = "";
+      input.textContent = '';
       this.resultVisible = false;
     }
   }
 }
 
 function isMobileView() {
-  return SearchElements.elements.btnCancel.classList.contains(LOADED);
+  return btnCancel.classList.contains(LOADED);
 }
 
 export function displaySearch() {
-  const { btnSearchTrigger, btnCancel, search, input, hints } =
-    SearchElements.elements;
-
-  btnSearchTrigger.addEventListener("click", () => {
+  btnSearchTrigger.addEventListener('click', () => {
     MobileSearchBar.on();
     ResultSwitch.on();
     input.focus();
   });
 
-  btnCancel.addEventListener("click", () => {
+  btnCancel.addEventListener('click', () => {
     MobileSearchBar.off();
     ResultSwitch.off();
   });
 
-  input.addEventListener("focus", () => {
+  input.addEventListener('focus', () => {
     search.classList.add(FOCUS);
   });
 
-  input.addEventListener("focusout", () => {
+  input.addEventListener('focusout', () => {
     search.classList.remove(FOCUS);
   });
 
-  input.addEventListener("input", () => {
-    if (input.value === "") {
+  input.addEventListener('input', () => {
+    if (input.value === '') {
       if (isMobileView()) {
         hints.classList.remove(UNLOADED);
       } else {

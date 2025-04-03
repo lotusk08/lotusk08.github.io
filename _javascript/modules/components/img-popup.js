@@ -1,9 +1,19 @@
+/**
+ * Set up image popup
+ *
+ * Dependencies: https://github.com/biati-digital/glightbox
+ */
+
 const lightImages = '.popup:not(.dark)';
 const darkImages = '.popup:not(.light)';
 let selector = lightImages;
 
 function updateImages(current, reverse) {
-  selector = selector === lightImages ? darkImages : lightImages;
+  if (selector === lightImages) {
+    selector = darkImages;
+  } else {
+    selector = lightImages;
+  }
 
   if (reverse === null) {
     reverse = GLightbox({ selector: `${selector}` });
@@ -13,7 +23,9 @@ function updateImages(current, reverse) {
 }
 
 export function imgPopup() {
-  if (document.querySelector('.popup') === null) return;
+  if (document.querySelector('.popup') === null) {
+    return;
+  }
 
   const hasDualImages = !(
     document.querySelector('.popup.light') === null &&
@@ -29,7 +41,7 @@ export function imgPopup() {
   if (hasDualImages && Theme.switchable) {
     let reverse = null;
 
-    window.addEventListener('message', event => {
+    window.addEventListener('message', (event) => {
       if (event.source === window && event.data && event.data.id === Theme.ID) {
         updateImages(current, reverse);
       }

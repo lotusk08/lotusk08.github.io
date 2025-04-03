@@ -7,6 +7,8 @@ class TocManager {
   constructor() {
     this.tocWrapper = document.getElementById("toc-wrapper");
     this.tocTimeout = null;
+    this.scrollHandler = this.handleScroll.bind(this);
+    this.isVisible = false;
 
     if (this.tocWrapper) {
       this.initializeTOC();
@@ -19,30 +21,48 @@ class TocManager {
   }
 
   showTOCTemporarily(duration) {
-    if (this.tocWrapper) {
+    if (!this.tocWrapper) return;
+    
+    if (!this.isVisible) {
+      this.isVisible = true;
       this.tocWrapper.classList.add("visible");
-      setTimeout(() => {
-        this.tocWrapper.classList.remove("visible");
-      }, duration);
     }
+    
+    clearTimeout(this.tocTimeout);
+    this.tocTimeout = setTimeout(() => {
+      this.isVisible = false;
+      this.tocWrapper.classList.remove("visible");
+    }, duration);
+  }
+
+  handleScroll() {
+    if (!this.tocWrapper) return;
+    
+    if (!this.isVisible) {
+      this.isVisible = true;
+      this.tocWrapper.classList.add("visible");
+    }
+    
+    clearTimeout(this.tocTimeout);
+    this.tocTimeout = setTimeout(() => {
+      this.isVisible = false;
+      this.tocWrapper.classList.remove("visible");
+    }, 1200);
   }
 
   bindEvents() {
     window.addEventListener("scroll", () => {
-      requestAnimationFrame(() => {
-        try {
-          if (this.tocWrapper) {
-            this.tocWrapper.classList.add("visible");
-            clearTimeout(this.tocTimeout);
-            this.tocTimeout = setTimeout(() => {
-              this.tocWrapper.classList.remove("visible");
-            }, 1200);
+      if (!this.rafId) {
+        this.rafId = requestAnimationFrame(() => {
+          try {
+            this.handleScroll();
+          } catch (error) {
+            console.error("Error in TOC scroll handler:", error);
           }
-        } catch (error) {
-          console.error("Error in TOC scroll handler:", error);
-        }
-      });
-    });
+          this.rafId = null;
+        });
+      }
+    }, { passive: true });
   }
 }
 
@@ -69,9 +89,11 @@ export function initToc() {
   }
 
   const $tocWrapper = document.getElementById("toc-wrapper");
-  $tocWrapper.classList.remove("invisible");
+  if ($tocWrapper) {
+    $tocWrapper.classList.remove("invisible");
+  }
 
-  desktopMode.onchange = refresh;
+  desktopMode.addEventListener('change', refresh);
 
   new TocManager();
 }

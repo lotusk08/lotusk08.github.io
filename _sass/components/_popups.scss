@@ -57,6 +57,7 @@
       transform: translateX(-50%);
       -webkit-animation: popup 0.8s;
       animation: popup 0.8s;
+      z-index: 10;
 
       @include bp.xxl {
         min-width: 22rem;

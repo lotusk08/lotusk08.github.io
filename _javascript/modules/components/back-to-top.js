@@ -3,6 +3,11 @@ class ScrollProgress {
     this.btn = document.getElementById("back-to-top");
     this.perimeter = 4 * 40;
     this.scrollTimeout = null;
+    this.ticking = false;
+    this.lastScrollTop = 0;
+    this.lastScrollPercentage = 0;
+    this.isVisible = false;
+    this.visibilityThreshold = 50;
 
     if (this.btn) {
       this.initializeProgress();
@@ -14,9 +19,12 @@ class ScrollProgress {
     const { svg, path, percentageText } = this.createScrollElements();
     this.path = path;
     this.percentageText = percentageText;
+    this.icon = null;
 
     this.btn.appendChild(svg);
     this.btn.appendChild(percentageText);
+    
+    this.icon = this.btn.querySelector("i");
   }
 
   createScrollElements() {
@@ -60,56 +68,84 @@ class ScrollProgress {
     if (!document.documentElement) return;
 
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const docHeight =
-      Math.max(
+    
+    if (Math.abs(scrollTop - this.lastScrollTop) < 5) {
+      this.ticking = false;
+      return;
+    }
+    
+    this.lastScrollTop = scrollTop;
+
+    if (!this.documentHeight || this.recalculateDocHeight) {
+      this.documentHeight = Math.max(
         document.documentElement.scrollHeight,
         document.documentElement.offsetHeight,
         document.documentElement.clientHeight
       ) - window.innerHeight;
+      this.recalculateDocHeight = false;
+    }
 
-    if (docHeight <= 0) return;
+    if (this.documentHeight <= 0) {
+      this.ticking = false;
+      return;
+    }
 
-    const scrollFraction = Math.min(Math.max(scrollTop / docHeight, 0), 1);
-    const drawLength = this.perimeter * scrollFraction;
+    const shouldBeVisible = scrollTop > this.visibilityThreshold;
+    if (shouldBeVisible !== this.isVisible) {
+      this.isVisible = shouldBeVisible;
+      this.btn.classList.toggle("show", shouldBeVisible);
+    }
+
+    const scrollFraction = Math.min(Math.max(scrollTop / this.documentHeight, 0), 1);
     const scrollPercentage = Math.round(scrollFraction * 100);
+    
+    if (scrollPercentage !== this.lastScrollPercentage) {
+      this.lastScrollPercentage = scrollPercentage;
+      const drawLength = this.perimeter * scrollFraction;
+      this.updateUI(drawLength, scrollPercentage);
+    }
 
-    this.updateUI(drawLength, scrollPercentage);
+    this.ticking = false;
   }
 
   updateUI(drawLength, scrollPercentage) {
-    this.path.style.strokeDashoffset = this.perimeter - drawLength;
-    this.percentageText.textContent = `${scrollPercentage}`;
-    this.percentageText.classList.add("visible");
-    
-    const icon = this.btn.querySelector("i");
-    if (icon) {
-      icon.style.opacity = "0";
-    }
-
-    clearTimeout(this.scrollTimeout);
-    this.scrollTimeout = setTimeout(() => {
-      this.percentageText.classList.remove("visible");
-      if (icon) {
-        icon.style.opacity = "1";
+    window.requestAnimationFrame(() => {
+      this.path.style.strokeDashoffset = this.perimeter - drawLength;
+      this.percentageText.textContent = `${scrollPercentage}`;
+      this.percentageText.classList.add("visible");
+      
+      if (this.icon) {
+        this.icon.style.opacity = "0";
       }
-    }, 500);
+
+      clearTimeout(this.scrollTimeout);
+      this.scrollTimeout = setTimeout(() => {
+        this.percentageText.classList.remove("visible");
+        if (this.icon) {
+          this.icon.style.opacity = "1";
+        }
+      }, 500);
+    });
   }
 
   bindEvents() {
+    window.addEventListener("resize", () => {
+      this.recalculateDocHeight = true;
+    }, { passive: true });
+
     window.addEventListener("scroll", () => {
-      requestAnimationFrame(() => {
-        try {
-          this.updateScrollProgress();
-          if (window.scrollY > 50) {
-            this.btn.classList.add("show");
-          } else {
-            this.btn.classList.remove("show");
+      if (!this.ticking) {
+        this.ticking = true;
+        window.requestAnimationFrame(() => {
+          try {
+            this.updateScrollProgress();
+          } catch (error) {
+            console.error("Error in scroll handler:", error);
+            this.ticking = false;
           }
-        } catch (error) {
-          console.error("Error in scroll handler:", error);
-        }
-      });
-    });
+        });
+      }
+    }, { passive: true });
 
     this.btn.addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });

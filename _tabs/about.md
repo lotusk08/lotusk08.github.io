@@ -260,4 +260,17 @@ I enjoy photography and the process of creating images; each photo captures pric
 ![My vespa sprints veloce](../assets/img/post/my-vespa.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAsABUB8JQBdgCHu0wWr5FuRgAD+79C+ogxYaR4oW5XA4/yZTrsyjgF+8WyNF9XHxvVU3Gw399gKh9sHr8AA" .normal .me-2}
 ![My love](../assets/img/post/em.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABUB8JbACdADQ9z1FwAD+6IzCtpl/lD6U0+nNVS8dBVP/NU6foZFpVGyxkJDa607nKNnASf8KWvn98GAA" .normal}
 
-![Me  Steve](../assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="} _**I am who I am. I'm Steve!**_
+{: .d-flex .justify-content-center }
+![Em](../assets/img/post/em-dating.webp){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAsABUB8JbACdADcWXSoNCAA/oPjc68oYlkG7ll1Wa8pEW/oEIWyC78KY4uQanncXlwE6xXPoxOdeZvb9hGQrUY+NlVO9TMR4AAA" .normal .me-1}
+![Vespa68](../assets/img/post/vespa68.webp){: lqip="data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAsABUB8JYwAAl13AtS/AAD+tdPSW1TvmIIFFOevQwxViVOl64QHJXgWtsWL98YAAA==" .normal .me-1}
+![Mr. Anh](../assets/img/post/vuong-anh-an-khe.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JYgCdAC/uCAAAP7o+D57RxeZR2jPGq23l4As0d96mxh0HYJ9brVEnFEURSkkO4gyJgAA" .normal}
+
+{: .d-flex .justify-content-center }
+![Morning](../assets/img/post/morning-sg.webp){: lqip="data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoLABAABUB8JbAC7AEegy3NWhSAAOIvf459TskAD1LL7LpFvee5DTelkDM+U/MHZ+wQ6OcmKXCGyyuIGv9tJW/QmzmQrdAFPs7cay8EAAA=" .normal .me-2}
+![Mid night](../assets/img/post/mid-night-vt.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoKABAABUB8JbACdADblMCsAAD+8OEZXX3Xc6aUzuuLTHgauyrzqC/MchlazUc/IoMHHQR/XzlIoFNQDuAyC3XUEK3RF6pxUAAAAA==" .normal}
+
+![Me  Steve](../assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="} _I am who I am. I'm Steve!_
+
+
+
+

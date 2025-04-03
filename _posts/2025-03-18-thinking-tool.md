@@ -59,5 +59,8 @@ I forked it immediately. I customized it to my liking, built it, and deployed it
 > I hope everyone gets to experience something like this too.
 {: .prompt-important }
 
-[think.stevehoang.com](https://think.stevehoang.com) - 
+Think tools
+: Think tree: [*think.stevehoang.com*](https://think.stevehoang.com)
+: Think why: [*why.stevehoang.com*](https://why.stevehoang.com)
+
 It's open, feel free to try, use or sharing!

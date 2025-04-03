@@ -1,5 +1,4 @@
 export class TocDesktop {
-  /* Tocbot options Ref: https://github.com/tscanlin/tocbot#usage */
   static options = {
     tocSelector: '#toc',
     contentSelector: '.content',
@@ -7,14 +6,21 @@ export class TocDesktop {
     headingSelector: 'h2, h3, h4',
     orderedList: false,
     scrollSmooth: false,
-    headingsOffset: 16 * 2 // 2rem
+    headingsOffset: 16 * 2
   };
 
+  static #initialized = false;
+
   static refresh() {
+    if (!this.#initialized) {
+      this.init();
+      return;
+    }
     tocbot.refresh(this.options);
   }
 
   static init() {
     tocbot.init(this.options);
+    this.#initialized = true;
   }
 }

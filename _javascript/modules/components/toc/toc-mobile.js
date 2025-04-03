@@ -1,19 +1,8 @@
-/**
- * TOC button, topbar and popup for mobile devices
- */
-
-const $tocBar = document.getElementById('toc-bar');
-const $soloTrigger = document.getElementById('toc-solo-trigger');
-const $triggers = document.getElementsByClassName('toc-trigger');
-const $popup = document.getElementById('toc-popup');
-const $btnClose = document.getElementById('toc-popup-close');
-
-const SCROLL_LOCK = 'overflow-hidden';
-const CLOSING = 'closing';
-
 export class TocMobile {
   static #invisible = true;
-  static #barHeight = 16 * 3; // 3rem
+  static #barHeight = 16 * 3;
+  static #eventsBound = false;
+  static #elements = null;
 
   static options = {
     tocSelector: '#toc-popup-content',
@@ -26,24 +15,44 @@ export class TocMobile {
     headingsOffset: this.#barHeight
   };
 
+  static get elements() {
+    if (!this.#elements) {
+      this.#elements = {
+        tocBar: document.getElementById('toc-bar'),
+        soloTrigger: document.getElementById('toc-solo-trigger'),
+        triggers: Array.from(document.getElementsByClassName('toc-trigger')),
+        popup: document.getElementById('toc-popup'),
+        btnClose: document.getElementById('toc-popup-close')
+      };
+    }
+    return this.#elements;
+  }
+
   static initBar() {
+    const { tocBar, soloTrigger } = this.elements;
+    if (!tocBar || !soloTrigger) return;
+
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          $tocBar.classList.toggle('invisible', entry.isIntersecting);
-        });
+        if (entries[0].isIntersecting) {
+          tocBar.classList.add('invisible');
+        } else {
+          tocBar.classList.remove('invisible');
+        }
       },
       { rootMargin: `-${this.#barHeight}px 0px 0px 0px` }
     );
 
-    observer.observe($soloTrigger);
+    observer.observe(soloTrigger);
     this.#invisible = false;
   }
 
   static listenAnchors() {
-    const $anchors = document.getElementsByClassName('toc-link');
-    [...$anchors].forEach((anchor) => {
-      anchor.onclick = () => this.hidePopup();
+    const anchors = Array.from(document.getElementsByClassName('toc-link'));
+    const hidePopupBound = this.hidePopup.bind(this);
+    
+    anchors.forEach(anchor => {
+      anchor.onclick = hidePopupBound;
     });
   }
 
@@ -56,24 +65,36 @@ export class TocMobile {
   }
 
   static get popupOpened() {
-    return $popup.open;
+    return this.elements.popup?.open || false;
   }
 
   static showPopup() {
+    const { popup } = this.elements;
+    if (!popup) return;
+    
     this.lockScroll(true);
-    $popup.showModal();
-    const activeItem = $popup.querySelector('li.is-active-li');
-    activeItem.scrollIntoView({ block: 'center' });
+    popup.showModal();
+    
+    requestAnimationFrame(() => {
+      const activeItem = popup.querySelector('li.is-active-li');
+      if (activeItem) {
+        activeItem.scrollIntoView({ block: 'center' });
+      }
+    });
   }
 
   static hidePopup() {
-    $popup.toggleAttribute(CLOSING);
+    const { popup } = this.elements;
+    if (!popup || !popup.open) return;
+    
+    const CLOSING = 'closing';
+    popup.setAttribute(CLOSING, '');
 
-    $popup.addEventListener(
+    popup.addEventListener(
       'animationend',
       () => {
-        $popup.toggleAttribute(CLOSING);
-        $popup.close();
+        popup.removeAttribute(CLOSING);
+        popup.close();
       },
       { once: true }
     );
@@ -82,16 +103,18 @@ export class TocMobile {
   }
 
   static lockScroll(enable) {
-    document.documentElement.classList.toggle(SCROLL_LOCK, enable);
-    document.body.classList.toggle(SCROLL_LOCK, enable);
+    const className = 'overflow-hidden';
+    requestAnimationFrame(() => {
+      document.documentElement.classList.toggle(className, enable);
+      document.body.classList.toggle(className, enable);
+    });
   }
 
   static clickBackdrop(event) {
-    if ($popup.hasAttribute(CLOSING)) {
-      return;
-    }
+    const { popup } = this.elements;
+    if (!popup || popup.hasAttribute('closing')) return;
 
-    const rect = event.target.getBoundingClientRect();
+    const rect = popup.getBoundingClientRect();
     if (
       event.clientX < rect.left ||
       event.clientX > rect.right ||
@@ -103,18 +126,32 @@ export class TocMobile {
   }
 
   static initComponents() {
+    if (this.#eventsBound) return;
+    
     this.initBar();
-
-    [...$triggers].forEach((trigger) => {
-      trigger.onclick = () => this.showPopup();
+    const { triggers, popup, btnClose } = this.elements;
+    
+    const showPopupBound = this.showPopup.bind(this);
+    const hidePopupBound = this.hidePopup.bind(this);
+    const clickBackdropBound = this.clickBackdrop.bind(this);
+    
+    triggers.forEach(trigger => {
+      trigger.onclick = showPopupBound;
     });
 
-    $popup.onclick = (e) => this.clickBackdrop(e);
-    $btnClose.onclick = () => this.hidePopup();
-    $popup.oncancel = (e) => {
-      e.preventDefault();
-      this.hidePopup();
-    };
+    if (popup) {
+      popup.onclick = clickBackdropBound;
+      popup.oncancel = (e) => {
+        e.preventDefault();
+        this.hidePopup();
+      };
+    }
+    
+    if (btnClose) {
+      btnClose.onclick = hidePopupBound;
+    }
+    
+    this.#eventsBound = true;
   }
 
   static init() {

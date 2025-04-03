@@ -14,25 +14,18 @@
   padding: 0;
   width: v.$back2top-size;
   height: v.$back2top-size;
-  border-radius: 4px;
+  border-radius: 2px;
   border: 1px solid var(--btn-backtotop-border-color);
   transform: rotate(45deg);
   transition:
     opacity 0.5s ease-in-out,
     transform 0.2s ease-out;
   overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 
   @include bp.lg {
     right: 5%;
     bottom: calc(v.$footer-height - v.$back2top-size / 2);
-  }
-
-  @include bp.xxl {
-    right: calc((100vw - 240px - 1140px) / 2 + 3rem);
-  }
-
-  @include bp.xxxl {
-    right: calc((100vw - 300px - v.$main-content-max-width) / 2 + 2rem);
   }
 
   &:hover {
@@ -50,6 +43,7 @@
   
   &:hover i {
     opacity: 0;
+    color: var(--active-color);
   }
 
   &.show {

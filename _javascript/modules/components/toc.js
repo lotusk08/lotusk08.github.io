@@ -9,6 +9,7 @@ class TocManager {
     this.tocTimeout = null;
     this.scrollHandler = this.handleScroll.bind(this);
     this.isVisible = false;
+    this.rafId = null;
 
     if (this.tocWrapper) {
       this.initializeTOC();
@@ -22,47 +23,59 @@ class TocManager {
 
   showTOCTemporarily(duration) {
     if (!this.tocWrapper) return;
-    
-    if (!this.isVisible) {
-      this.isVisible = true;
-      this.tocWrapper.classList.add("visible");
-    }
-    
-    clearTimeout(this.tocTimeout);
-    this.tocTimeout = setTimeout(() => {
-      this.isVisible = false;
-      this.tocWrapper.classList.remove("visible");
-    }, duration);
+
+    requestAnimationFrame(() => {
+      if (!this.isVisible) {
+        this.isVisible = true;
+        this.tocWrapper.classList.add("visible");
+      }
+
+      clearTimeout(this.tocTimeout);
+      this.tocTimeout = setTimeout(() => {
+        requestAnimationFrame(() => {
+          this.isVisible = false;
+          this.tocWrapper.classList.remove("visible");
+        });
+      }, duration);
+    });
   }
 
   handleScroll() {
     if (!this.tocWrapper) return;
-    
-    if (!this.isVisible) {
-      this.isVisible = true;
-      this.tocWrapper.classList.add("visible");
-    }
-    
-    clearTimeout(this.tocTimeout);
-    this.tocTimeout = setTimeout(() => {
-      this.isVisible = false;
-      this.tocWrapper.classList.remove("visible");
-    }, 1200);
+
+    requestAnimationFrame(() => {
+      if (!this.isVisible) {
+        this.isVisible = true;
+        this.tocWrapper.classList.add("visible");
+      }
+
+      clearTimeout(this.tocTimeout);
+      this.tocTimeout = setTimeout(() => {
+        requestAnimationFrame(() => {
+          this.isVisible = false;
+          this.tocWrapper.classList.remove("visible");
+        });
+      }, 1200);
+    });
   }
 
   bindEvents() {
-    window.addEventListener("scroll", () => {
-      if (!this.rafId) {
-        this.rafId = requestAnimationFrame(() => {
-          try {
-            this.handleScroll();
-          } catch (error) {
-            console.error("Error in TOC scroll handler:", error);
-          }
-          this.rafId = null;
-        });
-      }
-    }, { passive: true });
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!this.rafId) {
+          this.rafId = requestAnimationFrame(() => {
+            try {
+              this.handleScroll();
+            } catch (error) {
+              console.error("Error in TOC scroll handler:", error);
+            }
+            this.rafId = null;
+          });
+        }
+      },
+      { passive: true }
+    );
   }
 }
 
@@ -93,7 +106,7 @@ export function initToc() {
     $tocWrapper.classList.remove("invisible");
   }
 
-  desktopMode.addEventListener('change', refresh);
+  desktopMode.addEventListener("change", refresh);
 
   new TocManager();
 }

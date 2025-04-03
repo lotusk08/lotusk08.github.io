@@ -12,25 +12,12 @@ class Theme {
     return 'light';
   }
 
-  /**
-   * @returns {string} Theme mode identifier
-   */
   static get ID() {
     return 'theme-mode';
   }
 
-  /**
-   * Gets the current visual state of the theme.
-   *
-   * @returns {string} The current visual state, either the mode if it exists,
-   *                   or the system dark mode state ('dark' or 'light').
-   */
   static get visualState() {
-    if (this.#hasMode) {
-      return this.#mode;
-    } else {
-      return this.#sysDark ? this.DARK : this.LIGHT;
-    }
+    return this.#hasMode ? this.#mode : (this.#sysDark ? this.DARK : this.LIGHT);
   }
 
   static get #mode() {
@@ -49,12 +36,6 @@ class Theme {
     return this.#darkMedia.matches;
   }
 
-  /**
-   * Maps theme modes to provided values
-   * @param {string} light Value for light mode
-   * @param {string} dark Value for dark mode
-   * @returns {Object} Mapped values
-   */
   static getThemeMapper(light, dark) {
     return {
       [this.LIGHT]: light,
@@ -62,13 +43,8 @@ class Theme {
     };
   }
 
-  /**
-   * Initializes the theme based on system preferences or stored mode
-   */
   static init() {
-    if (!this.switchable) {
-      return;
-    }
+    if (!this.switchable) return;
 
     this.#darkMedia.addEventListener('change', () => {
       const lastMode = this.#mode;
@@ -78,12 +54,10 @@ class Theme {
         this.#notify();
       }
       this.updateThemeColor();
-      this.updateTopBarColor(); // Update top bar color on system preference change
+      this.updateTopBarColor();
     });
 
-    if (!this.#hasMode) {
-      return;
-    }
+    if (!this.#hasMode) return;
 
     if (this.#isDarkMode) {
       this.#setDark();
@@ -92,12 +66,9 @@ class Theme {
     }
 
     this.updateThemeColor();
-    this.updateTopBarColor(); // Ensure top bar color is set at initialization
+    this.updateTopBarColor();
   }
 
-  /**
-   * Flips the current theme mode
-   */
   static flip() {
     if (this.#hasMode) {
       this.#clearMode();
@@ -106,7 +77,7 @@ class Theme {
     }
     this.#notify();
     this.updateThemeColor();
-    this.updateTopBarColor(); // Ensure top bar color is set after flipping
+    this.updateTopBarColor();
   }
 
   static #setDark() {
@@ -124,45 +95,27 @@ class Theme {
     sessionStorage.removeItem(this.#modeKey);
   }
 
-  /**
-   * Notifies other plugins that the theme mode has changed
-   */
   static #notify() {
     window.postMessage({ id: this.ID }, '*');
   }
 
-  /**
-   * Updates the meta theme-color tag based on the current theme
-   */
   static updateThemeColor() {
-    // Look for all meta theme-color tags and remove them
-    const existingTags = document.querySelectorAll('meta[name="theme-color"]');
-    existingTags.forEach(tag => tag.remove());
+    document.querySelectorAll('meta[name="theme-color"]').forEach(tag => tag.remove());
 
-    // Create a new meta tag for the theme color
     const newMetaTag = document.createElement('meta');
     newMetaTag.name = 'theme-color';
 
-    // Get the current background color from --main-bg CSS variable
     const root = document.documentElement;
-    const currentTheme = this.visualState;
     const mainBgColor = getComputedStyle(root).getPropertyValue('--main-bg').trim();
-
-    // Set the color based on the current theme
     newMetaTag.content = mainBgColor;
 
-    // Append the updated meta tag to the head
     document.head.appendChild(newMetaTag);
   }
 
-  /**
-   * Updates the top browser color based on the current theme using the --main-bg variable.
-   */
   static updateTopBarColor() {
     const root = document.documentElement;
     const mainBgColor = getComputedStyle(root).getPropertyValue('--main-bg').trim();
 
-    // Update the top browser bar color (for example, mobile browser address bar)
     const metaThemeColor = document.querySelector('meta[name="theme-color"]');
     if (metaThemeColor) {
       metaThemeColor.setAttribute('content', mainBgColor);

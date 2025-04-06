@@ -3,11 +3,11 @@
 	class="twitter-tweet" 
 	data-theme="light" 
 	data-dnt="true">
-	<a href="https://twitter.com/x/status/{{ include.id }}"></a>
+	<a href="https://twitter.com/x/status/{{ include.id }}">View tweet on X</a>
   </blockquote>
   <script>
-	if (!window.twttrScriptLoaded) {
-	  window.twttrScriptLoaded = true;
+	if (document.querySelector('.tweet-wrapper') && !window.twttrScriptInitialized) {
+	  window.twttrScriptInitialized = true;
 
 	  function getCurrentTheme() {
 		const htmlElement = document.documentElement;
@@ -21,26 +21,45 @@
 		return 'light';
 	  }
 
-	  function applyThemeToTweets() {
+	  function debounce(func, wait) {
+		let timeout;
+		return function(...args) {
+		  clearTimeout(timeout);
+		  timeout = setTimeout(() => func.apply(this, args), wait);
+		};
+	  }
+
+	  function renderTweets() {
 		const theme = getCurrentTheme();
-		document.querySelectorAll('.twitter-tweet').forEach(el => {
-		  if (el.getAttribute('data-theme') !== theme) {
-			el.setAttribute('data-theme', theme);
-			const wrapper = el.closest('.tweet-wrapper');
-			if (wrapper && typeof twttr !== 'undefined' && twttr.widgets) {
-			  twttr.widgets.load(wrapper);
-			}
+		document.querySelectorAll('.tweet-wrapper').forEach(wrapper => {
+		  const tweetId = wrapper.getAttribute('data-tweet-id');
+		  wrapper.innerHTML = '';
+		  const tweet = document.createElement('blockquote');
+		  tweet.className = 'twitter-tweet';
+		  tweet.setAttribute('data-theme', theme);
+		  tweet.setAttribute('data-dnt', 'true');
+		  tweet.innerHTML = `<a href="https://twitter.com/x/status/${tweetId}">View tweet on X</a>`;
+		  wrapper.appendChild(tweet);
+		  if (!document.querySelector('script[src="https://platform.twitter.com/widgets.js"]')) {
+			const script = document.createElement('script');
+			script.src = 'https://platform.twitter.com/widgets.js';
+			script.async = true;
+			script.charset = 'utf-8';
+			script.onerror = () => console.error('Failed to load Twitter widgets.js');
+			wrapper.appendChild(script);
+		  } else if (typeof twttr !== 'undefined' && twttr.widgets) {
+			twttr.widgets.load(wrapper);
 		  }
 		});
 	  }
 
-	  (function() {
-		applyThemeToTweets();
-	  })();
+	  const debouncedRenderTweets = debounce(renderTweets, 300);
+
+	  renderTweets();
 
 	  window.addEventListener('message', function(event) {
 		if (event.data && event.data.id === 'theme-mode') {
-		  applyThemeToTweets();
+		  debouncedRenderTweets();
 		}
 	  });
 
@@ -48,18 +67,13 @@
 	  const observer = new MutationObserver(mutations => {
 		mutations.forEach(mutation => {
 		  if (mutation.attributeName === 'data-mode') {
-			applyThemeToTweets();
+			debouncedRenderTweets();
 		  }
 		});
 	  });
 	  observer.observe(htmlElement, { attributes: true });
-	} else {
-	  (function() {
-		applyThemeToTweets();
-	  })();
 	}
   </script>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" onerror="console.error('Failed to load Twitter widgets.js')"></script>
 </div>
 
 <style>
@@ -72,5 +86,10 @@
   .twitter-tweet {
 	border-radius: var(--border-radius, 12px) !important;
 	overflow: hidden;
+  }
+
+  .twitter-tweet iframe {
+	border: none !important;
+	border-radius: var(--border-radius, 12px) !important;
   }
 </style>

@@ -89,6 +89,7 @@ npm run lqip
   - style: change border style to diagonal
   - style(syntax): change highlight theme to ayu
   - style(ui): change the back-to-top circle to square
+  - feat: X (Twitter) embed function
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

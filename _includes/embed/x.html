@@ -1,0 +1,76 @@
+<div class="tweet-wrapper" data-tweet-id="{{ include.id }}">
+  <blockquote 
+	class="twitter-tweet" 
+	data-theme="light" 
+	data-dnt="true">
+	<a href="https://twitter.com/x/status/{{ include.id }}"></a>
+  </blockquote>
+  <script>
+	if (!window.twttrScriptLoaded) {
+	  window.twttrScriptLoaded = true;
+
+	  function getCurrentTheme() {
+		const htmlElement = document.documentElement;
+		const mode = htmlElement.getAttribute('data-mode');
+		if (mode) {
+		  return mode === 'dark' ? 'dark' : 'light';
+		}
+		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+		  return 'dark';
+		}
+		return 'light';
+	  }
+
+	  function applyThemeToTweets() {
+		const theme = getCurrentTheme();
+		document.querySelectorAll('.twitter-tweet').forEach(el => {
+		  if (el.getAttribute('data-theme') !== theme) {
+			el.setAttribute('data-theme', theme);
+			const wrapper = el.closest('.tweet-wrapper');
+			if (wrapper && typeof twttr !== 'undefined' && twttr.widgets) {
+			  twttr.widgets.load(wrapper);
+			}
+		  }
+		});
+	  }
+
+	  (function() {
+		applyThemeToTweets();
+	  })();
+
+	  window.addEventListener('message', function(event) {
+		if (event.data && event.data.id === 'theme-mode') {
+		  applyThemeToTweets();
+		}
+	  });
+
+	  const htmlElement = document.documentElement;
+	  const observer = new MutationObserver(mutations => {
+		mutations.forEach(mutation => {
+		  if (mutation.attributeName === 'data-mode') {
+			applyThemeToTweets();
+		  }
+		});
+	  });
+	  observer.observe(htmlElement, { attributes: true });
+	} else {
+	  (function() {
+		applyThemeToTweets();
+	  })();
+	}
+  </script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" onerror="console.error('Failed to load Twitter widgets.js')"></script>
+</div>
+
+<style>
+  .tweet-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0;
+  }
+  
+  .twitter-tweet {
+	border-radius: var(--border-radius, 12px) !important;
+	overflow: hidden;
+  }
+</style>

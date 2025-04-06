@@ -1,7 +1,8 @@
 {
   "index.ignored_file_patterns" : [
     "stevehoang.sublime-project",
-    "stevehoang.sublime-workspace"
+    "stevehoang.sublime-workspace",
+    ".DS_Store"
   ],
   "workspace.color" : 1,
   "workspace.name" : "stevehoang.com",

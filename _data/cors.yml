@@ -15,6 +15,10 @@ toc:
 fontawesome:
   css: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css
 
+fonts:
+  robotomono:
+    css: https://cdn.jsdelivr.net/npm/@fontsource/roboto-mono@7.0.1/index.min.css
+
 search:
   js: https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js
 

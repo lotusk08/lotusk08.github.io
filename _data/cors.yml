@@ -1,13 +1,9 @@
 # Resource Hints
 resource_hints:
-- url: https://cdn.jsdelivr.net
-  links:
-    - rel: preconnect
-    - rel: dns-prefetch
-- url: https://cdnjs.cloudflare.com
-  links:
-    - rel: preconnect
-    - rel: dns-prefetch
+  - url: https://cdn.jsdelivr.net
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
 
 
 # Libraries
@@ -21,7 +17,7 @@ fontawesome:
 
 fonts:
   robotomono:
-    css: https://cdnjs.cloudflare.com/ajax/libs/roboto-mono/7.0.1/roboto-mono.min.css
+    css: https://cdn.jsdelivr.net/npm/@fontsource/roboto-mono@7.0.1/index.min.css
 
 search:
   js: https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js

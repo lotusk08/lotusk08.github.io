@@ -194,6 +194,10 @@ The image below will toggle dark/light mode based on theme preference, notice it
 
 {% include embed/youtube.html id='Balreaj8Yqs' %}
 
+## X
+
+{% include embed/x.html id='1793674948453839186' %}
+
 ## Reverse Footnote
 
 [^footnote]: The footnote source

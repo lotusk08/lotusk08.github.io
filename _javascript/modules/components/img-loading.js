@@ -1,6 +1,5 @@
 const ATTR_DATA_SRC = 'data-src';
 const ATTR_DATA_LQIP = 'data-lqip';
-
 const cover = {
   SHIMMER: 'shimmer',
   BLUR: 'blur'
@@ -12,7 +11,7 @@ function removeCover(clzss) {
 
 function handleImage() {
   if (!this.complete) return;
-
+  
   if (this.hasAttribute(ATTR_DATA_LQIP)) {
     removeCover.call(this, cover.BLUR);
   } else {
@@ -28,22 +27,34 @@ function switchLQIP() {
 
 export function loadImg() {
   const images = document.querySelectorAll('article img');
-  if (images.length === 0) return;
-
-  images.forEach(img => {
-    img.addEventListener('load', handleImage);
-  });
-
-  document.querySelectorAll('article img[loading="lazy"]').forEach(img => {
+  if (!images.length) return;
+  
+  const lazyImages = [];
+  const lqipImages = [];
+  
+  for (let i = 0; i < images.length; i++) {
+    const img = images[i];
+    
     if (img.complete) {
-      removeCover.call(img, cover.SHIMMER);
+      if (img.hasAttribute(ATTR_DATA_LQIP)) {
+        removeCover.call(img, cover.BLUR);
+      } else {
+        removeCover.call(img, cover.SHIMMER);
+      }
+    } else {
+      img.addEventListener('load', handleImage, { once: true });
     }
-  });
-
-  const lqips = document.querySelectorAll(`article img[${ATTR_DATA_LQIP}="true"]`);
-  if (lqips.length) {
-    lqips.forEach(lqip => {
-      switchLQIP.call(lqip);
+    
+    if (img.hasAttribute(ATTR_DATA_LQIP) && img.hasAttribute(ATTR_DATA_SRC)) {
+      lqipImages.push(img);
+    }
+  }
+  
+  if (lqipImages.length) {
+    requestAnimationFrame(() => {
+      for (let i = 0; i < lqipImages.length; i++) {
+        switchLQIP.call(lqipImages[i]);
+      }
     });
   }
 }

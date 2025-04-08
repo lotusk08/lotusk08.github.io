@@ -4,35 +4,38 @@ let selector = lightImages;
 
 function updateImages(current, reverse) {
   selector = selector === lightImages ? darkImages : lightImages;
-
+  
   if (reverse === null) {
-    reverse = GLightbox({ selector: `${selector}` });
+    reverse = GLightbox({ selector });
   }
-
-  [current, reverse] = [reverse, current];
+  
+  return [reverse, current];
 }
 
 export function imgPopup() {
-  if (document.querySelector('.popup') === null) return;
-
-  const hasDualImages = !(
-    document.querySelector('.popup.light') === null &&
-    document.querySelector('.popup.dark') === null
-  );
-
+  if (!document.querySelector('.popup')) return;
+  
+  const hasLightImages = document.querySelector('.popup.light');
+  const hasDarkImages = document.querySelector('.popup.dark');
+  const hasDualImages = hasLightImages || hasDarkImages;
+  
   if (Theme.visualState === Theme.DARK) {
     selector = darkImages;
   }
-
-  let current = GLightbox({ selector: `${selector}` });
-
+  
+  let current = GLightbox({ selector });
+  
   if (hasDualImages && Theme.switchable) {
     let reverse = null;
-
-    window.addEventListener('message', event => {
-      if (event.source === window && event.data && event.data.id === Theme.ID) {
-        updateImages(current, reverse);
+    
+    const themeChangeHandler = event => {
+      if (event.source === window && 
+          event.data && 
+          event.data.id === Theme.ID) {
+        [current, reverse] = updateImages(current, reverse);
       }
-    });
+    };
+    
+    window.addEventListener('message', themeChangeHandler);
   }
 }

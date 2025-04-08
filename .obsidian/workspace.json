@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-04-05-gumroad.md",
+                "file": "_drafts/New post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-05-gumroad"
+              "title": "New post"
+            }
+          },
+          {
+            "id": "7ec1955162f4a287",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2011-01-12-them.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2011-01-12-them"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -148,10 +163,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_posts/2025-04-05-gumroad.md"
+                "file": "_posts/2011-01-12-them.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2025-04-05-gumroad"
+              "title": "File properties for 2011-01-12-them"
             }
           },
           {
@@ -186,7 +201,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
@@ -195,37 +209,35 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "aadccd6bf25a40ac",
+  "active": "7ec1955162f4a287",
   "lastOpenFiles": [
-    "_site/topics/business 2",
-    "_site/goodbye-brad 4.html",
-    "_site/categories/english 2",
-    "_site/an 5.html",
-    "_site/topics/experience 2",
-    "_site/topics/human 2",
-    "_site/topics/romantic 2",
-    "_site/page4/index 2.html",
-    "_site/topics/automobile 2",
-    "_site/sitemap 5.xml",
-    "_site/categories/vietnamese 2",
-    "_site/assets/img/post/working-on-finalcutpro.webp",
-    "_site/assets/img/post/working-coffee.webp",
-    "_site/assets/img/post/who-am-I.webp",
-    "_site/assets/img/post/vuong-anh-an-khe.webp",
-    "_site/assets/img/post/vespa68.webp",
-    "_site/assets/img/post/tuoi-tre-thieu-kien-nhan.webp",
-    "_site/assets/img/post/tks-workshop.webp",
-    "_site/assets/img/post/thuoc-do-nang-luc.webp",
-    "_site/assets/img/post/thuc-an-san-bay.webp",
-    "_site/assets/img/post/thu-cung-2.webp",
-    "_site/CLAUDE 2.md",
-    "_site/CLAUDE 3.md",
-    "_site/CLAUDE 4.md",
+    "_site/me.html",
+    "_site/topics.html",
+    "_site/writting.html",
+    "_site/about.html",
+    "_site/categories.html",
+    "_site/gumroad.html",
+    "_site/thinking-tool.html",
+    "_site/kindness.html",
+    "_site/ai.html",
+    "_site/start-up.html",
+    "_site/what-makes-you-happy.html",
+    "_site/assets/img/site/tks-teams.webp",
+    "_site/assets/img/site/tkt-website.webp",
+    "_site/assets/img/site/tks-employee.webp",
+    "_site/assets/img/site/tk-teams.webp",
+    "_site/assets/img/site/thai-khuong-song.webp",
+    "_site/assets/img/site/talk-about-something.webp",
+    "_site/assets/img/site/stk-planning.webp",
+    "_site/assets/img/site/stevehoang.com.webp",
+    "_site/assets/img/site/steve-avatar.webp",
+    "_site/assets/img/site/real-time-report.webp",
     "_site/CLAUDE.md",
     "_drafts/New post.md",
-    "_posts/2025-04-05-gumroad.md",
+    "_posts/2019-08-09-getting-started.md",
     "_posts/2019-08-08-text-and-typography.md",
     "CLAUDE.md",
+    "_posts/2025-04-05-gumroad.md",
     "_posts/2025-03-18-thinking-tool.md",
     "_posts/2024-12-21-kindness.md",
     "_posts/2024-12-19-ai.md",
@@ -242,6 +254,8 @@
     "_posts/2023-06-16-golf-vietnam.md",
     "_posts/2023-05-26-gojek-datbike.md",
     "_posts/2023-04-27-noi-so-AI.md",
-    "_posts/2023-04-01-ly-tri.md"
+    "_posts/2023-04-01-ly-tri.md",
+    "_posts/2023-03-23-morning-coffee.md",
+    "_posts/2023-03-08-xanh-sm.md"
   ]
 }

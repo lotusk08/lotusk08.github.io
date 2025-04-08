@@ -17,7 +17,7 @@ math: false
 mermaid: false
 image:
   path: /assets/img/post/think-tree-v1.0.0.webp
-  lqip: data:image/webp;base64,UklGRpIAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSDAAAAARL6CmbSM4t3Z+j8VhaUTE+LhBVQMR1CaDAKaDAK8Gpn+Z+5Igov8TkIO6h/HPHAVWUDggPAAAABACAJ0BKhAACQAFQHwlpAAC9q/jfI+w+gAA/tun1aF2+bXAeD/P48QrG6Kj/ry9O9c4KIz0SXbNUAAAAA==
+  lqip: data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQAAkABUB8JaQAAtru+dwAAP7tR/F9C8ye2/pbCKlUVs+IXb1MeiuA6xc+F9cCFOAAAA==
   alt: Think tree
 ---
 

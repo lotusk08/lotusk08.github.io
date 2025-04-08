@@ -1,11 +1,8 @@
-import Tooltip from 'bootstrap/js/src/tooltip';
+import Tooltip from "bootstrap/js/src/tooltip";
 
 export function loadTooptip() {
-  const tooltipTriggerList = document.querySelectorAll(
-    '[data-bs-toggle="tooltip"]'
-  );
-
-  [...tooltipTriggerList].map(
-    (tooltipTriggerEl) => new Tooltip(tooltipTriggerEl)
-  );
+  const tooltips = [
+    ...document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  ].map((el) => new Tooltip(el));
+  return tooltips;
 }

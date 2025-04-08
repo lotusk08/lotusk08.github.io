@@ -38,9 +38,12 @@ class ResultSwitch {
   static on() {
     if (!this.resultVisible) {
       resultWrapper.classList.remove(UNLOADED);
-      content.forEach(el => {
-        el.classList.add(UNLOADED);
-      });
+      
+      const len = content.length;
+      for (let i = 0; i < len; i++) {
+        content[i].classList.add(UNLOADED);
+      }
+      
       this.resultVisible = true;
     }
   }
@@ -54,9 +57,12 @@ class ResultSwitch {
       }
 
       resultWrapper.classList.add(UNLOADED);
-      content.forEach(el => {
-        el.classList.remove(UNLOADED);
-      });
+      
+      const len = content.length;
+      for (let i = 0; i < len; i++) {
+        content[i].classList.remove(UNLOADED);
+      }
+      
       input.textContent = '';
       this.resultVisible = false;
     }
@@ -88,15 +94,18 @@ export function displaySearch() {
   });
 
   input.addEventListener('input', () => {
-    if (input.value === '') {
-      if (isMobileView()) {
+    const isEmpty = input.value === '';
+    const mobile = isMobileView();
+    
+    if (isEmpty) {
+      if (mobile) {
         hints.classList.remove(UNLOADED);
       } else {
         ResultSwitch.off();
       }
     } else {
       ResultSwitch.on();
-      if (isMobileView()) {
+      if (mobile) {
         hints.classList.add(UNLOADED);
       }
     }

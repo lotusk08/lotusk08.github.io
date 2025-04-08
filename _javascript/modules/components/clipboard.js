@@ -1,30 +1,18 @@
-/**
- * Clipboard functions
- *
- * Dependencies:
- *    clipboard.js (https://github.com/zenorocha/clipboard.js)
- */
-
 import Tooltip from 'bootstrap/js/src/tooltip';
 
 const clipboardSelector = '.code-header>button';
-
 const ICON_DEFAULT = 'far fa-clone';
 const ICON_SUCCESS = 'fas fa-check';
-
 const ATTR_TIMEOUT = 'timeout';
 const ATTR_TITLE_SUCCEED = 'data-title-succeed';
 const ATTR_TITLE_ORIGIN = 'data-bs-original-title';
-const TIMEOUT = 2000; // in milliseconds
+const TIMEOUT = 2000;
 
 function isLocked(node) {
   if (node.hasAttribute(ATTR_TIMEOUT)) {
-    let timeout = node.getAttribute(ATTR_TIMEOUT);
-    if (Number(timeout) > Date.now()) {
-      return true;
-    }
+    const timeout = node.getAttribute(ATTR_TIMEOUT);
+    return Number(timeout) > Date.now();
   }
-
   return false;
 }
 
@@ -48,50 +36,39 @@ function hideTooltip(btn) {
 }
 
 function setSuccessIcon(btn) {
-  const icon = btn.children[0];
-  icon.setAttribute('class', ICON_SUCCESS);
+  btn.children[0].setAttribute('class', ICON_SUCCESS);
 }
 
 function resumeIcon(btn) {
-  const icon = btn.children[0];
-  icon.setAttribute('class', ICON_DEFAULT);
+  btn.children[0].setAttribute('class', ICON_DEFAULT);
 }
 
 function setCodeClipboard() {
   const clipboardList = document.querySelectorAll(clipboardSelector);
+  if (!clipboardList.length) return;
 
-  if (clipboardList.length === 0) {
-    return;
-  }
-
-  // Initial the clipboard.js object
   const clipboard = new ClipboardJS(clipboardSelector, {
     target: (trigger) => {
-      const codeBlock = trigger.parentNode.nextElementSibling;
-      return codeBlock.querySelector('code .rouge-code');
+      return trigger.parentNode.nextElementSibling.querySelector('code .rouge-code');
     }
   });
 
-  [...clipboardList].map(
-    (elem) =>
-      new Tooltip(elem, {
-        placement: 'left'
-      })
-  );
+  for (let i = 0; i < clipboardList.length; i++) {
+    new Tooltip(clipboardList[i], {
+      placement: 'left'
+    });
+  }
 
   clipboard.on('success', (e) => {
     const trigger = e.trigger;
-
     e.clearSelection();
-
-    if (isLocked(trigger)) {
-      return;
-    }
-
+    
+    if (isLocked(trigger)) return;
+    
     setSuccessIcon(trigger);
     showTooltip(trigger);
     lock(trigger);
-
+    
     setTimeout(() => {
       hideTooltip(trigger);
       resumeIcon(trigger);
@@ -102,29 +79,20 @@ function setCodeClipboard() {
 
 function setLinkClipboard() {
   const btnCopyLink = document.getElementById('copy-link');
-
-  if (btnCopyLink === null) {
-    return;
-  }
+  if (!btnCopyLink) return;
 
   btnCopyLink.addEventListener('click', (e) => {
     const target = e.target;
+    if (isLocked(target)) return;
 
-    if (isLocked(target)) {
-      return;
-    }
-
-    // Copy URL to clipboard
     navigator.clipboard.writeText(window.location.href).then(() => {
       const defaultTitle = target.getAttribute(ATTR_TITLE_ORIGIN);
       const succeedTitle = target.getAttribute(ATTR_TITLE_SUCCEED);
-
-      // Switch tooltip title
+      
       target.setAttribute(ATTR_TITLE_ORIGIN, succeedTitle);
       Tooltip.getInstance(target).show();
-
       lock(target);
-
+      
       setTimeout(() => {
         target.setAttribute(ATTR_TITLE_ORIGIN, defaultTitle);
         unlock(target);

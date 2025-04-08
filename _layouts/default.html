@@ -14,7 +14,7 @@ layout: compress
 <html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
   {% include head.html %}
 
-  <body>
+  <body class="{% if page.layout == 'home' %}home{% endif %}">
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
         {% include topbar.html lang=lang %}

@@ -90,6 +90,7 @@ npm run lqip
   - style(syntax): change highlight theme to ayu
   - style(ui): change the back-to-top circle to square
   - feat: X (Twitter) embed function
+  - feat: breadcrumb hidden for homepage only
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

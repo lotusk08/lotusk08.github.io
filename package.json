@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.5",
     "lqip-modern": "^2.2.1",
     "js-yaml": "^4.1.0"
   },

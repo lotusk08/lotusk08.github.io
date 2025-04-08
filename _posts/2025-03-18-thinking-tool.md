@@ -33,7 +33,7 @@ My story begins with Obsidian.
 
 ### MindNode
 
-I work in communications, so organizing and developing ideas is mandatory. I used MindNode to map out problems and connect thoughts. MindNode has a subscription fee that's not exactly cheap, but it's awesome and looks great.
+I work in communications, so organizing and developing ideas is mandatory. I used [MindNode](/2022-mot-nam-nhin-lai#mindnode) to map out problems and connect thoughts. MindNode has a subscription fee that's not exactly cheap, but it's awesome and looks great.
 
 ### Obsidian
 

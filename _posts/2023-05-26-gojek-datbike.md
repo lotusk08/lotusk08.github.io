@@ -59,7 +59,7 @@ Có lẽ sẽ tiện lợi nếu DatBike có thiết kế để rút pin ra thay
 
 - Kết cấu:
 Cấu trúc xe DatBike có trọng tâm vốn đã rất cao, hiện tại theo hình ảnh từ GoJek thì họ còn gắn thêm baga sau cho cao thêm chút nữa. Shipper bình thường chở hàng chắc 20kg là ít, chưa kể là tui thấy vài bữa giật lên xuống là nó gãy cái baga này thôi. Có thể tham khảo kết cấu xe Cake bên dưới để thấy thiết kế được tối ưu cho xe chở hàng ra sao.
-![Cake bike](/assets/img/post/cake-bike.webp "Cake bike - xe được sinh ra để chở hàng"){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkABUB8JZwAAscPXsJV4wAA/gbs+bbXVIPGbYQZaAW4EgvD2E2dLwJsm/NlzHliiSB6UKF2ps+CCzW3rJM6CLkAAA==" }
+![Cake bike](/assets/img/post/cake-bike.webp "Cake bike - xe được sinh ra để chở hàng"){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkABUB8JZwAAscPXsJV4wAA/gbs+bbXVIPGbYQZaAW4EgvD2E2dLwJsm/NlzHliiSB6UKF2ps+CCzW3rJM6CLkAAA=="}
 
 - Trải nghiệm của tài xế:
 Sử dụng cái gì thì đúng mục đích của nó, chiếc DatBike này vốn không được thiết kế để đi thồ hàng. Hiện tại, sau một thời gian triển khai, Jek đã chuyển hoàn toàn việc chở hàng sang chở "hàng" - Just kidding.

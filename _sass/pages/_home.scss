@@ -274,10 +274,12 @@
   font-family: v.$font-family-base;
   justify-content: space-evenly;
   margin-top: 3rem;
+  padding-top: 1rem;
 
   @include bp.lg {
     font-size: 0.85rem;
     justify-content: center;
+    padding-top: 2rem;
   }
 
   a:hover {

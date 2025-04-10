@@ -91,6 +91,11 @@ npm run lqip
   - style(ui): change the back-to-top circle to square
   - feat: X (Twitter) embed function
   - feat: breadcrumb hidden for homepage only
+  
+  ### Redesign homepage (1.2.7)
+  - style(ui): redesign homepage
+  - style(font): use JetBrains Mono for monospace & PlayFair Display (Heading homepage)
+  - style(img): use lqip data for layered background block behind an image
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

@@ -82,8 +82,16 @@
   font-style: normal;
 }
 
+%rounded-0 {
+  border-radius: 0;
+}
+
 %rounded {
   border-radius: v.$radius-lg;
+}
+
+%rounded-s {
+  border-radius: v.$radius-lg v.$radius-lg 0 0;
 }
 
 %rounded-x {

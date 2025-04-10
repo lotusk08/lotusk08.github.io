@@ -8,6 +8,8 @@
   </ul>
 </div>
 
+[![stevehoang.com](/docs/blog-v1.2.7.gif)][stevehoang.com]
+
 Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, deployed on Cloudflare.
  
 
@@ -24,7 +26,6 @@ Variable name|Value
 BUNDLE_WITHOUT|test
 
 ## Comment system by [Waline][waline]
-[![stevehoang.com](/docs/comment-system.webp)][stevehoang.com]
 
 Deploy & running on [Vercel][vercel] with [TiDB][Ti]
 Sync dark/light theme color config in [waline.html][waline.html]

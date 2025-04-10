@@ -8,6 +8,8 @@
   </ul>
 </div>
 
+[![stevehoang.com](/docs/blog-v1.2.7.gif)][stevehoang.com]
+
 Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, deployed on Cloudflare.
  
 
@@ -24,7 +26,6 @@ Variable name|Value
 BUNDLE_WITHOUT|test
 
 ## Comment system by [Waline][waline]
-[![stevehoang.com](/docs/comment-system.webp)][stevehoang.com]
 
 Deploy & running on [Vercel][vercel] with [TiDB][Ti]
 Sync dark/light theme color config in [waline.html][waline.html]
@@ -91,6 +92,11 @@ npm run lqip
   - style(ui): change the back-to-top circle to square
   - feat: X (Twitter) embed function
   - feat: breadcrumb hidden for homepage only
+  
+  ### Redesign homepage (1.2.7)
+  - style(ui): redesign homepage
+  - style(font): use JetBrains Mono for monospace & PlayFair Display (Heading homepage)
+  - style(img): use lqip data for layered background block behind an image
 
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy

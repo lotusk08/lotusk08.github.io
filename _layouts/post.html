@@ -14,7 +14,7 @@ tail_includes:
 
 <article class="px-1" data-toc="{{ enable_toc }}">
   <header>
-    <h1 data-toc-skip>{{ page.title }}</h1>
+    <h1 data-toc-skip class="dynamic-title">{{ page.title }}</h1>
     {% if page.description %}
       <p class="post-desc fw-light mb-4" aria-hidden="true" style="display: none;">{{ page.description }}</p>
     {% endif %}
@@ -31,7 +31,7 @@ tail_includes:
 
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
-        {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+        {% capture class %}class="preview-img cover{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
         {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
 
         {% if page.image.lqip %}

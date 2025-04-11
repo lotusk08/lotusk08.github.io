@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll clean\nnpm run build\nbundle exec jekyll build"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "npm run test\nbundle exec htmlproofer _site --disable-external"
+    }
+  },
+  "buildBeforeRunning" : true
+}

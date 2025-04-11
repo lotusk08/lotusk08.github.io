@@ -66,6 +66,9 @@ body {
 }
 
 h1.dynamic-title {
+  font-family: v.$font-title;
+  font-style: italic;
+
   @include bp.lt(bp.get(lg)) {
     display: none;
 
@@ -90,6 +93,12 @@ main {
   overflow: hidden;
 
   @extend %rounded-0;
+  
+  &.cover {
+    aspect-ratio: 40 / 21;
+    border-radius: 0.5rem;
+    height: auto;
+  }
 
   &:not(.no-bg) {
     background-image: var(--lqip-url);

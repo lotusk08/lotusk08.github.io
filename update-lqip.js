@@ -27,11 +27,13 @@ async function processFrontMatter(content, lqipMap) {
 
     let imagePath = frontMatter.image.path;
 
-    // Standardize image path in front matter
-    imagePath = standardizePath(imagePath);
-
-    // Update the path to absolute format
-    frontMatter.image.path = imagePath;
+    // Only standardize path if it's not a URL
+    if (!isUrl(imagePath)) {
+      // Standardize image path in front matter for local files only
+      imagePath = standardizePath(imagePath);
+      // Update the path to absolute format only for local files
+      frontMatter.image.path = imagePath;
+    }
 
     const lqipData = lqipMap[imagePath];
 
@@ -64,11 +66,23 @@ async function processFrontMatter(content, lqipMap) {
   }
 }
 
+// Function to check if a path is a URL
+function isUrl(path) {
+  if (!path) return false;
+  // Check if the path starts with http:// or https://
+  return /^https?:\/\//i.test(path);
+}
+
 // Helper function to standardize paths
 function standardizePath(imagePath) {
   if (!imagePath) return ""; // Handle null/undefined paths
+  
+  // Skip standardization for URLs
+  if (isUrl(imagePath)) {
+    return imagePath;
+  }
 
-  // Standardize path format
+  // Standardize path format for local files
   if (imagePath.startsWith("../")) {
     return imagePath.replace("../", "/");
   } else if (imagePath.startsWith("./")) {
@@ -126,7 +140,33 @@ async function processMarkdown(mdPath, lqipMap) {
           return match; // Return original markdown if path extraction failed
         }
 
-        // Convert to absolute path format for both lookup and output
+        // Skip URL processing for external URLs
+        if (isUrl(imagePath)) {
+          const lqipData = lqipMap[imagePath];
+          
+          if (lqipData) {
+            // Handle URL with LQIP data
+            let newAttributes = attributes
+              .replace(/\s*lqip="[^"]*"\s*/g, "") // Remove existing LQIP
+              .trim();
+
+            if (newAttributes) {
+              newAttributes = `lqip="${lqipData}" ${newAttributes}`.trim();
+              let newImage = `![${altText}](${imagePath}${titleAttr ? ` "${titleAttr}"` : ""}){: ${newAttributes}}`;
+              if (caption) newImage += ` _${caption}_`;
+              return newImage;
+            } else {
+              let newImage = `![${altText}](${imagePath}${titleAttr ? ` "${titleAttr}"` : ""}){: lqip="${lqipData}"}`;
+              if (caption) newImage += ` _${caption}_`;
+              return newImage;
+            }
+          }
+          
+          // If no LQIP data for URL, return original format
+          return match;
+        }
+
+        // Convert to absolute path format for both lookup and output (only for local files)
         const absolutePath = standardizePath(imagePath);
 
         // Use the standardized absolute path for lookup

@@ -19,7 +19,7 @@
     "lint:fix:scss": "npm run lint:scss -- --fix",
     "test": "npm run lint:scss",
     "prepare": "husky",
-    "lqip": "node tools/update-lqip.js"
+    "lqip": "node update-lqip.js"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",

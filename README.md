@@ -10,9 +10,21 @@
 
 [![stevehoang.com](/docs/blog-v1.2.7.gif)][stevehoang.com]
 
-Using [Jekyll][jekyllrb] with [Chirpy][theme] theme, deployed on Cloudflare.
- 
+A custom style from [Chirpy][theme] for [Jekyll][jekyllrb]
 
+> I don't have time to support. You should read through the [Wiki][wiki] of Chirpy theme to understand the project features and how to use it properly.
+
+## For simple style
+[![stevehoang.com](/docs/steve-hoang.webp)][stevehoang.com]
+_Fullpage design_
+
+## For speed
+[![stevehoang.com](/docs/pagespeed.webp)][stevehoang.com]
+_Tested with contents_
+
+## For Obsidient
+Yes, I'm using Obsidian, and this Jekyll theme support Obsidian with Minimal style Vault template.
+[![stevehoang.com](/docs/obsidian-template.webp)][stevehoang.com]
 
 ## Deploy & public by [CloudFlare][cf]
 Fix error while building:
@@ -29,35 +41,6 @@ BUNDLE_WITHOUT|test
 
 Deploy & running on [Vercel][vercel] with [TiDB][Ti]
 Sync dark/light theme color config in [waline.html][waline.html]
-
-```javascript
-
-const head = document.getElementsByTagName("head")[0];
-if (head) {
-  const css = head.lastChild;
-  if (css && css.textContent) {
-    const cssContent = css.textContent.replace("__waline__css__", "");
-    const cssContentPerferredDark =
-      "@media (prefers-color-scheme: dark){html:not([data-mode])" +
-      cssContent +
-      "}";
-    const cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
-    css.textContent = cssContentPerferredDark;
-    const style = document.createElement("style");
-    style.textContent = cssContentSelectedDark;
-    head.appendChild(style);
-  }
-}
-
-document.documentElement.style.setProperty(
-  "--waline-theme-color",
-  "var(--link-color)"
-);
-document.documentElement.style.setProperty(
-  "--waline-active-color",
-  "var(--active-color)"
-);
-```
 
 ## Auto insert LQIP - Low Quality Image Placeholders by [lqip-modern][lqip] generator
 Generation lqip base64 by running script:
@@ -84,20 +67,21 @@ npm run lqip
   - refactor: remove sidebar.
   - feat(page): toc enable (not by default)
   
-  ## Upgrade UI (from 1.2.5)
-  - Single column - easy to read.
-  - Responsive & adjust text
-  - style: change border style to diagonal
-  - style(syntax): change highlight theme to ayu
-  - style(ui): change the back-to-top circle to square
-  - feat: X (Twitter) embed function
-  - feat: breadcrumb hidden for homepage only
+### Upgrade UI (from 1.2.5)
+- Single column - easy to read.
+- Responsive & adjust text
+- style: change border style to diagonal
+- style(syntax): change highlight theme to ayu
+- style(ui): change the back-to-top circle to square
+- feat: X (Twitter) embed function
+- feat: breadcrumb hidden for homepage only
   
-  ### Redesign homepage (1.2.7)
-  - style(ui): redesign homepage
-  - style(font): use JetBrains Mono for monospace & PlayFair Display (Heading homepage)
-  - style(img): use lqip data for layered background block behind an image
+### Redesign homepage (1.2.7)
+- style(ui): redesign homepage
+- style(font): use JetBrains Mono for monospace & PlayFair Display (Heading homepage)
+- style(img): use lqip data for layered background block behind an image
 
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
 [cf]: https://pages.cloudflare.com
 [theme]: https://rubygems.org/gems/jekyll-theme-chirpy
 [jekyllrb]: https://jekyllrb.com

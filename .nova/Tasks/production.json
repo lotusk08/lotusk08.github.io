@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll clean\nnpm run build\nnpm run lqip"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "JEKYLL_ENV=production bundle exec jekyll serve"
+    }
+  },
+  "buildBeforeRunning" : true
+}

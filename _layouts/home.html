@@ -19,8 +19,8 @@ refactor: true
     {%- endif -%}
   </a>
 
-  <a class="site-title d-block" href="{{ '/' | relative_url }}"
-    >Stev<span>e Hoang</span></a
+  <h1 class="site-title d-block" href="{{ '/' | relative_url }}"
+    >Stev<span>e Hoang</span></h1
   >
   <p class="site-subtitle fst-italic mb-0">
     I am <a href="{{ '/about' | relative_url }}">who I am</a>, not whom you
@@ -85,7 +85,7 @@ refactor: true
             </div>
             <div class="col-md-7 order-md-2">
               <div class="card-body d-flex flex-column content-right">
-                <h1 class="card-title mt-md-0">{{ post.title }}</h1>
+                <h2 class="card-title mt-md-0">{{ post.title }}</h2>
                 <div class="card-text content mt-0 mb-3">
                   <p>{% include post-description.html %}</p>
                 </div>
@@ -118,7 +118,7 @@ refactor: true
             </div>
             <div class="col-md-7 order-md-1">
               <div class="card-body d-flex flex-column">
-                <h1 class="card-title mt-md-0">{{ post.title }}</h1>
+                <h2 class="card-title mt-md-0">{{ post.title }}</h2>
                 <div class="card-text content mt-0 mb-3">
                   <p>{% include post-description.html %}</p>
                 </div>
@@ -148,7 +148,7 @@ refactor: true
         {% else %}
           <div class="col-12">
             <div class="card-body d-flex flex-column">
-              <h1 class="card-title mt-md-0">{{ post.title }}</h1>
+              <h2 class="card-title mt-md-0">{{ post.title }}</h2>
               <div class="card-text content mt-0 mb-3">
                 <p>{% include post-description.html %}</p>
               </div>

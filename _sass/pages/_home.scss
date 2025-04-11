@@ -80,6 +80,12 @@
   width: fit-content;
   color: var(--site-title-color);
 }
+  
+header.profile-wrapper h1 {
+  font-size: inherit;
+  margin-top:0;
+  margin-bottom: 0;
+}
 
 .site-title span {
   animation: 10s ease-in-out 1s fade-away;

@@ -4,30 +4,63 @@
 @use {% if jekyll.environment == 'production' %}'main.bundle'{% else %}'main'{% endif %};
 
 /* append your custom style below */
-
-/* 404 CSS - Wrapper */
-.wrapper {
-  max-width: -webkit-calc(100% - (20px * 2));
-  max-width: calc(100% - (20px * 2));
+/* PDF embed file styles */
+.pdf-container {
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 520px;
+  border: 1px solid var(--btn-border-color);
+  border-radius: 6px;
+
+  object {
+    position: absolute;
+    top: -44px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 44px);
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      top: 0;
+      height: 100%;
+    }
+  }
 }
 
-/* Not Found */
+.pdf-container-sm {
+  height: 360px;
+}
+
+@-moz-document url-prefix() {
+  .pdf-container object {
+    top: -44px;
+    height: calc(100% + 44px);
+  }
+}
+
+/* 404 - page */
+.wrapper {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 .not-found {
-  text-align: center;
   display: flex;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  height: 65vh;
+  min-height: 75vh;
+  text-align: center;
 }
 
-.not-found .title {
+.not-found h1.title {
   font-size: 5em;
   font-weight: bold;
-  line-height: 1.1;
   text-shadow: 1px 0px 0px var(--active-color);
+  margin: 0 0 1rem;
+}
+
+.not-found a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: bold;
 }

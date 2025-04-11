@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll clean\nnpm run build"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll serve"
+    }
+  },
+  "buildBeforeRunning" : true
+}

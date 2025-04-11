@@ -1,0 +1,12 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll clean\nnpm run build\nbundle exec jekyll build"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "node update-lqip.js"
+    }
+  }
+}

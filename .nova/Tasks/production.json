@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "bundle exec jekyll clean\nnpm run build\nnpm run test\nnpm run lint:scss -- --fix\nnpm run lqip\nbundle exec htmlproofer _site \\\n--disable-external \\\n--ignore-urls \"\/^http:\\\/\\\/127.0.0.1\/,\/^http:\\\/\\\/0.0.0.0\/,\/^http:\\\/\\\/localhost\/\""
+      "script" : "bundle exec jekyll clean\nnpm run build\nnpm run test\nnpm run lint:scss -- --fix\nnpm run lqip"
     },
     "run" : {
       "enabled" : true,

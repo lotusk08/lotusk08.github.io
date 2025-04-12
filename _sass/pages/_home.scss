@@ -12,6 +12,7 @@
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0.1;
   }
@@ -19,6 +20,7 @@
 
 .profile-wrapper {
   @extend %clickable-transition;
+
   margin-top: 6.3rem;
   margin-bottom: 7.2rem;
   width: 100%;
@@ -44,6 +46,7 @@
       display: block;
       transition: transform 0.3s ease-in-out;
       transition: transform 0.5s;
+
       &:hover {
         transform: scale(1.2);
 
@@ -70,6 +73,7 @@
 .site-title {
   @extend %clickable-transition;
   @extend %name-hover;
+
   font-family: inherit;
   font-weight: 900;
   font-size: 1.75rem;
@@ -225,7 +229,7 @@ header.profile-wrapper h1 {
 
       .card-title {
         @extend %text-clip;
-        color: var(--heading-color);
+
         font-size: 1.85rem;
         font-family: v.$font-title;
         line-height: 1.4;
@@ -236,7 +240,7 @@ header.profile-wrapper h1 {
         font-style: italic;
         color: var(--site-title-color);
         overflow: visible;
-        text-rendering: optimizeLegibility;
+        text-rendering: optimizelegibility;
       }
 
       &.content-right {
@@ -248,8 +252,10 @@ header.profile-wrapper h1 {
       .card-text {
         &.content {
           color: var(--text-muted-color);
+
           p {
             @extend %text-clip;
+
             line-height: 1.6;
             margin: 0;
             font-size: 1rem;
@@ -263,10 +269,12 @@ header.profile-wrapper h1 {
 
         i:not(:first-child) {
           margin-left: 1.5rem;
+
           @include bp.md {
             margin-left: 1.75rem;
           }
         }
+
         > div:first-child {
           @extend %text-ellipsis;
         }
@@ -298,6 +306,7 @@ header.profile-wrapper h1 {
         display: none;
       }
     }
+
     @include bp.lg {
       &:not(:last-child) {
         margin-right: 1rem;
@@ -332,6 +341,7 @@ header.profile-wrapper h1 {
     &.active .page-link {
       z-index: 1;
       background-color: transparent;
+
       &::before {
         background-color: var(--btn-paginator-hover-color);
       }
@@ -339,6 +349,7 @@ header.profile-wrapper h1 {
 
     &:not(.active) .page-link:hover {
       box-shadow: none;
+
       &::before {
         box-shadow: inset var(--btn-border-color) 0 0 0 1px;
       }
@@ -346,6 +357,7 @@ header.profile-wrapper h1 {
 
     &.disabled {
       cursor: not-allowed;
+
       .page-link {
         color: rgba(108, 117, 125, 0.57);
       }

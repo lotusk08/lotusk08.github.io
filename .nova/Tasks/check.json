@@ -6,7 +6,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "npm run test\nbundle exec htmlproofer _site --disable-external"
+      "script" : "npm run test\nnpm run lint:scss -- --fix\nbundle exec htmlproofer _site \\\n--disable-external \\\n--ignore-urls \"\/^http:\\\/\\\/127.0.0.1\/,\/^http:\\\/\\\/0.0.0.0\/,\/^http:\\\/\\\/localhost\/\""
     }
   },
   "buildBeforeRunning" : true

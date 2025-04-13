@@ -64,7 +64,7 @@ code {
 
   &.highlighter-rouge {
     font-size: v.$code-font-size;
-    padding: 3px 5px;
+    padding: 1px 5px;
     word-break: break-word;
     border-radius: 4px;
     background-color: var(--inline-code-bg);
@@ -109,7 +109,8 @@ div[class^='language-'] {
   @extend %rounded;
   @extend %code-snippet-bg;
 
-  box-shadow: var(--language-border-color) 0 0 0 1px;
+  /*box-shadow: var(--language-border-color) 0 0 0 1px;*/
+  border: 1px solid var(--tb-border-color);
 
   .content > & {
     @include mx.ml-mr(-1rem);

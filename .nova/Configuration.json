@@ -1,9 +1,4 @@
 {
-  "index.ignored_file_patterns" : [
-    "stevehoang.sublime-project",
-    "stevehoang.sublime-workspace",
-    ".DS_Store"
-  ],
   "workspace.color" : 1,
   "workspace.name" : "stevehoang.com",
   "workspace.preview_server_allow_external" : true,

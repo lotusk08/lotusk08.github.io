@@ -18,8 +18,8 @@ fontawesome:
 fonts:
   jetbrainsmono:
     css: https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.19/index.min.css
-  playfairdisplay:
-    css: https://cdn.jsdelivr.net/npm/@fontsource/playfair-display@5.2.5/index.min.css
+  notoserifdisplay:
+    css: https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-display@5.2.6/index.min.css
 
 search:
   js: https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js

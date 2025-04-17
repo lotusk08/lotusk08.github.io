@@ -18,10 +18,9 @@
   --link-color: #c67839;
   --link-underline-color: rgb(111, 72, 0);
   --button-bg: var(--main-bg);
-  --btn-border-color: #2e2f31;
+  --btn-border-color: #292929;
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
-  --card-header-bg: #292929;
   --checkbox-color: rgb(118, 120, 121);
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
@@ -32,16 +31,11 @@
     rgba(255, 255, 255, 0) 100%
   );
 
-  /* Side color */
+  /* Site color */
   --site-title-color: #afa8a8;
   --site-subtitle-color: #868686;
-  --side-bg: #1e1e1e;
-  --side-border-color: #292929;
-  --side-muted-color: #868686;
-  --side-active-color: #fd7e14;
-  --side-hover-bg: #262626;
-  --side-btn-bg: var(--main-bg);
-  --side-btn-color: #787878;
+  --site-hover-bg: #262626;
+  --site-btn-color: #787878;
   --avatar-border-color: #cececee6;
 
   /* Topbar */
@@ -60,11 +54,8 @@
   --toc-highlight: rgb(255, 129, 12);
   --toc-popup-border-color: #373737;
   --tag-hover: rgb(43, 56, 62);
-  --tb-odd-bg: #252526; /* odd rows of the posts' table */
-  --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
-  --tb-border-color: var(--tb-odd-bg);
+  --tb-border-color: #252526;
   --footnote-target-bg: rgb(63, 81, 181);
-  --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
   --card-bg: #1e1e1e;
   --card-hovor-bg: #393939;
@@ -98,8 +89,6 @@
 
   /* Categories */
   --categories-border: rgb(64, 66, 69, 0.5);
-  --categories-hover-bg: rgb(73, 75, 76);
-  --categories-icon-hover-color: white;
 
   /* Archive */
   --timeline-node-bg: rgb(150, 152, 156);
@@ -108,8 +97,7 @@
 
   /* Code highlight colors */
   --language-border-color: #2d2d2d;
-  --highlight-bg-color: #151515;
-  --highlighter-rouge-color: #c9def1;
+  --highlighter-rouge-color: #d2bcae;
   --highlight-lineno-color: #808080;
   --inline-code-bg: rgba(255, 255, 255, 0.05);
   --code-color: #b0b0b0;
@@ -121,29 +109,6 @@
 
   .light {
     display: none;
-  }
-
-  /* Categories */
-  .categories.card,
-  .list-group-item {
-    background-color: var(--card-bg);
-  }
-
-  .categories {
-    .card-header {
-      background-color: var(--card-header-bg);
-    }
-
-    .list-group-item {
-      border-left: none;
-      border-right: none;
-      padding-left: 2rem;
-      border-color: var(--categories-border);
-
-      &:last-child {
-        border-bottom-color: var(--card-bg);
-      }
-    }
   }
 
   #archives li:nth-child(odd) {

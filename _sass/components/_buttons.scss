@@ -9,7 +9,7 @@
   position: fixed;
   right: 1rem;
   bottom: calc(v.$footer-height-large - v.$back2top-size / 2);
-  background: var(--button-bg);
+  background-color: var(--main-bg);
   color: var(--btn-backtotop-color);
   padding: 0;
   width: v.$back2top-size;

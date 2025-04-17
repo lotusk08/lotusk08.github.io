@@ -1,5 +1,6 @@
 @use '../abstracts/breakpoints' as bp;
 @use '../abstracts/mixins' as mx;
+@use "../abstracts/variables" as v;
 @use '../abstracts/placeholders';
 
 .dash {
@@ -9,6 +10,11 @@
 
 #page-category,
 #page-tag {
+  h1 {
+    font-family: v.$font-title;
+    font-style: italic;
+  }
+
   ul > li {
     line-height: 1.5rem;
     padding: 0.6rem 0;

@@ -1,7 +1,7 @@
-/* sidebar - old */
+/* buttons gap */
 
-$sb-btn-gap: 0.8rem !default;
-$sb-btn-gap-lg: 1rem !default;
+$btn-gap: 0.8rem !default;
+$btn-gap-lg: 1rem !default;
 
 /* other framework sizes */
 
@@ -10,6 +10,7 @@ $search-max-width: 120px !default;
 $footer-height: 5rem !default;
 $footer-height-large: 6rem !default; /* screen width: < 850px */
 $main-content-max-width: 85% !default;
+$radius-xs: 4px !default;
 $radius-sm: 6px !default;
 $radius-lg: 10px !default;
 $radius-ex: 50px !default;

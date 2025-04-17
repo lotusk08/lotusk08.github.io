@@ -78,7 +78,8 @@
     const customStyle = document.createElement("style");
     customStyle.textContent = `
       .wl-count { visibility: hidden; }
-      .wl-panel { background: var(--main-bg) !important; }
+      .wl-panel { background: transparent !important; }
+      .wl-editor:focus, .wl-input:focus { background: rgba(135, 135, 135, 0.05) !important; }
     `;
     document.head.appendChild(customStyle);
   } catch (error) {

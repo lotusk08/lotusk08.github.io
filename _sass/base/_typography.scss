@@ -71,7 +71,7 @@ blockquote {
 
   &[class^="prompt-"] {
     border-left: 0.25rem;
-    border-radius: 0 8px 8px 0;
+    border-radius: 0 6px 6px 0;
     position: relative;
     padding: 0.5rem 1rem 0.75rem 1rem;
     color: var(--prompt-text-color);
@@ -113,7 +113,7 @@ hr {
 }
 
 footer {
-  background-color: var(--main-bg);
+  background-color: transparent;
   height: v.$footer-height;
   border-top: 1px solid var(--main-border-color);
 
@@ -252,11 +252,11 @@ main {
         border-bottom: 1px solid var(--tb-border-color);
 
         &:nth-child(2n) {
-          background-color: var(--tb-even-bg);
+          background-color: transparent;
         }
 
         &:nth-child(2n + 1) {
-          background-color: var(--tb-odd-bg);
+          background-color: oklch(85% 0.02 80deg / 0.1);
         }
 
         td {

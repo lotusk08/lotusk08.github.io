@@ -46,7 +46,7 @@ html {
   }
 
   ::-webkit-scrollbar-track {
-    background: var(--main-bg);
+    background: transparent;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -58,6 +58,11 @@ html {
 
 body {
   background: var(--main-bg);
+  background-attachment: scroll;
+  background-image: url("/assets/img/grain.png");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  position: relative;
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
@@ -127,7 +132,7 @@ main {
   border: 0;
 
   &::before {
-    @extend %rounded-0;
+    @extend %rounded;
 
     content: "";
     width: 100%;

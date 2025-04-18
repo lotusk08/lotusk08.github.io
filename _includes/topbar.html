@@ -25,7 +25,7 @@
       <span>{{ item | capitalize }}</span>
       {% else %}
       <span
-        >{{ site.data.locales[include.lang].tabs[item] | default: page.title
+        >{{ site.data.locales[include.lang].pages[item] | default: page.title
         }}</span
       >
       {% endif %} {% else %}
@@ -33,7 +33,7 @@
       {% if item == 'topics' or item == 'topic' %}
       <span>
         <a href="{{ item | append: '/' | relative_url }}">
-          {{ site.data.locales[include.lang].tabs[item] | default: item |
+          {{ site.data.locales[include.lang].pages[item] | default: item |
           capitalize }}
         </a>
       </span>

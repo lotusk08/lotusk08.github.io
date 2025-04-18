@@ -351,9 +351,9 @@ async function main() {
       );
     }
 
-    // Update markdown files in both _posts and _tabs directories
+    // Update markdown files in both _posts and _sections directories
     const postsDir = path.join(projectRoot, "_posts");
-    const tabsDir = path.join(projectRoot, "_tabs");
+    const tabsDir = path.join(projectRoot, "_sections");
 
     await updateMarkdownLQIP(postsDir, lqipMap);
     await updateMarkdownLQIP(tabsDir, lqipMap);

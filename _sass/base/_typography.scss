@@ -47,7 +47,7 @@ a {
 
 img {
   max-width: 100%;
-  border-radius: 0.5rem;
+  border-radius: v.$radius-sm;
   height: auto;
   transition: all 0.35s ease-in-out;
 

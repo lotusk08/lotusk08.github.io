@@ -314,7 +314,7 @@ header.profile-wrapper h1 {
     }
 
     .page-link {
-      color: var(--btn-patinator-text-color);
+      color: var(--text-color);
       padding: 0;
       display: flex;
       justify-content: center;
@@ -343,7 +343,7 @@ header.profile-wrapper h1 {
       background-color: transparent;
 
       &::before {
-        background-color: var(--btn-paginator-hover-color);
+        background-color: oklch(65% 0.02 80deg / 0.1);
       }
     }
 

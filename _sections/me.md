@@ -25,7 +25,7 @@ I’m also crazy about biking! I ride my Surly ECR with friends on long, pretty 
 
 Life is beautiful, even when the skies aren’t blue. But, why not paint our vibrant colors across the canvas of our lives? Right?
 
-![camera gear](/assets/img/post/camera-gear-me.webp "My gear"){: lqip="data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JZgAAusYCAAA/tzXnu+rkkawiskRP0mcNnqduip/S118rp7rUVcD59EO9SyJtyI7syhF/Qe3tiAAAAA=" w="520"} _My gear_
+![camera gear](/assets/img/post/camera-gear-me.webp "My gear"){: lqip="data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JZgAAusYCAAA/tzXnu+rkkawiskRP0mcNnqduip/S118rp7rUVcD59EO9SyJtyI7syhF/Qe3tiAAAAA=" w="520"} _My eye_
 
 Ah, I love capturing photographs on my journeys; preserving those moments makes the ordinary remarkable.
 
@@ -50,13 +50,16 @@ I'm on social:
 		<i class="fab fa-linkedin"></i>
 	</a>
 	<a href="https://github.com/lotusk08" aria-label="github" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-github"></i>
+		<i class="fab fa-square-github"></i>
 	</a>
 	<a href="https://www.reddit.com/user/lotusk08" aria-label="reddit" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-reddit"></i>
+		<i class="fab fa-square-reddit"></i>
+	</a>
+	<a href="https://www.x.com/lotusk08" aria-label="x" target="_blank" rel="noopener noreferrer" style="border: none;">
+		<i class="fab fa-square-x-twitter"></i>
 	</a>
 	<a href="https://www.facebook.com/stevehoang.me" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-facebook"></i>
+		<i class="fab fa-square-facebook"></i>
 	</a>
 </div>
 

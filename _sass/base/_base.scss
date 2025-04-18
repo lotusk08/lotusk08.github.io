@@ -120,7 +120,7 @@ main {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    border-radius: none;
+    border-radius: 0;
 
     @at-root #post-list & {
       width: 100%;

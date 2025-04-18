@@ -435,7 +435,7 @@ header {
 #toc-solo-trigger {
   color: var(--text-muted-color);
   border-color: var(--btn-border-color);
-  border-radius: v.$radius-lg;
+  border-radius: v.$radius-sm;
 
   @include bp.xl {
     display: none !important;

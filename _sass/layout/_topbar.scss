@@ -8,7 +8,7 @@ $btn-mb: 0.5rem;
 
 #topbar-wrapper {
   height: v.$topbar-height;
-  background-color: var(--topbar-bg);
+  background-color: transparent;
 
   @include bp.lt(bp.get(lg)) {
     @include mx.slide(top 0.2s ease);
@@ -83,8 +83,8 @@ $btn-mb: 0.5rem;
     height: 1.75rem;
     margin-top: 1px;
     border-radius: 50%;
-    color: var(--side-btn-color);
-    background-color: var(--side-btn-bg);
+    color: var(--site-btn-color);
+    background-color: transparent;
     text-align: center;
     display: flex;
     align-items: center;
@@ -98,11 +98,11 @@ $btn-mb: 0.5rem;
     }
 
     &:not(:focus-visible) {
-      box-shadow: var(--side-border-color) 0 0 0 1px;
+      box-shadow: var(--btn-border-color) 0 0 0 1px;
     }
 
     &:hover {
-      background-color: var(--side-hover-bg);
+      background-color: var(--site-hover-bg);
       color: var(--active-color);
 
       i {
@@ -114,9 +114,9 @@ $btn-mb: 0.5rem;
 
 .icon-border {
   @extend %no-cursor;
-  @include mx.ml-mr(calc((v.$sb-btn-gap - $btn-border-width) / 2));
+  @include mx.ml-mr(calc((v.$btn-gap - $btn-border-width) / 2));
 
-  background-color: var(--side-btn-color);
+  background-color: var(--site-btn-color);
   content: '';
   width: $btn-border-width;
   height: $btn-border-width;
@@ -127,7 +127,7 @@ $btn-mb: 0.5rem;
   }
 
   @include bp.xxxl {
-    @include mx.ml-mr(calc((v.$sb-btn-gap-lg - $btn-border-width) / 2));
+    @include mx.ml-mr(calc((v.$btn-gap-lg - $btn-border-width) / 2));
   }
 }
 

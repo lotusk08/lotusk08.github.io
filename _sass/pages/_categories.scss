@@ -8,10 +8,13 @@
 .categories {
   margin-bottom: 2rem;
   border-color: var(--categories-border);
+  background-color: transparent;
 
   &.card,
   .list-group {
     @extend %rounded;
+
+    background-color: transparent;
   }
 
   .card-header {
@@ -20,6 +23,7 @@
     padding: 0.75rem;
     border-radius: $radius;
     border-bottom: 0;
+    background-color: oklch(85% 0.02 80deg / 0.1);
 
     &.hide-border-bottom {
       border-bottom-left-radius: 0;
@@ -34,9 +38,10 @@
   }
 
   .list-group-item {
-    border-left: none;
-    border-right: none;
+    border: none;
+    border-top: 1px solid var(--tb-border-color);
     padding-left: 2rem;
+    background-color: transparent;
 
     &:first-child {
       border-top-left-radius: 0;
@@ -65,7 +70,7 @@
 
   &:hover {
     i {
-      color: var(--categories-icon-hover-color);
+      color: var(--active-color);
     }
   }
 }
@@ -73,7 +78,7 @@
 /* only works on desktop */
 @media (hover: hover) {
   .category-trigger:hover {
-    background-color: var(--categories-hover-bg);
+    background-color: var(--site-hover-bg);
   }
 }
 

@@ -1,15 +1,15 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+# - type: github
+#   icon: "fab fa-github"
 
-- type: linkedin
-  icon: 'fab fa-linkedin'
-  url:  'https://www.linkedin.com/in/steve-hoang-asia/'
+# - type: linkedin
+#   icon: 'fab fa-linkedin'
+#   url:  'https://www.linkedin.com/in/steve-hoang-asia/'
 
-- type: reddit
-  icon: 'fab fa-square-reddit'
-  url: 'https://www.reddit.com/user/lotusk08'
+# - type: reddit
+#   icon: 'fab fa-square-reddit'
+#   url: 'https://www.reddit.com/user/lotusk08'
 
 # - type: facebook
 #   icon: 'fab fa-facebook'
@@ -17,6 +17,11 @@
 
 #- type: twitter
 #  icon: "fa-brands fa-x-twitter"
+
+- type: think
+  icon: "fas fa-layer-group"
+  noblank: false
+  url: "https://think.stevehoang.com"
 
 - type: email
   icon: "fas fa-envelope"

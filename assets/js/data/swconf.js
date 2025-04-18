@@ -12,7 +12,7 @@ const swconf = {
     resources: [
       '{{ "/assets/css/style.css" | relative_url }}',
       '{{ "/" | relative_url }}',
-      {% for tab in site.tabs %}
+      {% for tab in site.sections %}
         '{{- tab.url | relative_url -}}',
       {% endfor %}
 

@@ -90,6 +90,14 @@
   border-radius: v.$radius-lg;
 }
 
+%rounded-xs {
+  border-radius: v.$radius-xs;
+}
+
+%rounded-sm {
+  border-radius: v.$radius-sm;
+}
+
 %rounded-s {
   border-radius: v.$radius-lg v.$radius-lg 0 0;
 }
@@ -151,7 +159,7 @@
 }
 
 %code-snippet-bg {
-  background-color: var(--highlight-bg-color);
+  background-color: oklch(85% 0.02 80deg / 0.1);
 }
 
 %code-snippet-padding {

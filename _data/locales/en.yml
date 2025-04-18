@@ -7,8 +7,7 @@ layout:
   category: Category
   tag: Topic
 
-# The tabs of sidebar (old)
-tabs:
+pages:
   # format: <filename_without_extension>: <value>
   home: Home
   categories: Categories

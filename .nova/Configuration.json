@@ -1,4 +1,8 @@
 {
+  "index.ignored_file_patterns" : [
+    ".obsidian",
+    ".obsidian\/*"
+  ],
   "workspace.color" : 1,
   "workspace.name" : "stevehoang.com",
   "workspace.preview_server_allow_external" : true,

@@ -32,12 +32,12 @@ social:
   email: hi@stevehoang.com # change to your email address
   links:
   # The first element serves as the copyright owner's link
-  - https://twitter.com/LotusK08 # change to your twitter homepage
   - https://github.com/lotusk08 # change to your github homepage
     # Uncomment below to add more social links
   - https://www.facebook.com/stevehoang.me
   - https://www.linkedin.com/in/steve-hoang-asia
   - https://www.reddit.com/user/lotusk08
+  - https://x.com/lotusk08
 
 # Site Verification Settings
 webmaster_verifications:
@@ -159,9 +159,8 @@ kramdown:
       start_line: 1
 
 collections:
-  tabs:
+  sections:
     output: true
-    sort_by: order
 
 defaults:
   - scope:
@@ -180,7 +179,7 @@ defaults:
       comments: false
   - scope:
       path: ""
-      type: tabs # see `site.collections`
+      type: sections # see `site.collections`
     values:
       layout: page
       permalink: /:title

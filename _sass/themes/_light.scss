@@ -6,17 +6,17 @@
   --active-color: #0d6efd;
 
   /* Common color */
-  --text-color: #34343c;
+  --text-color: #5e5e5e;
   --text-muted-color: #757575;
   --text-muted-highlight-color: inherit;
-  --heading-color: #2a2a2a;
+  --heading-color: #393939;
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
   --link-color: #0056b2;
   --link-underline-color: #dee2e6;
   --button-bg: var(--main-bg);
-  --btn-border-color: #e9ecef;
+  --btn-border-color: #efefef;
   --btn-backtotop-color: #686868;
   --btn-backtotop-border-color: #f1f1f1;
   --checkbox-color: #c5c5c5;
@@ -32,16 +32,11 @@
     rgba(250, 250, 250, 0) 100%
   );
 
-  /* Side color */
+  /* Site color */
   --site-title-color: #686868;
   --site-subtitle-color: #717171;
-  --side-bg: #faf8f6;
-  --side-border-color: #efefef;
-  --side-muted-color: #545454;
-  --side-active-color: #0d6efd;
-  --side-hover-bg: rgb(223, 233, 241, 0.64);
-  --side-btn-bg: var(--main-bg);
-  --side-btn-color: #8e8e8e;
+  --site-hover-bg: #dfe9f1a3;
+  --site-btn-color: #8e8e8e;
   --avatar-border-color: #f1f1f1;
 
   /* Topbar */
@@ -54,19 +49,17 @@
   /* Home page */
   --post-list-text-color: dimgray;
   --btn-patinator-text-color: #555555;
-  --btn-paginator-hover-color: var(--side-bg);
+  --btn-paginator-hover-color: #faf8f6;
 
   /* Posts */
   --toc-highlight: #0550ae;
   --toc-popup-border-color: lightgray;
-  --btn-share-color: gray;
   --btn-share-hover-color: #0d6efd;
   --card-bg: #fafaf6;
   --card-hovor-bg: #e2e2e2;
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
     rgba(211, 209, 209, 0.15) 0 0 0 1px;
   --footnote-target-bg: lightcyan;
-  --tb-odd-bg: #fbf8f1;
   --tb-border-color: #eaeaea;
   --dash-color: silver;
   --kbd-wrap-color: #bdbdbd;
@@ -97,8 +90,6 @@
 
   /* Categories */
   --categories-border: rgba(0, 0, 0, 0.125);
-  --categories-hover-bg: var(--btn-border-color);
-  --categories-icon-hover-color: darkslategray;
 
   /* Archive */
   --timeline-color: rgba(0, 0, 0, 0.075);
@@ -107,8 +98,7 @@
 
   /* --- Custom code light mode colors --- */
   --language-border-color: #ececec;
-  --highlight-bg-color: #fafaf6;
-  --highlighter-rouge-color: #3f596f;
+  --highlighter-rouge-color: #6c6060fc;
   --highlight-lineno-color: #9e9e9e;
   --inline-code-bg: rgba(25, 25, 28, 0.05);
   --code-color: #3a3a3a;
@@ -116,6 +106,7 @@
   --code-header-muted-color: #e5e5e5;
   --code-header-icon-color: #c9c8c8;
   --clipboard-checked-color: #43c743;
+  --filepath-text-color: #585858;
 
   [class^='prompt-'] {
     --link-underline-color: rgb(219, 216, 216);

@@ -2,8 +2,6 @@
 # the default layout is 'page'
 title: About me
 description: I work in marketing, finding clarity in complexity. I uncover how businesses function, understand customer journeys, and add value where it matters most—balancing purpose with profit through quiet, deliberate action.
-icon: fa-solid fa-layer-group
-order: 2
 redirect_from:
   - /my-products
   - /marketing
@@ -191,34 +189,34 @@ The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 
 <div class="row">
   <div class="col-md-6 mb-3">
-    <div class="pdf-container">
-      <object data="/assets/pdf/TKT brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-        <p>Unable to display PDF file. <a href="/assets/pdf/TKT brochure.pdf">Download</a> instead.</p>
-      </object>
-    </div>
+	<div class="pdf-container">
+	  <object data="/assets/pdf/TKT brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+		<p>Unable to display PDF file. <a href="/assets/pdf/TKT brochure.pdf">Download</a> instead.</p>
+	  </object>
+	</div>
   </div>
   <div class="col-md-6 mb-3">
-    <div class="pdf-container">
-      <object data="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-        <p>Unable to display PDF file. <a href="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf">Download</a> instead.</p>
-      </object>
-    </div>
+	<div class="pdf-container">
+	  <object data="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+		<p>Unable to display PDF file. <a href="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf">Download</a> instead.</p>
+	  </object>
+	</div>
   </div>
 </div>
 <div class="row">
   <div class="col-md-4 mb-3">
-    <div class="pdf-container pdf-container-sm">
-      <object data="/assets/pdf/TKS brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-        <p>Unable to display PDF file. <a href="/assets/pdf/TKS brochure.pdf">Download</a> instead.</p>
-      </object>
-    </div>
+	<div class="pdf-container pdf-container-sm">
+	  <object data="/assets/pdf/TKS brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+		<p>Unable to display PDF file. <a href="/assets/pdf/TKS brochure.pdf">Download</a> instead.</p>
+	  </object>
+	</div>
   </div>
   <div class="col-md-8 mb-3">
-    <div class="pdf-container pdf-container-sm">
-      <object data="/assets/pdf/MOD - Application.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-        <p>Unable to display PDF file. <a href="/assets/pdf/MOD - Application.pdf">Download</a> instead.</p>
-      </object>
-    </div>
+	<div class="pdf-container pdf-container-sm">
+	  <object data="/assets/pdf/MOD - Application.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
+		<p>Unable to display PDF file. <a href="/assets/pdf/MOD - Application.pdf">Download</a> instead.</p>
+	  </object>
+	</div>
   </div>
 </div>
 

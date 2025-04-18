@@ -72,7 +72,7 @@ header {
       display: flex;
 
       i {
-        color: var(--btn-share-color);
+        color: var(--site-btn-color);
 
         @extend %icon-size;
       }
@@ -116,8 +116,8 @@ header {
   --wc-stm-font-family: v.$font-family-base;
   --wc-stm-dialog-background-color: var(--card-bg);
   --wc-stm-form-button-border: 1px solid var(--btn-border-color);
-  --wc-stm-form-submit-background-color: var(--side-btn-bg);
-  --wc-stm-form-cancel-background-color: var(--side-btn-bg);
+  --wc-stm-form-submit-background-color: var(--main-bg);
+  --wc-stm-form-cancel-background-color: var(--main-bg);
   --wc-stm-form-button-background-color-hover: #007bff;
   --wc-stm-form-button-color-hover: white;
 
@@ -145,7 +145,7 @@ header {
     color: var(--text-color);
 
     &:hover:not(.disabled) {
-      background-color: var(--main-bg);
+      background-color: transparent;
       border-color: var(--main-bg);
       color: var(--active-color);
 
@@ -400,7 +400,15 @@ header {
   top: 0;
   z-index: 1;
   margin: 0 -1rem;
-  background: var(--main-bg);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: linear-gradient(
+    to top,
+    transparent 0%,
+    var(--main-bg) 30%,
+    var(--main-bg) 60%,
+    var(--main-bg) 100%
+  );
   border-bottom: 1px solid var(--main-border-color);
   transition: all 0.2s ease-in-out;
 

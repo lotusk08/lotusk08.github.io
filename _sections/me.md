@@ -2,17 +2,14 @@
 # the default layout is 'page'
 title: Me
 description: I’m Steve. By day, I grind 9 to 5 in marketing, figuring out how to make things work. By night, I dream about start-ups—quiet ideas that keep me going. Outside of that, I keep it simple with stuff I enjoy.
-icon: fas fa-info-circle
 toc: false
-order: 5
 ---
->WOW...
 
->You found it!
+>Oh! You found it...
+>
+>Here’s what I love. Want more?
 
->Are you looking for something more about me?
-
-I’m Steve, as you've know. I am a man who enjoys understanding the world, building things to improve it, and discussing these topics on the internet. I love to keep things simple and focus on what I enjoy.
+I’m Stev, as you've know. I am a man who enjoys understanding the world, building things to improve it, and discussing these topics on the internet. I love to keep things simple and focus on what I enjoy.
 
 ![About me](/assets/img/site/about-me.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABUB8JbACdADxHF8KaoEAAP7AKlWu0Qig73p1rucOy/e2ScksvXY5Dc0zVVk/+ydl9gPPgAAA"} _Just me, being me_
 
@@ -47,11 +44,26 @@ I created it myself, using Jekyll, hosted on GitHub, and public through Cloudfla
 
 ## Get in Touch
 
+I'm on social:
+<div class="footer-social" style="justify-content: left">
+	<a href="https://www.linkedin.com/in/steve-hoang-asia" aria-label="linkedin" target="_blank" rel="noopener noreferrer" style="border: none;">
+		<i class="fab fa-linkedin"></i>
+	</a>
+	<a href="https://github.com/lotusk08" aria-label="github" target="_blank" rel="noopener noreferrer" style="border: none;">
+		<i class="fab fa-github"></i>
+	</a>
+	<a href="https://www.reddit.com/user/lotusk08" aria-label="reddit" target="_blank" rel="noopener noreferrer" style="border: none;">
+		<i class="fab fa-reddit"></i>
+	</a>
+	<a href="https://www.facebook.com/stevehoang.me" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
+		<i class="fab fa-facebook"></i>
+	</a>
+</div>
+
 ![Contact light](/assets/img/site/contact-light.webp){: lqip="data:image/webp;base64,UklGRugAAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSHAAAAARL6CmbSM4WDjdvrubLyICK97DQSS7dSstlgNAqg0g0jOASCqA/Cgoov/BjZsIN4euP2I41BAxDvtlwog9VnxBrqGmo58+q+7sGlblQZdklQ7yQNVj/dAclpP4/iYM/bQViYccCUR2x60Adm4i2yYNVlA4IFIAAAAQAgCdASoQABAABUB8JaQAAudgGE7P6KAAAP7o+orlPz88QEZA/pxte3s5nlF/qal0G+jjB1ZaIyN0XCTKgpKyfXGY6ThbKBplNcg1hA3AfAAA" .light .rounded-10 w='160' h='160' .right} ![Contact dark](/assets/img/site/contact-dark.webp){: lqip="data:image/webp;base64,UklGRv4AAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSHAAAAARL6CmbSM4WDjdvrubLyICK97DQSS7dSstlgNAqg0g0jOASCqA/Cgoov/BjZsIN4euP2I41BAxDvtlwog9VnxBrqGmo58+q+7sGlblQZdklQ7yQNVj/dAclpP4/iYM/bQViYccCUR2x60Adm4i2yYNVlA4IGgAAABQAgCdASoQABAABUB8JaQAD4wQeFq/Y2sRZ4AA/oOW9+1PBSMZlyQ5g2lOOz4S/iebqIhTYLiR9oD44S2uhUpPHd2Q852ewFnzsyFsMC3qqhV2am0Y4yIM3YmZA/g4m+r/oA0BtQAAAA==" .dark .rounded-10 w='160' h='160' .right}
 
-If you’d like to reach me:
-
-- On your phone, tap [**Contact**](/assets/contact.vcf).
+To reach me:
+- On your phone, tap [**contact**](/assets/contact.vcf).
 - Otherwise, scan the QR code.
 
 ---

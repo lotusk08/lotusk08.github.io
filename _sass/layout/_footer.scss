@@ -4,7 +4,7 @@
 @use '../abstracts/placeholders';
 
 footer {
-  background-color: var(--main-bg);
+  background-color: transparent;
   height: v.$footer-height;
   border-top: 1px solid var(--main-border-color);
   display: flex;
@@ -44,14 +44,14 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  column-gap: v.$sb-btn-gap * 2;
+  column-gap: v.$btn-gap * 2;
 
   @include bp.lt(bp.get(lg)) {
-    margin-bottom: v.$sb-btn-gap;
+    margin-bottom: v.$btn-gap;
   }
 
   a {
-    color: var(--side-btn-color);
+    color: var(--site-btn-color);
 
     &:hover {
       color: var(--active-color);

@@ -8,9 +8,9 @@ panel_includes:
 {% include toc-status.html %}
 
 <article class="px-1" data-toc="{{ enable_toc }}">
-  {% if page.layout == 'page' or page.collection == 'tabs' %}
+  {% if page.layout == 'page' or page.collection == 'sections' %}
     {% assign tab_key = page.title | downcase %}
-    {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+    {% assign title = site.data.locales[lang].pages[tab_key] | default: page.title %}
     <h1 data-toc-skip class="dynamic-title">
       {{ title }}
     </h1>

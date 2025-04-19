@@ -432,6 +432,7 @@ header {
   color: var(--text-muted-color);
   border-color: var(--btn-border-color);
   border-radius: v.$radius-sm;
+  margin-top: -2rem;
 
   @include bp.xl {
     display: none !important;

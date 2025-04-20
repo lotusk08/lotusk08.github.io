@@ -110,7 +110,7 @@ header {
 .share-mastodon {
   /* See: https://github.com/justinribeiro/share-to-mastodon#properties */
   --wc-stm-font-family: v.$font-family-base;
-  --wc-stm-dialog-background-color: var(--card-bg);
+  --wc-stm-dialog-background-color: var(--main-bg);
   --wc-stm-form-button-border: 1px solid var(--btn-border-color);
   --wc-stm-form-submit-background-color: var(--main-bg);
   --wc-stm-form-cancel-background-color: var(--main-bg);
@@ -396,15 +396,10 @@ header {
   top: 0;
   z-index: 1;
   margin: 0 -1rem;
+  /* padding-bottom: 0.75rem; */
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  background: linear-gradient(
-    to top,
-    transparent 0%,
-    var(--main-bg) 30%,
-    var(--main-bg) 60%,
-    var(--main-bg) 100%
-  );
+  background: linear-gradient(rgba(255, 255, 248, 0.95) 70%, transparent)
   border-bottom: 1px solid var(--main-border-color);
   transition: all 0.2s ease-in-out;
 

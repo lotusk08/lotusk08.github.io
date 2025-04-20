@@ -31,18 +31,30 @@ Ah, I love capturing photographs on my journeys; preserving those moments makes 
 
 ---
 
-## This Site
+## This site
 
-I’ve been jotting down my thoughts online since 2009. In 2019, I started [skyquietly.com](https://skyquietly.com) on WordPress. Lately, I switched to Jekyll because it’s simple and easy to type it with Obsidian or another markdown editor. It lets me tweak things just how I like.
+I’ve been jotting down my thoughts online since 2009. In 2019, I started [skyquietly.com](https://skyquietly.com) on WordPress. Lately, I switched to Jekyll. It’s simple and easy to type it with Obsidian or another markdown editor, and it lets me tweak things just how I like.
 
 ![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CgbRQ4Z+NecIEXIiJu4H2oaiCC2mQQwHQQ4NXA9C9zfwpE9H8CclD3MP6YowBWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'} _My old WordPress site—good times!_
 
-This blog is my quiet corner where I share thoughts, ideas, and projects that matter to me.
-I created it myself, using Jekyll, hosted on GitHub, and public through Cloudflare, but I don't plan to share this at the moment.
+I enjoy reading. I built this website for myself using Jekyll and made it public through Cloudflare. I don’t plan to share it at this time.
 
+Ah!
+: About the web, I think to myself like this:
+
+>*I don’t want to load a huge website just to read a simple article. It’s only text.*
+>
+>*I don’t want to see ads everywhere. Often, the ads are more visible than the content itself. Is it a website or a billboard?*
+>
+>*I don’t want to deal with a cookie consent manager with 100 hidden checkboxes to prevent my data from being sent to your 428 partners.*
+>
+>*I don’t want to see a pop-up asking me to subscribe to your newsletter. I’ll find it if I want to.*
+>
+>*I don’t want to see a pop-up asking me to subscribe to your push notifications. Why would I want to receive notifications from a website?*
+{: .prompt-important }
 ---
 
-## Get in Touch
+## Get in touch
 
 I'm on social:
 <div class="footer-social" style="justify-content: left">
@@ -60,6 +72,9 @@ I'm on social:
 	</a>
 	<a href="https://www.facebook.com/stevehoang.me" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
 		<i class="fab fa-square-facebook"></i>
+	</a>
+	<a href="https://www.goodreads.com/user/show/177600901-steve-hoang" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
+		<i class="fab fa-goodreads"></i>
 	</a>
 </div>
 

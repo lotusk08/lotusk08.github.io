@@ -396,10 +396,9 @@ header {
   top: 0;
   z-index: 1;
   margin: 0 -1rem;
-  /* padding-bottom: 0.75rem; */
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  background: linear-gradient(rgba(255, 255, 248, 0.95) 70%, transparent)
+  background: linear-gradient(rgba(255, 255, 248, 0.95) 70%, transparent);
   border-bottom: 1px solid var(--main-border-color);
   transition: all 0.2s ease-in-out;
 

@@ -398,7 +398,7 @@ header {
   margin: 0 -1rem;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  background: linear-gradient(rgba(255, 255, 248, 0.95) 70%, transparent);
+  background: linear-gradient(var(--main-bg) 70%, transparent);
   border-bottom: 1px solid var(--main-border-color);
   transition: all 0.2s ease-in-out;
 

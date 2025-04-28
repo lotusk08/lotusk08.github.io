@@ -259,8 +259,9 @@ main {
   display: inline-block;
   min-width: 2rem;
   text-align: center;
-  border-radius: 0.3rem;
-  border: 1px solid var(--btn-border-color);
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(135, 135, 135, 0.05);
   padding: 0 0.4rem;
   color: var(--text-muted-color);
   line-height: 1.3rem;

@@ -337,7 +337,7 @@ header {
       @extend %text-ellipsis;
 
       &:hover {
-        color: var(--toc-highlight);
+        color: var(--link-color);
         text-decoration: none;
       }
 
@@ -347,14 +347,14 @@ header {
     }
 
     .is-active-link {
-      color: var(--toc-highlight) !important;
-      font-weight: 600;
+      /* color: var(--active-color) !important; */
+      font-weight: 700;
 
       &::before {
         display: inline-block;
         width: 1px;
         height: 1.25rem;
-        background-color: var(--toc-highlight) !important;
+        background-color: var(--active-color) !important;
       }
     }
 

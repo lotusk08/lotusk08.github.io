@@ -104,7 +104,7 @@ main {
   
   &.cover {
     aspect-ratio: 40 / 21;
-    border-radius: v.$radius-sm;
+    border-radius: 0;
     height: auto;
   }
 
@@ -321,7 +321,7 @@ main {
   margin-bottom: 1rem;
   aspect-ratio: 16 / 9;
 
-  @extend %rounded;
+  @extend %rounded-0;
 
   &.twitch {
     aspect-ratio: 310 / 189;

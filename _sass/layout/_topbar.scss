@@ -35,7 +35,7 @@ $btn-mb: 0.5rem;
     }
 
     a:hover {
-      @extend %link-hover;
+      color: var(--active-color);
     }
 
     span {
@@ -44,6 +44,10 @@ $btn-mb: 0.5rem;
           content: "›";
           padding: 0 0.3rem;
         }
+      }
+
+      a {
+        color: var(--link-color);
       }
     }
 

@@ -47,7 +47,7 @@ a {
 
 img {
   max-width: 100%;
-  border-radius: v.$radius-sm;
+  border-radius: 0;
   height: auto;
   transition: all 0.35s ease-in-out;
 
@@ -71,7 +71,6 @@ blockquote {
 
   &[class^="prompt-"] {
     border-left: 0.25rem;
-    border-radius: 0 6px 6px 0;
     position: relative;
     padding: 0.5rem 1rem 0.75rem 1rem;
     color: var(--prompt-text-color);

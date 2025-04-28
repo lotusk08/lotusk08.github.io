@@ -47,16 +47,20 @@
 }
 
 %link-hover {
-  color: var(--active-color);
-  border-bottom: 1px solid var(--active-color);
+  color: var(--link-color);
+  text-decoration: underline;
+
+  /* border-bottom: 1px solid var(--active-color); */
 }
 
 %link-color {
-  color: var(--link-color);
+  color: inherit;
 }
 
 %link-underline {
-  border-bottom: 1px solid var(--link-underline-color);
+  text-decoration: underline;
+
+  /* border-bottom: 1px solid var(--link-underline-color); */
 }
 
 %clickable-transition {
@@ -72,6 +76,7 @@
 
 %no-bottom-border {
   border-bottom: none;
+  text-decoration: none;
 }
 
 %cursor-pointer {

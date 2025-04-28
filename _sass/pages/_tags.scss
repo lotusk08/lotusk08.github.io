@@ -8,6 +8,7 @@
   letter-spacing: 0;
   border: 1px solid var(--btn-border-color) !important;
   box-shadow: 0 0 3px 0 var(--tag-shadow);
+  text-decoration: none !important;
 
   &:hover {
     background: var(--active-color);

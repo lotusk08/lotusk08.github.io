@@ -102,6 +102,14 @@ header.profile-wrapper h1 {
   margin-top: 0.25rem;
   word-spacing: 1px;
   user-select: none;
+  
+  a {
+    color: var(--link-color);
+    
+    &:hover {
+      color: var(--active-color);
+    }
+  }
 }
 
 #post-list {

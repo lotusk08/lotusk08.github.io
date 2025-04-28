@@ -115,8 +115,8 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   waline:
-    server: https://line.stevehoang.com/
-    placeholder: Leave a comment!
+    server: https://line.stevehoang.com
+    placeholder: Leave a comment...
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:

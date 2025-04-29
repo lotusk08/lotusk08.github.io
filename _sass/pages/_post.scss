@@ -396,6 +396,7 @@ header {
   top: 0;
   z-index: 1;
   margin: 0 -1rem;
+  margin-top: -3rem;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background: linear-gradient(var(--main-bg) 70%, transparent);
@@ -427,7 +428,8 @@ header {
   border-color: var(--btn-border-color);
   border-radius: v.$radius-sm;
   margin-top: -2rem;
-
+  visibility: hidden;
+  
   @include bp.xl {
     display: none !important;
   }

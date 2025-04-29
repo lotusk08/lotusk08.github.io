@@ -64,7 +64,6 @@ code {
   color: var(--code-color);
 
   &.highlighter-rouge {
-    font-size: v.$code-font-size;
     padding: 1px 5px;
     word-break: break-word;
     border-radius: 4px;
@@ -116,6 +115,7 @@ div[class^='language-'] {
 
   .content > & {
     @include mx.ml-mr(-1rem);
+    @include mx.mt-mb(1.5rem);
 
     border-radius: 0;
 

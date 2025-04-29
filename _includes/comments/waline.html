@@ -49,34 +49,14 @@
       path: window.location.pathname
     });
 
-    const head = document.getElementsByTagName("head")[0];
-    if (head) {
-      const css = head.lastChild;
-      if (css && css.textContent) {
-        const cssContent = css.textContent.replace("__waline__css__", "");
-        const cssContentPerferredDark =
-          "@media (prefers-color-scheme: dark){html:not([data-mode])" +
-          cssContent +
-          "}";
-        const cssContentSelectedDark = "html[data-mode=dark]" + cssContent;
-        css.textContent = cssContentPerferredDark;
-        const style = document.createElement("style");
-        style.textContent = cssContentSelectedDark;
-        head.appendChild(style);
-      }
-    }
 
-    document.documentElement.style.setProperty(
-      "--waline-theme-color",
-      "var(--link-color)"
-    );
-    document.documentElement.style.setProperty(
-      "--waline-active-color",
-      "var(--active-color)"
-    );
 
     const customStyle = document.createElement("style");
     customStyle.textContent = `
+      #waline {
+        --waline-theme-color: var(--link-color);
+        --waline-active-color: var(--active-color);
+      }
       #waline .wl-panel { 
         background-color: transparent !important; 
         box-shadow: none !important; 
@@ -90,20 +70,31 @@
         margin: .75em 0em !important; 
         border-radius: 0 !important;
       }
-      #waline .wl-editor, #waline .wl-input, #waline .wl-header label, #waline .wl-header input {
+      #waline .wl-editor,
+      #waline .wl-input,
+      #waline .wl-header label,
+      #waline .wl-header input {
         color: inherit !important;
         font-size: inherit;
         font-family: inherit;
       }
-      #waline .wl-editor:focus, #waline .wl-input:focus, .wl-card .wl-meta>span { 
+      #waline .wl-editor:focus,
+      #waline .wl-input:focus,
+      .wl-card .wl-meta>span { 
         background: rgba(135, 135, 135, 0.05) !important; 
       }
-      #waline .wl-power, #waline .wl-empty, #waline .wl-gif-popup { display: none !important; }
-      #waline .wl-btn { border-radius: 0; }
+      #waline .wl-power,
+      #waline .wl-empty,
+      #waline .wl-gif-popup { 
+        display: none !important;
+      }
+      #waline .wl-btn {
+        border-radius: 0;
+      }
       #waline .wl-header {
         border-radius: 0;
         padding: 0;
-        border-bottom: 1px dashed var(--waline-border-color);
+        border-bottom: 1px dashed var(--main-border-color);
       }
       #waline .wl-emoji-popup {
         inset-inline-start: 2.75em;
@@ -117,10 +108,28 @@
       #waline .wl-emoji-popup .wl-tab-wrapper {
         max-height: 120px;
       }
-      #waline .wl-count, #waline .wl-actions a, #waline .wl-actions button[title="Preview"], #waline .wl-action[title="Upload Image"]  {
+      #waline .wl-count,
+      #waline .wl-actions a,
+      #waline .wl-actions button[title="Preview"],
+      #waline .wl-action[title="Upload Image"]  {
         display: none !important;
       }
-      #waline .wl-card .wl-content p, #waline .wl-card span.wl-nick { color: inherit;}
+      #waline .wl-card .wl-content p,
+      #waline .wl-card span.wl-nick {
+        color: inherit;
+      }
+      #waline .wl-btn.primary {
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+        background-color: rgba(135,135,135,.05);
+        color: var(--link-color);
+        
+        &:hover {
+          background-color: var(--active-color);
+          color: white;
+        }
+      }
     `;
     document.head.appendChild(customStyle);
   } catch (error) {

@@ -46,6 +46,7 @@
       display: block;
       transition: transform 0.3s ease-in-out;
       transition: transform 0.5s;
+      margin: 0;
 
       &:hover {
         transform: scale(1.2);

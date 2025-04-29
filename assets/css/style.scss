@@ -63,4 +63,8 @@
   display: inline-block;
   margin-top: 1.5rem;
   font-weight: bold;
+  
+  &:hover {
+    color: var(--active-color);
+  }
 }

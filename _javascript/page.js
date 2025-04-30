@@ -4,7 +4,8 @@ import {
   initToc,
   imgPopup,
   initClipboard,
-  loadMermaid
+  loadMermaid,
+  loadChartJS
 } from './modules/components';
 
 loadImg();
@@ -13,4 +14,5 @@ imgPopup();
 initTopbar();
 initClipboard();
 loadMermaid();
+loadChartJS();
 basic();

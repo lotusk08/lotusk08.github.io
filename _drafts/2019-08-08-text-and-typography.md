@@ -3,8 +3,11 @@ title: Text and Typography
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: steve
 date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+categories:
+  - Blogging
+  - Demo
+tags:
+  - typography
 pin: true
 math: true
 mermaid: true
@@ -164,7 +167,26 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
   banana :crit, b, 2017-07-23, 1d
   cherry :active, c, after b a, 1d
 ```
+## ChartJS
 
+```chart
+{
+  "type": "bar",
+  "data": {
+    "labels": ["Red", "Blue", "Yellow", "Green", "Purple"],
+    "datasets": [{
+      "label": "Sample Data",
+      "data": [12, 19, 3, 5, 2],
+      "backgroundColor": ["#ff6384", "#36a2eb", "#ffce56", "#4bc0c0", "#9966ff"]
+    }]
+  },
+  "options": {
+    "scales": {
+      "y": { "beginAtZero": true }
+    }
+  }
+}
+```
 ## Images
 
 ### Default (with caption)

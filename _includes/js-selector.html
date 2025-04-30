@@ -49,6 +49,10 @@
   {% assign urls = urls | append: ',' | append: site.data.cors.mermaid.js %}
 {% endif %}
 
+{% if page.content contains 'language-chart' %}
+  {% assign urls = urls | append: ',' | append: site.data.cors.chartjs.js %}
+{% endif %}
+
 {% include jsdelivr-combine.html urls=urls %}
 
 {% case page.layout %}

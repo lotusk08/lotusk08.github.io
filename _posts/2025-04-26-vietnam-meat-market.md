@@ -39,25 +39,74 @@ Vietnam’s meat consumption continues to grow, driven by rising incomes, urbani
 Major brands like Vissan (46.1% of SAM), CPFood (13.3%), Masan MeatDeli (12%), and CJ Meat Master (10%) dominate the processed meat segment, while GreenFeed GKitchen and other niche players split the remainder.
 
 ### TAM vs SAM
-```mermaid
-pie title Market distribution: TAM vs SAM (2025)
-    "Processed & branded meat (SAM)" : 7.1
-    "Other meat (Unbranded & fresh)" : 92.9
+
+```chart
+{
+  "type": "pie",
+  "data": {
+    "labels": ["Processed & branded meat (SAM)", "Other meat (Unbranded & fresh)"],
+    "datasets": [{
+      "data": [7.1, 92.9],
+      "backgroundColor": ["rgba(255, 99, 132, 0.3)", "rgba(54, 162, 235, 0.3)"],
+      "borderColor": ["#ff6384", "#36a2eb"],
+      "borderWidth": 1
+    }]
+  },
+  "options": {
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "Market Distribution: TAM vs SAM (2025)",
+        "font": { "size": 16 }
+      },
+      "legend": {
+        "position": "bottom"
+      }
+    }
+  }
+}
 ```
 - TAM (Total Addressable Market): USD 8.36 billion (100% of the market).
 - SAM (Serviceable Addressable Market): USD 593.6 million (7.1% of TAM), focusing on processed/branded meat in urban areas.
 
 ### SOM breakdown
-```mermaid
-pie title SOM segmentation (of SAM)
-    "Vissan" : 46.1
-    "CPFood" : 13.3
-    "Masan MeatDeli" : 12
-    "CJ Meat Master" : 10
-    "GreenFeed GKitchen" : 5
-    "Other niche players" : 13.6
+
+```chart
+{
+  "type": "pie",
+  "data": {
+    "labels": ["Vissan", "CPFood", "Masan MeatDeli", "CJ Meat Master", "GreenFeed GKitchen", "Other niche players"],
+    "datasets": [{
+      "data": [46.1, 13.3, 12, 10, 5, 13.6],
+      "backgroundColor": [
+        "rgba(255, 99, 132, 0.3)",
+        "rgba(54, 162, 235, 0.3)",
+        "rgba(255, 206, 86, 0.3)",
+        "rgba(75, 192, 192, 0.3)",
+        "rgba(153, 102, 255, 0.3)",
+        "rgba(255, 159, 64, 0.3)"
+      ],
+      "borderColor": ["#ff6384", "#36a2eb", "#ffce56", "#4bc0c0", "#9966ff", "#ff9f40"],
+      "borderWidth": 1
+    }]
+  },
+  "options": {
+    "backgroundColor": "transparent",
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "SOM Segmentation (of SAM)",
+        "font": { "size": 16 }
+      },
+      "legend": {
+        "position": "bottom"
+      }
+    }
+  }
+}
 ```
-- Serviceable obtainable market (SOM): Realistic short-term capture of SAM by key players:
+
+- Serviceable obtainable market (SOM), realistic short-term capture of SAM by key players:
   - Vissan: USD 273.6 million (46.1% of SAM)
   - CPFood: USD 78.9 million (13.3% of SAM)
   - Masan MeatDeli: USD 71.2 million (12% of SAM)

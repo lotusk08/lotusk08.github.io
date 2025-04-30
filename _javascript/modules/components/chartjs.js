@@ -3,10 +3,12 @@ const CHART_CONTAINER_CLASS = "chartjs-container";
 
 const THEME_COLORS = {
   dark: {
+    backgroundColor: 'rgba(44, 45, 45, 0.2)',
     borderColor: 'rgb(44, 45, 45)',
-    color: '#cecdcd'
+    color: '#5e5e5e'
   },
   light: {
+    backgroundColor: 'rgba(243, 243, 243, 0.2)',
     borderColor: '#f3f3f3',
     color: '#5e5e5e'
   }
@@ -28,6 +30,7 @@ export function loadChartJS() {
   const theme = isDarkMode ? 'dark' : 'light';
   const colors = THEME_COLORS[theme];
 
+  Chart.defaults.backgroundColor = colors.backgroundColor;
   Chart.defaults.borderColor = colors.borderColor;
   Chart.defaults.color = colors.color;
 

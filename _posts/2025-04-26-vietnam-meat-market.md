@@ -186,7 +186,7 @@ Serviceable obtainable market (SOM):
     "plugins": {
       "title": {
         "display": true,
-        "text": "Company Performance Across Key Factors",
+        "text": "The Major Performance Across Key Factors",
         "font": { "size": 16 }
       },
       "legend": {

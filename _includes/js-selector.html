@@ -49,7 +49,7 @@
   {% assign urls = urls | append: ',' | append: site.data.cors.mermaid.js %}
 {% endif %}
 
-{% if page.content contains 'language-chart' %}
+{% if page.chart %}
   {% assign urls = urls | append: ',' | append: site.data.cors.chartjs.js %}
 {% endif %}
 

@@ -13,7 +13,8 @@ tags:
 pin: false
 toc: true
 math: false
-mermaid: true
+mermaid: false
+chart: true
 image:
   path: /assets/img/post/vietnamese-meat-by-kevin-charit.webp
   lqip: data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAwABUB8JaACdAECvrQOSY8AAPqYNGoruNhWqCGfFsdonz5v9w9Z7oC0ScpkSCXnZ7EZhUx7fQoxXBVTNXDzEAAAAA==

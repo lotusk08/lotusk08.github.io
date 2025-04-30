@@ -52,3 +52,6 @@ waline:
   js: https://cdn.jsdelivr.net/npm/@waline/client@3/dist/waline.js
   css: https://cdn.jsdelivr.net/npm/@waline/client@3/dist/waline.css
   emojis: https://cdn.jsdelivr.net/npm/@waline/emojis@1.3.0
+
+chartjs:
+  js: https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js

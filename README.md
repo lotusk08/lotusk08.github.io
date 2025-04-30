@@ -80,6 +80,7 @@ npm run lqip
 - style(ui): redesign homepage
 - style(font): use JetBrains Mono for monospace & PlayFair Display (Heading homepage)
 - style(img): use lqip data for layered background block behind an image
+- feat(chart): use chartjs for visual
 
 [wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
 [cf]: https://pages.cloudflare.com

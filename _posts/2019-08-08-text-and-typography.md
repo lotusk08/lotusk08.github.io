@@ -167,7 +167,26 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
   banana :crit, b, 2017-07-23, 1d
   cherry :active, c, after b a, 1d
 ```
+## ChartJS
 
+```chart
+{
+  "type": "bar",
+  "data": {
+    "labels": ["Red", "Blue", "Yellow", "Green", "Purple"],
+    "datasets": [{
+      "label": "Sample Data",
+      "data": [12, 19, 3, 5, 2],
+      "backgroundColor": ["#ff6384", "#36a2eb", "#ffce56", "#4bc0c0", "#9966ff"]
+    }]
+  },
+  "options": {
+    "scales": {
+      "y": { "beginAtZero": true }
+    }
+  }
+}
+```
 ## Images
 
 ### Default (with caption)

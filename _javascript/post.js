@@ -6,7 +6,8 @@ import {
   initLocaleDatetime,
   initClipboard,
   initToc,
-  loadMermaid
+  loadMermaid,
+  loadChartJS
 } from './modules/components';
 
 loadImg();
@@ -16,4 +17,5 @@ initLocaleDatetime();
 initClipboard();
 initTopbar();
 loadMermaid();
+loadChartJS();
 basic();

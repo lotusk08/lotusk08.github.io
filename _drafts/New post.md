@@ -9,6 +9,7 @@ pin: false
 toc: true
 math: false
 mermaid: false
+chart: false
 image:
   path: /assets/img/post/
   lqip: 

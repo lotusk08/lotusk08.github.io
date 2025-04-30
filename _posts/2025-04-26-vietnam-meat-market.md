@@ -112,13 +112,14 @@ Major brands like Vissan (46.1% of SAM), CPFood (13.3%), Masan MeatDeli (12%), a
 }
 ```
 
-- Serviceable obtainable market (SOM), realistic short-term capture of SAM by key players:
+Serviceable obtainable market (SOM):
+- Realistic short-term capture of SAM by key players:
   - Vissan: USD 273.6 million (46.1% of SAM)
   - CPFood: USD 78.9 million (13.3% of SAM)
   - Masan MeatDeli: USD 71.2 million (12% of SAM)
   - CJ Meat Master: USD 59.4 million (10% of SAM)
   - GreenFeed GKitchen: USD 29.7 million (5% of SAM)
-  - Other niche players: USD 80.8 million total (13.6% of SAM)
+- Other niche players: USD 80.8 million total (13.6% of SAM)
 
 ### Competitive profile matrix
 

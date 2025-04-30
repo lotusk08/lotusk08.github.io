@@ -4,28 +4,36 @@ const THEME_COLORS = {
   dark: {
     backgroundColor: 'rgba(44, 45, 45, 0.2)',
     borderColor: 'rgb(44, 45, 45)',
-    color: '#cecdcd'
+    color: '#cecdcd',
+    backdropColor: 'rgba(30, 30, 30, 0.75)'
   },
   light: {
     backgroundColor: 'rgba(243, 243, 243, 0.2)',
     borderColor: '#f3f3f3',
-    color: '#5e5e5e'
+    color: '#5e5e5e',
+    backdropColor: 'rgba(255, 255, 255, 0.75)'
   }
 };
 
+const chartInstances = [];
+
 export function loadChartJS() {
   if (typeof Chart === "undefined") {
-    console.error('Chart.js is not loaded. Ensure the Chart.js CDN is included.');
+    console.error('Chart.js not loaded');
     return;
   }
+  
+  chartInstances.forEach(chart => chart?.destroy?.());
+  chartInstances.length = 0;
   
   const containers = document.getElementsByClassName(CHART_CONTAINER_CLASS);
   while (containers.length > 0) {
     containers[0].remove();
   }
   
-  const isDarkMode = document.body.classList.contains('dark-theme') || 
-    (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const isDarkMode = document.documentElement.getAttribute('data-mode') === 'dark' || 
+    (document.documentElement.getAttribute('data-mode') === null && 
+     window.matchMedia('(prefers-color-scheme: dark)').matches);
   const theme = isDarkMode ? 'dark' : 'light';
   const colors = THEME_COLORS[theme];
   
@@ -33,57 +41,31 @@ export function loadChartJS() {
   Chart.defaults.borderColor = colors.borderColor;
   Chart.defaults.color = colors.color;
   
-  console.log('Applied Chart.js defaults:', Chart.defaults);
-  
   const chartBlocks = document.getElementsByClassName(CHART_CLASS);
-  if (chartBlocks.length === 0) {
-    console.warn('No chart blocks found with class:', CHART_CLASS);
-  }
+  if (chartBlocks.length === 0) return;
   
-  for (let i = 0; i < chartBlocks.length; i++) {
-    const codeElem = chartBlocks[i];
-    const chartConfigText = codeElem.textContent.trim();
-    let config;
-    
+  for (const codeElem of chartBlocks) {
     try {
-      config = JSON.parse(chartConfigText);
+      const config = JSON.parse(codeElem.textContent.trim());
       
-      if (config.options && config.options.scales) {
-        Object.keys(config.options.scales).forEach(scaleId => {
-          const scale = config.options.scales[scaleId];
-          
-          if (!scale.ticks) {
-            scale.ticks = {};
-          }
-          
-          if (!scale.ticks.backdropColor) {
-            scale.ticks.backdropColor = isDarkMode ? 
-              'rgba(30, 30, 30, 0.75)' : 'rgba(255, 255, 255, 0.75)';
-          }
-          
-          if (!scale.ticks.backdropPadding) {
-            scale.ticks.backdropPadding = 2;
-          }
+      if (config.options?.scales) {
+        Object.values(config.options.scales).forEach(scale => {
+          scale.ticks = scale.ticks || {};
+          scale.ticks.backdropColor = colors.backdropColor;
+          scale.ticks.backdropPadding = scale.ticks.backdropPadding || 2;
         });
       }
       
+      codeElem.parentElement.classList.add("d-none");
+      const container = document.createElement("div");
+      container.className = CHART_CONTAINER_CLASS;
+      const canvas = document.createElement("canvas");
+      container.appendChild(canvas);
+      codeElem.parentElement.after(container);
+      
+      chartInstances.push(new Chart(canvas, config));
     } catch (e) {
-      console.error('Error parsing chart JSON for block', i, ':', e);
-      continue;
-    }
-    
-    codeElem.parentElement.classList.add("d-none");
-    const container = document.createElement("div");
-    container.className = CHART_CONTAINER_CLASS;
-    const canvas = document.createElement("canvas");
-    container.appendChild(canvas);
-    codeElem.parentElement.after(container);
-    
-    try {
-      new Chart(canvas, config);
-      console.log('Rendered chart', i, 'with config:', config);
-    } catch (e) {
-      console.error('Error rendering chart', i, ':', e);
+      console.error('Chart rendering error:', e);
     }
   }
 }
@@ -91,11 +73,7 @@ export function loadChartJS() {
 document.addEventListener('DOMContentLoaded', () => {
   loadChartJS();
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', loadChartJS);
-  const themeToggle = document.querySelector('#theme-toggle');
-  if (themeToggle) {
-    themeToggle.addEventListener('click', () => {
-      document.body.classList.toggle('dark-theme');
-      loadChartJS();
-    });
-  }
+  window.addEventListener('message', ({data}) => {
+    if (data?.id === 'theme-mode') loadChartJS();
+  });
 });

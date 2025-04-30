@@ -48,7 +48,7 @@ Major brands like Vissan (46.1% of SAM), CPFood (13.3%), Masan MeatDeli (12%), a
     "labels": ["Processed & branded meat (SAM)", "Other meat (Unbranded & fresh)"],
     "datasets": [{
       "data": [7.1, 92.9],
-      "backgroundColor": ["rgba(255, 99, 132, 0.3)", "rgba(54, 162, 235, 0.3)"],
+      "backgroundColor": ["rgba(255, 99, 132, 0.2)", "rgba(54, 162, 235, 0.2)"],
       "borderColor": ["#ff6384", "#36a2eb"],
       "borderWidth": 1
     }]
@@ -74,18 +74,18 @@ Major brands like Vissan (46.1% of SAM), CPFood (13.3%), Masan MeatDeli (12%), a
 
 ```chart
 {
-  "type": "pie",
+  "type": "polarArea",
   "data": {
     "labels": ["Vissan", "CPFood", "Masan MeatDeli", "CJ Meat Master", "GreenFeed GKitchen", "Other niche players"],
     "datasets": [{
       "data": [46.1, 13.3, 12, 10, 5, 13.6],
       "backgroundColor": [
-        "rgba(255, 99, 132, 0.3)",
-        "rgba(54, 162, 235, 0.3)",
-        "rgba(255, 206, 86, 0.3)",
-        "rgba(75, 192, 192, 0.3)",
-        "rgba(153, 102, 255, 0.3)",
-        "rgba(255, 159, 64, 0.3)"
+        "rgba(255, 99, 132, 0.2)",
+        "rgba(54, 162, 235, 0.2)",
+        "rgba(255, 206, 86, 0.2)",
+        "rgba(75, 192, 192, 0.2)",
+        "rgba(153, 102, 255, 0.2)",
+        "rgba(255, 159, 64, 0.2)"
       ],
       "borderColor": ["#ff6384", "#36a2eb", "#ffce56", "#4bc0c0", "#9966ff", "#ff9f40"],
       "borderWidth": 1
@@ -102,6 +102,11 @@ Major brands like Vissan (46.1% of SAM), CPFood (13.3%), Masan MeatDeli (12%), a
       "legend": {
         "position": "bottom"
       }
+    },
+    "scales": {
+      "r": {
+        "beginAtZero": true
+      }
     }
   }
 }
@@ -116,6 +121,90 @@ Major brands like Vissan (46.1% of SAM), CPFood (13.3%), Masan MeatDeli (12%), a
   - Other niche players: USD 80.8 million total (13.6% of SAM)
 
 ### Competitive profile matrix
+
+```chart
+{
+  "type": "radar",
+  "data": {
+    "labels": [
+      "Positioning",
+      "Pricing",
+      "Product innovation",
+      "Promotion",
+      "Presence (Distribution & E-com)",
+      "Personalization & transparency",
+      "Place (Retail strategy)"
+    ],
+    "datasets": [
+      {
+        "label": "Masan",
+        "data": [4, 5, 4, 4, 4, 3, 4],
+        "backgroundColor": "rgba(255, 99, 132, 0.2)",
+        "borderColor": "#ff6384",
+        "borderWidth": 1
+      },
+      {
+        "label": "CJ",
+        "data": [4, 3, 4, 4, 4, 3, 4],
+        "backgroundColor": "rgba(54, 162, 235, 0.2)",
+        "borderColor": "#36a2eb",
+        "borderWidth": 1
+      },
+      {
+        "label": "CPFood",
+        "data": [4, 4, 4, 4, 4, 3, 4],
+        "backgroundColor": "rgba(255, 206, 86, 0.2)",
+        "borderColor": "#ffce56",
+        "borderWidth": 1
+      },
+      {
+        "label": "Vissan",
+        "data": [5, 4, 5, 5, 5, 4, 5],
+        "backgroundColor": "rgba(75, 192, 192, 0.2)",
+        "borderColor": "#4bc0c0",
+        "borderWidth": 1
+      },
+      {
+        "label": "GreenFeed",
+        "data": [3, 3, 3, 3, 3, 3, 3],
+        "backgroundColor": "rgba(153, 102, 255, 0.2)",
+        "borderColor": "#9966ff",
+        "borderWidth": 1
+      },
+      {
+        "label": "Others",
+        "data": [2, 3, 2, 2, 2, 1, 2],
+        "backgroundColor": "rgba(255, 159, 64, 0.2)",
+        "borderColor": "#ff9f40",
+        "borderWidth": 1
+      }
+    ]
+  },
+  "options": {
+    "backgroundColor": "transparent",
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "Company Performance Across Key Factors",
+        "font": { "size": 16 }
+      },
+      "legend": {
+        "position": "bottom"
+      }
+    },
+    "scales": {
+      "r": {
+        "beginAtZero": true,
+        "min": 0,
+        "max": 5,
+        "ticks": {
+          "stepSize": 1
+        }
+      }
+    }
+  }
+}
+```
 
 | No. | Key factors                     |  Masan |     CJ | CPFood | Vissan | GreenFeed | Others |
 | --- | ------------------------------- | -----: | -----: | -----: | -----: | --------: | -----: |

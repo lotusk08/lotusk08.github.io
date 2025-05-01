@@ -13,13 +13,13 @@ toc: true
 
 ![I'm Steve](/assets/img/site/about-me-steve.webp){: lqip="data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkABUB8JbACdACxOIwAAPuZBoEn81ZyeN6BWBAWc1FcXohHYH4ehQwKc53AefW/W2tjqaXnJHLHQAA="} _Just me, Steve_
 
-![I love events](/assets/img/site/talk-about-something.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCFTFdjBNdwAAP7ZmZP8HJ6idbPf1WDmp/RQ7H1xKHB2XoX47iAOiP9Q0/F0VQF8PJxc+DhwLatcyiAAAAA=" .left width="400"}
+![I love events](/assets/img/site/talk-about-something.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCFTFdjBNdwAAP7ZmZP8HJ6idbPf1WDmp/RQ7H1xKHB2XoX47iAOiP9Q0/F0VQF8PJxc+DhwLatcyiAAAAA=" .left width="400" .mt-0 }
 
 ## I am...
 
-Steve - My name. Also know as Vietnamese: Hoàng Thắng
-
-I work in marketing, finding clarity in complexity.
+Steve
+: *Aka Vietnamese:* Hoàng Thắng
+: I work in marketing.
 
 I uncover how businesses function, understand customer journeys, and add value where it matters most—balancing purpose with profit through quiet, deliberate action.
 
@@ -37,7 +37,7 @@ In 2018, I launched Vietnam's first online motorbike store. A quiet hunch that w
 - 2 billion VND on promotion days
 - 1 trillion VND in year-end revenue (+35%)
 
-Lesson
+Learned
 : Ignite with passion, stand out with difference
 
 ### B2B
@@ -54,31 +54,21 @@ Another business unit of Thai Khuong and Vietnam's first subscription-based indu
 ![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .me-2}
 ![TKS Teams](/assets/img/site/tks-teams.webp "The Thai Khuong team at work"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal}
 
-With real-time data analytics, we can identify shifts and make precise adjustments—maintaining momentum through informed adaptation rather than reactive responses.
-2022, Thai Khuong became the largest pump distributor in Vietnam with over 30 manufacturers from 21 countries worldwide.
+We can identify shifts and make precise adjustments—maintaining momentum through informed adaptation rather than reactive responses.
 ![Real time report](/assets/img/site/real-time-report.webp "A basic view of live marketing data"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA"}
 
 ## Marketing
 
 ### Customer Engagement
 
-At first glance, marketing involves numerous tasks and considerable workload. These activities extend throughout the entire customer interaction journey - from first awareness, through research phases, purchase decisions, to becoming brand advocates. Marketing managers must oversee communication strategies, multichannel engagement, and the evolving brand-customer relationship.
+At first glance, marketing involves numerous tasks and considerable workload. These activities extend throughout the entire customer interaction journey - from first awareness, through research phases, purchase decisions, to becoming brand advocates.
 ![Customer Journey in the Media Ecosystem](/assets/img/post/customer-journey-in-the-media-ecosystem.webp "From Awareness to Advocacy: Customer Journey in the Media Ecosystem"){: lqip="data:image/webp;base64,UklGRsYAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSEwAAAARL6CobSM2VhhFsF43IiIw7AuMItlqNHwFJAH5DhvuUUHyr4bVENF/IUGCySv8pG1UBq5tOf0l4bvXp34CLU9uVqNxwnUs6Esw2oABVlA4IFQAAAAQAgCdASoQAAkABUB8JZgCdAEN6xfyVkVgAP6Dai2+fq0FYlqzmQ8lIcNJfJ3p7jDFZpCTaxeoS67Q7FIbDdc1HMHmdruAPN7kNb5BQ9Ykvibu9gA="} _From Awareness to Advocacy: Customer Journey in the Media Ecosystem_
-
-### Team Structure
-
-When building an effective marketing team from zero, I recommend organizing around three core functions:
-
-- Content creation
-- Content distribution
-- Communications and PR
 
 ### Implementation Strategy
 
-In today's global marketplace, while external platforms like social media, press, and TV are valuable, **marketing efforts should be anchored in owned assets**: manufacturing facilities, offices, branches, websites, apps, distribution networks, employees, and existing customers. These proprietary resources form the foundation of authentic marketing initiatives.
+In today's global marketplace, while external platforms like social media, press, and TV are valuable, **marketing efforts should be anchored in owned assets**: manufacturing facilities, offices, branches, websites, apps, distribution networks, employees, and existing customers.
 
-> ...sometimes, being kind to existing customers is more important than chasing after new ones. _[Kindness...](/kindness)_
-> {: .prompt-important }
+> ...sometimes, being kind to existing customers is more important than chasing after new ones.
 
 ## Digital
 
@@ -98,7 +88,6 @@ Businesses should illuminate, not complicate. For sensitive areas like stem cell
 
 > Created for [Medeze](https://medeze.vn) in 2022, it’s focused on user experience through education strategy approach.
 > ![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "A short animation explaining Medeze’s stem cell work")
-{: .prompt-info }
 
 ## Event
 

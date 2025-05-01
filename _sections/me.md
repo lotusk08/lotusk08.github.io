@@ -27,7 +27,7 @@ Life is beautiful, even when the skies aren’t blue. But, why not paint our vib
 
 ![camera gear](/assets/img/post/camera-gear-me.webp "My gear"){: lqip="data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JZgAAusYCAAA/tzXnu+rkkawiskRP0mcNnqduip/S118rp7rUVcD59EO9SyJtyI7syhF/Qe3tiAAAAA=" w="520"} _My eye_
 
-Ah, I love capturing photographs on my journeys; preserving those moments makes the ordinary remarkable.
+Ah, I love capturing photographs on my journeys. Sometimes, we get the priceless moments that make the ordinary remarkable.
 
 ---
 
@@ -37,21 +37,8 @@ I’ve been jotting down my thoughts online since 2009. In 2019, I started [skyq
 
 ![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CgbRQ4Z+NecIEXIiJu4H2oaiCC2mQQwHQQ4NXA9C9zfwpE9H8CclD3MP6YowBWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'} _My old WordPress site—good times!_
 
-I enjoy reading. I built this website for myself using Jekyll and made it public through Cloudflare. I don’t plan to share it at this time.
+I enjoy reading. I built this website for myself and made it public through Cloudflare. It's a fork of the [Chirpy theme for Jekyll](https://github.com/cotes2020/jekyll-theme-chirpy) by [Cote](https://github.com/cotes2020).
 
-Ah!
-: About the web, I think to myself like this:
-
->*I don’t want to load a huge website just to read a simple article. It’s only text.*
->
->*I don’t want to see ads everywhere. Often, the ads are more visible than the content itself. Is it a website or a billboard?*
->
->*I don’t want to deal with a cookie consent manager with 100 hidden checkboxes to prevent my data from being sent to your 428 partners.*
->
->*I don’t want to see a pop-up asking me to subscribe to your newsletter. I’ll find it if I want to.*
->
->*I don’t want to see a pop-up asking me to subscribe to your push notifications. Why would I want to receive notifications from a website?*
-{: .prompt-important }
 ---
 
 ## Get in touch

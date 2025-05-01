@@ -401,14 +401,12 @@ main {
 
 .left {
   float: left;
-  margin: 0.75rem 1rem 1rem 0;
-  padding-right: 1rem;
+  margin: 0.5rem 2rem 1rem 0 !important;
 }
 
 .right {
   float: right;
-  margin: 0.75rem 0 1rem 1rem;
-  padding-left: 1rem;
+  margin: 0.5rem 0 1rem 2rem !important;
 }
 
 /* --- Overriding --- */

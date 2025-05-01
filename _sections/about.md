@@ -13,7 +13,7 @@ toc: true
 
 ![I'm Steve](/assets/img/site/about-me-steve.webp){: lqip="data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkABUB8JbACdACxOIwAAPuZBoEn81ZyeN6BWBAWc1FcXohHYH4ehQwKc53AefW/W2tjqaXnJHLHQAA="} _Just me, Steve_
 
-![I love events](/assets/img/site/talk-about-something.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCFTFdjBNdwAAP7ZmZP8HJ6idbPf1WDmp/RQ7H1xKHB2XoX47iAOiP9Q0/F0VQF8PJxc+DhwLatcyiAAAAA=" .left width="400" .mt-0}
+![I love events](/assets/img/site/talk-about-something.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCFTFdjBNdwAAP7ZmZP8HJ6idbPf1WDmp/RQ7H1xKHB2XoX47iAOiP9Q0/F0VQF8PJxc+DhwLatcyiAAAAA=" .left width="400"}
 
 ## I am...
 

@@ -10,12 +10,12 @@
   right: 1rem;
   bottom: calc(v.$footer-height-large - v.$back2top-size / 2);
   background-color: var(--main-bg);
-  color: var(--btn-backtotop-color);
+  color: var(--text-color);
   padding: 0;
   width: v.$back2top-size;
   height: v.$back2top-size;
-  border-radius: 2px;
-  border: 1px solid var(--btn-backtotop-border-color);
+  border-radius: 1px;
+  border: 1px var(--main-border-color);
   transform: rotate(45deg);
   transition:
     opacity 0.5s ease-in-out,
@@ -37,7 +37,7 @@
   i {
     line-height: v.$back2top-size;
     position: relative;
-    bottom: 3px;
+    bottom: 3.2px;
     font-size: 1rem;
     transform: rotate(-45deg);
     transition: opacity 0.2s ease;
@@ -66,7 +66,7 @@
 }
 
 #progress-circle path {
-  stroke: var(--btn-backtotop-color);
+  stroke: var(--text-color);
   stroke-dasharray: 160;
   stroke-dashoffset: 160;
   transition: stroke-dashoffset 0.1s;
@@ -79,11 +79,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
-  font-size: 0.65rem;
-  color: var(--btn-backtotop-color);
+  font-size: 9px;
+  color: var(--text-muted-color);
   pointer-events: none;
-  padding: 0.3rem;
-  border-radius: 2px;
   opacity: 0;
   transition:
     opacity 0.2s ease,

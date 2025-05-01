@@ -8,10 +8,13 @@ class ScrollProgress {
     this.lastScrollPercentage = 0;
     this.isVisible = false;
     this.visibilityThreshold = 50;
+    this.documentHeight = 0;
+    this.initialLoadComplete = false;
 
     if (this.btn) {
       this.initializeProgress();
       this.bindEvents();
+      this.calculateDocumentHeight();
     }
   }
 
@@ -38,7 +41,7 @@ class ScrollProgress {
     const path = this.createSVGElement("path", {
       d: "M 2 2 H 42 V 42 H 2 Z",
       fill: "none",
-      stroke: "var(--btn-backtotop-color)",
+      stroke: "var(--text-color)",
       "stroke-width": "1",
       "stroke-dasharray": this.perimeter,
       "stroke-dashoffset": this.perimeter
@@ -64,30 +67,37 @@ class ScrollProgress {
     return element;
   }
 
+  calculateDocumentHeight() {
+    const body = document.body;
+    const html = document.documentElement;
+    
+    this.documentHeight = Math.max(
+      body.scrollHeight, body.offsetHeight,
+      html.clientHeight, html.scrollHeight, html.offsetHeight
+    ) - window.innerHeight;
+    
+    return this.documentHeight;
+  }
+
   updateScrollProgress() {
     if (!document.documentElement) return;
 
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     
-    if (Math.abs(scrollTop - this.lastScrollTop) < 5) {
+    if (Math.abs(scrollTop - this.lastScrollTop) < 5 && this.initialLoadComplete) {
       this.ticking = false;
       return;
     }
     
     this.lastScrollTop = scrollTop;
 
-    if (!this.documentHeight || this.recalculateDocHeight) {
-      this.documentHeight = Math.max(
-        document.documentElement.scrollHeight,
-        document.documentElement.offsetHeight,
-        document.documentElement.clientHeight
-      ) - window.innerHeight;
-      this.recalculateDocHeight = false;
-    }
-
-    if (this.documentHeight <= 0) {
-      this.ticking = false;
-      return;
+    if (this.documentHeight <= 0 || !this.initialLoadComplete) {
+      this.documentHeight = this.calculateDocumentHeight();
+      if (this.documentHeight <= 0) {
+        this.ticking = false;
+        return;
+      }
+      this.initialLoadComplete = true;
     }
 
     const shouldBeVisible = scrollTop > this.visibilityThreshold;
@@ -130,8 +140,24 @@ class ScrollProgress {
 
   bindEvents() {
     window.addEventListener("resize", () => {
-      this.recalculateDocHeight = true;
+      this.documentHeight = this.calculateDocumentHeight();
+      this.initialLoadComplete = false;
+      this.updateScrollProgress();
     }, { passive: true });
+
+    window.addEventListener("load", () => {
+      this.documentHeight = this.calculateDocumentHeight();
+      this.initialLoadComplete = true;
+      this.updateScrollProgress();
+    });
+    
+    window.addEventListener("orientationchange", () => {
+      setTimeout(() => {
+        this.documentHeight = this.calculateDocumentHeight();
+        this.initialLoadComplete = false;
+        this.updateScrollProgress();
+      }, 200);
+    });
 
     window.addEventListener("scroll", () => {
       if (!this.ticking) {
@@ -151,8 +177,11 @@ class ScrollProgress {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
+
+  cleanup() {
+  }
 }
 
 export function back2top() {
-  new ScrollProgress();
+  return new ScrollProgress();
 }

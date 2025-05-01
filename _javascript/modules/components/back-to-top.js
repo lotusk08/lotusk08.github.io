@@ -38,7 +38,7 @@ class ScrollProgress {
     const path = this.createSVGElement("path", {
       d: "M 2 2 H 42 V 42 H 2 Z",
       fill: "none",
-      stroke: "var(--btn-backtotop-color)",
+      stroke: "var(--text-color)",
       "stroke-width": "1",
       "stroke-dasharray": this.perimeter,
       "stroke-dashoffset": this.perimeter

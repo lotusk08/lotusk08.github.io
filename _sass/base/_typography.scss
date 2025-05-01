@@ -211,7 +211,8 @@ main {
     @include mx.ml-mr(1px);
     @include mx.pl-pr(2px);
 
-    border-bottom-style: none !important;
+    text-decoration: none !important;
+    color: var(--link-color);
   }
 }
 
@@ -222,7 +223,8 @@ main {
     position: relative;
     bottom: 0.25em;
     margin-left: 0.25em;
-    border-bottom-style: none !important;
+    text-decoration: none !important;
+    color: var(--link-color);
   }
 }
 

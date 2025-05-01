@@ -21,10 +21,11 @@
     opacity 0.5s ease-in-out,
     transform 0.2s ease-out;
   overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+
+  /* box-shadow: 0 1px 4px rgba(0,0,0,0.15); */
 
   @include bp.lg {
-    right: 5%;
+    right: 3.5%;
     bottom: calc(v.$footer-height - v.$back2top-size / 2);
   }
 
@@ -36,7 +37,8 @@
   i {
     line-height: v.$back2top-size;
     position: relative;
-    bottom: 1.2px;
+    bottom: 3px;
+    font-size: 1rem;
     transform: rotate(-45deg);
     transition: opacity 0.2s ease;
   }
@@ -77,7 +79,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: var(--btn-backtotop-color);
   pointer-events: none;
   padding: 0.3rem;

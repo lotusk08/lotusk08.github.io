@@ -8,13 +8,10 @@ class ScrollProgress {
     this.lastScrollPercentage = 0;
     this.isVisible = false;
     this.visibilityThreshold = 50;
-    this.documentHeight = 0;
-    this.initialLoadComplete = false;
 
     if (this.btn) {
       this.initializeProgress();
       this.bindEvents();
-      this.calculateDocumentHeight();
     }
   }
 
@@ -68,37 +65,25 @@ class ScrollProgress {
   }
 
   calculateDocumentHeight() {
-    const body = document.body;
     const html = document.documentElement;
-    
-    this.documentHeight = Math.max(
-      body.scrollHeight, body.offsetHeight,
-      html.clientHeight, html.scrollHeight, html.offsetHeight
-    ) - window.innerHeight;
-    
-    return this.documentHeight;
+    return html.scrollHeight - html.clientHeight;
   }
 
   updateScrollProgress() {
     if (!document.documentElement) return;
 
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const html = document.documentElement;
+    const scrollTop = window.scrollY || html.scrollTop;
+    const scrollHeight = html.scrollHeight - html.clientHeight;
     
-    if (Math.abs(scrollTop - this.lastScrollTop) < 5 && this.initialLoadComplete) {
+    if (Math.abs(scrollTop - this.lastScrollTop) < 5) {
       this.ticking = false;
       return;
     }
     
     this.lastScrollTop = scrollTop;
 
-    if (this.documentHeight <= 0 || !this.initialLoadComplete) {
-      this.documentHeight = this.calculateDocumentHeight();
-      if (this.documentHeight <= 0) {
-        this.ticking = false;
-        return;
-      }
-      this.initialLoadComplete = true;
-    }
+    this.documentHeight = scrollHeight;
 
     const shouldBeVisible = scrollTop > this.visibilityThreshold;
     if (shouldBeVisible !== this.isVisible) {
@@ -106,7 +91,7 @@ class ScrollProgress {
       this.btn.classList.toggle("show", shouldBeVisible);
     }
 
-    const scrollFraction = Math.min(Math.max(scrollTop / this.documentHeight, 0), 1);
+    const scrollFraction = scrollHeight > 0 ? Math.min(Math.max(scrollTop / scrollHeight, 0), 1) : 0;
     const scrollPercentage = Math.round(scrollFraction * 100);
     
     if (scrollPercentage !== this.lastScrollPercentage) {
@@ -139,26 +124,7 @@ class ScrollProgress {
   }
 
   bindEvents() {
-    window.addEventListener("resize", () => {
-      this.documentHeight = this.calculateDocumentHeight();
-      this.initialLoadComplete = false;
-      this.updateScrollProgress();
-    }, { passive: true });
-
-    window.addEventListener("load", () => {
-      this.documentHeight = this.calculateDocumentHeight();
-      this.initialLoadComplete = true;
-      this.updateScrollProgress();
-    });
-    
-    window.addEventListener("orientationchange", () => {
-      setTimeout(() => {
-        this.documentHeight = this.calculateDocumentHeight();
-        this.initialLoadComplete = false;
-        this.updateScrollProgress();
-      }, 200);
-    });
-
+  
     window.addEventListener("scroll", () => {
       if (!this.ticking) {
         this.ticking = true;

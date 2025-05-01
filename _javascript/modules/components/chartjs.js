@@ -5,13 +5,13 @@ const THEME_COLORS = {
     backgroundColor: 'rgba(44, 45, 45, 0.2)',
     borderColor: 'rgb(44, 45, 45)',
     color: '#cecdcd',
-    backdropColor: 'rgba(30, 30, 30, 0.75)'
+    backdropColor: 'rgba(27, 27, 30, 0.75)'
   },
   light: {
     backgroundColor: 'rgba(243, 243, 243, 0.2)',
     borderColor: '#f3f3f3',
     color: '#5e5e5e',
-    backdropColor: 'rgba(255, 255, 255, 0.75)'
+    backdropColor: 'rgba(255, 255, 249, 0.75)'
   }
 };
 
@@ -19,7 +19,7 @@ const chartInstances = [];
 
 export function loadChartJS() {
   if (typeof Chart === "undefined") {
-    console.error('Chart.js not loaded');
+    
     return;
   }
   
@@ -65,7 +65,7 @@ export function loadChartJS() {
       
       chartInstances.push(new Chart(canvas, config));
     } catch (e) {
-      console.error('Chart rendering error:', e);
+    
     }
   }
 }

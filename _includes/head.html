@@ -89,6 +89,12 @@
     <link rel="stylesheet" href="{{ site.data.cors.toc.css | relative_url }}">
   {% endif %}
 
+  <!-- InstantClick CSS -->
+  <style>#instantclick{position:fixed;top:0;left:0;width:100%;pointer-events:none;z-index:2147483647;transition:opacity .25s .1s}</style>
+  
+  <!-- InstantClick JS -->
+  <script src="{{ site.data.cors.instantclick.js }}" data-no-instant></script>
+  
   {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
     <link rel="stylesheet" href="{{ site.data.cors['lazy-polyfill'].css | relative_url }}">
   {% endif %}
@@ -121,5 +127,14 @@
         {% include analytics/{{ platform }}.html %}
       {% endif %}
     {% endfor %}
+  {% endif %}
+  
+  <!-- InstantClick initialization -->
+  {% if site.instantclick %}
+  <script data-no-instant>
+    document.addEventListener('DOMContentLoaded', function() {
+      InstantClick.init();
+    });
+  </script>
   {% endif %}
 </head>

@@ -1,153 +1,165 @@
 class ScrollProgress {
   constructor() {
-    this.btn = document.getElementById("back-to-top");
-    this.perimeter = 4 * 40;
-    this.scrollTimeout = null;
-    this.ticking = false;
-    this.lastScrollTop = 0;
-    this.lastScrollPercentage = 0;
-    this.isVisible = false;
-    this.visibilityThreshold = 50;
+    // Core state
+    this.state = {
+      progress: 0,
+      isVisible: false,
+      lastScrollTop: 0
+    };
 
-    if (this.btn) {
-      this.initializeProgress();
-      this.bindEvents();
+    // Configuration
+    this.config = {
+      perimeter: 160, // 4 * 40 pre-calculated
+      visibilityThreshold: 50,
+      fadeDelay: 1000
+    };
+
+    // Control flags
+    this.rafId = null;
+    this.fadeTimeout = null;
+
+    // DOM Elements
+    this.elements = {
+      btn: document.getElementById("back-to-top"),
+      progressPath: null,
+      progressText: null,
+      icon: null
+    };
+
+    if (this.elements.btn) {
+      this.init();
     }
   }
 
-  initializeProgress() {
-    const { svg, path, percentageText } = this.createScrollElements();
-    this.path = path;
-    this.percentageText = percentageText;
-    this.icon = null;
+  init() {
+    this.createElements();
+    this.bindEvents();
+    this.updateProgress(); // Initial update
+  }
 
-    this.btn.appendChild(svg);
-    this.btn.appendChild(percentageText);
+  createElements() {
+    // Create SVG structure
+    const template = `
+      <svg id="progress-circle" width="44" height="44" viewBox="0 0 44 44">
+        <path d="M 2 2 H 42 V 42 H 2 Z" 
+              fill="none" 
+              stroke="var(--text-color)" 
+              stroke-width="1" 
+              stroke-dasharray="${this.config.perimeter}" 
+              stroke-dashoffset="${this.config.perimeter}">
+        </path>
+      </svg>
+      <div id="scroll-percentage" class="scroll-percentage">0</div>
+    `;
+
+    this.elements.btn.insertAdjacentHTML('beforeend', template);
+
+    // Cache DOM references
+    this.elements.progressPath = this.elements.btn.querySelector('path');
+    this.elements.progressText = this.elements.btn.querySelector('#scroll-percentage');
+    this.elements.icon = this.elements.btn.querySelector('i');
+  }
+
+  calculateScrollProgress() {
+    const { scrollY, innerHeight } = window;
+    const { scrollHeight } = document.documentElement;
     
-    this.icon = this.btn.querySelector("i");
-  }
-
-  createScrollElements() {
-    const svg = this.createSVGElement("svg", {
-      id: "progress-circle",
-      width: "44",
-      height: "44",
-      viewBox: "0 0 44 44"
-    });
-
-    const path = this.createSVGElement("path", {
-      d: "M 2 2 H 42 V 42 H 2 Z",
-      fill: "none",
-      stroke: "var(--text-color)",
-      "stroke-width": "1",
-      "stroke-dasharray": this.perimeter,
-      "stroke-dashoffset": this.perimeter
-    });
-
-    svg.appendChild(path);
-
-    const percentageText = document.createElement("div");
-    percentageText.id = "scroll-percentage";
-    percentageText.textContent = "0%";
-
-    return { svg, path, percentageText };
-  }
-
-  createSVGElement(type, attributes) {
-    const element = document.createElementNS(
-      "http://www.w3.org/2000/svg",
-      type
-    );
-    Object.entries(attributes).forEach(([key, value]) => {
-      element.setAttribute(key, value);
-    });
-    return element;
-  }
-
-  calculateDocumentHeight() {
-    const html = document.documentElement;
-    return html.scrollHeight - html.clientHeight;
-  }
-
-  updateScrollProgress() {
-    if (!document.documentElement) return;
-
-    const html = document.documentElement;
-    const scrollTop = window.scrollY || html.scrollTop;
-    const scrollHeight = html.scrollHeight - html.clientHeight;
+    const maxScroll = scrollHeight - innerHeight;
+    const scrollFraction = maxScroll > 0 ? 
+      Math.min(Math.max(scrollY / maxScroll, 0), 1) : 0;
     
-    if (Math.abs(scrollTop - this.lastScrollTop) < 5) {
-      this.ticking = false;
-      return;
-    }
+    return {
+      percentage: Math.round(scrollFraction * 100),
+      fraction: scrollFraction,
+      isVisible: scrollY > this.config.visibilityThreshold
+    };
+  }
+
+  updateProgress = () => {
+    const { percentage, fraction, isVisible } = this.calculateScrollProgress();
     
-    this.lastScrollTop = scrollTop;
+    // Update state
+    this.state.progress = percentage;
+    this.state.isVisible = isVisible;
 
-    this.documentHeight = scrollHeight;
+    // Update UI
+    this.updateUI(fraction, percentage);
+    
+    this.rafId = null;
+  }
 
-    const shouldBeVisible = scrollTop > this.visibilityThreshold;
-    if (shouldBeVisible !== this.isVisible) {
-      this.isVisible = shouldBeVisible;
-      this.btn.classList.toggle("show", shouldBeVisible);
+  updateUI(fraction, percentage) {
+    // Toggle button visibility
+    this.elements.btn.classList.toggle('show', this.state.isVisible);
+
+    // Update progress circle
+    if (this.elements.progressPath) {
+      const drawLength = this.config.perimeter * fraction;
+      this.elements.progressPath.style.strokeDashoffset = 
+        this.config.perimeter - drawLength;
     }
 
-    const scrollFraction = scrollHeight > 0 ? Math.min(Math.max(scrollTop / scrollHeight, 0), 1) : 0;
-    const scrollPercentage = Math.round(scrollFraction * 100);
-    
-    if (scrollPercentage !== this.lastScrollPercentage) {
-      this.lastScrollPercentage = scrollPercentage;
-      const drawLength = this.perimeter * scrollFraction;
-      this.updateUI(drawLength, scrollPercentage);
-    }
+    // Update percentage text
+    if (this.elements.progressText) {
+      this.elements.progressText.textContent = percentage;
+      this.elements.progressText.classList.add('visible');
 
-    this.ticking = false;
-  }
-
-  updateUI(drawLength, scrollPercentage) {
-    window.requestAnimationFrame(() => {
-      this.path.style.strokeDashoffset = this.perimeter - drawLength;
-      this.percentageText.textContent = `${scrollPercentage}`;
-      this.percentageText.classList.add("visible");
-      
-      if (this.icon) {
-        this.icon.style.opacity = "0";
+      // Hide icon
+      if (this.elements.icon) {
+        this.elements.icon.style.opacity = '0';
       }
 
-      clearTimeout(this.scrollTimeout);
-      this.scrollTimeout = setTimeout(() => {
-        this.percentageText.classList.remove("visible");
-        if (this.icon) {
-          this.icon.style.opacity = "1";
+      // Set timeout to revert changes
+      clearTimeout(this.fadeTimeout);
+      this.fadeTimeout = setTimeout(() => {
+        this.elements.progressText.classList.remove('visible');
+        if (this.elements.icon) {
+          this.elements.icon.style.opacity = '1';
         }
-      }, 500);
-    });
+      }, this.config.fadeDelay);
+    }
+  }
+
+  handleScroll = () => {
+    if (!this.rafId) {
+      this.rafId = requestAnimationFrame(this.updateProgress);
+    }
   }
 
   bindEvents() {
-  
-    window.addEventListener("scroll", () => {
-      if (!this.ticking) {
-        this.ticking = true;
-        window.requestAnimationFrame(() => {
-          try {
-            this.updateScrollProgress();
-          } catch (error) {
-            console.error("Error in scroll handler:", error);
-            this.ticking = false;
-          }
-        });
-      }
-    }, { passive: true });
+    // Scroll event
+    window.addEventListener('scroll', this.handleScroll, { passive: true });
 
-    this.btn.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+    // Click event
+    this.elements.btn.addEventListener('click', () => {
+      window.scrollTo({ 
+        top: 0, 
+        behavior: 'smooth' 
+      });
     });
   }
 
-  cleanup() {
+  destroy() {
+    // Remove event listeners
+    window.removeEventListener('scroll', this.handleScroll);
+    
+    // Cancel any pending animations/timeouts
+    cancelAnimationFrame(this.rafId);
+    clearTimeout(this.fadeTimeout);
+    
+    // Clean up DOM
+    if (this.elements.btn) {
+      this.elements.btn.innerHTML = '';
+    }
   }
 }
 
+// Singleton pattern
+let scrollProgressInstance = null;
+
 export function back2top() {
-  return new ScrollProgress();
+  if (!scrollProgressInstance) {
+    scrollProgressInstance = new ScrollProgress();
+  }
+  return scrollProgressInstance;
 }

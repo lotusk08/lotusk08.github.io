@@ -1,7 +1,11 @@
 ---
 ---
 
-@use {% if jekyll.environment == 'production' %}'main.bundle'{% else %}'main'{% endif %};
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
 
 /* append your custom style below */
 /* PDF embed file styles */

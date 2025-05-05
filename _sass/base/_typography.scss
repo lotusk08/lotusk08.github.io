@@ -45,6 +45,10 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  background-color: rgba(212, 150, 90, 0.2);
+}
+
 img {
   max-width: 100%;
   border-radius: 0;

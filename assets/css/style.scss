@@ -59,7 +59,7 @@
 .not-found h1.title {
   font-size: 5em;
   font-weight: bold;
-  text-shadow: 1px 0px 0px var(--active-color);
+  text-shadow: 1px 0px 0px var(--primary-color);
   margin: 0 0 1rem;
 }
 
@@ -69,6 +69,6 @@
   font-weight: bold;
   
   &:hover {
-    color: var(--active-color);
+    color: var(--primary-color);
   }
 }

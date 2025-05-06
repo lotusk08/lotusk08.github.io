@@ -54,8 +54,8 @@
     const customStyle = document.createElement("style");
     customStyle.textContent = `
       #waline {
-        --waline-theme-color: var(--link-color);
-        --waline-active-color: var(--active-color);
+        --waline-theme-color: var(--secondary-color);
+        --waline-active-color: var(--primary-color);
       }
       #waline .wl-panel { 
         background-color: transparent !important; 
@@ -123,10 +123,10 @@
         border-radius: 2px;
         font-weight: 600;
         background-color: rgba(135,135,135,.05);
-        color: var(--link-color);
+        color: var(--secondary-color);
         
         &:hover {
-          background-color: var(--active-color);
+          background-color: var(--primary-color);
           color: white;
         }
       }

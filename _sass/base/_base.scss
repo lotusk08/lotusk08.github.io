@@ -226,7 +226,7 @@ main {
         color: var(--checkbox-color);
 
         &.checked {
-          color: var(--checkbox-checked-color);
+          color: var(--secondary-color);
         }
       }
 
@@ -376,8 +376,8 @@ main {
 /* Overwrite bootstrap outline button */
 .btn.btn-outline-primary {
   &:not(.disabled):hover {
-    background-color: var(--active-color);
-    border-color: var(--active-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
   }
 }
 

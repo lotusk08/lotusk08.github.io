@@ -68,9 +68,31 @@ blockquote {
   padding-left: 1rem;
   color: var(--blockquote-text-color);
   margin-top: 1rem;
+  position: relative;
 
   > p:last-child {
     margin-bottom: 0;
+  }
+  
+  &.author {
+    text-align: center;
+    font-style: italic;
+    font-family: v.$font-title;
+    padding-top: 0.5rem;
+    
+    > p:last-child {
+      font-family: v.$font-family-base;
+      text-align: right;
+      font-style: italic;
+      font-size: 0.95rem;
+      opacity: 0.8;
+      color: var(--secondary-color);
+      
+      &::before {
+        content: "— ";
+        color: var(--blockquote-text-color);
+      }
+    }
   }
 
   &[class^="prompt-"] {
@@ -103,7 +125,7 @@ kbd {
   text-align: center;
   margin: 0 0.3rem;
   padding-top: 0.1rem;
-  color: var(--kbd-text-color);
+  color: var(--text-color);
   background-color: var(--kbd-bg-color);
   border-radius: calc(v.$radius-sm) / 2;
   border: solid 1px var(--kbd-wrap-color);
@@ -216,7 +238,7 @@ main {
     @include mx.pl-pr(2px);
 
     text-decoration: none !important;
-    color: var(--link-color);
+    color: var(--secondary-color);
   }
 }
 
@@ -228,7 +250,7 @@ main {
     bottom: 0.25em;
     margin-left: 0.25em;
     text-decoration: none !important;
-    color: var(--link-color);
+    color: var(--secondary-color);
   }
 }
 

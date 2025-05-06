@@ -74,6 +74,7 @@ function build(
 cleanup();
 
 export default [
+  build('instantview-bundle'),
   build('commons'),
   build('home'),
   build('categories'),

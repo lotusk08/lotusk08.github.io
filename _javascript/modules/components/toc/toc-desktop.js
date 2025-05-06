@@ -16,11 +16,22 @@ export class TocDesktop {
       this.init();
       return;
     }
-    tocbot.refresh(this.options);
+    if (window.tocbot) {
+      window.tocbot.refresh(this.options);
+    }
   }
 
   static init() {
-    tocbot.init(this.options);
-    this.#initialized = true;
+    if (window.tocbot) {
+      window.tocbot.init(this.options);
+      this.#initialized = true;
+    }
+  }
+
+  static destroy() {
+    if (window.tocbot && this.#initialized) {
+      window.tocbot.destroy();
+      this.#initialized = false;
+    }
   }
 }

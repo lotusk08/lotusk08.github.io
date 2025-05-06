@@ -84,16 +84,16 @@
   <link rel="stylesheet" href="{{ site.data.cors.fonts.jetbrainsmono.css | relative_url }}">
 
   <!-- 3rd-party Dependencies -->
+  
+  <!-- InstantView -->
+  {% if site.instantview %}
+    <script src="{{ '/assets/js/data/instantview.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/dist/instantview-bundle.min.js' | relative_url }}" defer></script>
+  {% endif %}
 
   {% if site.toc and page.toc %}
     <link rel="stylesheet" href="{{ site.data.cors.toc.css | relative_url }}">
   {% endif %}
-
-  <!-- InstantClick CSS -->
-  <style>#instantclick{position:fixed;top:0;left:0;width:100%;pointer-events:none;z-index:2147483647;transition:opacity .25s .1s}</style>
-  
-  <!-- InstantClick JS -->
-  <script src="{{ site.data.cors.instantclick.js }}" data-no-instant></script>
   
   {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
     <link rel="stylesheet" href="{{ site.data.cors['lazy-polyfill'].css | relative_url }}">
@@ -129,12 +129,5 @@
     {% endfor %}
   {% endif %}
   
-  <!-- InstantClick initialization -->
-  {% if site.instantclick %}
-  <script data-no-instant>
-    document.addEventListener('DOMContentLoaded', function() {
-      InstantClick.init();
-    });
-  </script>
-  {% endif %}
+  
 </head>

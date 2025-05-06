@@ -1,32 +1,59 @@
 export class TocMobile {
-  static #invisible = true;
-  static #barHeight = 16 * 3;
-  static #eventsBound = false;
-  static #elements = null;
+static #invisible = true;
+static #barHeight = 16 * 3;
+static #eventsBound = false;
+static #elements = null;
+static #tocbot = null;
 
-  static options = {
-    tocSelector: '#toc-popup-content',
-    contentSelector: '.content',
-    ignoreSelector: '[data-toc-skip]',
-    headingSelector: 'h2, h3, h4',
-    orderedList: false,
-    scrollSmooth: false,
-    collapseDepth: 4,
-    headingsOffset: this.#barHeight
-  };
+static options = {
+  tocSelector: '#toc-popup-content',
+  contentSelector: '.content',
+  ignoreSelector: '[data-toc-skip]',
+  headingSelector: 'h2, h3, h4',
+  orderedList: false,
+  scrollSmooth: false,
+  collapseDepth: 4,
+  headingsOffset: this.#barHeight
+};
 
-  static get elements() {
-    if (!this.#elements) {
-      this.#elements = {
-        tocBar: document.getElementById('toc-bar'),
-        soloTrigger: document.getElementById('toc-solo-trigger'),
-        triggers: Array.from(document.getElementsByClassName('toc-trigger')),
-        popup: document.getElementById('toc-popup'),
-        btnClose: document.getElementById('toc-popup-close')
-      };
-    }
-    return this.#elements;
+static async #loadTocbot() {
+  if (window.tocbot) {
+    this.#tocbot = window.tocbot;
+    return window.tocbot;
   }
+  
+  try {
+    const script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.min.js';
+    
+    await new Promise((resolve, reject) => {
+      script.onload = () => {
+        this.#tocbot = window.tocbot;
+        resolve(window.tocbot);
+      };
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+    
+    return this.#tocbot;
+  } catch (err) {
+    console.error('Failed to load tocbot:', err);
+    return null;
+  }
+}
+
+static get elements() {
+  if (!this.#elements) {
+    this.#elements = {
+      tocBar: document.getElementById('toc-bar'),
+      soloTrigger: document.getElementById('toc-solo-trigger'),
+      triggers: Array.from(document.getElementsByClassName('toc-trigger')),
+      popup: document.getElementById('toc-popup'),
+      btnClose: document.getElementById('toc-popup-close')
+    };
+  }
+  return this.#elements;
+}
 
   static initBar() {
     const { tocBar, soloTrigger } = this.elements;
@@ -154,9 +181,20 @@ export class TocMobile {
     this.#eventsBound = true;
   }
 
-  static init() {
-    tocbot.init(this.options);
-    this.listenAnchors();
-    this.initComponents();
+  static async init() {
+      const tocbot = await this.#loadTocbot();
+      if (tocbot) {
+        tocbot.init(this.options);
+        this.listenAnchors();
+        this.initComponents();
+      }
+    }
+  
+    static destroy() {
+      if (this.#tocbot) {
+        this.#tocbot.destroy();
+        this.#eventsBound = false;
+        this.#elements = null;
+      }
+    }
   }
-}

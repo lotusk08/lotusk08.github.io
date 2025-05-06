@@ -22,12 +22,12 @@ class TocManager {
 
   showTOCTemporarily(duration) {
     if (!this.tocWrapper) return;
-    
+
     if (!this.isVisible) {
       this.isVisible = true;
       this.tocWrapper.classList.add("visible");
     }
-    
+
     clearTimeout(this.tocTimeout);
     this.tocTimeout = setTimeout(() => {
       this.isVisible = false;
@@ -37,12 +37,12 @@ class TocManager {
 
   handleScroll() {
     if (!this.tocWrapper) return;
-    
+
     if (!this.isVisible) {
       this.isVisible = true;
       this.tocWrapper.classList.add("visible");
     }
-    
+
     clearTimeout(this.tocTimeout);
     this.tocTimeout = setTimeout(() => {
       this.isVisible = false;
@@ -51,49 +51,57 @@ class TocManager {
   }
 
   bindEvents() {
-    window.addEventListener("scroll", () => {
-      if (!this.rafId) {
-        this.rafId = requestAnimationFrame(() => {
-          try {
-            this.handleScroll();
-          } catch (error) {
-            console.error("Error in TOC scroll handler:", error);
-          }
-          this.rafId = null;
-        });
-      }
-    }, { passive: true });
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!this.rafId) {
+          this.rafId = requestAnimationFrame(() => {
+            try {
+              this.handleScroll();
+            } catch (error) {
+              console.error("Error in TOC scroll handler:", error);
+            }
+            this.rafId = null;
+          });
+        }
+      },
+      { passive: true }
+    );
   }
 }
 
-function refresh(e) {
+async function refresh(e) {
   if (e.matches) {
     if (mobile.popupOpened) {
       mobile.hidePopup();
     }
-    desktop.refresh();
+    await desktop.refresh();
   } else {
-    mobile.refresh();
+    await mobile.refresh();
   }
 }
 
-export function initToc() {
+export async function initToc() {
   if (document.querySelector('main>article[data-toc="true"]') === null) {
     return;
   }
 
-  if (desktopMode.matches) {
-    desktop.init();
-  } else {
-    mobile.init();
+  try {
+    if (desktopMode.matches) {
+      await desktop.init();
+    } else {
+      await mobile.init();
+    }
+
+    const $tocWrapper = document.getElementById("toc-wrapper");
+    if ($tocWrapper) {
+      $tocWrapper.classList.remove("invisible");
+    }
+
+    desktopMode.addEventListener("change", refresh);
+
+    new TocManager();
+  } catch (err) {
+    console.error('Failed to initialize TOC:', err);
   }
-
-  const $tocWrapper = document.getElementById("toc-wrapper");
-  if ($tocWrapper) {
-    $tocWrapper.classList.remove("invisible");
-  }
-
-  desktopMode.addEventListener('change', refresh);
-
-  new TocManager();
 }

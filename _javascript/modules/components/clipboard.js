@@ -1,111 +1,131 @@
 import Tooltip from 'bootstrap/js/src/tooltip';
 
-const clipboardSelector = '.code-header>button';
-const ICON_DEFAULT = 'far fa-clone';
-const ICON_SUCCESS = 'fas fa-check';
-const ATTR_TIMEOUT = 'timeout';
-const ATTR_TITLE_SUCCEED = 'data-title-succeed';
-const ATTR_TITLE_ORIGIN = 'data-bs-original-title';
-const TIMEOUT = 2000;
+export class ClipboardManager {
+  static #instance = null;
 
-function isLocked(node) {
-  if (node.hasAttribute(ATTR_TIMEOUT)) {
-    const timeout = node.getAttribute(ATTR_TIMEOUT);
-    return Number(timeout) > Date.now();
+  constructor() {
+    this.clipboardSelector = ".code-header>button";
+    this.ICON_DEFAULT = "far fa-clone";
+    this.ICON_SUCCESS = "fas fa-check";
+    this.ATTR_TIMEOUT = "timeout";
+    this.ATTR_TITLE_SUCCEED = "data-title-succeed";
+    this.ATTR_TITLE_ORIGIN = "data-bs-original-title";
+    this.TIMEOUT = 2000;
   }
-  return false;
-}
 
-function lock(node) {
-  node.setAttribute(ATTR_TIMEOUT, Date.now() + TIMEOUT);
-}
-
-function unlock(node) {
-  node.removeAttribute(ATTR_TIMEOUT);
-}
-
-function showTooltip(btn) {
-  const succeedTitle = btn.getAttribute(ATTR_TITLE_SUCCEED);
-  btn.setAttribute(ATTR_TITLE_ORIGIN, succeedTitle);
-  Tooltip.getInstance(btn).show();
-}
-
-function hideTooltip(btn) {
-  Tooltip.getInstance(btn).hide();
-  btn.removeAttribute(ATTR_TITLE_ORIGIN);
-}
-
-function setSuccessIcon(btn) {
-  btn.children[0].setAttribute('class', ICON_SUCCESS);
-}
-
-function resumeIcon(btn) {
-  btn.children[0].setAttribute('class', ICON_DEFAULT);
-}
-
-function setCodeClipboard() {
-  const clipboardList = document.querySelectorAll(clipboardSelector);
-  if (!clipboardList.length) return;
-
-  const clipboard = new ClipboardJS(clipboardSelector, {
-    target: (trigger) => {
-      return trigger.parentNode.nextElementSibling.querySelector('code .rouge-code');
+  #isLocked(node) {
+    if (node.hasAttribute(this.ATTR_TIMEOUT)) {
+      const timeout = node.getAttribute(this.ATTR_TIMEOUT);
+      return Number(timeout) > Date.now();
     }
-  });
-
-  for (let i = 0; i < clipboardList.length; i++) {
-    new Tooltip(clipboardList[i], {
-      placement: 'left'
-    });
+    return false;
   }
 
-  clipboard.on('success', (e) => {
-    const trigger = e.trigger;
-    e.clearSelection();
-    
-    if (isLocked(trigger)) return;
-    
-    setSuccessIcon(trigger);
-    showTooltip(trigger);
-    lock(trigger);
-    
-    setTimeout(() => {
-      hideTooltip(trigger);
-      resumeIcon(trigger);
-      unlock(trigger);
-    }, TIMEOUT);
-  });
-}
+  #lock(node) {
+    node.setAttribute(this.ATTR_TIMEOUT, Date.now() + this.TIMEOUT);
+  }
 
-function setLinkClipboard() {
-  const btnCopyLink = document.getElementById('copy-link');
-  if (!btnCopyLink) return;
+  #unlock(node) {
+    node.removeAttribute(this.ATTR_TIMEOUT);
+  }
 
-  btnCopyLink.addEventListener('click', (e) => {
-    const target = e.target;
-    if (isLocked(target)) return;
+  #showTooltip(btn) {
+    const succeedTitle = btn.getAttribute(this.ATTR_TITLE_SUCCEED);
+    btn.setAttribute(this.ATTR_TITLE_ORIGIN, succeedTitle);
+    Tooltip.getInstance(btn).show();
+  }
 
-    navigator.clipboard.writeText(window.location.href).then(() => {
-      const defaultTitle = target.getAttribute(ATTR_TITLE_ORIGIN);
-      const succeedTitle = target.getAttribute(ATTR_TITLE_SUCCEED);
+  #hideTooltip(btn) {
+    Tooltip.getInstance(btn).hide();
+    btn.removeAttribute(this.ATTR_TITLE_ORIGIN);
+  }
+
+  #setSuccessIcon(btn) {
+    btn.children[0].setAttribute('class', this.ICON_SUCCESS);
+  }
+
+  #resumeIcon(btn) {
+    btn.children[0].setAttribute('class', this.ICON_DEFAULT);
+  }
+
+  async setCodeClipboard() {
+    if (!window.ClipboardJS) return;
+
+    const clipboardList = document.querySelectorAll(this.clipboardSelector);
+    if (!clipboardList.length) return;
+
+    const clipboard = new ClipboardJS(this.clipboardSelector, {
+      target: (trigger) => {
+        return trigger.parentNode.nextElementSibling.querySelector('code .rouge-code');
+      }
+    });
+
+    for (let i = 0; i < clipboardList.length; i++) {
+      new Tooltip(clipboardList[i], {
+        placement: 'left'
+      });
+    }
+
+    clipboard.on('success', (e) => {
+      const trigger = e.trigger;
+      e.clearSelection();
       
-      target.setAttribute(ATTR_TITLE_ORIGIN, succeedTitle);
-      Tooltip.getInstance(target).show();
-      lock(target);
+      if (this.#isLocked(trigger)) return;
+      
+      this.#setSuccessIcon(trigger);
+      this.#showTooltip(trigger);
+      this.#lock(trigger);
       
       setTimeout(() => {
-        target.setAttribute(ATTR_TITLE_ORIGIN, defaultTitle);
-        unlock(target);
-      }, TIMEOUT);
+        this.#hideTooltip(trigger);
+        this.#resumeIcon(trigger);
+        this.#unlock(trigger);
+      }, this.TIMEOUT);
     });
-  });
+  }
 
-  btnCopyLink.addEventListener('mouseleave', (e) => {
-    Tooltip.getInstance(e.target).hide();
-  });
+  setLinkClipboard() {
+    const btnCopyLink = document.getElementById('copy-link');
+    if (!btnCopyLink) return;
+
+    btnCopyLink.addEventListener('click', (e) => {
+      const target = e.target;
+      if (this.#isLocked(target)) return;
+
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        const defaultTitle = target.getAttribute(this.ATTR_TITLE_ORIGIN);
+        const succeedTitle = target.getAttribute(this.ATTR_TITLE_SUCCEED);
+        
+        target.setAttribute(this.ATTR_TITLE_ORIGIN, succeedTitle);
+        Tooltip.getInstance(target).show();
+        this.#lock(target);
+        
+        setTimeout(() => {
+          target.setAttribute(this.ATTR_TITLE_ORIGIN, defaultTitle);
+          this.#unlock(target);
+        }, this.TIMEOUT);
+      });
+    });
+
+    btnCopyLink.addEventListener('mouseleave', (e) => {
+      Tooltip.getInstance(e.target).hide();
+    });
+  }
+
+  async init() {
+    await this.setCodeClipboard();
+    this.setLinkClipboard();
+  }
+
+  static async getInstance() {
+    if (!this.#instance) {
+      this.#instance = new ClipboardManager();
+    }
+    return this.#instance;
+  }
 }
 
-export function initClipboard() {
-  setCodeClipboard();
-  setLinkClipboard();
+export async function initClipboard() {
+  const manager = await ClipboardManager.getInstance();
+  await manager.init();
 }

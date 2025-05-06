@@ -7,8 +7,6 @@ resource_hints:
 
 
 # Libraries
-instantclick:
-  js: https://cdn.jsdelivr.net/npm/instantclick@3.1.0/instantclick.min.js
 
 toc:
   css: https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css

@@ -5,7 +5,8 @@
   --main-bg: rgb(27, 27, 30);
   --mask-bg: rgb(68, 69, 70);
   --main-border-color: rgb(44, 45, 45);
-  --active-color: #fd7e14;
+  --primary-color: #fd7e14;
+  --secondary-color: #c67839;
 
   /* Common color */
   --text-color: #cecdcd;
@@ -15,12 +16,9 @@
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
-  --link-color: #c67839;
   --link-underline-color: rgb(111, 72, 0);
-  --button-bg: var(--main-bg);
   --btn-border-color: #292929;
   --checkbox-color: rgb(118, 120, 121);
-  --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
   --shimmer-bg: linear-gradient(
     90deg,
@@ -37,8 +35,6 @@
   --avatar-border-color: #cececee6;
 
   /* Topbar */
-  --topbar-bg: var(--main-bg);
-  --topbar-text-color: var(--text-color);
   --search-border-color: rgb(55, 55, 55);
   --search-icon-color: rgb(100, 102, 105);
   --input-focus-border-color: rgb(112, 114, 115);
@@ -53,7 +49,6 @@
   --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
     rgb(137, 135, 135, 0.24) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;
-  --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
   --prompt-text-color: rgb(216, 212, 212, 0.75);
   --prompt-tip-bg: rgb(22, 60, 36, 0.3);
@@ -74,7 +69,6 @@
 
   /* Tags */
   --tag-border: rgb(59, 79, 88);
-  --tag-shadow: rgb(32, 33, 33);
   --dash-color: rgb(63, 65, 68);
   --search-tag-bg: #292828;
 
@@ -84,7 +78,6 @@
   /* Archive */
   --timeline-node-bg: rgb(150, 152, 156);
   --timeline-color: rgb(63, 65, 68);
-  --timeline-year-dot-color: var(--timeline-color);
 
   /* Code highlight colors */
   --language-border-color: #2d2d2d;

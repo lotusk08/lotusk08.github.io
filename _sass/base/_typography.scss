@@ -68,9 +68,31 @@ blockquote {
   padding-left: 1rem;
   color: var(--blockquote-text-color);
   margin-top: 1rem;
+  position: relative;
 
   > p:last-child {
     margin-bottom: 0;
+  }
+  
+  &.author {
+    text-align: center;
+    font-style: italic;
+    font-family: v.$font-title;
+    padding-top: 0.5rem;
+    
+    > p:last-child {
+      font-family: v.$font-family-base;
+      text-align: right;
+      font-style: italic;
+      font-size: 0.95rem;
+      opacity: 0.8;
+      color: var(--link-color);
+      
+      &::before {
+        content: "— ";
+        color: var(--blockquote-text-color);
+      }
+    }
   }
 
   &[class^="prompt-"] {

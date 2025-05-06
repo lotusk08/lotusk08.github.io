@@ -22,7 +22,6 @@ image:
 ---
 > I found some interesting bullet points after conducting quick research on the consumer side of the meat market in Vietnam.
 > Date `April 26, 2025`
-{: .prompt-info}
 
 ## Key points
 

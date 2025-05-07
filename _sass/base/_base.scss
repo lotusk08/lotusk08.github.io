@@ -423,7 +423,7 @@ main {
 .chartjs-container {
   margin: 2rem auto;
   position: relative;
-  height: 360px;
+  max-height: 360px;
   width: 100%;
   display: flex;
   justify-content: center;

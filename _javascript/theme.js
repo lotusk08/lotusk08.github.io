@@ -98,7 +98,21 @@ class Theme {
   }
   
   static #notify() {
-    window.postMessage({ id: this.ID }, '*');
+    window.postMessage({ 
+      id: this.ID,
+      mode: this.visualState 
+    }, '*');
+    
+    const isDark = this.visualState === this.DARK;
+    const theme = isDark ? 'dark' : 'light';
+    const faviconElements = document.querySelectorAll('link[rel*="icon"]');
+    
+    faviconElements.forEach(link => {
+      const href = link.getAttribute('href');
+      if (href) {
+        link.setAttribute('href', href.replace(/(light|dark)/, theme));
+      }
+    });
   }
   
   static #updateColors() {

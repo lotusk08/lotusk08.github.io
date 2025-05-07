@@ -100,6 +100,11 @@ blockquote {
     position: relative;
     padding: 0.75rem 1.25rem 0.75rem 1rem;
     color: var(--prompt-text-color);
+    
+    > p:last-child::after {
+      content: "";
+      margin-left: 0.5rem;
+    }
   }
 
   @include mx.prompt("tip", "\f0eb", $fa-style: "regular");

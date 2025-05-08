@@ -35,7 +35,7 @@ $btn-mb: 0.5rem;
     }
 
     a:hover {
-      color: var(--active-color);
+      color: var(--primary-color);
     }
 
     span {
@@ -47,7 +47,7 @@ $btn-mb: 0.5rem;
       }
 
       a {
-        color: var(--link-color);
+        color: var(--secondary-color);
       }
     }
 
@@ -107,10 +107,10 @@ $btn-mb: 0.5rem;
 
     &:hover {
       background-color: var(--site-hover-bg);
-      color: var(--active-color);
+      color: var(--primary-color);
 
       i {
-        color: var(--active-color);
+        color: var(--primary-color);
       }
     }
   }

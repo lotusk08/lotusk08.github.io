@@ -69,8 +69,16 @@ Moon
 : the natural satellite of the earth, visible by reflected light from the sun
 
 ## Block Quote
+### Normal
 
 > This line shows the _block quote_.
+
+### With Author
+
+> Life is like riding a bicycle. To keep your balance, you must keep moving.
+>
+> Albert Einstein
+{: .author}
 
 ## Prompts
 

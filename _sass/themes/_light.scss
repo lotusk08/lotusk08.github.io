@@ -3,7 +3,8 @@
   --main-bg: #fffff9;
   --mask-bg: #c1c3c5;
   --main-border-color: #f3f3f3;
-  --active-color: #0d6efd;
+  --primary-color: #0d6efd;
+  --secondary-color: #0056b2;
 
   /* Common color */
   --text-color: #5e5e5e;
@@ -13,12 +14,9 @@
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
-  --link-color: #0056b2;
   --link-underline-color: #dee2e6;
-  --button-bg: var(--main-bg);
   --btn-border-color: #efefef;
   --checkbox-color: #c5c5c5;
-  --checkbox-checked-color: #07a8f7;
   --img-bg: radial-gradient(
     circle,
     rgb(255, 255, 255) 0%,
@@ -38,8 +36,6 @@
   --avatar-border-color: #f1f1f1;
 
   /* Topbar */
-  --topbar-bg: var(--main-bg);
-  --topbar-text-color: var(--text-color);
   --search-border-color: rgb(240, 240, 240);
   --search-icon-color: #c2c6cc;
   --input-focus-border-color: #b8b8b8;
@@ -54,7 +50,6 @@
   --tb-border-color: #eaeaea;
   --dash-color: silver;
   --kbd-wrap-color: #bdbdbd;
-  --kbd-text-color: var(--text-color);
   --kbd-bg-color: white;
   --prompt-text-color: rgb(46, 46, 46, 0.77);
   --prompt-tip-bg: rgb(123, 247, 144, 0.1);
@@ -75,7 +70,6 @@
 
   /* Tags */
   --tag-border: #dee2e6;
-  --tag-shadow: var(--btn-border-color);
   --tag-hover: rgb(222, 226, 230);
   --search-tag-bg: #f8f9fa;
 
@@ -85,7 +79,6 @@
   /* Archive */
   --timeline-color: rgba(0, 0, 0, 0.075);
   --timeline-node-bg: #c2c6cc;
-  --timeline-year-dot-color: #ffffff;
 
   /* --- Custom code light mode colors --- */
   --language-border-color: #ececec;

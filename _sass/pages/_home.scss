@@ -4,7 +4,7 @@
 
 %name-hover {
   &:hover {
-    color: var(--active-color);
+    color: var(--primary-color);
   }
 }
 
@@ -105,10 +105,10 @@ header.profile-wrapper h1 {
   user-select: none;
   
   a {
-    color: var(--link-color);
+    color: var(--secondary-color);
     
     &:hover {
-      color: var(--active-color);
+      color: var(--primary-color);
     }
   }
 }

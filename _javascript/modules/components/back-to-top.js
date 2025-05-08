@@ -11,7 +11,7 @@ class ScrollProgress {
     this.config = {
       perimeter: 160, // 4 * 40 pre-calculated
       visibilityThreshold: 50,
-      fadeDelay: 1000
+      fadeDelay: 500
     };
 
     // Control flags

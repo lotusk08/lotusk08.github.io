@@ -73,7 +73,7 @@ body {
 
 h1.dynamic-title {
   font-family: v.$font-title;
-  font-style: italic;
+  font-style: oblique;
 
   @include bp.lt(bp.get(lg)) {
     display: none;

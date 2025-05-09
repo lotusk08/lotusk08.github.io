@@ -9,10 +9,10 @@ toc:
   js: /assets/lib/tocbot/tocbot.min.js
 
 fontawesome:
-  css: /assets/lib/fontawesome-free/css/all.min.css
+  css: /assets/lib/fa/css/all.min.css
 
 search:
-  js: /assets/lib/simple-jekyll-search/simple-jekyll-search.min.js
+  js: /assets/lib/search/search.min.js
 
 mermaid:
   js: /assets/lib/mermaid/mermaid.min.js
@@ -32,8 +32,8 @@ glightbox:
   js: /assets/lib/glightbox/glightbox.min.js
 
 lazy-polyfill:
-  css: /assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.min.css
-  js: /assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js
+  css: /assets/lib/polyfill/polyfill.min.css
+  js: /assets/lib/polyfill/polyfill.umd.min.js
 
 clipboard:
   js: /assets/lib/clipboard/clipboard.min.js

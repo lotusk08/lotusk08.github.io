@@ -75,18 +75,22 @@ blockquote {
   }
   
   &.author {
-    text-align: center;
-    font-style: oblique;
-    font-family: v.$font-title;
     padding-top: 0.75rem;
+    text-align: center;
+    
+    p {
+      @extend %title-style;
+    }
     
     > p:last-child {
       font-family: v.$font-family-base;
       text-align: right;
       font-style: italic;
+      transform: none;
       font-size: 0.95rem;
       opacity: 0.8;
       color: var(--secondary-color);
+      padding-right: 0.5rem;
       
       &::before {
         content: "— ";

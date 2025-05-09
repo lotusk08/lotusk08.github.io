@@ -1,6 +1,13 @@
 @use "variables" as v;
 @use "mixins" as mx;
 
+%title-style {
+  font-family: v.$font-title;
+  transform: skewX(-15deg);
+  font-style: normal;
+  font-stretch: 87%;
+}
+
 %heading {
   color: var(--heading-color);
   font-weight: 400;

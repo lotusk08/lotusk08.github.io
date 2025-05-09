@@ -1,0 +1,8 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nchmod +x tools\/update.sh\n.\/tools\/update.sh assets\/lib\/package.json"
+    }
+  }
+}

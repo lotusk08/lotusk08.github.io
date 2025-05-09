@@ -11,8 +11,7 @@
 #page-category,
 #page-tag {
   h1 {
-    font-family: v.$font-title;
-    font-style: oblique;
+    @extend %title-style;
   }
 
   ul > li {
@@ -52,6 +51,7 @@
 /* tag icon */
 #page-tag h1 > i {
   font-size: 1.2rem;
+  transform: skewX(15deg);
 }
 
 #page-category h1 > i {

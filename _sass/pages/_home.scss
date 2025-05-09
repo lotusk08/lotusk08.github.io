@@ -238,15 +238,14 @@ header.profile-wrapper h1 {
 
       .card-title {
         @extend %text-clip;
+        @extend %title-style;
 
         font-size: 1.85rem;
-        font-family: v.$font-title;
         line-height: 1.4;
         padding-top: 0.25em;
         padding-bottom: 1.85rem;
         margin-bottom: 0.25em;
         font-weight: 600;
-        font-style: oblique;
         color: var(--site-title-color);
         overflow: visible;
         text-rendering: optimizelegibility;

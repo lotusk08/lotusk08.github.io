@@ -1,0 +1,47 @@
+# fonts
+
+webfonts: /assets/lib/fonts/main.min.css
+
+# Libraries
+
+toc:
+  css: /assets/lib/tocbot/tocbot.min.css
+  js: /assets/lib/tocbot/tocbot.min.js
+
+fontawesome:
+  css: /assets/lib/fontawesome-free/css/all.min.css
+
+search:
+  js: /assets/lib/simple-jekyll-search/simple-jekyll-search.min.js
+
+mermaid:
+  js: /assets/lib/mermaid/mermaid.min.js
+
+chartjs:
+  js: /assets/lib/chartjs/chart.umd.min.js
+
+dayjs:
+  js:
+    common: /assets/lib/dayjs/dayjs.min.js
+    locale: /assets/lib/dayjs/locale/en.js
+    relativeTime: /assets/lib/dayjs/plugin/relativeTime.js
+    localizedFormat: /assets/lib/dayjs/plugin/localizedFormat.js
+
+glightbox:
+  css: /assets/lib/glightbox/glightbox.min.css
+  js: /assets/lib/glightbox/glightbox.min.js
+
+lazy-polyfill:
+  css: /assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.min.css
+  js: /assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js
+
+clipboard:
+  js: /assets/lib/clipboard/clipboard.min.js
+
+mathjax:
+  js: /assets/lib/mathjax/tex-chtml.js
+
+waline:
+  js: /assets/lib/waline/waline.js
+  css: /assets/lib/waline/waline.css
+  emojis: /assets/lib/waline/emojis

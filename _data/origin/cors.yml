@@ -1,10 +1,22 @@
 # Resource Hints
 resource_hints:
+  - url: https://fonts.googleapis.com
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
+  - url: https://fonts.gstatic.com
+    links:
+      - rel: preconnect
+        opts: [crossorigin]
+      - rel: dns-prefetch
   - url: https://cdn.jsdelivr.net
     links:
       - rel: preconnect
       - rel: dns-prefetch
 
+
+# Web Fonts
+webfonts: https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap
 
 # Libraries
 
@@ -14,12 +26,6 @@ toc:
 
 fontawesome:
   css: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css
-
-fonts:
-  jetbrainsmono:
-    css: https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.19/index.min.css
-  notoserifdisplay:
-    css: https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-display@5.2.6/index.min.css
 
 search:
   js: https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js

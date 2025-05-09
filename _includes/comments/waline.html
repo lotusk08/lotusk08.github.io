@@ -1,10 +1,10 @@
 <link
   rel="stylesheet"
-  href="{{ site.data.cors.waline.css | relative_url }}"
+  href="{{ site.data.origin[type].waline.css | relative_url }}"
 />
 
 <script type="module">
-  import { init } from "{{ site.data.cors.waline.js | relative_url }}";
+  import { init } from "{{ site.data.origin[type].waline.js | relative_url }}";
 
   const walineThread = document.createElement("div");
   walineThread.id = "waline";
@@ -29,8 +29,17 @@
     reactionTitle: ""
   };
 
-  const emojiPath = "{{ site.data.cors.waline.emojis | relative_url }}";
-  const emojiSets = emojiPath ? [`${emojiPath}/qq`] : [];
+  const emojiPath = "{{ site.data.origin[type].waline.emojis | relative_url }}";
+  const emojiSets = [{
+    name: 'sh',
+    icon: '😀',
+    prefix: 'sh_',
+    type: 'gif',
+    folder: '/assets/lib/waline/emojis/',
+    items: [
+      "smile","mouth_squirm","heart_eyes","flushed","sunglasses","sob","shy","silent","sleep","cry","awkward","rage","yum","grin","confounded","sad","cool","cold_sweat","crazy","vomit","chuckle","lovely","rolling_eyes","arrogant","yummy","sleepy","scared","sweat","laugh","solder","fighting","scold","shush","dizzy_face","mad","feeble","skull","knock","bye","pick_nose","clap","embarassed","snigger","annoyed_left","annoyed_right","yawn","look_down","grievance","pensive","smirk","kiss_right","kiss","fearful","poor","wink","joy","doge","cover_face_cry","whatever","lift_check","cute","antic","vomit_blood","surprised","pock_face","tangled","pretty","mask_fighting","mask_hug","mask","working","busy","headache","worry","cover_face","burning_eyes","wowyo","hair_loss","question_mask","peep","emm","waterlemon_face","rolling_face","hug","doubt","sweat1","white-yum","white1","white2","white_kiss","white_shit","white_slap","white_sunglasses","white_thumbsup","bear1","bear2","bear3","bear4","bear5","bird1","bird2","bird3","bird4","heart","rose","rose_dead","ghost","anger","lip","broken_heart","coffee","alpaca","hongbao","firecracker","lantern","xi","thumbsup","ok","hold_fist","hand_shake","come","v","fist","diss","thumbsdown","metal","no","lemon_face","moon","sun","pig","knife","hocho","gun","tea","shit","tada","candy","watermelon","rice","feeding_bottle","beer","karaoke","cake","egg","bomb","dollar","light","gift","flower","plane","candle","ladybug","pill","basketball","pingpong","soccer","panda","pinwheel","ramen","umbrella","banana","toilet_paper","bag","fa","handsome","mail","balloon","board","bow","boy1","boy2","bulb","car","clock","cloudy","crab","example","frog","rain","ring","sofa","train_body","train_tail","tran_head","surrender","taiji_boy","taiji_girl"
+    ]
+  }];
 
   try {
     init({

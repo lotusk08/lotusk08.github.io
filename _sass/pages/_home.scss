@@ -85,7 +85,7 @@
   width: fit-content;
   color: var(--site-title-color);
 }
-  
+
 header.profile-wrapper h1 {
   font-size: inherit;
   margin-top:0;
@@ -103,10 +103,10 @@ header.profile-wrapper h1 {
   margin-top: 0.25rem;
   word-spacing: 1px;
   user-select: none;
-  
+
   a {
     color: var(--secondary-color);
-    
+
     &:hover {
       color: var(--primary-color);
     }
@@ -254,6 +254,15 @@ header.profile-wrapper h1 {
       &.content-right {
         .card-title {
           text-align: right;
+        }
+        .card-text {
+          &.content {
+            text-align: right;
+
+            @include bp.lt(bp.get(md)) {
+              text-align: revert;
+            }
+          }
         }
       }
 

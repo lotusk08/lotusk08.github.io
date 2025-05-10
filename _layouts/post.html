@@ -20,13 +20,11 @@ tail_includes:
     {% endif %}
 
     <div class="post-meta text-muted">
-      <!-- published date -->
       <span>
         {{ site.data.locales[lang].post.posted }}
         {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
 
-      <!-- read time -->
       {% include read-time.html content=content prompt=true lang=lang %}
 
       {% if page.image %}
@@ -77,7 +75,6 @@ tail_includes:
   </div>
 
   <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
     {% if page.categories.size > 0 %}
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
@@ -92,7 +89,6 @@ tail_includes:
       class="d-flex justify-content-between align-items-center mt-3 pb-2"
     >
       <div>
-        <!-- tags -->
         {% if page.tags.size > 0 %}
           <div class="post-tags">
             <i class="fa fa-tags fa-fw me-1"></i>
@@ -110,7 +106,5 @@ tail_includes:
 
       {% include post-sharing.html lang=lang %}
     </div>
-    <!-- .post-tail-bottom -->
   </div>
-  <!-- div.post-tail-wrapper -->
 </article>

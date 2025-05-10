@@ -1,12 +1,7 @@
-<!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
-
-<!-- The total size of related posts -->
 {% assign TOTAL_SIZE = 0 %}
 
-<!-- An random integer that bigger than 0 -->
 {% assign TAG_SCORE = 1 %}
 
-<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
 {% assign CATEGORY_SCORE = 0.5 %}
 
 {% assign SEPARATOR = ':' %}
@@ -90,5 +85,4 @@
       {% endfor %}
     </nav>
   </aside>
-  <!-- #related-posts -->
 {% endif %}

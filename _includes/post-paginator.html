@@ -1,8 +1,5 @@
-<!-- The paginator for post list on HomgPage. -->
-
 <nav aria-label="Page Navigation">
   <ul class="pagination align-items-center mt-4 mb-0">
-    <!-- left arrow -->
     {% if paginator.previous_page %}
       {% assign prev_url = paginator.previous_page_path | relative_url %}
     {% else %}
@@ -15,7 +12,6 @@
       </a>
     </li>
 
-    <!-- page numbers -->
     {% assign left_ellipsis = false %}
     {% assign right_ellipsis = false %}
 
@@ -43,7 +39,6 @@
       {% endif %}
 
       {% if show %}
-        <!-- show number -->
         <li class="page-item {% if i == paginator.page %} active{% endif %}">
           <a
             class="page-link"
@@ -53,7 +48,6 @@
           </a>
         </li>
       {% else %}
-        <!-- hide number -->
         {% if i < pre and left_ellipsis == false %}
           <li class="page-item disabled">
             <span class="page-link">...</span>
@@ -68,13 +62,11 @@
       {% endif %}
     {% endfor %}
 
-    <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>{{ paginator.page }}</span>
       <span class="text-muted">/ {{ paginator.total_pages }}</span>
     </li>
 
-    <!-- right arrow -->
     {% if paginator.next_page_path %}
       {% assign next_url = paginator.next_page_path | relative_url %}
     {% else %}
@@ -88,4 +80,3 @@
     </li>
   </ul>
 </nav>
-<!-- .pagination -->

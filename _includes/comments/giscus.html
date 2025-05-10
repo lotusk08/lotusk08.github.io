@@ -1,11 +1,9 @@
-<!-- https://giscus.app/ -->
 <script>
   (function () {
     const themeMapper = Theme.getThemeMapper('light', 'dark_dimmed');
     const initTheme = themeMapper[Theme.visualState];
 
     let lang = '{{ site.comments.giscus.lang | default: lang }}';
-    {%- comment -%} https://github.com/giscus/giscus/tree/main/locales {%- endcomment -%}
     if (lang.length > 2 && !lang.startsWith('zh')) {
       lang = lang.slice(0, 2);
     }

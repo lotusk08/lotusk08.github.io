@@ -1,6 +1,5 @@
 ---
 layout: page
-# All the Categories of posts
 ---
 
 {% include lang.html %}
@@ -33,7 +32,6 @@ layout: page
     {% assign sub_categories_size = sub_categories | size %}
 
     <div class="card categories">
-      <!-- top-category -->
       <div
         id="{{ HEAD_PREFIX }}{{ group_index }}"
         class="card-header d-flex justify-content-between hide-border-bottom"
@@ -44,7 +42,6 @@ layout: page
           {% capture _category_url %}/categories/{{ category_name | slugify | url_encode }}/{% endcapture %}
           <a href="{{ _category_url | relative_url }}" class="mx-2">{{ category_name }}</a>
 
-          <!-- content count -->
           {% assign top_posts_size = site.categories[category_name] | size %}
           <span class="text-muted small font-weight-light">
             {% if sub_categories_size > 0 %}
@@ -79,7 +76,6 @@ layout: page
           </span>
         </span>
 
-        <!-- arrow -->
         {% if sub_categories_size > 0 %}
           <a
             href="#{{ LIST_PREFIX }}{{ group_index }}"
@@ -96,9 +92,7 @@ layout: page
           </span>
         {% endif %}
       </div>
-      <!-- .card-header -->
 
-      <!-- Sub-categories -->
       {% if sub_categories_size > 0 %}
         <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show" aria-expanded="true">
           <ul class="list-group">
@@ -131,7 +125,6 @@ layout: page
         </div>
       {% endif %}
     </div>
-    <!-- .card -->
 
     {% assign group_index = group_index | plus: 1 %}
   {% endif %}

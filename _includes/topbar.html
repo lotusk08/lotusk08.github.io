@@ -1,5 +1,3 @@
-<!-- The Top Bar -->
-
 <header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
   <div
     id="topbar"
@@ -8,11 +6,11 @@
     <nav id="breadcrumb" aria-label="Breadcrumb">
       {% assign paths = page.url | split: '/' %} {% if paths.size == 0 or
       page.layout == 'home' %}
-      <!-- Home page -->
+
       <span><strong>Steve</strong></span>
 
       {% else %} {% for item in paths %} {% if forloop.first %}
-      <!-- First breadcrumb -->
+
       <span>
         <a href="{{ '/' | relative_url }}">
           <strong>Steve</strong>
@@ -20,7 +18,6 @@
       </span>
 
       {% elsif forloop.last %}
-      <!-- Last breadcrumb -->
       {% if page.layout == 'tag' or page.layout == 'tags' %}
       <span>{{ item | capitalize }}</span>
       {% else %}
@@ -29,7 +26,7 @@
         }}</span
       >
       {% endif %} {% else %}
-      <!-- Intermediate breadcrumb -->
+
       {% if item == 'topics' or item == 'topic' %}
       <span>
         <a href="{{ item | append: '/' | relative_url }}">
@@ -45,8 +42,6 @@
       </span>
       {% endif %} {% endif %} {% endfor %} {% endif %}
     </nav>
-
-    <!-- endof #breadcrumb -->
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
       <i class="fas fa-search fa-fw"></i>

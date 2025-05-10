@@ -32,7 +32,6 @@ refactor: true
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 {% assign posts = '' | split: '' %}
 
-<!-- Get pinned posts on current page -->
 {% assign visible_start = paginator.page | minus: 1 | times: paginator.per_page %}
 {% assign visible_end = visible_start | plus: paginator.per_page %}
 {% if all_pinned.size > visible_start %}
@@ -48,7 +47,6 @@ refactor: true
   {% assign pinned_size = 0 %}
 {% endif %}
 
-<!-- Get normal posts on current page -->
 {% assign normal_size = paginator.posts | size | minus: pinned_size %}
 {% if normal_size > 0 %}
   {% if pinned_size > 0 %}
@@ -79,7 +77,6 @@ refactor: true
           {% if post.image.lqip %}{% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}{% endif %}
 
           {% if is_even == 0 %}
-            <!-- Image Left, Content Right -->
             <div class="col-md-5 order-md-1 image-left" style="--lqip-url: url('{{ post.image.lqip }}');">
               <img src="{{ src }}" alt="{{ alt }}" {{ lqip }} />
             </div>
@@ -112,7 +109,6 @@ refactor: true
               </div>
             </div>
           {% else %}
-            <!-- Image Right, Content Left -->
             <div class="col-md-5 order-md-2 image-right" style="--lqip-url: url('{{ post.image.lqip }}');">
               <img src="{{ src }}" alt="{{ alt }}" {{ lqip }} />
             </div>

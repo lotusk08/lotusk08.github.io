@@ -38,7 +38,7 @@ I’ve been jotting down my thoughts online since 2009. In 2019, I started [skyq
 
 ![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CgbRQ4Z+NecIEXIiJu4H2oaiCC2mQQwHQQ4NXA9C9zfwpE9H8CclD3MP6YowBWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'} _My old WordPress site—good times!_
 
-I enjoy reading. I built this website for myself and made it public through Cloudflare. It's a fork of the [Chirpy theme for Jekyll](https://github.com/cotes2020/jekyll-theme-chirpy) by [Cote](https://github.com/cotes2020).
+I enjoy reading. I built this website for myself and made it public through Cloudflare. It's a fork of the [Chirpy theme for Jekyll](https://github.com/cotes2020/jekyll-theme-chirpy) by [Cote](https://cotes.page).
 
 ---
 
@@ -74,4 +74,4 @@ To reach me:
 
 ---
 
-Fancy a chat about bikes, books, or cameras? [Drop me a line!](mailto:hi@stevehoang.com)
+Fancy a chat about bikes, books, or cameras? Drop me a <a href="javascript:location.href = 'mailto:' + ['hi','stevehoang.com'].join('@')">line!</a>

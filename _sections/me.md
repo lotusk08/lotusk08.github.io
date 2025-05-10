@@ -5,9 +5,10 @@ description: I’m Steve. By day, I grind 9 to 5 in marketing, figuring out how 
 toc: false
 ---
 
->Oh! You found it...
+> My personal hobbies are reading, listening to music, and silence.
 >
->Here’s what I love. Want more?
+>Edith Sitwell
+{: .author }
 
 I’m Stev, as you've know. I am a man who enjoys understanding the world, building things to improve it, and discussing these topics on the internet. I love to keep things simple and focus on what I enjoy.
 

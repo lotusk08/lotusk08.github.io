@@ -255,8 +255,12 @@ I enjoy photography and the process of creating images; each photo captures pric
 ![Morning](/assets/img/post/morning-sg.webp){: lqip="data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoLABAABUB8JbAC7AEegy3NWhSAAOIvf459TskAD1LL7LpFvee5DTelkDM+U/MHZ+wQ6OcmKXCGyyuIGv9tJW/QmzmQrdAFPs7cay8EAAA=" .normal .me-2}
 ![Mid night](/assets/img/post/mid-night-vt.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoKABAABUB8JbACdADblMCsAAD+8OEZXX3Xc6aUzuuLTHgauyrzqC/MchlazUc/IoMHHQR/XzlIoFNQDuAyC3XUEK3RF6pxUAAAAA==" .normal}
 
-![Me  Steve](/assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="} _I am who I am. I'm Steve!_
+![Me  Steve](/assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="}
 
+> I am who I am, not whom you think I am!
+>
+>I'm Steve!
+{: .author }
 
 
 

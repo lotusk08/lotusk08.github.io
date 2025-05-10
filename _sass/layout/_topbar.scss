@@ -102,7 +102,7 @@ $btn-mb: 0.5rem;
     }
 
     &:not(:focus-visible) {
-      box-shadow: var(--btn-border-color) 0 0 0 1px;
+      outline: 1px solid var(--btn-border-color);
     }
 
     &:hover {

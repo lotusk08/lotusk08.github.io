@@ -8,6 +8,10 @@
   font-stretch: 87%;
 }
 
+%icon-rs {
+  transform: skewX(10deg);
+}
+
 %heading {
   color: var(--heading-color);
   font-weight: 400;
@@ -18,12 +22,12 @@
 %anchor {
   .anchor {
     font-size: 80%;
+    visibility: hidden;
+    opacity: 0;
   }
 
   @media (hover: hover) {
     .anchor {
-      visibility: hidden;
-      opacity: 0;
       transition:
         opacity 0.25s ease-in,
         visibility 0s ease-in 0.25s;

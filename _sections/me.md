@@ -47,22 +47,22 @@ I enjoy reading. I built this website for myself and made it public through Clou
 I'm on social:
 <div class="footer-social" style="justify-content: left">
 	<a href="https://www.linkedin.com/in/steve-hoang-asia" aria-label="linkedin" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-linkedin"></i>
+		{% include icons.html icon="linkedin" class="" %}
 	</a>
 	<a href="https://github.com/lotusk08" aria-label="github" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-square-github"></i>
+		{% include icons.html icon="square-github" class="" %}
 	</a>
 	<a href="https://www.reddit.com/user/lotusk08" aria-label="reddit" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-square-reddit"></i>
+		{% include icons.html icon="square-reddit" class="" %}
 	</a>
 	<a href="https://www.x.com/lotusk08" aria-label="x" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-square-x-twitter"></i>
+		{% include icons.html icon="square-x-twitter" class="" %}
 	</a>
 	<a href="https://www.facebook.com/stevehoang.me" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-square-facebook"></i>
+		{% include icons.html icon="square-facebook" class="" %}
 	</a>
 	<a href="https://www.goodreads.com/user/show/177600901-steve-hoang" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-goodreads"></i>
+		{% include icons.html icon="goodreads" class="" %}
 	</a>
 </div>
 
@@ -74,4 +74,4 @@ To reach me:
 
 ---
 
-Fancy a chat about bikes, books, or cameras? Drop me a <a href="javascript:location.href = 'mailto:' + ['hi','stevehoang.com'].join('@')">line!</a>
+Fancy a chat about bikes, books, or cameras? <a href="javascript:location.href = 'mailto:' + ['hi','stevehoang.com'].join('@')">Drop me a line!</a>

@@ -27,7 +27,7 @@
           if (value === '') {
             return `${value}`;
           } else {
-            return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+            return `<div class="me-sm-4">{% include icons.html icon="folder" class="fa-fw" %}${value}</div>`;
           }
         }
 
@@ -35,7 +35,7 @@
           if (value === '') {
             return `${value}`;
           } else {
-            return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+            return `<div>{% include icons.html icon="tag" class="fa-fw" %}${value}</div>`;
           }
         }
       }

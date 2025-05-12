@@ -1,0 +1,6 @@
+{%- assign icon_id = include.icon | default: '' | strip -%}
+{%- assign icon_class = include.class | default: '' | strip -%}
+
+<i class="icons{% if icon_class != '' %} {{ icon_class }}{% endif %}" aria-hidden="true">
+  <svg><use href="/assets/icons.svg#{{ icon_id }}"></use></svg>
+</i>

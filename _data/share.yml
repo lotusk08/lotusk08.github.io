@@ -1,5 +1,5 @@
 #  Sharing options at the bottom of the post.
-#  Icons from <https://fontawesome.com/>
+#  Icons from <https://fontawesome.com/>, update svg in icons.svg.
 
 platforms:
 #  - type: Twitter
@@ -19,10 +19,6 @@ platforms:
   # - type: Linkedin
   #   icon: "fab fa-linkedin"
   #   link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
-  #
-  # - type: Weibo
-  #   icon: "fab fa-weibo"
-  #   link: "https://service.weibo.com/share/share.php?title=TITLE&url=URL"
   #
   # - type: Mastodon
   #   icon: "fa-brands fa-mastodon"

@@ -7,7 +7,7 @@ layout: page
 
 <div id="page-tag">
   <h1 class="ps-lg-2">
-    <i class="fa fa-tag fa-fw text-muted"></i>
+    {% include icons.html icon="tag" class="fa-fw text-muted" %}
     {{ page.title }}
     <sup class="lead text-muted ps-2">{{ page.posts | size }}</sup>
   </h1>

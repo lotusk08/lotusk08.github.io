@@ -51,11 +51,14 @@
 /* tag icon */
 #page-tag h1 > i {
   font-size: 1.2rem;
-  transform: skewX(15deg);
+
+  @extend %icon-rs;
 }
 
 #page-category h1 > i {
   font-size: 1.25rem;
+
+  @extend %icon-rs;
 }
 
 #page-category,

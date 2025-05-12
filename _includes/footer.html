@@ -42,7 +42,7 @@
             rel="{{ link_types }}"
           {% endunless %}
         >
-          <i class="{{ entry.icon }}"></i>
+          {% include icons.html icon=entry.icon class="" %}
         </a>
       {% endif %}
     {% endfor %}

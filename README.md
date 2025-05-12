@@ -81,6 +81,7 @@ npm run lqip
 - style(font): use JetBrains Mono for monospace & PlayFair Display (Heading homepage)
 - style(img): use lqip data for layered background block behind an image
 - feat(chart): use chartjs for visual
+- perf: replace font fontawesome by SVG Sprite (all website icons just by `icons.svg` use the svg path from fontawesome)
 
 [wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
 [cf]: https://pages.cloudflare.com

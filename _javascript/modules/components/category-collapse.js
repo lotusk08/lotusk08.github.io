@@ -12,20 +12,20 @@ export function categoryCollapse() {
     const parent = document.getElementById(id);
     if (!parent) continue;
 
-    const folderIcon = parent.querySelector(
-      ".far.fa-folder, .far.fa-folder-open"
-    );
-    const angleIcon = parent.querySelector(".fas.fa-angle-down");
+    const folderIcon = parent.querySelector('.icons-folder use');
+    const angleIcon = parent.querySelector('.icons-angle use');
 
     elem.addEventListener("hide.bs.collapse", () => {
-      folderIcon.className = "far fa-folder fa-fw";
-      angleIcon.classList.add("rotate");
+      folderIcon.setAttribute("href", "/assets/icons.svg#folder");
+      angleIcon.setAttribute("href", "/assets/icons.svg#angle-down");
+      angleIcon.closest('.icons').classList.add("rotate");
       parent.classList.remove("hide-border-bottom");
     });
 
     elem.addEventListener("show.bs.collapse", () => {
-      folderIcon.className = "far fa-folder-open fa-fw";
-      angleIcon.classList.remove("rotate");
+      folderIcon.setAttribute("href", "/assets/icons.svg#folder-open");
+      angleIcon.setAttribute("href", "/assets/icons.svg#angle-down");
+      angleIcon.closest('.icons').classList.remove("rotate");
       parent.classList.add("hide-border-bottom");
     });
   }

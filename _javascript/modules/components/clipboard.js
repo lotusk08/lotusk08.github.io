@@ -1,8 +1,8 @@
 import Tooltip from 'bootstrap/js/src/tooltip';
 
 const clipboardSelector = '.code-header>button';
-const ICON_DEFAULT = 'far fa-clone';
-const ICON_SUCCESS = 'fas fa-check';
+const ICON_SVG_DEFAULT = '<i class="icons"><svg><use href="/assets/icons.svg#clone"></use></svg></i>';
+const ICON_SVG_SUCCESS = '<i class="icons"><svg><use href="/assets/icons.svg#check"></use></svg></i>';
 const ATTR_TIMEOUT = 'timeout';
 const ATTR_TITLE_SUCCEED = 'data-title-succeed';
 const ATTR_TITLE_ORIGIN = 'data-bs-original-title';
@@ -36,11 +36,11 @@ function hideTooltip(btn) {
 }
 
 function setSuccessIcon(btn) {
-  btn.children[0].setAttribute('class', ICON_SUCCESS);
+  btn.innerHTML = ICON_SVG_SUCCESS;
 }
 
 function resumeIcon(btn) {
-  btn.children[0].setAttribute('class', ICON_DEFAULT);
+  btn.innerHTML = ICON_SVG_DEFAULT;
 }
 
 function setCodeClipboard() {
@@ -62,13 +62,13 @@ function setCodeClipboard() {
   clipboard.on('success', (e) => {
     const trigger = e.trigger;
     e.clearSelection();
-    
+
     if (isLocked(trigger)) return;
-    
+
     setSuccessIcon(trigger);
     showTooltip(trigger);
     lock(trigger);
-    
+
     setTimeout(() => {
       hideTooltip(trigger);
       resumeIcon(trigger);
@@ -88,11 +88,11 @@ function setLinkClipboard() {
     navigator.clipboard.writeText(window.location.href).then(() => {
       const defaultTitle = target.getAttribute(ATTR_TITLE_ORIGIN);
       const succeedTitle = target.getAttribute(ATTR_TITLE_SUCCEED);
-      
+
       target.setAttribute(ATTR_TITLE_ORIGIN, succeedTitle);
       Tooltip.getInstance(target).show();
       lock(target);
-      
+
       setTimeout(() => {
         target.setAttribute(ATTR_TITLE_ORIGIN, defaultTitle);
         unlock(target);

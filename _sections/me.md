@@ -4,18 +4,18 @@ hide: true
 ---
 <div class="footer-social" >
 	<a href="https://www.linkedin.com/in/steve-hoang-asia" aria-label="linkedin" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-linkedin"></i>
+		{% include icons.html icon="linkedin" class="" %}
 	</a>
 	<a href="https://github.com/lotusk08" aria-label="github" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-github"></i>
+		{% include icons.html icon="square-github" class="" %}
 	</a>
 	<a href="https://www.reddit.com/user/lotusk08" aria-label="reddit" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-square-reddit"></i>
+		{% include icons.html icon="square-reddit" class="" %}
 	</a>
 	<a href="https://www.x.com/lotusk08" aria-label="x" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-x-twitter"></i>
+		{% include icons.html icon="square-x-twitter" class="" %}
 	</a>
 	<a href="https://www.facebook.com/stevehoang.me" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
-		<i class="fab fa-facebook"></i>
+		{% include icons.html icon="square-facebook" class="" %}
 	</a>
 </div>

@@ -50,20 +50,20 @@ tail_includes:
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
       <span class="label text-truncate">{{ page.title }}</span>
       <button type="button" class="toc-trigger btn me-1">
-        <i class="fa-solid fa-list-ul fa-fw"></i>
+        {% include icons.html icon="list-ul" class="fa-fw" %}
       </button>
     </div>
 
     <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
       <span class="label ps-2 pe-1">{{- site.data.locales[lang].panel.toc -}}</span>
-      <i class="fa-solid fa-angle-right fa-fw"></i>
+      {% include icons.html icon="angle-right" class="fa-fw" %}
     </button>
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
         <div class="label text-truncate py-2 ms-4">{{- page.title -}}</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
-          <i class="fas fa-close"></i>
+          {% include icons.html icon="xmark" class="" %}
         </button>
       </div>
       <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
@@ -77,7 +77,7 @@ tail_includes:
   <div class="post-tail-wrapper text-muted">
     {% if page.categories.size > 0 %}
       <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
+        {% include icons.html icon="folder-open" class="fa-fw me-1" %}
         {% for category in page.categories %}
           <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
           {%- unless forloop.last -%},{%- endunless -%}
@@ -91,7 +91,7 @@ tail_includes:
       <div>
         {% if page.tags.size > 0 %}
           <div class="post-tags">
-            <i class="fa fa-tags fa-fw me-1"></i>
+            {% include icons.html icon="tags" class="fa-fw me-1" %}
             {% for tag in page.tags %}
               <a
                 href="{{ site.baseurl }}/topics/{{ tag | slugify | url_encode }}/"

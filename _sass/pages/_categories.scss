@@ -1,14 +1,11 @@
 @use '../abstracts/variables' as v;
 @use '../abstracts/placeholders';
 
-%-category-icon-color {
-  color: gray;
-}
-
 .categories {
   margin-bottom: 2rem;
   border-color: var(--categories-border);
   background-color: transparent;
+  color: var(--text-color);
 
   &.card,
   .list-group {
@@ -32,9 +29,8 @@
   }
 
   i {
-    @extend %-category-icon-color;
-
-    font-size: 86%; /* fontawesome icons */
+    font-size: 86%;
+    color: var(--icon-color);
   }
 
   .list-group-item {
@@ -42,6 +38,7 @@
     border-top: 1px solid var(--tb-border-color);
     padding-left: 2rem;
     background-color: transparent;
+    color: var(--text-color);
 
     &:first-child {
       border-top-left-radius: 0;

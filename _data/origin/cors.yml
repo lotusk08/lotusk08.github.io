@@ -24,15 +24,12 @@ toc:
   css: https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css
   js: https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.js
 
-fontawesome:
-  css: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css
-
 search:
   js: https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js
 
 mermaid:
   js: https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js
-  
+
 chartjs:
   js: https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js
 

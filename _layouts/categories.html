@@ -37,7 +37,15 @@ layout: page
         class="card-header d-flex justify-content-between hide-border-bottom"
       >
         <span class="ms-2">
-          <i class="far fa-folder{% if sub_categories_size > 0 %}-open{% endif %} fa-fw"></i>
+          {% if sub_categories_size > 0 %}
+            <i class="icons icons-folder fa-fw" aria-hidden="true">
+              <svg><use href="/assets/icons.svg#folder-open"></use></svg>
+            </i>
+          {% else %}
+            <i class="icons icons-folder fa-fw" aria-hidden="true">
+              <svg><use href="/assets/icons.svg#folder"></use></svg>
+            </i>
+          {% endif %}
 
           {% capture _category_url %}/categories/{{ category_name | slugify | url_encode }}/{% endcapture %}
           <a href="{{ _category_url | relative_url }}" class="mx-2">{{ category_name }}</a>
@@ -84,11 +92,15 @@ layout: page
             aria-label="{{ HEAD_PREFIX }}{{ group_index }}-trigger"
             class="category-trigger hide-border-bottom"
           >
-            <i class="fas fa-fw fa-angle-down"></i>
+            <i class="icons icons-angle fa-fw" aria-hidden="true">
+              <svg><use href="/assets/icons.svg#angle-down"></use></svg>
+            </i>
           </a>
         {% else %}
           <span data-bs-toggle="collapse" class="category-trigger hide-border-bottom disabled">
-            <i class="fas fa-fw fa-angle-right"></i>
+            <i class="icons icons-angle fa-fw" aria-hidden="true">
+              <svg><use href="/assets/icons.svg#angle-right"></use></svg>
+            </i>
           </span>
         {% endif %}
       </div>
@@ -98,7 +110,9 @@ layout: page
           <ul class="list-group">
             {% for sub_category in sub_categories %}
               <li class="list-group-item">
-                <i class="far fa-folder fa-fw"></i>
+                <i class="icons fa-fw" aria-hidden="true">
+                  <svg><use href="/assets/icons.svg#folder"></use></svg>
+                </i>
 
                 {% capture _sub_ctg_url %}/categories/{{ sub_category | slugify | url_encode }}/{% endcapture %}
                 <a href="{{ _sub_ctg_url | relative_url }}" class="mx-2">{{ sub_category }}</a>

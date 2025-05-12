@@ -1,57 +1,57 @@
 #  The contact options.
 
 # - type: github
-#   icon: "fab fa-github"
+#   icon: "square-github"
 
 # - type: linkedin
-#   icon: 'fab fa-linkedin'
+#   icon: 'linkedin-in'
 #   url:  'https://www.linkedin.com/in/steve-hoang-asia/'
 
 # - type: reddit
-#   icon: 'fab fa-square-reddit'
+#   icon: 'square-reddit'
 #   url: 'https://www.reddit.com/user/lotusk08'
 
 # - type: facebook
-#   icon: 'fab fa-facebook'
+#   icon: 'square-facebook'
 #   url: 'https://www.facebook.com/stevehoang.me/'
 
 # - type: twitter
-#   icon: "fa-brands fa-x-twitter"
+#   icon: "square-x-twitter"
 
 - type: think
-  icon: "fas fa-layer-group"
+  icon: layer-group
   noblank: false
   url: "https://think.stevehoang.com"
 
 - type: email
-  icon: "fas fa-envelope"
+  icon: envelope
   noblank: true # open link in current tab
 
 - type: rss
-  icon: "fas fa-rss"
+  icon: rss
   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+#   icon: 'mastodon'   # icons from <https://fontawesome.com/>
+#   url:  ''           # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
 # - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   icon: 'linkedin-in'
 #   url:  'https://www.linkedin.com/in/steve-hoang-asia/'                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
+#   icon: 'stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
 #
 # - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
+#   icon: 'bluesky'
 #   url: ''                   # Fill with your Bluesky profile link
 #
 # - type: reddit
-#   icon: 'fa-brands fa-reddit'
+#   icon: 'square-reddit'
 #   url: ''                   # Fill with your Reddit profile link
 #
 # - type: threads
-#   icon: 'fa-brands fa-threads'
+#   icon: 'threads'
 #   url: ''                   # Fill with your Threads profile link

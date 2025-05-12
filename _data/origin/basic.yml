@@ -8,9 +8,6 @@ toc:
   css: /assets/lib/tocbot/tocbot.min.css
   js: /assets/lib/tocbot/tocbot.min.js
 
-fontawesome:
-  css: /assets/lib/fa/css/all.min.css
-
 search:
   js: /assets/lib/search/search.min.js
 

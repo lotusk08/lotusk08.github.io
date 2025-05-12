@@ -44,7 +44,7 @@
     </nav>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
-      <i class="fas fa-search fa-fw"></i>
+      {% include icons.html icon="search" class="fa-fw" %}
     </button>
 
     <div class="topbar-right d-flex align-items-center ms-3 ms-lg-0">
@@ -57,7 +57,7 @@
           autocomplete="off"
           placeholder="{{ site.data.locales[include.lang].search.hint }}..."
         />
-        <i class="fas fa-search fa-fw"></i>
+        {% include icons.html icon="search" class="fa-fw" %}
       </search>
       <button
         type="button"
@@ -77,7 +77,7 @@
           aria-label="Switch Mode"
           id="mode-toggle"
         >
-          <i class="fas fa-adjust"></i>
+          {% include icons.html icon="mode" class="i" %}
         </button>
         {% endunless %}
       </div>

@@ -8,6 +8,10 @@
   font-stretch: 87%;
 }
 
+%icon-rs {
+  transform: skewX(10deg);
+}
+
 %heading {
   color: var(--heading-color);
   font-weight: 400;

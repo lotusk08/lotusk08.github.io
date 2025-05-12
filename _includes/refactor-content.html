@@ -19,9 +19,9 @@
 {% if _content contains '<input type="checkbox"' %}
   {% assign _content = _content
     | replace: '<input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />',
-      '<i class="fas fa-check-circle fa-fw checked"></i>'
+      '<i class="icons checked" aria-hidden="true"><svg><use href="/assets/icons.svg#circle-check"></use></svg></i>'
     | replace: '<input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />',
-      '<i class="far fa-circle fa-fw"></i>'
+      '<i class="icons" aria-hidden="true"><svg><use href="/assets/icons.svg#circle"></use></svg></i>'
   %}
 {% endif %}
 
@@ -160,27 +160,65 @@
 
       {% if _left contains 'file="' %}
         {% assign _label_text = _left | split: 'file="' | last | split: '"' | first %}
-        {% assign _label_icon = 'far fa-file-code fa-fw' %}
+        {% assign _label_icon = 'file-code' %}
       {% else %}
         {% assign _lang = _left | split: 'language-' | last | split: ' ' | first %}
         {% capture _label_text %}{% include language-alias.html language=_lang %}{% endcapture %}
-        {% assign _label_icon = 'fas fa-code fa-fw small' %}
+        {% assign _label_icon = 'code' %}
       {% endif %}
 
       {% capture _label %}
-        <span data-label-text="{{ _label_text | strip }}"><i class="{{ _label_icon }}"></i></span>
+        <span data-label-text="{{ _label_text | strip }}">{% include icons.html icon=_label_icon class="" %}</span>
       {% endcapture %}
 
-      {% assign _new_content = _new_content
-        | append: _snippet
-        | append: '<div class="code-header">'
-        | append: _label
-        | append: '<button aria-label="clone" data-title-succeed="'
-        | append: site.data.locales[include.lang].post.button.copy_code.succeed
-        | append: '"><i class="far fa-clone"></i></button></div>'
-        | append: '<div class="highlight"><code>'
-      %}
+      {% capture _new_content_temp %}
+        {{ _new_content }}{{ _snippet }}<div class="code-header">{{ _label }}<button aria-label="clone" data-title-succeed="{{ site.data.locales[include.lang].post.button.copy_code.succeed }}">{% include icons.html icon="clone" class="" %}</button></div><div class="highlight"><code>
+      {% endcapture %}
+      {% assign _new_content = _new_content_temp %}
     {% endif %}
+  {% endfor %}
+
+  {% assign _content = _new_content %}
+{% endif %}
+
+{% if _content contains '<blockquote class="prompt-' %}
+  {% assign _blockquote_content = _content %}
+  {% assign _new_content = null %}
+  {% assign _blockquote_snippets = _blockquote_content | split: '<blockquote class="prompt-' %}
+
+  {% for _snippet in _blockquote_snippets %}
+    {% if forloop.first %}
+      {% assign _new_content = _snippet %}
+      {% continue %}
+    {% endif %}
+
+    {% assign _type = _snippet | split: '"' | first %}
+    {% assign _right = _snippet | remove_first: _type | remove_first: '">' %}
+    
+    {% assign _icon = null %}
+    {% case _type %}
+      {% when 'tip' %}
+        {% assign _icon = 'lightbulb' %}
+      {% when 'info' %}
+        {% assign _icon = 'circle-exclamation' %}
+      {% when 'important' %}
+        {% assign _icon = 'circle-exclamation' %}
+      {% when 'warning' %}
+        {% assign _icon = 'triangle-exclamation' %}
+      {% when 'danger' %}
+        {% assign _icon = 'triangle-exclamation' %}
+    {% endcase %}
+
+    {% capture _icon_html %}
+      <i class="icons" aria-hidden="true">
+        <svg><use href="/assets/icons.svg#{{ _icon }}"></use></svg>
+      </i>
+    {% endcapture %}
+
+    {% capture _new_content_temp %}
+      {{ _new_content }}<blockquote class="prompt-{{ _type }}">{{ _icon_html }}{{ _right }}
+    {% endcapture %}
+    {% assign _new_content = _new_content_temp %}
   {% endfor %}
 
   {% assign _content = _new_content %}
@@ -204,16 +242,17 @@
       {% endif %}
 
       {% assign id = snippet | split: '"' | first %}
-      {% assign anchor = '<a href="#'
-        | append: id
-        | append: '" class="anchor text-muted"><i class="fas fa-hashtag"></i></a>'
-      %}
+      {% capture anchor_icon %}{% include icons.html icon="hashtag" class="anchor text-muted" %}{% endcapture %}
+      {% assign anchor = '<a href="#' | append: id | append: '">' | append: anchor_icon | append: '</a>' %}
 
       {% assign left = snippet | split: mark_end | first %}
       {% assign right = snippet | slice: left.size, snippet.size %}
       {% assign left = left | replace_first: '">', '"><span class="me-2">' | append: '</span>' %}
 
-      {% assign _new_content = _new_content | append: mark_start | append: left | append: anchor | append: right %}
+      {% capture _new_content_temp %}
+        {{ _new_content }}{{ mark_start }}{{ left }}{{ anchor }}{{ mark_end }}{{ right }}
+      {% endcapture %}
+      {% assign _new_content = _new_content_temp %}
     {% endfor %}
 
     {% assign _heading_content = _new_content %}

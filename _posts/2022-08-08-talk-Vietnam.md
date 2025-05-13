@@ -8,13 +8,16 @@ categories:
 tags:
   - experience
   - knowledge
+  - Vietnam
+  - human
 pin: false
-toc: true
+toc: false
 math: false
 mermaid: false
 ---
 
-## Why is Vietnam still so poor while Vietnamese work so hard?
+>Why is Vietnam still so poor while Vietnamese work so hard?
+{: .prompt-warning}
 I’m not Vietnamese but my wife and family are, I’ve lived in Vietnam (Hanoi) for 12 years and have a degree relating to Vietnamese language, history and culture. I may be able to shed some light on this.
 
 Vietnamese are wonderful people, kind, loyal, honest. They give the appearance to be hardworking, getting up early, going home late etc, but the truth is, they spend a lot of time chatting, drinking tea, sleeping, and specific tasks take a long time to do. 
@@ -27,7 +30,8 @@ Jason Jason - from [Quora](https://www.quora.com/Why-is-Vietnam-still-so-poor-wh
 
 ----
 
-## Vì sao Việt Nam nghèo trong khi người Việt rất chăm chỉ?
+>Vì sao Việt Nam nghèo trong khi người Việt rất chăm chỉ?
+{: .prompt-warning }
 Tôi không là người Việt, nhưng vợ và gia đình là người Việt.
 
 Tôi sống ở Vietnam (Hà Nội) được 12 năm và có một bằng cấp liên quan đến ngôn ngữ, lịch sử và văn hóa Việt. Cho nên tôi có thể cung cấp một số ý cho câu hỏi trên. 
@@ -42,4 +46,4 @@ Họ khá hỗn loạn, hiếu động, hướng ngoại và khả năng hồi p
 
 Các dự án luôn mất nhiều thời gian hơn và đội vốn. Tham nhũng, thiếu giao tế, thiếu vắng sự hoạch định, lưu tâm về sức khỏe, an toàn và sự minh bạch là những vấn đề ở xứ sở này.
 
-Đó là câu trả lời được đồng tình cao trên Quora.
+> Đó là câu trả lời được đồng tình cao trên Quora.

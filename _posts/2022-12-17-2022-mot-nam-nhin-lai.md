@@ -9,11 +9,8 @@ tags:
   - experience
   - personality
   - friends
-  - photography
   - learn
-  - travel
-  - books
-  - hightech
+  - story
 pin: false
 toc: true
 math: false
@@ -118,12 +115,12 @@ OneDrive < Google Drive < iCloud < Dropbox.
 {: .prompt-warning }
 
 ### mindNode
-![Take a note in mindNode](/assets/img/post/mindNode.webp "Take a note in mindNode"){: lqip="data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoOABAABUB8JQBOgCKRGlHQQAD+QRCvxBoG/mXny0J8Nwn3j/RWrABnwYtAAA==" w="240" .right}
+![Take a note in mindNode](/assets/img/post/mindNode.webp "Take a note in mindNode"){: lqip="data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoOABAABUB8JQBOgCKRGlHQQAD+QRCvxBoG/mXny0J8Nwn3j/RWrABnwYtAAA==" w="240" .right}_MindNode_
 App này cũng hay xuất hiện trên các vẽ sơ đồ tư duy của một số anh em mod tinhte, app này tuy không mạnh như coggle.it nhưng trải nghiệm (UX) trên app rất tốt, nếu cần note nhanh các điểm key, có thể sử dụng ngay trên menubar, rất tiện lợi. App này có trên các thiết bị Apple, bên windows cũng có một app vẽ sơ đồ tư duy cực kỳ bá đạo, có thể đính kèm file, link, mail vào các node.  
 ![using mind map into work](/assets/img/post/using-mind-map-into-work.webp "using mind map into work"){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACwAAQUxQSDAAAAARL6CYjQQ4ZzG/PQzWaCMiFtRDVQMR1CaDAKaDAK8Gpn+Z+xQgov8TkIO6h/GHOQpWUDggOgAAANABAJ0BKhAADAAFQHwlpAAC51rAfAAAAP4JNSPG/dYdoel9bAGEXOIkqVvScR5WqFiJGI6rtMAAAAA="}
 
 ### Gifox
-![Gifox](/assets/img/post/Gifox.webp "Gifox - Tạo ảnh gif nhanh"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoQAAwABUB8JQBOgCKt+ZMtuwAA/r0ZSQWRuJTOejETDOzhcgf7gAAA" w="240" .right}
+![Gifox](/assets/img/post/Gifox.webp "Gifox - Tạo ảnh gif nhanh"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoQAAwABUB8JQBOgCKt+ZMtuwAA/r0ZSQWRuJTOejETDOzhcgf7gAAA" w="240" .right}_Gifox_
 Đây là một ứng dụng nhỏ để tạo ảnh gif. Có thể quay một vùng màn hình sau đó chuyển nó thành ảnh gif. Hoặc cũng có thể kéo video có sẵn để chuyển thành ảnh gif luôn. Nó có bản free, giới hạn frame và thời gian, có thể mua 1 lần dùng luôn, không phải dạng thuê bao. 
 
 ### Affinity

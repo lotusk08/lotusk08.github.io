@@ -1,6 +1,6 @@
 ---
 title: Việt Nam - thiên đường của golf
-description: null
+description: 
 author: steve
 date: 2023-06-16 10:50 +0700
 categories:
@@ -8,6 +8,8 @@ categories:
 tags:
   - business
   - golf
+  - market
+  - Vietnam
 pin: false
 toc: false
 math: false

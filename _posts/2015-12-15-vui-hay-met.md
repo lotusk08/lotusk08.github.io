@@ -7,6 +7,7 @@ categories:
   - Vietnamese
 tags:
   - experience
+  - personality
 pin: false
 toc: false
 math: false

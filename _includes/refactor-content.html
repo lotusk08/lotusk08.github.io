@@ -80,7 +80,7 @@
         {% assign _pick = false %}
 
         {% case c %}
-          {% when 'preview-img', 'normal', 'left', 'right', 'light', 'dark', 'cover' %}
+          {% when 'preview-img', 'normal', 'left', 'right', 'light', 'dark', 'cover', 'gap' %}
             {% assign _pick = true %}
           {% else %}
             {% if c contains '-' %}

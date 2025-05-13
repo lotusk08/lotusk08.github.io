@@ -50,16 +50,16 @@
 }
 
 @mixin prompt($type, $icon-id, $rotate: 0) {
-  &.prompt-#{$type} {
-    background-color: var(--prompt-#{$type}-bg);
-    border-left: 0.2rem solid var(--prompt-#{$type}-border-color);
+  &.note-#{$type} {
+    background-color: var(--note-#{$type}-bg);
+    border-left: 0.2rem solid var(--note-#{$type}-border-color);
     position: relative;
 
     .icons {
       position: absolute;
       right: 0.75rem;
       bottom: 1rem;
-      color: var(--prompt-#{$type}-icon-color);
+      color: var(--note-#{$type}-icon-color);
       
       @if $rotate != 0 {
         svg {

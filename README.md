@@ -82,6 +82,7 @@ npm run lqip
 - style(img): use lqip data for layered background block behind an image
 - feat(chart): use chartjs for visual
 - perf: replace font fontawesome by SVG Sprite (all website icons just by `icons.svg` use the svg path from fontawesome)
+- style: replace prompt- by note-
 
 [wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
 [cf]: https://pages.cloudflare.com

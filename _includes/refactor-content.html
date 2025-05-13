@@ -213,10 +213,10 @@
   {% assign _content = _new_content %}
 {% endif %}
 
-{% if _content contains '<blockquote class="prompt-' %}
+{% if _content contains '<blockquote class="note-' %}
   {% assign _blockquote_content = _content %}
   {% assign _new_content = null %}
-  {% assign _blockquote_snippets = _blockquote_content | split: '<blockquote class="prompt-' %}
+  {% assign _blockquote_snippets = _blockquote_content | split: '<blockquote class="note-' %}
 
   {% for _snippet in _blockquote_snippets %}
     {% if forloop.first %}
@@ -248,7 +248,7 @@
     {% endcapture %}
 
     {% capture _new_content_temp %}
-      {{ _new_content }}<blockquote class="prompt-{{ _type }}">{{ _icon_html }}{{ _right }}
+      {{ _new_content }}<blockquote class="note-{{ _type }}">{{ _icon_html }}{{ _right }}
     {% endcapture %}
     {% assign _new_content = _new_content_temp %}
   {% endfor %}

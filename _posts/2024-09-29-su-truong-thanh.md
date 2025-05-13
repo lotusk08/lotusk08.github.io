@@ -101,4 +101,4 @@ Họ cũng từng sống cuộc đời của họ và nỗ lực sửa chữa nh
 
 > Bản thân mỗi chúng ta không ai xấu. Nhưng... trong quá trình trưởng thành... chúng ta từng xấu trong mắt một ai đó. Bởi lúc đó chúng ta vụng về, thô thiển, đôi khi hơi tiêu cực và cũng có chút lệch lạc.
 > Mong rằng những người từng chứng kiến và hứng chịu sự thiếu sót của ta không để ở trong lòng...
-{: .prompt-important}
+{: .note-important}

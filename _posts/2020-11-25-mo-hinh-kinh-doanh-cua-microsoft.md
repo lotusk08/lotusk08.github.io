@@ -153,7 +153,7 @@ Nhóm đối tượng này là chính chúng ta, cũng chính là đối tượn
 ![Mô hình kinh doanh quảng cáo của Bing](/assets/img/post/Microsoft-Bing-business-model.webp "Mô hình kinh doanh quảng cáo của Bing"){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAAoABUB8JZwAAiEDqUAAAP7h3AHW5k+WTqIgtzGHZWY7opv8ERcQ4Y6EjoSLVXzNXX/SdgAAAA=="} _Mô hình kinh doanh quảng cáo của Bing_
 
 > **Bing**  là một công cụ tìm kiếm web do Microsoft sở hữu và vận hành. Ban đầu, **Bing** có tên là MSN Search. Nếu tính riêng về công cụ tìm kiếm thì Bing là cỗ máy tìm kiếm lớn thứ ba trên toàn cầu, với lượng truy vấn là 4,58%. Còn bây giờ, ngoài công cụ tìm kiếm ra thì chúng ta còn sử dụng các mạng xã hội như Zalo, Facebook để lấy thông tin hoặc mua hàng nữa. Nhất là các đợt săn Voucher/Mã giảm giá 10.10,11.11.v.v.
-{: .prompt-info }
+{: .note-info }
 
 Mô hình kinh doanh của Bing dựa trên mô hình doanh thu ẩn, tương tự như Google. Người dùng có thể tìm kiếm trên Bing miễn phí trong khi các nhà quảng cáo thì phải trả phí để sử dụng Bing nhằm quảng bá sản phẩm hoặc dịch vụ.
 
@@ -162,7 +162,7 @@ Mô hình kinh doanh của Bing dựa trên mô hình doanh thu ẩn, tương t�
 ![Mô hình kinh doanh của Linkedin](/assets/img/post/Linkedin-business-model.webp "Mô hình kinh doanh của Linkedin"){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAoABUB8JZwAAujd2/bJNAAA/puseUiRGDxaNXMSmpvQSKFpMij/ViZHFFIBT+RQFrRXcRMWOiqskhaDCAAA"} _Mô hình kinh doanh của Linkedin_
 
 > Linkedin là mạng xã hội số một thế giới của các chuyên gia với hơn 645 triệu thành viên và đang phát triển. Ở Việt Nam, Linkedin được biết đến nhiều hơn với vai trò như một mạng xã hội tuyển dụng miễn phí. Các tính năng khác do rào cản về ngôn ngữ nên không được người Việt sử dụng rộng rãi. Tuy nhiên, gần đây, Linkedin được xem như một mạng xã hội tình yêu công sở tương tự Tinder.
-{: .prompt-info }
+{: .note-info }
 
 Trở lại câu chuyện kinh doanh của Linkedin, nền tảng này vận hành xoay quanh ba nhóm chính sau đây:
 

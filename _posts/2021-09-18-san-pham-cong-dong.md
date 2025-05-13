@@ -28,7 +28,7 @@ Tiktok, Steam, Github, Amazon Halo, Figma,… là các sản phẩm cộng đồ
 
 Thậm chí có những lĩnh vực khó nhằn như tài chính hay bất động sản mà cũng mong manh đến bất ngờ nếu các sản phẩm không kịp tích hợp yếu tố cộng đồng vào. Ở Việt Nam cũng có rất nhiều doanh nghiệp đã triển khai điều này rồi, ví dụ TCBS (công ty chứng khoán của Techcombank với iWealth Club)
 
-![Social](/assets/img/post/Social.webp "Mạng xã hội"){: lqip="data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwAgCdASoQAAoABUB8JbACdAYuH2w1zBDKrFrgAP5Yf75Tbw/J7jRP7o7qMPJUXdNQSUcc1nlubtcswBjDPB5GMYc8uCDD76fM/1QSpkWKKQQa7v59kngtyO+AAA==" w='420' .left}_Mạng xã hội - một hình thức sơ khai của sản phẩm cộng đồng_
+![Social](/assets/img/post/Social.webp "Mạng xã hội"){: lqip="data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwAgCdASoQAAoABUB8JbACdAYuH2w1zBDKrFrgAP5Yf75Tbw/J7jRP7o7qMPJUXdNQSUcc1nlubtcswBjDPB5GMYc8uCDD76fM/1QSpkWKKQQa7v59kngtyO+AAA==" w='420' .left} _Mạng xã hội - một hình thức sơ khai của sản phẩm cộng đồng_
 
 Với việc có một cộng đồng những người sử dụng sản phẩm, dịch vụ; các công ty áp dụng chiến lược này có thể phát triển sản phẩm và gia tăng người dùng nhanh hơn, nhanh chóng nắm được mấu chốt nhu cầu của khách hàng với khả năng tương tác tốt hơn.
 
@@ -80,13 +80,13 @@ Có rất nhiều doanh nghiệp tung ra sản phẩm của mình và chỉ xây
 
 Chuyện gì sẽ xảy ra khi bạn bị chiếm mất quyền kiểm soát nhóm đó, trang đó, máy chủ ảo đó? Và nếu cộng đồng của bạn đủ lớn, liệu những công ty quản lý nền tảng này có chia sẻ dữ liệu cho phép các bên khác sử dụng cùng social graph để xây dựng một nền tảng cạnh tranh với bạn? Bạn sẽ còn lại gì? Thương hiệu ư? Hay đó là sự mất mát quá lớn?
 
-![Kenh Youtube bi hack](/assets/img/post/Kenh-Youtube-bi-hack.webp "Rủi ro khi bị chiếm tài khoản"){: lqip="data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoQAAoABUB8JZwAAtzqZhAAAP7sx5yhpKpy8McKPrWjS88h2NUiaKCQAAA=" w='320' .right}_Kênh youtube bị mất quyền kiểm soát_
+![Kenh Youtube bi hack](/assets/img/post/Kenh-Youtube-bi-hack.webp "Rủi ro khi bị chiếm tài khoản"){: lqip="data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoQAAoABUB8JZwAAtzqZhAAAP7sx5yhpKpy8McKPrWjS88h2NUiaKCQAAA=" w='320' .right} _Kênh youtube bị mất quyền kiểm soát_
 
 Trong khi đó, nếu social graph của bạn được xây dựng riêng cho sản phẩm của bạn, mang lại cho khách hàng của bạn một trải nghiệm độc nhất mà chỉ có bạn trong lĩnh vực đó mang lại. Sản phẩm của bạn trở nên đặc biệt và có khả năng chống chọi lại các đối thủ hiệu quả hơn.
 
 Ví dụ, những người dùng TikTok. Họ chắc chắn biết rõ ràng về sự khác biệt và chất riêng vì nó được tối ưu cho việc chọn video, chèn nhạc, upload, nhận tim. Dù Facebook hay Instagram xây dựng các chức năng tương tự như TikTok, thì social graph của Facebook vẫn khác TikTok và trải nghiệm cũng sẽ rất khác, có khi kém hơn nhiều.
 > Dù có nhiều lượt theo dõi tới đâu, tài khoản người dùng cũng chỉ là một bộ phận của  Youtube.
-{: .prompt-warning }
+{: .note-warning }
 Bạn có thể tận dụng các mạng xã hội và yếu tố social của các bên khác ở giai đoạn ban đầu để đáp ứng chiến lược sản phẩm và mục tiêu kinh doanh. Nhưng đến cuối cùng, bạn cũng sẽ cần một cộng đồng cho sản phẩm của riêng mình để tồn tại.
 
 ### Tư duy tập thể

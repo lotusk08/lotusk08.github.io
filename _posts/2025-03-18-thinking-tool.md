@@ -57,7 +57,7 @@ I forked it immediately. I customized it to my liking, built it, and deployed it
 
 > Learning and practicing to do something might take time, but the experiences and sense of accomplishment are really special.
 > I hope everyone gets to experience something like this too.
-{: .prompt-important }
+{: .note-important }
 
 Think tools
 : Think tree: [*think.stevehoang.com*](https://think.stevehoang.com)

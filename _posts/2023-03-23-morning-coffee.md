@@ -14,7 +14,7 @@ math: false
 mermaid: false
 image:
   path: /assets/img/post/morning-coffee.webp
-  lqip: data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAwABUB8JbAC7ADaPn3uGAAA9r7eN97UNRsLL87kTKTIjp0a71Ln5I+2WalL8t3eBoXP48BPO29YfGjJ8od7PIVhvxg+1OIoHrHATX4AAAAA
+  lqip: data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABUB8JYgC7AD0i/t1fuDgAPZGdrPzEsv6UdOVMSYKEO677fDuBSqtpDwyCOrCV7hc2xduFCZWsPdN8AAA
   alt: Morning coffee
 ---
 ## A cup of morning coffee

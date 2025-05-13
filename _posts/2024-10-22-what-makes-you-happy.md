@@ -17,7 +17,7 @@ mermaid: false
 ## The Question:
 
 > What makes you happy?
-{: .prompt-warning }
+{: .note-warning }
 
 ## People
 
@@ -39,7 +39,7 @@ They live their lives, some things feel right, others not so much. It’s simply
 - Families may not always be cherished for who they are but rather for the sense of security they provide.
 - Nature captivates us, but often it’s the pleasure it offers that we’re drawn to.
 - And life itself—sometimes, it’s only the pleasant moments we truly love.
-{: .prompt-info }
+{: .note-info }
 
 It’s easy to convince ourselves that we’re passionate about something when, in fact, we might just desire its rewards. Does happiness lie here? Maybe... but it feels a little incomplete.
 
@@ -52,7 +52,7 @@ One day, I noticed something:
 I forget things easily, yet saying goodbye to people or places I love is always difficult. I share my life with [Too](/my-pet/) and my girlfriend. I can hurt, but they don’t.
 
 > What matters most isn’t what I own; it’s who’s around me.
-{: .prompt-tip }
+{: .note-tip }
 
 ## You?
 

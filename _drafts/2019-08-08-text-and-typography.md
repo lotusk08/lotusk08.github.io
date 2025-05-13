@@ -80,24 +80,24 @@ Moon
 > Albert Einstein
 {: .author}
 
-## Prompts
+## Notes
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 > An example showing the `tip` type prompt.
-{: .prompt-tip }
+{: .note-tip }
 
 > An example showing the `info` type prompt.
-{: .prompt-info }
+{: .note-info }
 
 > An example showing the `important` type prompt.
-{: .prompt-important }
+{: .note-important }
 
 > An example showing the `warning` type prompt.
-{: .prompt-warning }
+{: .note-warning }
 
 > An example showing the `danger` type prompt.
-{: .prompt-danger }
+{: .note-danger }
 <!-- markdownlint-restore -->
 
 ## Tables

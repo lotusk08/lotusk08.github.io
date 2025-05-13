@@ -27,9 +27,9 @@ On a suggestion from Mr. John - CEO of Vietnam Star Automobile, I have created a
 ![Mr. Bitterlich](/assets/img/post/mr.bitterlich-ceo-mercedes-benz-vietnam-2024.webp){: lqip="data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAsABUB8JbAC7ADvmFusAAD+7BFGdq3sF2bwmDyZrOlV22sGbSpyaeH0x3l82LTweXKrCS6EuU7wf4ubaJ9h0zqOsLehvKMtnf0qkgyW6IAA"} _Mr. Bitterlich (highest) - CEO of Mercedes-Benz Vietnam from 2024_
 
 > Mercedes-Benz stands among the top German luxury car brands in Vietnam, alongside Audi, BMW, Volkswagen, and Porsche. With a diverse product range categorized into Top-End Luxury, Core Luxury, and Entry Luxury, MBV has also introduced electric models like the EQS Sedan, EQS SUV, EQB, and EQE SUV to its Vietnamese customers.
-{: .prompt-info }
+{: .note-info }
 
 ![Working on Finalcutpro](/assets/img/post/working-on-finalcutpro.webp "You can see John in this picture"){: lqip="data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoQAAkABUB8JZwAArI8T6swAP7QocOb7Fzl2bcArT3j4kRnuLMsFPwQAAA=" .shadow .rounded-5} _The Final Cut Pro working space image_
 
 > This video has been made with Final Cut Pro. The intro uses Adobe After Effects. You can download the all material and VFX to use this farewell template [here](https://www.dropbox.com/scl/fo/mjwu2n2qogqy84lt7pks6/AKJy9EugHBEn9XglcrYsEfw?rlkey=hdz142mi7u1p97422jsw4noi2&dl=0). It's about `23.35GB`.
-{: .prompt-tip}
+{: .note-tip}

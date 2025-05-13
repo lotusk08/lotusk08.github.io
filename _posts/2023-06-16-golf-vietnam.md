@@ -1,6 +1,6 @@
 ---
 title: Việt Nam - thiên đường của golf
-description: 
+description: null
 author: steve
 date: 2023-06-16 10:50 +0700
 categories:

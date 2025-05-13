@@ -58,7 +58,7 @@ I'm on social:
 	<a href="https://www.x.com/lotusk08" aria-label="x" target="_blank" rel="noopener noreferrer" style="border: none;">
 		{% include icons.html icon="square-x-twitter" class="" %}
 	</a>
-	<a href="https://www.facebook.com/stevehoang.me" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
+	<a href="https://www.facebook.com/stevehoangdotcom" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">
 		{% include icons.html icon="square-facebook" class="" %}
 	</a>
 	<a href="https://www.goodreads.com/user/show/177600901-steve-hoang" aria-label="facebook" target="_blank" rel="noopener noreferrer" style="border: none;">

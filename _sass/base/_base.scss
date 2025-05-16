@@ -179,7 +179,7 @@ main {
     &.popup {
       @extend %no-cursor;
       @extend %img-caption;
-      @include mx.mt-mb(1.5rem);
+      @include mx.mt-mb(0.5rem);
 
       cursor: zoom-in;
     }

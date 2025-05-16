@@ -257,7 +257,7 @@ I enjoy photography and the process of creating images; each photo captures pric
 
 ![Me  Steve](/assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="}
 
-> I am who I am, not whom you think I am!
+> I am who I am...
 >
 >I'm Steve!
 {: .author }

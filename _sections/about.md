@@ -174,41 +174,6 @@ The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 ![Member card template 1](/assets/img/post/member-card-option-1.webp){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsABUB8JZACdAEOunCugAD+x3iwmmni/y7tmamkCV5D8aScUMsHSybyavmGZ1oTlj8AAAA=" .normal .gap}
 ![Member card template 2](/assets/img/post/member-card-option-2.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JZACdH8AGBrF0AAA/tYTFH4pSEWOZU/bvy7b5nU3iNIWMws+HdXH+CkDoSFIW6lDKgd5cAAAAA==" .normal}
 
-#### Publications
-
-<div class="row">
-  <div class="col-md-6 mb-3">
-	<div class="pdf-container">
-	  <object data="/assets/pdf/TKT brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-		<p>Unable to display PDF file. <a href="/assets/pdf/TKT brochure.pdf">Download</a> instead.</p>
-	  </object>
-	</div>
-  </div>
-  <div class="col-md-6 mb-3">
-	<div class="pdf-container">
-	  <object data="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-		<p>Unable to display PDF file. <a href="/assets/pdf/MKT-HSNL.V07.01-TKT-2021.pdf">Download</a> instead.</p>
-	  </object>
-	</div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4 mb-3">
-	<div class="pdf-container pdf-container-sm">
-	  <object data="/assets/pdf/TKS brochure.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-		<p>Unable to display PDF file. <a href="/assets/pdf/TKS brochure.pdf">Download</a> instead.</p>
-	  </object>
-	</div>
-  </div>
-  <div class="col-md-8 mb-3">
-	<div class="pdf-container pdf-container-sm">
-	  <object data="/assets/pdf/MOD - Application.pdf#view=FitBH&toolbar=0&navpanes=0&scrollbar=0&pagemode=none&zoom=page-fit" type="application/pdf">
-		<p>Unable to display PDF file. <a href="/assets/pdf/MOD - Application.pdf">Download</a> instead.</p>
-	  </object>
-	</div>
-  </div>
-</div>
-
 ### Video
 
 ![Video edit](/assets/img/post/filming.webp){: lqip="data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JZgCdAYwTjbWsm5gAAD+a94bijV2Gqwfa9pLxkn32SM7xgxd6SQoed2MB48fpRY/drY7sdPO54IlLndha6yuqkiBDTsbPLfIBnc7iEAAAA==" width="480"}

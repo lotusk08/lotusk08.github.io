@@ -175,6 +175,12 @@ img, svg {
   list-style: none;
 }
 
+*:focus-visible {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
 dl, ol, ul {
   margin-top: 0;
   margin-bottom: 1rem;

@@ -27,6 +27,7 @@ header {
   }
 
   .post-meta {
+    margin-bottom: 2rem;
     color: var(--text-muted-color);
 
     span + span::before {
@@ -64,8 +65,6 @@ header {
   color: var(--text-muted-color);
 
   .post-meta {
-    margin-bottom: 1rem;
-
     a:not(:hover) {
     @extend %link-underline;
     }

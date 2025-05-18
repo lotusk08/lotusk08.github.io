@@ -43,7 +43,7 @@ notification:
   update_found: A new version of content is available.
   update: Update
 
-# ----- Posts related labels -----
+# ----- Posts labels -----
 
 post:
   written_by:
@@ -54,7 +54,6 @@ post:
   read_time:
     unit: minute
     prompt: read
-  relate_posts: Further Reading
   share:
   button:
     next: Next

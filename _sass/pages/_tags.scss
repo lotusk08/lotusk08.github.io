@@ -14,7 +14,7 @@
     background: var(--primary-color);
     transition: all 0.35s ease-in-out;
     color: white !important;
-    
+
     sup {
       color: white !important;
     }
@@ -28,6 +28,10 @@
 }
 
 #tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+
   @include bp.lt(bp.get(lg)) {
     justify-content: center !important;
   }

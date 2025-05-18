@@ -21,10 +21,14 @@ header {
     @extend %heading;
 
     font-size: 1.125rem;
+    font-weight: 300;
     line-height: 1.6;
+    margin-bottom: 1.5rem;
   }
 
   .post-meta {
+    color: var(--text-muted-color);
+
     span + span::before {
       @include -dot;
     }
@@ -40,6 +44,15 @@ header {
         color: inherit;
       }
     }
+
+    .cover-img {
+      margin: 1rem 0;
+
+      > figcaption {
+        text-align: center;
+        padding: 0.5rem 0;
+      }
+    }
   }
 }
 
@@ -48,20 +61,35 @@ header {
 
   margin-top: 6rem;
   border-bottom: 1px double var(--main-border-color);
+  color: var(--text-muted-color);
 
-  .post-meta a:not(:hover) {
+  .post-meta {
+    margin-bottom: 1rem;
+
+    a:not(:hover) {
     @extend %link-underline;
+    }
+  }
+
+  .post-topic {
+    display: flex;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .share-wrapper {
     vertical-align: middle;
+    align-items: center;
+    display: flex;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 
     %icon-size {
-      font-size: 1.125rem;
+      font-size: 1rem;
     }
 
     .share-icons {
@@ -89,6 +117,7 @@ header {
         padding: 0;
         border: none;
         line-height: inherit;
+        background-color: transparent;
 
         @extend %cursor-pointer;
       }
@@ -107,23 +136,18 @@ header {
   }
 }
 
-.share-mastodon {
-  /* See: https://github.com/justinribeiro/share-to-mastodon#properties */
-  --wc-stm-font-family: v.$font-family-base;
-  --wc-stm-dialog-background-color: var(--main-bg);
-  --wc-stm-form-button-border: 1px solid var(--btn-border-color);
-  --wc-stm-form-submit-background-color: var(--main-bg);
-  --wc-stm-form-cancel-background-color: var(--main-bg);
-  --wc-stm-form-button-background-color-hover: #007bff;
-  --wc-stm-form-button-color-hover: white;
-
-  font-size: 1rem;
-}
-
 .post-tags {
   line-height: 2rem;
 
+  > i {
+    margin-right: .25rem;
+  }
+
   .post-tag {
+    > a {
+      text-decoration: none;
+    }
+
     &:hover {
       @extend %tag-hover;
     }
@@ -131,23 +155,28 @@ header {
 }
 
 .post-navigation {
+  display: flex;
+  justify-content: space-between;
+
   @include bp.lt(bp.get(lg)) {
     @include mx.pl-pr(0);
   }
 
-  .btn {
+  .navigation {
     @extend %-btn-post-nav;
 
     color: var(--text-color);
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid var(--main-border-color);
+    -webkit-tap-highlight-color: transparent;
 
     &:hover:not(.disabled) {
       background-color: transparent;
       border-color: var(--main-bg);
-      color: var(--primary-color);
-
-      &::before {
-        color: whitesmoke;
-      }
+      color: var(--secondary-color);
     }
 
     &.disabled {
@@ -158,7 +187,11 @@ header {
       background: none;
       color: gray;
 
-      &.btn-outline-primary:focus {
+      &::before {
+        color: #86868678 !important
+      }
+
+      &.navigation:focus {
         box-shadow: none;
       }
     }
@@ -175,7 +208,7 @@ header {
       border-top: 1px;
       border-left: 1px;
       border-right: 1px;
-      border-color: var(--btn-border-color);
+      border-color: var(--main-border-color);
       left: 2px;
 
       @include bp.md {
@@ -201,6 +234,7 @@ header {
 
       &:hover:not(.disabled)::before {
         color: var(--secondary-color);
+        background-color: transparent;
       }
     }
 
@@ -209,7 +243,7 @@ header {
       border-bottom: 1px;
       border-right: 1px;
       border-left: 1px;
-      border-color: var(--btn-border-color);
+      border-color: var(--main-border-color);
       right: 2px;
 
       @include bp.md {
@@ -234,7 +268,8 @@ header {
       }
 
       &:hover:not(.disabled)::before {
-        color: var(--secondary-color);
+        color: var(--primary-color);
+        background-color: transparent;
       }
     }
   }
@@ -243,19 +278,10 @@ header {
     font-size: inherit;
     line-height: 1.5rem;
     margin-top: 1rem;
-    
+
     @extend %title-style;
   }
 }  /* .post-navigation */
-
-@media (hover: hover) {
-  .post-navigation {
-    .btn,
-    .btn::before {
-      transition: all 0.35s ease-in-out;
-    }
-  }
-}
 
 @-webkit-keyframes fade-up {
   from {
@@ -284,7 +310,6 @@ header {
 %top-cover {
   content: '';
   display: block;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
@@ -302,11 +327,7 @@ header {
   scrollbar-width: none;
   margin-top: 2rem;
 
-  &:hover {
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out, visibility 0s linear 0s; /* Immediate visibility when hovered */
-  }
-
+  &:hover,
   &.visible {
     opacity: 1;
     transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
@@ -315,6 +336,7 @@ header {
   &:not(.invisible) {
     -webkit-animation: fade-up 0.8s;
     animation: fade-up 0.8s;
+    position: sticky;
   }
 
   ul {
@@ -323,13 +345,10 @@ header {
     line-height: 1.25;
     padding-left: 0;
 
-    li {
-      a {
-        padding: 0.4rem 0 0.4rem 1.25rem;
-      }
+    li a {
+      padding: 0.4rem 0 0.4rem 1.25rem;
     }
 
-    /* Overwrite TOC plugin style */
     .toc-link {
       display: block;
 
@@ -346,7 +365,6 @@ header {
     }
 
     .is-active-link {
-      /* color: var(--primary-color) !important; */
       font-weight: 700;
 
       &::before {
@@ -366,6 +384,7 @@ header {
     @extend %top-cover;
 
     margin-bottom: -4rem;
+    z-index: 3;
   }
 
   &::before {
@@ -387,8 +406,6 @@ header {
   }
 }
 
-/* --- TOC button, bar and popup in mobile/tablet --- */
-
 #toc-bar {
   position: -webkit-sticky;
   position: sticky;
@@ -396,6 +413,9 @@ header {
   z-index: 1;
   margin: 0 -1rem;
   margin-top: -3rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background: linear-gradient(var(--main-bg) 70%, transparent);
@@ -404,43 +424,61 @@ header {
 
   @extend %btn-color;
 
-  @include bp.xl {
-    display: none !important;
+  > button {
+    padding: 0.375rem 0.75rem;
+    margin-right: 0.25rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: inherit;
+    line-height: inherit;
   }
 
   .label {
     @extend %heading;
 
-    margin-left: 0.375rem;
+    margin: 0 0 0 0.375rem;
     padding: 0 0.75rem;
     color: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   &.invisible {
     top: -#{v.$topbar-height};
     transition: none;
+    visibility: hidden;
+  }
+
+  @include bp.xl {
+    display: none;
   }
 }
 
 #toc-solo-trigger {
   color: var(--text-muted-color);
-  border-color: var(--btn-border-color);
-  border-radius: v.$radius-sm;
+  border: 1px solid var(--btn-border-color);
+  border-radius: .2rem;
   margin-top: -2rem;
+  background-color: transparent;
+  cursor: pointer;
   visibility: hidden;
-  
-  @include bp.xl {
-    display: none !important;
-  }
 
   .label {
     font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.25rem;
     font-family: v.$font-family-heading;
   }
 
   &:hover {
     box-shadow: none;
     background: none;
+  }
+
+  @include bp.xl {
+    display: none !important;
   }
 }
 
@@ -484,53 +522,14 @@ header {
   @include slide-out;
 }
 
-/* --- Related Posts --- */
-
-#related-posts {
-  > h3 {
-    @include mx.label(1.1rem, 600);
-  }
-
-  time {
-    @extend %normal-font-style;
-    @extend %text-xs;
-
-    color: var(--text-muted-color);
-  }
-
-  p {
-    @extend %text-ellipsis;
-
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    white-space: break-spaces;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }
-
-  .card {
-    h4 {
-      @extend %text-clip;
-    }
-  }
-}
-
-/* stylelint-disable-next-line selector-id-pattern */
-#disqus_thread {
-  min-height: 8.5rem;
-}
-
-.utterances {
-  max-width: 100%;
-  min-height: 269px;
-}
 
 %btn-share-hover {
   color: var(--btn-share-hover-color) !important;
 }
 
 .share-label {
+  color: var(--text-muted-color);
+
   @include mx.label(inherit, 400, inherit);
 
   &::after {
@@ -549,5 +548,6 @@ h3,
 h4 {
   @include bp.xl {
     scroll-margin-top: 2rem;
+    scroll-behavior: smooth;
   }
 }

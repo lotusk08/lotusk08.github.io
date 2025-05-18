@@ -2,8 +2,8 @@
 @use '../abstracts/placeholders';
 
 .categories {
-  margin-bottom: 2rem;
-  border-color: var(--categories-border);
+  margin-bottom: 2rem !important;
+  border: 1px solid var(--categories-border);
   background-color: transparent;
   color: var(--text-color);
 
@@ -12,7 +12,15 @@
     @extend %rounded;
 
     background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
   }
+
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
 
   .card-header {
     $radius: calc(v.$radius-lg - 1px);
@@ -21,8 +29,19 @@
     border-radius: $radius;
     border-bottom: 0;
     background-color: oklch(85% 0.02 80deg / 0.1);
+    display: flex;
+    justify-content: space-between;
+
+    span:first-child {
+      margin-left: 0.5rem;
+
+      a {
+        margin: 0 0.5rem;
+      }
+    }
 
     &.hide-border-bottom {
+      border-bottom: 0;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
     }
@@ -36,9 +55,17 @@
   .list-group-item {
     border: none;
     border-top: 1px solid var(--tb-border-color);
-    padding-left: 2rem;
     background-color: transparent;
     color: var(--text-color);
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    display: block;
+
+    a {
+      margin: 0 0.5rem;
+    }
 
     &:first-child {
       border-top-left-radius: 0;
@@ -47,22 +74,41 @@
 
     &:last-child {
       border-bottom: 0;
+      border-bottom-right-radius: inherit;
+      border-bottom-left-radius: inherit;
     }
   }
-} /* .categories */
+
+  // Collapse styles
+  .collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+
+    &.show {
+      max-height: 1000px; // Adjust based on content or use dynamic height
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
 
 .category-trigger {
   width: 1.7rem;
   height: 1.7rem;
   border-radius: 50%;
+  border-bottom: 0;
   text-align: center;
   color: #6c757d !important;
+  cursor: pointer;
 
   i {
     position: relative;
     height: 0.7rem;
     width: 1rem;
-    transition: transform 300ms ease;
+    transition: transform 0.3s ease;
   }
 
   &:hover {
@@ -70,9 +116,13 @@
       color: var(--primary-color);
     }
   }
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
 }
 
-/* only works on desktop */
 @media (hover: hover) {
   .category-trigger:hover {
     background-color: var(--site-hover-bg);

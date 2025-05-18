@@ -19,19 +19,3 @@
 {% for entry in all_list limit: MAX_SIZE %}
   {% assign update_list = update_list | push: entry %}
 {% endfor %}
-
-{% if update_list.size > 0 %}
-  <section id="access-lastmod">
-    <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</h2>
-    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
-      {% for item in update_list %}
-        {% assign index = item | split: '::' | last | plus: 0 %}
-        {% assign post = site.posts[index] %}
-        {% assign url = post.url | relative_url %}
-        <li class="text-truncate lh-lg">
-          <a href="{{ url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-{% endif %}

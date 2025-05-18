@@ -6,9 +6,10 @@
 $btn-border-width: 3px;
 $btn-mb: 0.5rem;
 
-#topbar-wrapper {
+#header-wrapper {
   height: v.$topbar-height;
   background-color: transparent;
+  flex-shrink: 0;
 
   @include bp.lt(bp.get(lg)) {
     @include mx.slide(top 0.2s ease);
@@ -19,6 +20,31 @@ $btn-mb: 0.5rem;
 
 #topbar {
   @extend %btn-color;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+
+  @include bp.md {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @include bp.lt(bp.get(lg)) {
+    max-width: 100%;
+  }
+
+  @include bp.between(bp.get(lg), calc(#{bp.get(xl)} - 1px)) {
+    flex: 0 0 auto;
+    width: calc(100% * 11 / 12);
+  }
+
+  @include bp.xl {
+    width: 75%;
+  }
 
   #breadcrumb {
     font-size: 1rem;
@@ -64,36 +90,42 @@ $btn-mb: 0.5rem;
   @include bp.lte(bp.get(md)) {
     @include mx.max-w-100;
   }
-
-  @include bp.lt(bp.get(lg)) {
-    max-width: 100%;
-  }
 }
 
 .topbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+
+  @include bp.lg {
+    margin-left: 0;
+  }
+
   @include bp.lt(bp.get(lg)) {
     gap: 0.25rem;
   }
 }
 
-.theme-toggle-wrapper {
+.mode-toggle-wrapper {
   @include bp.lt(bp.get(lg)) {
     justify-content: end;
     margin-right: 0.5rem;
   }
 
   #mode-toggle {
+    font-size: inherit;
     width: 1.75rem;
     height: 1.75rem;
     margin-top: 1px;
     border-radius: 50%;
+    border: none;
     color: var(--site-btn-color);
     background-color: transparent;
-    text-align: center;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    cursor: pointer;
 
     i > svg {
       height: 1em;
@@ -102,7 +134,6 @@ $btn-mb: 0.5rem;
 
     @include bp.lt(bp.get(lg)) {
       margin-right: 1rem;
-      border: none;
       outline: none !important;
     }
 
@@ -137,13 +168,5 @@ $btn-mb: 0.5rem;
 
   @include bp.xxxl {
     @include mx.ml-mr(calc((v.$btn-gap-lg - $btn-border-width) / 2));
-  }
-}
-
-#search-trigger {
-  display: none;
-
-  @include bp.lt(bp.get(lg)) {
-    display: none;
   }
 }

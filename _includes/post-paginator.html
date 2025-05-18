@@ -1,5 +1,5 @@
 <nav aria-label="Page Navigation">
-  <ul class="pagination align-items-center mt-4 mb-0">
+  <ul class="pagination">
     {% if paginator.previous_page %}
       {% assign prev_url = paginator.previous_page_path | relative_url %}
     {% else %}
@@ -62,7 +62,7 @@
       {% endif %}
     {% endfor %}
 
-    <li class="page-index align-middle">
+    <li class="page-index">
       <span>{{ paginator.page }}</span>
       <span class="text-muted">/ {{ paginator.total_pages }}</span>
     </li>

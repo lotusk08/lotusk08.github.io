@@ -1,8 +1,8 @@
 {% capture result_elem %}
-  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">
+  <article>
     <header>
       <h2><a href="{url}">{title}</a></h2>
-      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">
+      <div class="post-meta">
         {categories}
         {tags}
       </div>
@@ -11,7 +11,7 @@
   </article>
 {% endcapture %}
 
-{% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
+{% capture not_found %}<p>{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
 
 <script>
   {% comment %} Note: dependent library will be loaded in `js-selector.html` {% endcomment %}
@@ -27,7 +27,7 @@
           if (value === '') {
             return `${value}`;
           } else {
-            return `<div class="me-sm-4">{% include icons.html icon="folder" class="fa-fw" %}${value}</div>`;
+            return `<div>{% include icons.html icon="folder" class="fa-fw" %}${value}</div>`;
           }
         }
 

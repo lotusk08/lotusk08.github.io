@@ -1,32 +1,49 @@
-import "bootstrap/js/src/collapse.js";
-
 const childPrefix = "l_";
 const parentPrefix = "h_";
 
 export function categoryCollapse() {
-  const children = document.getElementsByClassName("collapse");
-  const arr = Array.from(children);
+  const children = document.querySelectorAll(".collapse");
 
-  for (const elem of arr) {
+  children.forEach((elem) => {
     const id = parentPrefix + elem.id.slice(childPrefix.length);
     const parent = document.getElementById(id);
-    if (!parent) continue;
+    if (!parent) {
+      console.warn(`Parent element with ID ${id} not found`);
+      return;
+    }
 
-    const folderIcon = parent.querySelector('.icons-folder use');
-    const angleIcon = parent.querySelector('.icons-angle use');
+    const folderIcon = parent.querySelector(".icons-folder use");
+    const angleIcon = parent.querySelector(".icons-angle use");
+    const trigger = parent.querySelector(".category-trigger");
 
-    elem.addEventListener("hide.bs.collapse", () => {
-      folderIcon.setAttribute("href", "/assets/icons.svg#folder");
+    if (!trigger) {
+      console.warn(`Trigger not found for parent ID ${id}`);
+      return;
+    }
+
+    trigger.addEventListener("click", (e) => {
+      e.preventDefault();
+      const isOpen = parent.classList.toggle("is-open");
+      console.log(`Toggled is-open for ${id}: ${isOpen}`);
+
+      // Update collapse element
+      const collapse = document.getElementById(elem.id);
+      collapse.classList.toggle("show", isOpen);
+
+      // Update icons and border
+      folderIcon.setAttribute(
+        "href",
+        `/assets/icons.svg#${isOpen ? "folder-open" : "folder"}`
+      );
       angleIcon.setAttribute("href", "/assets/icons.svg#angle-down");
-      angleIcon.closest('.icons').classList.add("rotate");
-      parent.classList.remove("hide-border-bottom");
-    });
+      angleIcon.closest(".icons").classList.toggle("rotate", !isOpen);
+      parent.classList.toggle("hide-border-bottom", isOpen);
 
-    elem.addEventListener("show.bs.collapse", () => {
-      folderIcon.setAttribute("href", "/assets/icons.svg#folder-open");
-      angleIcon.setAttribute("href", "/assets/icons.svg#angle-down");
-      angleIcon.closest('.icons').classList.remove("rotate");
-      parent.classList.add("hide-border-bottom");
+      // Optional: Force reflow for height transition
+      collapse.style.display = isOpen ? "block" : "none"; // Temporary fix if needed
+      setTimeout(() => {
+        collapse.style.display = "";
+      }, 0);
     });
-  }
+  });
 }

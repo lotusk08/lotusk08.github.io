@@ -3,71 +3,118 @@
 @use '../abstracts/placeholders';
 
 /* PWA update popup */
-#notification {
-  @-webkit-keyframes popup {
-    from {
-      opacity: 0;
-      bottom: 0;
-    }
+.notification-container {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  pointer-events: none;
+}
+
+.notification {
+  display: none;
+  min-width: 20rem;
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  border-radius: v.$radius-sm;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: var(--text-color);
+  text-align: center;
+  font-family: v.$font-family-base;
+  line-height: 1.25rem;
+  position: fixed;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  -webkit-animation: popup 0.8s;
+  animation: popup 0.8s;
+  pointer-events: auto;
+  box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.2);
+
+  &.show {
+    display: block;
   }
 
-  @keyframes popup {
-    from {
-      opacity: 0;
-      bottom: 0;
-    }
+  @include bp.xxl {
+    min-width: 22rem;
   }
 
-  .toast-header {
-    background-color: transparent;
-    border-bottom: none;
-    color: inherit;
+  @include bp.xxxl {
+    min-width: 25rem;
   }
 
-  .toast-body {
-    font-family: v.$font-family-base;
-    line-height: 1.25rem;
-    color: var(--text-color);
-
-    button {
-      font-size: 90%;
-      min-width: 4rem;
-      background: var(--secondary-color);
-      border-color: var(--secondary-color);
-
-      &:hover {
-        background: var(--primary-color);
-        border-color: var(--primary-color);
-        transition: 0.35s ease-in-out;
-      }
-    }
+  p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
   }
 
-  &.toast {
-    &.show {
-      display: block;
-      min-width: 20rem;
-      border-radius: v.$radius-sm;
-      -webkit-backdrop-filter: blur(5px);
-      backdrop-filter: blur(5px);
-      background-color: rgba(255, 255, 255, 0.1);
-      color: #1b1b1eba;
-      position: fixed;
-      left: 50%;
-      bottom: 20%;
-      transform: translateX(-50%);
-      -webkit-animation: popup 0.8s;
-      animation: popup 0.8s;
-      z-index: 10;
+  button {
+    font-size: 90%;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    padding: 0.35rem 1rem;
+    line-height: inherit;
+    cursor: pointer;
+    min-width: 4rem;
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transition: background-color 0.3s ease;
+    -webkit-appearance: button;
 
-      @include bp.xxl {
-        min-width: 22rem;
-      }
-
-      @include bp.xxxl {
-        min-width: 25rem;
-      }
+    &:hover {
+      background: var(--primary-color);
+      border-color: var(--primary-color);
+      transition: 0.35s ease-in-out;
     }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+// Animation for sliding in
+@-webkit-keyframes popup {
+  from {
+    opacity: 0;
+    bottom: 0;
+  }
+
+  to {
+    opacity: 1;
+    bottom: 20%;
+  }
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    bottom: 0;
+  }
+
+  to {
+    opacity: 1;
+    bottom: 20%;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  to {
+    opacity: 0;
+    bottom: 0;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+    bottom: 0;
   }
 }
 
@@ -89,6 +136,7 @@
   margin-top: v.$topbar-height;
   min-width: 20rem;
   font-size: 1.05rem;
+  padding: 0;
 
   @include bp.sm {
     max-width: 32rem;
@@ -104,17 +152,35 @@
     animation: $slide-out;
   }
 
-  .header {
+  .toc-header {
     @extend %btn-color;
 
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
     background-color: transparent;
     border-bottom: 1px solid var(--main-border-color);
 
     .label {
       font-family: v.$font-family-heading;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0.5rem 0;
+      margin-left: 1.5rem;
+    }
+
+    > button {
+      margin: 0.25rem;
+      padding: 0.375rem 0.75rem;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      opacity: 0.7;
     }
   }
 
@@ -122,10 +188,12 @@
     > i {
       font-size: 1.25rem;
       vertical-align: middle;
+      -webkit-user-select: none;
     }
 
     &:focus-visible {
       box-shadow: none;
+      outline: none;
     }
   }
 
@@ -186,5 +254,6 @@
     max-height: calc(100vh - 4 * v.$topbar-height);
     font-family: v.$font-family-heading;
     margin-bottom: -$curtain-height;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
   }
 }

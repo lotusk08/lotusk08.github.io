@@ -1,14 +1,5 @@
 # Resource Hints
 resource_hints:
-  - url: https://fonts.googleapis.com
-    links:
-      - rel: preconnect
-      - rel: dns-prefetch
-  - url: https://fonts.gstatic.com
-    links:
-      - rel: preconnect
-        opts: [crossorigin]
-      - rel: dns-prefetch
   - url: https://cdn.jsdelivr.net
     links:
       - rel: preconnect
@@ -16,7 +7,7 @@ resource_hints:
 
 
 # Web Fonts
-webfonts: https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap
+webfonts: /assets/fonts/main.min.css
 
 # Libraries
 

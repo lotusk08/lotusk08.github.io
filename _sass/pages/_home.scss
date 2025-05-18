@@ -23,12 +23,16 @@
 
   margin-top: 6.3rem;
   margin-bottom: 7.2rem;
-  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
 
   #avatar {
     display: block;
     width: 6.5rem;
     height: 6.5rem;
+    border-radius: 50%;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0);
@@ -84,6 +88,7 @@
   margin-bottom: 0.5rem;
   width: fit-content;
   color: var(--site-title-color);
+  display: block;
 }
 
 header.profile-wrapper h1 {
@@ -100,6 +105,8 @@ header.profile-wrapper h1 {
 .site-subtitle {
   font-size: 95%;
   color: var(--site-subtitle-color);
+  font-style: italic;
+  margin-bottom: 0;
   margin-top: 0.25rem;
   word-spacing: 1px;
   user-select: none;
@@ -115,13 +122,25 @@ header.profile-wrapper h1 {
 
 #post-list {
   margin-top: 3rem;
+  flex-grow: 1 !important;
 
   @include bp.lg {
     margin-top: 3.5rem;
   }
 
-  .card-wrapper {
+  @include bp.xl {
+    padding: 0 0.25rem;
+  }
+
+  .card {
+    border: 0;
+    background-color: transparent;
     position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
 
     &:hover {
       text-decoration: none;
@@ -133,16 +152,8 @@ header.profile-wrapper h1 {
       border-bottom: 1px solid var(--tb-border-color);
       border-radius: 0;
     }
-  }
 
-  .card {
-    border: 0;
-    background-color: transparent;
-    position: relative;
-    overflow: visible;
-
-    .col-md-5 {
-      width: 100%;
+    .image {
       position: relative;
       display: inline-block;
 
@@ -158,6 +169,14 @@ header.profile-wrapper h1 {
         height: auto;
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5),
         0 6px 6px rgba(0, 0, 0, 0.15);
+      }
+
+      &.image-left {
+        order: 1;
+      }
+
+      &.image-right {
+        order: 2;
       }
 
       &::before {
@@ -187,31 +206,38 @@ header.profile-wrapper h1 {
       }
     }
 
-    .col-md-7 {
-      width: 100%;
-
+    .content-left {
       @include bp.md {
         width: 50%;
+        order: 1;
       }
     }
 
-    @include bp.lt(bp.get(md)) {
-      .order-md-1,
-      .order-md-2 {
-        order: unset;
-      }
-
-      .col-md-5 {
-        order: 1;
-        margin-bottom: 1.5rem;
-      }
-
-      .col-md-7 {
+    .content-right {
+      @include bp.md {
+        width: 50%;
         order: 2;
       }
     }
 
-    &:not(:has(.col-md-5)) {
+    @include bp.lt(bp.get(md)) {
+      .image-left,
+      .image-right {
+        order: unset !important;
+      }
+
+      .image {
+        order: 1;
+        margin-bottom: 1.5rem;
+      }
+
+      .content-left,
+      .content-right {
+        order: 2;
+      }
+    }
+
+    &:not(:has(.image)) {
       .card-body {
         text-align: center;
         margin: 0 auto;
@@ -223,7 +249,7 @@ header.profile-wrapper h1 {
           display: flex;
         }
 
-        .post-meta {
+        .card-meta {
           justify-content: center;
         }
       }
@@ -232,6 +258,9 @@ header.profile-wrapper h1 {
     .card-body {
       height: 100%;
       padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
 
       @include bp.md {
         padding: 2rem 1.5rem;
@@ -245,6 +274,7 @@ header.profile-wrapper h1 {
         line-height: 1.4;
         padding-top: 0.25em;
         padding-bottom: 1.85rem;
+        margin-top: 0;
         margin-bottom: 0.25em;
         font-weight: 600;
         color: var(--site-title-color);
@@ -252,42 +282,49 @@ header.profile-wrapper h1 {
         text-rendering: optimizelegibility;
       }
 
-      &.content-right {
+      &.body-right {
         .card-title {
           text-align: right;
         }
 
-        .card-text {
-          &.content {
-            text-align: right;
+        .card-content {
+          text-align: right;
 
-            @include bp.lt(bp.get(md)) {
-              text-align: revert;
-            }
+          @include bp.lt(bp.get(md)) {
+            text-align: revert;
           }
         }
       }
 
-      .card-text {
-        &.content {
-          color: var(--text-muted-color);
+      .card-content {
+        color: var(--text-muted-color);
+        margin-top: 0;
+        margin-bottom: 1rem;
 
-          p {
-            @extend %text-clip;
+        p {
+          @extend %text-clip;
 
-            line-height: 1.6;
-            margin: 0;
-            font-size: 1rem;
-          }
+          line-height: 1.6;
+          margin: 0;
+          font-size: 1rem;
         }
       }
 
-      .post-meta {
+      .card-meta {
         color: var(--text-muted-color);
         margin-top: 1.25rem;
+        display: flex;
+        flex-grow: 1;
+        align-items: flex-end;
+        font-size: .85rem;
+
+        i:first-child {
+          margin-right: .25rem;
+        }
 
         i:not(:first-child) {
           margin-left: 1.5rem;
+          margin-right: .25rem;
 
           @include bp.md {
             margin-left: 1.75rem;
@@ -295,7 +332,15 @@ header.profile-wrapper h1 {
         }
 
         > div:first-child {
+          margin-right: auto;
+
           @extend %text-ellipsis;
+        }
+
+        > div:last-child {
+          &.pin {
+            margin-left: .25rem;
+          }
         }
       }
     }
@@ -308,11 +353,14 @@ header.profile-wrapper h1 {
   justify-content: space-evenly;
   margin-top: 3rem;
   padding-top: 1rem;
+  padding-left: 0;
+  list-style: none;
 
   @include bp.lg {
     font-size: 0.85rem;
     justify-content: center;
     padding-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   a:hover {
@@ -384,6 +432,8 @@ header.profile-wrapper h1 {
   }
 
   .page-index {
+    vertical-align: middle;
+
     @include bp.lg {
       display: none;
     }

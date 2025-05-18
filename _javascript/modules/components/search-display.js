@@ -1,7 +1,6 @@
 const btnSbTrigger = document.getElementById('mode-toggle');
-const btnSearchTrigger = document.getElementById('search-trigger');
 const btnCancel = document.getElementById('search-cancel');
-const content = document.querySelectorAll('#main-wrapper>.container>.row');
+const content = document.querySelectorAll('#main-wrapper > .container > .content-wrapper, #main-wrapper > .container > .footer-wrapper');
 const topbarTitle = document.getElementById('topbar-title');
 const search = document.getElementById('search');
 const resultWrapper = document.getElementById('search-result-wrapper');
@@ -18,7 +17,6 @@ class MobileSearchBar {
   static on() {
     btnSbTrigger.classList.add(UNLOADED);
     topbarTitle.classList.add(UNLOADED);
-    btnSearchTrigger.classList.add(UNLOADED);
     search.classList.add(FLEX);
     btnCancel.classList.add(LOADED);
   }
@@ -28,7 +26,6 @@ class MobileSearchBar {
     search.classList.remove(FLEX);
     btnSbTrigger.classList.remove(UNLOADED);
     topbarTitle.classList.remove(UNLOADED);
-    btnSearchTrigger.classList.remove(UNLOADED);
   }
 }
 
@@ -38,12 +35,12 @@ class ResultSwitch {
   static on() {
     if (!this.resultVisible) {
       resultWrapper.classList.remove(UNLOADED);
-      
+
       const len = content.length;
       for (let i = 0; i < len; i++) {
         content[i].classList.add(UNLOADED);
       }
-      
+
       this.resultVisible = true;
     }
   }
@@ -57,12 +54,12 @@ class ResultSwitch {
       }
 
       resultWrapper.classList.add(UNLOADED);
-      
+
       const len = content.length;
       for (let i = 0; i < len; i++) {
         content[i].classList.remove(UNLOADED);
       }
-      
+
       input.textContent = '';
       this.resultVisible = false;
     }
@@ -74,12 +71,6 @@ function isMobileView() {
 }
 
 export function displaySearch() {
-  btnSearchTrigger.addEventListener('click', () => {
-    MobileSearchBar.on();
-    ResultSwitch.on();
-    input.focus();
-  });
-
   btnCancel.addEventListener('click', () => {
     MobileSearchBar.off();
     ResultSwitch.off();
@@ -96,7 +87,7 @@ export function displaySearch() {
   input.addEventListener('input', () => {
     const isEmpty = input.value === '';
     const mobile = isMobileView();
-    
+
     if (isEmpty) {
       if (mobile) {
         hints.classList.remove(UNLOADED);

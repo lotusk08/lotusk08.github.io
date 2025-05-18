@@ -1,9 +1,5 @@
 <footer
   aria-label="Site Info"
-  class="
-    d-flex flex-column justify-content-center text-muted
-    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
-  "
 >
   <div class="footer-social">
     {% for entry in site.data.contact %}
@@ -56,11 +52,7 @@
 
     {{ site.data.locales[lang].post.written_by }}
 
-    <span
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="{{ site.data.locales[include.lang].copyright.mind }}"
-    >
+    <span class="tooltip-container">
       {% if authors %}
         {% for author in authors %}
           {% assign author_data = site.data.authors[author] %}
@@ -74,14 +66,18 @@
       {% else %}
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
       {% endif %}
+
+      <span class="tooltip" data-pos="top">
+        {{ site.data.locales[include.lang].copyright.mind }}
+      </span>
     </span>
+
     {% if site.data.locales[include.lang].copyright.license %}
-      <span
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="{{ site.data.locales[include.lang].copyright.verbose }}"
-      >
-      {{- site.data.locales[include.lang].copyright.license -}}
+      <span class="tooltip-container">
+        {{ site.data.locales[include.lang].copyright.license }}
+        <span class="tooltip long" data-pos="top">
+          {{ site.data.locales[include.lang].copyright.verbose }}
+        </span>
       </span>
     {% endif %}
   </p>

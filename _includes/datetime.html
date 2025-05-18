@@ -1,15 +1,18 @@
 {% assign df_strftime = site.data.locales[include.lang].df.post.strftime | default: '%d/%m/%Y' %}
 {% assign df_dayjs = site.data.locales[include.lang].df.post.dayjs | default: 'DD/MM/YYYY' %}
+{% assign tooltip_datetime = include.date | date: '%a, %b %d, %Y at  %I:%M %p' %}
 
-<time
-  {% if include.class %}
-    class="{{ include.class }}"
-  {% endif %}
-  data-ts="{{ include.date | date: '%s' }}"
-  data-df="{{ df_dayjs }}"
+<span class="tooltip-container" tabindex="0">
+  <time
+    {% if include.class %}
+      class="{{ include.class }}"
+    {% endif %}
+    data-ts="{{ include.date | date: '%s' }}"
+    data-df="{{ df_dayjs }}"
+  >
+    {{ include.date | date: df_strftime }}
+  </time>
   {% if include.tooltip %}
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
+    <div class="tooltip" data-pos="bottom">{{ tooltip_datetime }}</div>
   {% endif %}
->
-  {{ include.date | date: df_strftime }}
-</time>
+</span>

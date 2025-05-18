@@ -5,7 +5,8 @@ export class TocDesktop {
     ignoreSelector: '[data-toc-skip]',
     headingSelector: 'h2, h3, h4',
     orderedList: false,
-    scrollSmooth: false,
+    scrollSmooth: true,
+    smoothScrollDuration: 300,
     headingsOffset: 16 * 2
   };
 

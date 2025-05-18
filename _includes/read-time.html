@@ -13,12 +13,7 @@
   {{- site.data.locales[include.lang].post.read_time.prompt -}}
 {% endcapture %}
 
-<span
-  class="readtime"
-  data-bs-toggle="tooltip"
-  data-bs-placement="bottom"
-  title="{{ words }} {{ site.data.locales[include.lang].post.words }}"
->
+<span class="readtime tooltip-container">
   <em>
     {{- read_time -}}
     {{ ' ' }}
@@ -29,4 +24,7 @@
     {%- unless _prompt_words > 1 -%}{{ ' ' }}{%- endunless -%}
     {{ read_prompt }}
   {%- endif -%}
+  <span class="tooltip" data-pos="bottom">
+    {{ words }} {{ site.data.locales[include.lang].post.words }}
+  </span>
 </span>

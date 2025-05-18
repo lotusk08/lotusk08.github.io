@@ -4,6 +4,10 @@
 #archives {
   letter-spacing: 0.03rem;
 
+  > h2 {
+    margin-top: 3rem;
+  }
+
   @include bp.lt(bp.get(sm)) {
     margin-top: -1rem;
 
@@ -25,6 +29,8 @@
   .year {
     height: 3.5rem;
     font-size: 1.43rem;
+    font-weight: 300;
+    display: block;
     position: relative;
     left: 2px;
     margin-left: -$timeline-width;
@@ -103,6 +109,8 @@
     &.month {
       width: 1.4rem;
       text-align: center;
+      font-size: 0.875rem;
+      margin-left: 0.25rem;
     }
 
     &.day {

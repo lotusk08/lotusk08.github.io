@@ -10,7 +10,8 @@ export class TocMobile {
     ignoreSelector: '[data-toc-skip]',
     headingSelector: 'h2, h3, h4',
     orderedList: false,
-    scrollSmooth: false,
+    scrollSmooth: true,
+    smoothScrollDuration: 300,
     collapseDepth: 4,
     headingsOffset: this.#barHeight
   };
@@ -50,7 +51,7 @@ export class TocMobile {
   static listenAnchors() {
     const anchors = Array.from(document.getElementsByClassName('toc-link'));
     const hidePopupBound = this.hidePopup.bind(this);
-    
+
     anchors.forEach(anchor => {
       anchor.onclick = hidePopupBound;
     });
@@ -71,10 +72,10 @@ export class TocMobile {
   static showPopup() {
     const { popup } = this.elements;
     if (!popup) return;
-    
+
     this.lockScroll(true);
     popup.showModal();
-    
+
     requestAnimationFrame(() => {
       const activeItem = popup.querySelector('li.is-active-li');
       if (activeItem) {
@@ -86,7 +87,7 @@ export class TocMobile {
   static hidePopup() {
     const { popup } = this.elements;
     if (!popup || !popup.open) return;
-    
+
     const CLOSING = 'closing';
     popup.setAttribute(CLOSING, '');
 
@@ -127,14 +128,14 @@ export class TocMobile {
 
   static initComponents() {
     if (this.#eventsBound) return;
-    
+
     this.initBar();
     const { triggers, popup, btnClose } = this.elements;
-    
+
     const showPopupBound = this.showPopup.bind(this);
     const hidePopupBound = this.hidePopup.bind(this);
     const clickBackdropBound = this.clickBackdrop.bind(this);
-    
+
     triggers.forEach(trigger => {
       trigger.onclick = showPopupBound;
     });
@@ -146,11 +147,11 @@ export class TocMobile {
         this.hidePopup();
       };
     }
-    
+
     if (btnClose) {
       btnClose.onclick = hidePopupBound;
     }
-    
+
     this.#eventsBound = true;
   }
 

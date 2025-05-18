@@ -16,12 +16,12 @@ layout: compress
   {% include head.html %}
 
   <body class="{% if page.layout == 'home' %}home{% endif %}">
-    <div id="main-wrapper" class="d-flex justify-content-center">
-      <div class="container d-flex flex-column px-xxl-5">
+    <div id="main-wrapper">
+      <div class="container">
         {% include topbar.html lang=lang %}
 
-        <div class="row flex-grow-1">
-          <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
+        <div class="content-wrapper">
+          <main id="main-content" aria-label="Main Content">
             {% if layout.refactor or layout.layout == 'default' %}
               {% include refactor-content.html content=content lang=lang %}
             {% else %}
@@ -29,10 +29,9 @@ layout: compress
             {% endif %}
           </main>
 
-          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
+          <aside aria-label="Panel" id="panel-wrapper">
             <div class="access">
               {% include_cached update-list.html lang=lang %}
-              {% include_cached trending-tags.html lang=lang %}
             </div>
 
             {% for _include in layout.panel_includes %}
@@ -42,8 +41,8 @@ layout: compress
           </aside>
         </div>
 
-        <div class="row">
-          <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+        <div class="footer-wrapper">
+          <div id="tail-wrapper">
             {% for _include in layout.tail_includes %}
               {% assign _include_path = _include | append: '.html' %}
               {% include {{ _include_path }} lang=lang %}
@@ -56,14 +55,14 @@ layout: compress
         {% include_cached search-results.html lang=lang %}
       </div>
 
-      <aside aria-label="Scroll to Top">
-        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+      <aside aria-label="Scroll to top">
+        <button id="back-to-top" type="button">
           {% include icons.html icon="angle-up" class="" %}
         </button>
       </aside>
     </div>
 
-    <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
+    <div id="mask"></div>
 
     {% if site.pwa.enabled %}
       {% include_cached notification.html lang=lang %}

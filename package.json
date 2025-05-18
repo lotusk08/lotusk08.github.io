@@ -1,6 +1,6 @@
 {
   "name": "Steve's blog",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "My blog's source code and notes",
   "repository": {
     "type": "git",
@@ -11,8 +11,7 @@
   "since": 2019,
   "homepage": "https://stevehoang.com",
   "scripts": {
-    "build": "concurrently npm:build:*",
-    "build:css": "node purgecss.js",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build && purgecss --config ./purgecss.config.js",
     "build:js": "rollup -c --bundleConfigAsCjs --environment BUILD:production",
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:scss": "stylelint _sass/**/*.scss",
@@ -23,7 +22,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.5",
+    "purgecss": "^7.0.2",
     "lqip-modern": "^2.2.1",
     "js-yaml": "^4.1.0"
   },
@@ -43,7 +42,6 @@
     "concurrently": "^9.1.0",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "husky": "^9.1.7",
-    "purgecss": "^7.0.2",
     "rollup": "^4.27.4",
     "semantic-release": "^24.2.0",
     "stylelint": "^16.10.0",

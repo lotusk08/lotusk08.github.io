@@ -31,12 +31,12 @@ layout: page
     {% assign sub_categories = sub_categories | sort %}
     {% assign sub_categories_size = sub_categories | size %}
 
-    <div class="card categories">
+    <div class="card categories{% if sub_categories_size > 0 %} is-open{% endif %}">
       <div
         id="{{ HEAD_PREFIX }}{{ group_index }}"
-        class="card-header d-flex justify-content-between hide-border-bottom"
+        class="card-header{% if sub_categories_size > 0 %} hide-border-bottom{% endif %}"
       >
-        <span class="ms-2">
+        <span>
           {% if sub_categories_size > 0 %}
             <i class="icons icons-folder fa-fw" aria-hidden="true">
               <svg><use href="/assets/icons.svg#folder-open"></use></svg>
@@ -48,38 +48,24 @@ layout: page
           {% endif %}
 
           {% capture _category_url %}/categories/{{ category_name | slugify | url_encode }}/{% endcapture %}
-          <a href="{{ _category_url | relative_url }}" class="mx-2">{{ category_name }}</a>
+          <a href="{{ _category_url | relative_url }}">{{ category_name }}</a>
 
           {% assign top_posts_size = site.categories[category_name] | size %}
-          <span class="text-muted small font-weight-light">
+          <span class="text-muted small">
             {% if sub_categories_size > 0 %}
               {{ sub_categories_size }}
               {% if sub_categories_size > 1 %}
-                {{
-                  site.data.locales[lang].categories.category_measure.plural
-                  | default: site.data.locales[lang].categories.category_measure
-                }}
+                {{ site.data.locales[lang].categories.category_measure.plural | default: site.data.locales[lang].categories.category_measure }}
               {% else %}
-                {{
-                  site.data.locales[lang].categories.category_measure.singular
-                  | default: site.data.locales[lang].categories.category_measure
-                }}
+                {{ site.data.locales[lang].categories.category_measure.singular | default: site.data.locales[lang].categories.category_measure }}
               {% endif -%}
               ,
             {% endif %}
-
             {{ top_posts_size }}
-
             {% if top_posts_size > 1 %}
-              {{
-                site.data.locales[lang].categories.post_measure.plural
-                | default: site.data.locales[lang].categories.post_measure
-              }}
+              {{ site.data.locales[lang].categories.post_measure.plural | default: site.data.locales[lang].categories.post_measure }}
             {% else %}
-              {{
-                site.data.locales[lang].categories.post_measure.singular
-                | default: site.data.locales[lang].categories.post_measure
-              }}
+              {{ site.data.locales[lang].categories.post_measure.singular | default: site.data.locales[lang].categories.post_measure }}
             {% endif %}
           </span>
         </span>
@@ -87,17 +73,15 @@ layout: page
         {% if sub_categories_size > 0 %}
           <a
             href="#{{ LIST_PREFIX }}{{ group_index }}"
-            data-bs-toggle="collapse"
-            aria-expanded="true"
+            class="category-trigger"
             aria-label="{{ HEAD_PREFIX }}{{ group_index }}-trigger"
-            class="category-trigger hide-border-bottom"
           >
             <i class="icons icons-angle fa-fw" aria-hidden="true">
               <svg><use href="/assets/icons.svg#angle-down"></use></svg>
             </i>
           </a>
         {% else %}
-          <span data-bs-toggle="collapse" class="category-trigger hide-border-bottom disabled">
+          <span class="category-trigger disabled">
             <i class="icons icons-angle fa-fw" aria-hidden="true">
               <svg><use href="/assets/icons.svg#angle-right"></use></svg>
             </i>
@@ -106,31 +90,22 @@ layout: page
       </div>
 
       {% if sub_categories_size > 0 %}
-        <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show" aria-expanded="true">
+        <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show">
           <ul class="list-group">
             {% for sub_category in sub_categories %}
               <li class="list-group-item">
                 <i class="icons fa-fw" aria-hidden="true">
                   <svg><use href="/assets/icons.svg#folder"></use></svg>
                 </i>
-
                 {% capture _sub_ctg_url %}/categories/{{ sub_category | slugify | url_encode }}/{% endcapture %}
-                <a href="{{ _sub_ctg_url | relative_url }}" class="mx-2">{{ sub_category }}</a>
-
+                <a href="{{ _sub_ctg_url | relative_url }}">{{ sub_category }}</a>
                 {% assign posts_size = site.categories[sub_category] | size %}
-                <span class="text-muted small font-weight-light">
+                <span class="text-muted small">
                   {{ posts_size }}
-
                   {% if posts_size > 1 %}
-                    {{
-                      site.data.locales[lang].categories.post_measure.plural
-                      | default: site.data.locales[lang].categories.post_measure
-                    }}
+                    {{ site.data.locales[lang].categories.post_measure.plural | default: site.data.locales[lang].categories.post_measure }}
                   {% else %}
-                    {{
-                      site.data.locales[lang].categories.post_measure.singular
-                      | default: site.data.locales[lang].categories.post_measure
-                    }}
+                    {{ site.data.locales[lang].categories.post_measure.singular | default: site.data.locales[lang].categories.post_measure }}
                   {% endif %}
                 </span>
               </li>

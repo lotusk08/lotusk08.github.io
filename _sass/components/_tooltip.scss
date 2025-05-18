@@ -1,0 +1,99 @@
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip-container .tooltip {
+  position: absolute;
+  background: rgba(16, 16, 16, 0.95);
+  color: #ffffff;
+  padding: .35rem .65rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.tooltip-container .tooltip::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.tooltip-container:hover .tooltip,
+.tooltip-container .tooltip.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.tooltip[data-pos="top"] {
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip[data-pos="top"]::after {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0 6px;
+  border-color: rgba(16, 16, 16, 0.95) transparent transparent transparent;
+}
+
+.tooltip[data-pos="bottom"] {
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip[data-pos="bottom"]::after {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent rgba(16, 16, 16, 0.95) transparent;
+}
+
+.tooltip[data-pos="left"] {
+  right: 125%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tooltip[data-pos="left"]::after {
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  border-width: 6px 0 6px 6px;
+  border-color: transparent transparent transparent rgba(16, 16, 16, 0.95);
+}
+
+.tooltip[data-pos="right"] {
+  left: 125%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tooltip[data-pos="right"]::after {
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  border-width: 6px 6px 6px 0;
+  border-color: transparent rgba(16, 16, 16, 0.95) transparent transparent;
+}
+
+.tooltip.long {
+  white-space: normal;
+  text-align: left;
+  width: 220px;
+}

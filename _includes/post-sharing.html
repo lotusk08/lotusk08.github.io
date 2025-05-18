@@ -1,50 +1,33 @@
-<div class="share-wrapper d-flex align-items-center">
-  <span class="share-label text-muted">{{ site.data.locales[include.lang].post.share }}</span>
+<div class="share-wrapper">
+  <span class="share-label">{{ site.data.locales[include.lang].post.share }}</span>
   <span class="share-icons">
     {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
     {% assign title = title | uri_escape %}
     {% assign url = page.url | absolute_url | url_encode %}
 
-    {% for share in site.data.share.platforms -%}
-      {%- capture tooltip -%}
-        data-bs-toggle="tooltip" data-bs-placement="top" title="{{ share.type }}" aria-label="{{ share.type }}"
-      {%- endcapture -%}
-
-      {% if share.type == 'Mastodon' %}
-        <script defer type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/share-to-mastodon/+esm"></script>
-        <button class="btn text-start" {{ tooltip }}>
-          <share-to-mastodon
-            class="share-mastodon"
-            message="{{ title }}"
-            url="{{ url }}"
-            {%- if share.instances -%}
-              customInstanceList="{{ share.instances | jsonify | xml_escape }}"
-            {%- endif %}
-          >
-            {% include icons.html icon="{{ share.icon }}" class="fa-fw" %}
-          </share-to-mastodon>
-        </button>
-
-        {% continue %}
-      {% endif %}
-
+    {% for share in site.data.share.platforms %}
+      {% assign label = share.type %}
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
-
-      <a href="{{ link }}" target="_blank" rel="noopener" {{ tooltip }}>
-        {% include icons.html icon="{{ share.icon }}" class="fa-fw" %}
-      </a>
+      <span class="tooltip-container" tabindex="0"
+            data-title="{{ label }}" data-tooltip-position="left">
+        <a href="{{ link }}" target="_blank" rel="noopener">
+          {% include icons.html icon=share.icon class="fa-fw" %}
+        </a>
+        <div class="tooltip" data-pos="left">{{ label }}</div>
+      </span>
     {% endfor %}
 
-    <button
-      id="copy-link"
-      aria-label="Copy link"
-      class="btn small"
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="{{ site.data.locales[include.lang].post.button.share_link.title }}"
-      data-title-succeed="{{ site.data.locales[include.lang].post.button.share_link.succeed }}"
-    >
-      {% include icons.html icon="link" class="fa-fw pe-none fs-6" %}
-    </button>
+    {% assign label_copy = site.data.locales[include.lang].post.button.share_link.title %}
+    {% assign label_succeed = site.data.locales[include.lang].post.button.share_link.succeed %}
+
+    <span class="tooltip-container" tabindex="0"
+          data-title="{{ label_copy }}"
+          data-title-succeed="{{ label_succeed }}"
+          data-tooltip-position="top">
+      <button id="copy-link" aria-label="Share link">
+        {% include icons.html icon="share" class="fa-fw" %}
+      </button>
+      <div class="tooltip" data-pos="left">{{ label_copy }}</div>
+    </span>
   </span>
 </div>

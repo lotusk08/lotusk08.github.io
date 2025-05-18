@@ -21,6 +21,7 @@
     opacity 0.5s ease-in-out,
     transform 0.2s ease-out;
   overflow: hidden;
+  box-shadow: var(--card-shadow);
 
   /* box-shadow: 0 1px 4px rgba(0,0,0,0.15); */
 
@@ -37,12 +38,11 @@
   i {
     line-height: v.$back2top-size;
     position: relative;
-    bottom: 3px;
     font-size: 1rem;
     transform: rotate(-45deg);
     transition: opacity 0.2s ease;
   }
-  
+
   &:hover i {
     opacity: 0;
     color: var(--primary-color);

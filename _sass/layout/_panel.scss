@@ -28,43 +28,23 @@
 }
 
 #panel-wrapper {
-  /* the headings */
+  color: var(--text-muted-color);
+  padding-left: .5rem;
+
+  @include bp.xl {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
   .panel-heading {
-    font-family: inherit;
-    line-height: inherit;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
 
     @include mx.label(inherit);
   }
 
-  .post-tag {
-    line-height: 1.05rem;
-    font-size: 0.85rem;
-    border-radius: 0.5rem;
-    padding: 0.3rem 0.5rem;
-    margin: 0 0.35rem 0.5rem 0;
-
-    &:hover {
-      transition: all 0.3s ease-in;
-    }
-  }
-
-  > :last-child {
-    margin-bottom: 4rem;
-  }
-
   @include bp.lt(bp.get(xl)) {
     display: none;
-  }
-}
-
-#access-lastmod {
-  a {
-    color: inherit;
-
-    &:hover {
-      @extend %link-hover;
-    }
-
-    @extend %no-bottom-border;
   }
 }

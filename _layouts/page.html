@@ -7,7 +7,7 @@ panel_includes:
 {% include lang.html %}
 {% include toc-status.html %}
 
-<article class="px-1" data-toc="{{ enable_toc }}">
+<article style="margin:0 0.25rem" data-toc="{{ enable_toc }}">
   {% if page.layout == 'page' or page.collection == 'sections' %}
     {% assign tab_key = page.title | downcase %}
     {% assign title = site.data.locales[lang].pages[tab_key] | default: page.title %}
@@ -16,26 +16,26 @@ panel_includes:
     </h1>
 
   {% if enable_toc %}
-    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">{{ page.title }}</span>
-      <button type="button" class="toc-trigger btn me-1">
+    <div id="toc-bar">
+      <span class="label">{{ page.title }}</span>
+      <button type="button" class="toc-trigger">
         {% include icons.html icon="list-ul" class="fa-fw" %}
       </button>
     </div>
 
-    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
-      <span class="label ps-2 pe-1">{{- site.data.locales[lang].panel.toc -}}</span>
+    <button id="toc-solo-trigger" type="button" class="toc-trigger">
+      <span class="label">{{- site.data.locales[lang].panel.toc -}}</span>
       {% include icons.html icon="angle-right" class="fa-fw" %}
     </button>
 
-    <dialog id="toc-popup" class="p-0">
-      <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">{{- page.title -}}</div>
-        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+    <dialog id="toc-popup">
+      <div class="toc-header">
+        <div class="label">{{- page.title -}}</div>
+        <button id="toc-popup-close" type="button">
           {% include icons.html icon="xmark" class="" %}
         </button>
       </div>
-      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+      <div id="toc-popup-content"></div>
     </dialog>
   {% endif %}
 

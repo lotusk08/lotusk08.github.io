@@ -35,8 +35,26 @@
   }
 }
 
+.small {
+  font-size: 0.875em;
+}
+
 strong {
   font-weight: 700;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
 }
 
 a {
@@ -63,7 +81,13 @@ img {
   }
 }
 
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
 blockquote {
+  margin: 0 0 1rem;
   border-left: 0.2rem solid var(--blockquote-border-color);
   padding-left: 1rem;
   color: var(--blockquote-text-color);
@@ -119,6 +143,7 @@ blockquote {
 }
 
 kbd {
+  padding: .1875rem .375rem;
   font-family: v.$font-monospace;
   display: inline-block;
   vertical-align: middle;
@@ -129,14 +154,30 @@ kbd {
   padding-top: 0.1rem;
   color: var(--text-color);
   background-color: var(--kbd-bg-color);
-  border-radius: calc(v.$radius-sm) / 2;
+  border-radius: v.$radius-sm;
   border: solid 1px var(--kbd-wrap-color);
   box-shadow: inset 0 -1.5px 0 var(--kbd-wrap-color);
 }
 
 hr {
-  border-color: var(--main-border-color);
+  margin: 1rem 0;
+  color: inherit;
+  border: 0.1px solid var(--main-border-color);
   opacity: 1;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -189,6 +230,12 @@ i {
 }
 
 sup {
+  top: -0.5em;
+  position: relative;
+  font-size: .75em;
+  line-height: 0;
+  vertical-align: baseline;
+
   @extend %sup-fn-target;
 }
 

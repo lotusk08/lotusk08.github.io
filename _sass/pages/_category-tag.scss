@@ -1,9 +1,10 @@
 @use '../abstracts/breakpoints' as bp;
 @use '../abstracts/mixins' as mx;
-@use "../abstracts/variables" as v;
+@use '../abstracts/variables' as v;
 @use '../abstracts/placeholders';
 
 .dash {
+  flex-grow: 1;
   margin: 0 0.5rem 0.6rem 0.5rem;
   border-bottom: 2px dotted var(--dash-color);
 }
@@ -12,61 +13,72 @@
 #page-tag {
   h1 {
     @extend %title-style;
-  }
 
-  ul > li {
-    line-height: 1.5rem;
-    padding: 0.6rem 0;
-
-    /* dot */
-    &::before {
-      background: #999999;
-      width: 5px;
-      height: 5px;
-      border-radius: 50%;
-      display: block;
-      content: '';
-      position: relative;
-      top: 0.6rem;
-      margin-right: 0.5rem;
-
-      @include bp.lt(bp.get(sm)) {
-        margin: 0 0.5rem;
-      }
+    @include bp.lg {
+      padding-left: 0.5rem;
     }
 
-    /* post's title */
-    > a {
-      @extend %no-bottom-border;
+    > sup {
+      padding-left: 0.5rem;
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: var(--text-muted-color);
+    }
+  }
 
-      font-size: 1.1rem;
+  ul {
+    padding-left: 0;
 
-      @include bp.lt(bp.get(sm)) {
-        @include mx.text-ellipsis;
+    > li {
+      line-height: 1.5rem;
+      padding: 0.6rem 0;
+      display: flex;
+      justify-content: space-between;
+
+      @include bp.md {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      /* dot */
+      &::before {
+        background: #999999;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        display: block;
+        content: '';
+        position: relative;
+        top: 0.6rem;
+        margin-right: 0.5rem;
+
+        @include bp.lt(bp.get(sm)) {
+          margin: 0 0.5rem;
+        }
+      }
+
+      /* post's title */
+      > a {
+        @extend %no-bottom-border;
+
+        font-size: 1.1rem;
+
+        @include bp.lt(bp.get(sm)) {
+          @include mx.text-ellipsis;
+        }
       }
     }
   }
-}
 
-/* tag icon */
-#page-tag h1 > i {
-  font-size: 1.2rem;
+  .datetime {
+    color: var(--text-muted-color);
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
 
-  @extend %icon-rs;
-}
+  h1 > i {
+    font-size: 1.25rem;
 
-#page-category h1 > i {
-  font-size: 1.25rem;
-
-  @extend %icon-rs;
-}
-
-#page-category,
-#page-tag,
-#access-lastmod {
-  a:hover {
-    @extend %link-hover;
-
-    margin-bottom: -1px; /* Avoid jumping */
+    @extend %icon-rs;
   }
 }

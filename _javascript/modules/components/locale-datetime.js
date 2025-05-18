@@ -23,23 +23,16 @@ export function initLocaleDatetime() {
   const dateElements = document.querySelectorAll(`[${LocaleHelper.attrTimestamp}]`);
   const attrTS = LocaleHelper.attrTimestamp;
   const attrDF = LocaleHelper.attrDateFormat;
-  
+
   if (!dateElements.length) return;
-  
-  const fragment = document.createDocumentFragment();
-  const len = dateElements.length;
-  
-  for (let i = 0; i < len; i++) {
+
+  for (let i = 0; i < dateElements.length; i++) {
     const elem = dateElements[i];
-    const date = dayjs.unix(Number(elem.getAttribute(attrTS)));
-    const format = elem.getAttribute(attrDF);
-    
+    const date = dayjs.unix(LocaleHelper.getTimestamp(elem));
+    const format = LocaleHelper.getDateFormat(elem);
+
     elem.textContent = date.format(format);
     elem.removeAttribute(attrTS);
     elem.removeAttribute(attrDF);
-    
-    if (elem.getAttribute('data-bs-toggle') === 'tooltip') {
-      elem.setAttribute('data-bs-title', date.format('llll'));
-    }
   }
 }

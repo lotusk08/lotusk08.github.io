@@ -61,7 +61,7 @@ post:
     copy_code:
       succeed: Copied!
     share_link:
-      title: Copy link
+      title: Share link
       succeed: Link copied successfully!
 
 # Date time format.

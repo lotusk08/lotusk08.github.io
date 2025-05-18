@@ -1,11 +1,12 @@
 ---
 ---
 
-@use 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
-';
+/*!
+ * Steve Hoang (https://stevehoang.com)
+ * Copyright (c) {{ 'now' | date: "%Y" }} Steve Hoang
+ */
+
+@use 'main';
 
 /* append your custom style below */
 /* PDF embed file styles */

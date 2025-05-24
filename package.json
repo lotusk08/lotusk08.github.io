@@ -21,10 +21,8 @@
     "lqip": "node update-lqip.js"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.8",
     "purgecss": "^7.0.2",
-    "lqip-modern": "^2.2.1",
-    "js-yaml": "^4.1.0"
+    "lqip-modern": "^2.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
@@ -42,7 +40,6 @@
     "concurrently": "^9.1.2",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "husky": "^9.1.7",
-    "purgecss": "^7.0.2",
     "rollup": "^4.41.0",
     "semantic-release": "^24.2.4",
     "stylelint": "^16.19.1",

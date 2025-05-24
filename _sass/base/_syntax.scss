@@ -236,7 +236,7 @@ div {
     }
 
     &:not([timeout]):hover {
-      background-color: rgba(128, 128, 128, 0);
+      background-color: rgb(128, 128, 128, 0);
 
       i {
         color: var(--primary-color);

@@ -23,9 +23,9 @@
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
   --shimmer-bg: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(58, 55, 55, 0.4) 50%,
-    rgba(255, 255, 255, 0) 100%
+    rgb(255, 255, 255, 0) 0%,
+    rgb(58, 55, 55, 0.4) 50%,
+    rgb(255, 255, 255, 0) 100%
   );
 
   /* Site color */
@@ -84,7 +84,7 @@
   --language-border-color: #2d2d2d;
   --highlighter-rouge-color: #d2bcae;
   --highlight-lineno-color: #808080;
-  --inline-code-bg: rgba(255, 255, 255, 0.05);
+  --inline-code-bg: rgb(255, 255, 255, 0.05);
   --code-color: #b0b0b0;
   --code-header-text-color: #6a6a6a;
   --code-header-muted-color: #353535;

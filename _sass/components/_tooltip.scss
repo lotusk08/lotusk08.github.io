@@ -6,7 +6,7 @@
 
 .tooltip-container .tooltip {
   position: absolute;
-  background: rgba(16, 16, 16, 0.95);
+  background: rgb(16, 16, 16, 0.95);
   color: #ffffff;
   padding: .35rem .65rem;
   border-radius: 4px;
@@ -47,7 +47,7 @@
   left: 50%;
   transform: translateX(-50%);
   border-width: 6px 6px 0 6px;
-  border-color: rgba(16, 16, 16, 0.95) transparent transparent transparent;
+  border-color: rgb(16, 16, 16, 0.95) transparent transparent transparent;
 }
 
 .tooltip[data-pos="bottom"] {
@@ -61,7 +61,7 @@
   left: 50%;
   transform: translateX(-50%);
   border-width: 0 6px 6px 6px;
-  border-color: transparent transparent rgba(16, 16, 16, 0.95) transparent;
+  border-color: transparent transparent rgb(16, 16, 16, 0.95) transparent;
 }
 
 .tooltip[data-pos="left"] {
@@ -75,7 +75,7 @@
   left: 100%;
   transform: translateY(-50%);
   border-width: 6px 0 6px 6px;
-  border-color: transparent transparent transparent rgba(16, 16, 16, 0.95);
+  border-color: transparent transparent transparent rgb(16, 16, 16, 0.95);
 }
 
 .tooltip[data-pos="right"] {
@@ -89,7 +89,7 @@
   right: 100%;
   transform: translateY(-50%);
   border-width: 6px 6px 6px 0;
-  border-color: transparent rgba(16, 16, 16, 0.95) transparent transparent;
+  border-color: transparent rgb(16, 16, 16, 0.95) transparent transparent;
 }
 
 .tooltip.long {

@@ -79,3 +79,17 @@ Mối nguy hiểm là, giống như ông Tập Cận Bình ở Trung Quốc, ôn
 Nhưng nếu ông thành công, một cuộc đổi mới thứ hai sẽ đưa 100 triệu người Việt Nam vào câu lạc bộ các nước phát triển, tạo ra một con rồng Châu Á mới và giúp Việt Nam giữ vững thế độc lập trước sức ảnh hưởng từ Trung Quốc.
 
 Đây là cơ hội cuối cùng tốt nhất để Việt Nam trở nên giàu trước khi già đi. Định mệnh của Việt Nam nằm trong tay ông Tô Lâm, một nhà cải cách không ai ngờ tới nhưng lại có tầm ảnh hưởng sâu rộng của châu Á.
+
+## Lạm bàn
+
+Gần đây, chủ đề về Việt Nam khá thu hút trên diễn đàn kinh tế thế giới. Họ viết về Việt Nam, điều đó thể hiện góc nhìn của họ, việc chúng ta bàn luận họ viết đúng hay sai trên mạng như hiện tại gần như không mang lại giá trị bằng việc khai thác góc nhìn của họ.
+
+> Văn phong bên Economist còn khá mềm, NewYorkTimes viết khó chịu hơn nhiều: [*Why Vietnam Ignored Its Own Laws to Fast-Track a Trump Family Golf Complex*](https://www.nytimes.com/2025/05/25/world/asia/trump-vietnam-golf-project.html) *đăng ngày 25-05-2025.*
+>
+> Hay, như Financial Times, bỏ qua những ẩn ý râu ria, chúng ta thấy được ít nhiều sự chú ý của bên kia bán cầu giành cho nền kinh tế của Việt Nam trong giai đoạn hiện tại: [*French president’s visit to Vietnam*](https://on.ft.com/4kzTs7N) *đăng ngày 26-05-2025.*
+{: .note-info }
+
+> Nếu có một ngày, đất nước chúng ta hoá rồng thành công, việc bị bêu xấu có chủ đích trên các kênh truyền thông kiểu này có thể diễn ra hàng ngày. Chẳng lẽ, mọi người vẫn cứ phân bua đúng sai một cách ngây ngô như hiện tại ư?
+>
+> I think for myself
+{: .author }

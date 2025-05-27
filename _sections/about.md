@@ -25,7 +25,8 @@ I uncover how businesses function, understand customer journeys, and add value w
 
 ## Lesson
 
-### B2C & Ecommerce
+### B2C
+#### E-commerce
 
 ![Hoang Viet's E-commerce policy](/assets/img/site/hv-e-commerce-policy.webp "A simple e-commerce policy page I worked on"){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQAAW7CpsM2NVAAA/t7OZeYxhcp2wU3CFuYmt1xN7ofAmI2Q4S5pNuT5IlRgJOQAAA=="} _Vietnam’s first motorbike e-commerce store_
 
@@ -40,60 +41,26 @@ In 2018, I launched Vietnam's first online motorbike store. A quiet hunch that w
 Learned
 : Ignite with passion, stand out with difference
 
-### B2B
+#### Customer experience
 
-![Thai Khuong Services](/assets/img/post/tks.webp "The Thai Khuong Services logo in use"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkABUB8JZQAAujc65pyYAD+sjFgpT7INiFxt9fImMSkz/aXRj8dWUB0RJALcCdAgAAA"} _Thai Khuong Services_
+##### Golf coures
 
-Another business unit of Thai Khuong and Vietnam's first subscription-based industrial service. It originated from my innovation during COVID-19 revenue disruption, perfecting a sustainable business model with a complete customer lifecycle approach. By adding revenue streams from services, we reduced dependence on distribution activities. The company expanded nearly 200% in the following year.
+![Caddy](/assets/img/post/long-bien-golf-course-caddy.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQABAABUB8JbACdADzewXSAAD8OfWf0gwpgttNRrABJa2cQE9o2cBuDbhvbiKVgvAfnQYMGH4qWUAA" width="480"} _A moment of contemplation on the course_
 
-{: .d-flex .c-center }
-![Planning](/assets/img/site/stk-planning.webp "A quick sketch of Thai Khuong plans"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .gap}
-![Make a different](/assets/img/site/design-tks-uniform.webp "The team’s simple uniforms"){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JQBOgCHw6UfXuUBcAAD+wdJTEFnVS15+mFh7Ho8qDWH+divZm8c1IPUZLdV2p/EaTdqhbISd6RlL+of40ZsCB2clQAAA" .normal}
+In 2022, I managed the Marketing department, supporting nearly 1,400 golfers at Tan Son Nhat Golf Course and Long Bien Golf Course daily. We reached a business limit when we attempted to scale up revenue, which resulted in media incidents, including customers boycotting the golf course due to price hikes in October.
 
-{: .d-flex .c-center }
-![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .gap}
-![TKS Teams](/assets/img/site/tks-teams.webp "The Thai Khuong team at work"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal}
+We addressed this issue and resolved in 3 days. After that, we focused on enhancing the customer experience and made it a key performance indicator (KPI) metric for another department that interacts directly with customers.
 
-We can identify shifts and make precise adjustments—maintaining momentum through informed adaptation rather than reactive responses.
-![Real time report](/assets/img/site/real-time-report.webp "A basic view of live marketing data"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA"}
+Within 4 months, customer service quality satisfaction improved from 32% to 46%.
 
-## Marketing
+![Golf Autumn](/assets/img/post/long-bien-golf-course-autumn.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAoABUB8JagCdAD6GJeNQPQAAPjeVCUOGualvvqK/OnskzU+uL06nx/nTpmLtWl9oEEYS+IAAA=="} _The subtle beauty of autumn at Long Bien Golf Course_
 
-### Customer Engagement
+Learned
+: Customer experience can lead to its positive impact and increased profit while maintaining business stability.
 
-At first glance, marketing involves numerous tasks and considerable workload. These activities extend throughout the entire customer interaction journey - from first awareness, through research phases, purchase decisions, to becoming brand advocates.
-![Customer Journey in the Media Ecosystem](/assets/img/post/customer-journey-in-the-media-ecosystem.webp "From Awareness to Advocacy: Customer Journey in the Media Ecosystem"){: lqip="data:image/webp;base64,UklGRsYAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSEwAAAARL6CobSM2VhhFsF43IiIw7AuMItlqNHwFJAH5DhvuUUHyr4bVENF/IUGCySv8pG1UBq5tOf0l4bvXp34CLU9uVqNxwnUs6Esw2oABVlA4IFQAAAAQAgCdASoQAAkABUB8JZgCdAEN6xfyVkVgAP6Dai2+fq0FYlqzmQ8lIcNJfJ3p7jDFZpCTaxeoS67Q7FIbDdc1HMHmdruAPN7kNb5BQ9Ykvibu9gA="} _From Awareness to Advocacy: Customer Journey in the Media Ecosystem_
+The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 
-### Implementation Strategy
-
-In today's global marketplace, while external platforms like social media, press, and TV are valuable, **marketing efforts should be anchored in owned assets**: manufacturing facilities, offices, branches, websites, apps, distribution networks, employees, and existing customers.
-
-> ...sometimes, being kind to existing customers is more important than chasing after new ones.
-
-## Digital
-
-### Websites
-
-![Homepage thaikhuongpump.com](/assets/img/site/TK-cover-profile.webp "A minimal cover image for Thai Khuong"){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA=" width="480"} _This site - [thaikhuongpump.com](https://thaikhuongpump.com) was reborn in 2018-2019_
-
-The approach to web development is intentionally minimalist—focusing solely on visitor needs without unnecessary elements. Every design choice serves functionality, creating experiences that respect users' time and objectives.
-
-{: .d-flex .c-center }
-![Thai Khuong Pump website SEO](/assets/img/post/thaikhuongpump-seo.webp){: lqip="data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQAAkABUB8JZwAAud7hWAAAP7tTMK4RIdUEIOkAAA=" .normal .gap}
-![Digital customer behavior](/assets/img/post/digital-customer-behavior.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAoABUB8JaQAAuhInKniAAD2t3We/1QKcUaZal4udWhqGL9eAAAA" .normal .gap}
-
-### Contents
-
-Businesses should illuminate, not complicate. For sensitive areas like stem cell therapy, I've developed transparent information frameworks that empower informed decision-making.
-
-> Created for [Medeze](https://medeze.vn) in 2022, it’s focused on user experience through education strategy approach.
-> ![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "A short animation explaining Medeze’s stem cell work")
-
-## Event
-
-### Golf
-
-#### Hao Khi Dong A
+##### Hao Khi Dong A
 
 ![Hao Khi Dong A - Gala](/assets/img/post/hao-khi-dong-a-trao-giai.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAQCdASoQAAsABUB8JbACdABlA8AA/bWqrBMr4o2IkMlbkI0BdffJi1w9EevV+jWYRn7eB8AfSiCdso2qMZJ5HpimXHBkBzx3+wV2Uru/YJsplpAAAA=="} _Hao Khi Dong A_
 
@@ -107,7 +74,7 @@ Businesses should illuminate, not complicate. For sensitive areas like stem cell
 ![Hao Khi Dong A - Golfers](/assets/img/post/hao-khi-dong-a-golfers.webp){: lqip="data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAsABUB8JbACdACiQ3IAAPqeksmutCVbCm8nBuyVoV0beQT4AR7c6EnhXUZ+JFSea/ypzeLJObGFs6nlS74AAAA=" .normal .gap}
 ![Hao Khi Dong A](/assets/img/post/hao-khi-dong-a.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABUB8JbACdADx/V9MgAD+zNI6QxpDdUylCqq97t2LZOePMZ33SkwYzDHHWj4Ip4K0RiSFmHAA" .normal}
 
-#### Diamond Membership Golf Tournament
+##### Diamond Membership Golf Tournament
 
 ![Diamond Membership](/assets/img/post/diamond-membership-golf-tournament-2022.webp){: lqip="data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAQCdASoQAAsABUB8JQAAHWoAAP68aS0HjRmUNXwJWIr8Gq320LTuhaO4W0k93Xp2dhL88sQAAA=="} _The Golf Tournament for Diamond Membership_
 
@@ -121,7 +88,7 @@ Businesses should illuminate, not complicate. For sensitive areas like stem cell
 ![Diamond golf tournament - golfers](/assets/img/post/diamond-tournament-golfers.webp){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAsABUB8JbACdAEOzzGkTgAA/FHOppsniDJ6V/LuFjZ/N4aBjW915GSEs95qtCZFpWAA" .normal .gap}
 ![Diamond golf tournament - gala](/assets/img/post/diamond-tournament-gala.webp){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsABUB8JbACdADHeNpdAWAA9kcuXuVP1dHowft/b6dxvlxaP6VYk9o/SF3P/6DfheY6XBgWZKTdJyeYJzOJba4J2kQCHfNwXv31VZAAAA==" .normal .gap}
 
-#### Ruby Membership Golf Tournament
+##### Ruby Membership Golf Tournament
 
 ![Ruby golf tournament - Trophy](/assets/img/post/trophy-ruby-membership-golf-tournament-2022.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsABUB8JQBOgB6o9xYAAADN7GNgy6SFSCXnHMXyP5KyFQOCB2tAcFQNSwFH8BCKKcWmnHG/bazyj9Vl/XeIkJnWVeOBQUAAAA=="} _The Ruby Membership Golf Tournament - Trophy_
 
@@ -134,14 +101,11 @@ Businesses should illuminate, not complicate. For sensitive areas like stem cell
 ![Ruby golf tournament - Nearest to the pin](/assets/img/post/nearest-to-the-pin.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAgABUB8JYwAAqsbV94HlAAA/vK0jd6DH5I/fRJe1rrCjotdmHvKhSA02gRhmy4GzKYaNYwAhDjeIEAAAA==" .normal .gap}
 ![Ruby golf tournament - Gala - 1](/assets/img/post/ruby-golf-tournament-gala.webp){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAsABUB8JZQCw7D0ZAETKSvSgAD+A72z1643T4hBUKWvZ1T4boc/4EV16nWGyIYvw1Jzadvo+YI7ffqW9DiZnx6nsAAA" .normal}
 
-#### Golf courses
+#### Customer journey
 
-![Caddy](/assets/img/post/long-bien-golf-course-caddy.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQABAABUB8JbACdADzewXSAAD8OfWf0gwpgttNRrABJa2cQE9o2cBuDbhvbiKVgvAfnQYMGH4qWUAA" width="480"} _A moment of contemplation on the course_
-![Golf Autumn](/assets/img/post/long-bien-golf-course-autumn.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAoABUB8JagCdAD6GJeNQPQAAPjeVCUOGualvvqK/OnskzU+uL06nx/nTpmLtWl9oEEYS+IAAA=="} _The subtle beauty of autumn at Long Bien Golf Course_
+After accepting John's invitation, I left Long Bien Corp to join Mercedes-Benz Vietnam Star.
 
-The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
-
-### Mercedes-Benz
+We discuss various topics such as market share, service, or business models. However, the most crucial aspect to consider is the customer journey. This is where brand strategy and marketing tactics truly make an impact.
 
 ![Star Drive](/assets/img/post/star-drive-venue-van-phuc.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkABUB8JZQC7ADhkzqDHkAA/VGMsqRqWfED9D1F03uwVPANDAHDVDSJb4s+YROjVDcchEblHnbQdd8ZPgAA"} _Star Drive - The national testdrive events by Mercedes-Benz Vietnam_
 
@@ -162,7 +126,54 @@ The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 
 [Goodbye, Brad...](/goodbye-brad) CEO Mercedes-Benz Vietnam
 
+### B2B
+
+![Thai Khuong Services](/assets/img/post/tks.webp "The Thai Khuong Services logo in use"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkABUB8JZQAAujc65pyYAD+sjFgpT7INiFxt9fImMSkz/aXRj8dWUB0RJALcCdAgAAA"} _Thai Khuong Services_
+
+Another business unit of Thai Khuong and Vietnam's first subscription-based industrial service. It originated from my innovation during COVID-19 revenue disruption, perfecting a sustainable business model with a complete customer lifecycle approach. By adding revenue streams from services, we reduced dependence on distribution activities. The company expanded nearly 200% in the following year.
+
+{: .d-flex .c-center }
+![Planning](/assets/img/site/stk-planning.webp "A quick sketch of Thai Khuong plans"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .gap}
+![Make a different](/assets/img/site/design-tks-uniform.webp "The team’s simple uniforms"){: lqip="data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JQBOgCHw6UfXuUBcAAD+wdJTEFnVS15+mFh7Ho8qDWH+divZm8c1IPUZLdV2p/EaTdqhbISd6RlL+of40ZsCB2clQAAA" .normal}
+
+{: .d-flex .c-center }
+![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .gap}
+![TKS Teams](/assets/img/site/tks-teams.webp "The Thai Khuong team at work"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal}
+
+We can identify shifts and make precise adjustments—maintaining momentum through informed adaptation rather than reactive responses.
+![Real time report](/assets/img/site/real-time-report.webp "A basic view of live marketing data"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA"}
+
+## Strategy
+
+### Customer Engagement
+
+At first glance, marketing involves numerous tasks and considerable workload. These activities extend throughout the entire customer interaction journey - from first awareness, through research phases, purchase decisions, to becoming brand advocates.
+![Customer Journey in the Media Ecosystem](/assets/img/post/customer-journey-in-the-media-ecosystem.webp "From Awareness to Advocacy: Customer Journey in the Media Ecosystem"){: lqip="data:image/webp;base64,UklGRsYAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSEwAAAARL6CobSM2VhhFsF43IiIw7AuMItlqNHwFJAH5DhvuUUHyr4bVENF/IUGCySv8pG1UBq5tOf0l4bvXp34CLU9uVqNxwnUs6Esw2oABVlA4IFQAAAAQAgCdASoQAAkABUB8JZgCdAEN6xfyVkVgAP6Dai2+fq0FYlqzmQ8lIcNJfJ3p7jDFZpCTaxeoS67Q7FIbDdc1HMHmdruAPN7kNb5BQ9Ykvibu9gA="} _From Awareness to Advocacy: Customer Journey in the Media Ecosystem_
+
+### Implementation Strategy
+
+In today's global marketplace, while external platforms like social media, press, and TV are valuable, **marketing efforts should be anchored in owned assets**: manufacturing facilities, offices, branches, websites, apps, distribution networks, employees, and existing customers.
+
+> ...sometimes, being kind to existing customers is more important than chasing after new ones.
+
 ## Creative
+
+### Contents
+
+Businesses should illuminate, not complicate. For sensitive areas like stem cell therapy, I've developed transparent information frameworks that empower informed decision-making.
+
+> Created for [Medeze](https://medeze.vn) in 2022, it’s focused on user experience through education strategy approach.
+> ![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "A short animation explaining Medeze’s stem cell work")
+
+### Websites
+
+![Homepage thaikhuongpump.com](/assets/img/site/TK-cover-profile.webp "A minimal cover image for Thai Khuong"){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA=" width="480"} _This site - [thaikhuongpump.com](https://thaikhuongpump.com) was reborn in 2018-2019_
+
+The approach to web development is intentionally minimalist—focusing solely on visitor needs without unnecessary elements. Every design choice serves functionality, creating experiences that respect users' time and objectives.
+
+{: .d-flex .c-center }
+![Thai Khuong Pump website SEO](/assets/img/post/thaikhuongpump-seo.webp){: lqip="data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQAAkABUB8JZwAAud7hWAAAP7tTMK4RIdUEIOkAAA=" .normal .gap}
+![Digital customer behavior](/assets/img/post/digital-customer-behavior.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAoABUB8JaQAAuhInKniAAD2t3We/1QKcUaZal4udWhqGL9eAAAA" .normal .gap}
 
 ### Design
 

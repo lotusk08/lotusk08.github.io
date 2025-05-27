@@ -14,9 +14,9 @@ toc: false
 math: false
 mermaid: false
 image:
-  path: /assets/img/post/too-one-year-old.webp
-  lqip: data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAwABUB8JZQCw7ELLz1uMAAA/r2msSHKgbLk/EUS/tq2svWTraIgfFk8VwrEjp/TrcX/NBrmy+/QgAA=
+  path: /assets/img/post/too-1yo.webp
+  lqip: data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAQCdASoQAAwABUB8JQBOgA4NAIAA/kiwPMn5rCVRM/ydRGkPVMXCEGtVY5QNtdRC5ynHltBZwy/sTAj/4W16rr+6JJaASCTNJv0AAAA=
   alt: A year with Too
 ---
-A year since I got him. Maybe you don't have a lot of friends, but you need a pet. 
+Meow...
 {% include embed/youtube.html id='WJWbP3IBwMM' %}

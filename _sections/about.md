@@ -227,11 +227,13 @@ I enjoy photography and the process of creating images; each photo captures pric
 ![Vespa68](/assets/img/post/vespa68.webp){: lqip="data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAsABUB8JYwAAl13AtS/AAD+tdPSW1TvmIIFFOevQwxViVOl64QHJXgWtsWL98YAAA==" .normal .gap}
 ![Mr. Anh](/assets/img/post/vuong-anh-an-khe.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JYgCdAC/uCAAAP7o+D57RxeZR2jPGq23l4As0d96mxh0HYJ9brVEnFEURSkkO4gyJgAA" .normal}
 
+![Me  Steve](/assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="}
+
 {: .d-flex .c-center }
 ![Morning](/assets/img/post/morning-sg.webp){: lqip="data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoLABAABUB8JbAC7AEegy3NWhSAAOIvf459TskAD1LL7LpFvee5DTelkDM+U/MHZ+wQ6OcmKXCGyyuIGv9tJW/QmzmQrdAFPs7cay8EAAA=" .normal .gap}
 ![Mid night](/assets/img/post/mid-night-vt.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoKABAABUB8JbACdADblMCsAAD+8OEZXX3Xc6aUzuuLTHgauyrzqC/MchlazUc/IoMHHQR/XzlIoFNQDuAyC3XUEK3RF6pxUAAAAA==" .normal}
 
-![Me  Steve](/assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="}
+![I am  Steve](/assets/img/site/i-am-steve.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JYwC7ADHUHgSb4AA/qnZG2AbItZS3BkNI02RHYLaTIkybzm2AqOpCXl8QhBq36YPKnTYCZFgAA=="}
 
 > I am who I am...
 >

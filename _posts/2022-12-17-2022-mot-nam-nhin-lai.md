@@ -40,8 +40,10 @@ Sau khi thử qua vài loại bàn phím văn phòng như Topaz, Keychron, thì 
 ![laptop stand](/assets/img/post/laptop-stand.avif "Góc nghiêng 7-9 độ ít tác động tiêu cực hơn góc phẳng.")
 
 ## Chơi game
-![PS5](/assets/img/post/PS5.webp "Let's play together"){: lqip="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoMABAABUB8JbACdAEVjQT5e4EeAP5UK0U9gFMQXnPLQGX9PcijmM+3fqLzVT+fN+VX6sm7NK/gIdtrXXv8+ZclPTJpd4SNmsR+DeSjswAAAA==" w="260" .left}
-Mình dùng PS5 chơi một vài game vui vẻ. Bởi vì mình nhận ra hoạt động chơi game giúp phát triển tư duy logic rất tự nhiên. Game cũng là một ngành công nghiệp có giá trị hàng ngàn tỷ $ và không tạo ra CO2. Có rất nhiều Studio tại Việt Nam đang làm thầu phụ cho những dự án game triệu $ trên thế giới, và đúng ra là chúng ta có thể đi xa hơn. Gì chứ nhân tài chơi game ở VN không thiếu. hehe!
+![PS5](/assets/img/post/PS5.webp "Let's play together"){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAwABUB8JbACdACvTsXogADyofXPreeHJbE/ywMK+oCvlNd6B4A+TzSIUmjxWOUk6VDkPWoipwOf4eYY71eKLAAAAA==" w="460" .left}
+Mình dùng PS5 chơi một vài game vui vẻ. Bởi vì mình nhận ra hoạt động chơi game giúp phát triển tư duy logic rất tự nhiên. Game cũng là một ngành công nghiệp có giá trị hàng ngàn tỷ $ và không tạo ra CO2.
+
+Có rất nhiều Studio tại Việt Nam đang làm thầu phụ cho những dự án game triệu $ trên thế giới, và đúng ra là chúng ta có thể đi xa hơn. Gì chứ nhân tài chơi game ở VN không thiếu. hehe!
 PS5 có lẽ là món đồ chơi gây tiềm ẩn nguy cơ rạn nứt hạnh phúc và tạo dựng sự bất hoà của rất nhiều đứa trẻ. Lúc giành TV, lúc cãi nhau khi qua một màn khó. Bù lại, nếu cùng chơi qua hết thì có lẽ sẽ hiểu nhau hơn.
 
 ## Tiếp thu thêm trải nghiệm của người khác

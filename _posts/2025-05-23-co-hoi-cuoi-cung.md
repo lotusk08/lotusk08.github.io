@@ -19,7 +19,7 @@ image:
   lqip: data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwAgCdASoOABAABUB8JbACdDBLwX636uzVAv5oAP5xK1U26RxeRFn3Yi4LTdVR+ZEnIdF7/pokz41RyqliQVevWl8kJchUruGGrGcOt/aU9p+U8DL5cwDSh8rb4laos84AAA==
 ---
 > Lần đầu tiên có một lãnh đạo Việt Nam xuất hiện trên bìa cover của tạp chí Economist.
-> Mình chia sẻ lại bài dịch từ bài viết gốc của Economist trong tập san tuần cuối tháng 5/2025: [The man with a plan for Vietnam](https://www.economist.com/weeklyedition/2025-05-24).
+> Mình chia sẻ lại bản dịch từ bài viết gốc của Economist trong tập san tuần cuối tháng 5/2025: [The man with a plan for Vietnam](https://www.economist.com/weeklyedition/2025-05-24).
 {: .note-info }
 
 ## Từ tàn phá đến thịnh vượng
@@ -56,7 +56,7 @@ Như nhiều quốc gia châu Á, Việt Nam muốn duy trì thế trung lập g
 
 Phép màu tăng trưởng của Việt Nam tập trung xung quanh một vài hướng của mô hình kinh tế hiện đại. Các công ty đa quốc gia lớn điều hành các nhà máy khổng lồ để xuất khẩu, sử dụng lao động địa phương. Nhưng họ chủ yếu mua nguyên liệu đầu vào ở nước ngoài và tạo ra ít tác động lan tỏa cho phần còn lại của nền kinh tế. Đây là lý do tại sao Việt Nam không thể tăng tỷ lệ giá trị gia tăng nội địa trong tỷ trọng hàng hóa xuất khẩu.
 
-Một số ít tập đoàn có mối quan hệ chính trị làm mưa làm gió trong nhiều ngành nhưng đặc biệt là bất động sản và ngân hàng. Không có công ty nào có khả năng cạnh tranh toàn cầu, bao gồm cả VinFast, công ty đang thua lỗ của Việt Nam muốn bắt chước Tesla, một công ty con của tập đoàn lớn nhất, Vingroup. Trong khi đó, các doanh nghiệp nhà nước ngô nghê vẫn điều hành các ngành công nghiệp từ năng lượng đến viễn thông.
+Một số ít tập đoàn có mối quan hệ chính trị đang làm mưa làm gió trong nhiều ngành, đặc biệt là bất động sản và ngân hàng. Tuy nhiên, lại không có công ty nào có khả năng cạnh tranh ở phạm vi toàn cầu, bao gồm cả VinFast - công ty đang thua lỗ của Việt Nam muốn bắt chước Tesla, một công ty con của tập đoàn lớn nhất, Vingroup. Trong khi đó, các doanh nghiệp nhà nước ngô nghê vẫn điều hành các ngành công nghiệp từ năng lượng đến viễn thông.
 
 ## Cải cách
 
@@ -64,7 +64,7 @@ Một số ít tập đoàn có mối quan hệ chính trị làm mưa làm gió
 
 Nghị quyết mới ban hành trong tháng này bãi bỏ thuế đối với các công ty hộ gia đình và tăng cường bảo vệ pháp lý cho các doanh nhân. Đó là một bước đi đúng hướng, nhưng ông Tô Lâm cũng cần giải phóng các trường đại học để các ý tưởng chảy dễ dàng hơn và các sáng kiến phát triển mạnh mẽ.
 
-## Rủi to và cơ hội
+## Rủi ro và cơ hội
 
 Đây là nơi mọi thứ trở nên rủi ro. Người dân Việt Nam chắc chắn sẽ được hưởng lợi từ một hệ thống chính trị tự do hơn. Nhưng mặc dù điều đó cũng có thể giúp phát triển, Trung Quốc đã cho thấy rằng điều đó có thể không cần thiết - ít nhất là không phải ngay lập tức. Điều quan trọng là phải đối mặt với những nhóm lợi ích thân hữu đang chiếm hữu các nguồn tài nguyên khan hiếm.
 
@@ -84,12 +84,13 @@ Nhưng nếu ông thành công, một cuộc đổi mới thứ hai sẽ đưa 1
 
 Gần đây, chủ đề về Việt Nam khá thu hút trên diễn đàn kinh tế thế giới. Họ viết về Việt Nam, điều đó thể hiện góc nhìn của họ, việc chúng ta bàn luận họ viết đúng hay sai trên mạng như hiện tại gần như không mang lại giá trị bằng việc khai thác góc nhìn của họ.
 
-> Văn phong bên Economist còn khá mềm, NewYorkTimes viết khó chịu hơn nhiều: [*Why Vietnam Ignored Its Own Laws to Fast-Track a Trump Family Golf Complex*](https://www.nytimes.com/2025/05/25/world/asia/trump-vietnam-golf-project.html) *đăng ngày 25-05-2025.*
+> Văn phong bên Economist hay Financial Times còn khá mềm, NewYorkTimes viết khó chịu hơn nhiều:
+> 
+> [*Why Vietnam Ignored Its Own Laws to Fast-Track a Trump Family Golf Complex*](https://www.nytimes.com/2025/05/25/world/asia/trump-vietnam-golf-project.html) - NewYorkTimes | *25-05-2025*
 >
-> Hay, như Financial Times, bỏ qua những ẩn ý râu ria, chúng ta thấy được ít nhiều sự chú ý của bên kia bán cầu giành cho nền kinh tế của Việt Nam trong giai đoạn hiện tại: [*French president’s visit to Vietnam*](https://on.ft.com/4kzTs7N) *đăng ngày 26-05-2025.*
+> [*French president’s visit to Vietnam*](https://on.ft.com/4kzTs7N) - Financial Times | *26-05-2025*
+> 
+> Bỏ qua những ẩn ý râu ria, chúng ta có thể thấy được ít nhiều sự chú ý của bên kia bán cầu giành cho nền kinh tế của Việt Nam trong giai đoạn hiện tại! Cơ hội hay rủi ro, phần lớn là do góc nhìn...
 {: .note-info }
 
-> Nếu có một ngày, đất nước chúng ta hoá rồng thành công, việc bị bêu xấu có chủ đích trên các kênh truyền thông kiểu này có thể diễn ra hàng ngày. Chẳng lẽ, mọi người vẫn cứ phân bua đúng sai một cách ngây ngô như hiện tại ư?
->
-> I think for myself
-{: .author }
+> Tuy nhiên, nếu có một ngày, đất nước chúng ta hoá rồng thành công, việc bị bêu xấu có chủ đích trên các kênh truyền thông kiểu này có thể diễn ra hàng ngày. Không lẽ, mọi người vẫn cứ phân bua đúng sai một cách ngây ngô như hiện tại ư?

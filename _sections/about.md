@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 title: About me
-description: I work in marketing, finding clarity in complexity. I uncover how businesses function, understand customer journeys, and add value where it matters most—balancing purpose with profit through quiet, deliberate action.
+description: I'm Steve. I work in marketing—uncovering how businesses function, mapping customer journeys, adding value where it matters most. I balance purpose with profit through quiet, deliberate action.
 redirect_from:
   - /my-products
   - /marketing
@@ -11,52 +11,50 @@ redirect_from:
 toc: true
 ---
 
-![I'm Steve](/assets/img/site/about-me-steve.webp){: lqip="data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkABUB8JbACdACxOIwAAPuZBoEn81ZyeN6BWBAWc1FcXohHYH4ehQwKc53AefW/W2tjqaXnJHLHQAA="} _Just me, Steve_
+![I'm Steve](/assets/img/site/about-me-steve.webp){: lqip="data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkABUB8JbACdACxOIwAAPuZBoEn81ZyeN6BWBAWc1FcXohHYH4ehQwKc53AefW/W2tjqaXnJHLHQAA="} _I am..._
 
-![I love events](/assets/img/site/talk-about-something.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCFTFdjBNdwAAP7ZmZP8HJ6idbPf1WDmp/RQ7H1xKHB2XoX47iAOiP9Q0/F0VQF8PJxc+DhwLatcyiAAAAA=" .left width="400"}
+![I love events](/assets/img/site/talk-about-something.webp){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABUB8JQBOgCFTFdjBNdwAAP7ZmZP8HJ6idbPf1WDmp/RQ7H1xKHB2XoX47iAOiP9Q0/F0VQF8PJxc+DhwLatcyiAAAAA=" .right width="400"}
 
 ## I am...
 
 Steve
-: *Aka Vietnamese:* Hoàng Thắng
-: I work in marketing.
+: In Vietnamese: Hoàng Thắng.
 
-I uncover how businesses function, understand customer journeys, and add value where it matters most—balancing purpose with profit through quiet, deliberate action.
+I work in marketing—uncovering how businesses function, mapping customer journeys, adding value where it matters most. I balance purpose with profit through quiet, deliberate action.
 
-## Lesson
+## What I've built
 
-### B2C
-#### E-commerce
+### E-commerce Pioneer
+#### Vietnam's first motorbike e-commerce store
 
 ![Hoang Viet's E-commerce policy](/assets/img/site/hv-e-commerce-policy.webp "A simple e-commerce policy page I worked on"){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsABUB8JQAAW7CpsM2NVAAA/t7OZeYxhcp2wU3CFuYmt1xN7ofAmI2Q4S5pNuT5IlRgJOQAAA=="} _Vietnam’s first motorbike e-commerce store_
 
 ![Hoang Viet's Shopping mall](/assets/img/site/hv-e-commerce-shopping-mall.webp "The online shop layout for motorbikes"){: lqip="data:image/webp;base64,UklGRp4AAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSC8AAAARL0CWjRy0uPm2o3iGj4iY0KGqgQhqk0EA00GAVwPTv8x9SRDR/wnIQd3D+GeOAgBWUDggSAAAADACAJ0BKhAACQAFQHwljAJ0BicJibRfvqsAAP4F+FldwftsMajwTzD1p/3CZz0fgYan1kGEmdNcqxEsFaxpgn3wTpVveN2gAA==" width="420" .right}
 
-In 2018, I launched Vietnam's first online motorbike store. A quiet hunch that worked remarkably well:
+A quiet hunch that worked remarkably well:
 
-- First sale in two weeks
+- First sale within two weeks
 - 2 billion VND on promotion days
-- 1 trillion VND in year-end revenue (+35%)
+- 1 trillion VND year-end revenue *(+35%)*
 
 Learned
 : Ignite with passion, stand out with difference
 
-#### Customer experience
+### Customer experience leadership
 
-##### Golf coures
+#### Tan Son Nhat & Long Bien Golf Courses
 
 ![Caddy](/assets/img/post/long-bien-golf-course-caddy.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQABAABUB8JbACdADzewXSAAD8OfWf0gwpgttNRrABJa2cQE9o2cBuDbhvbiKVgvAfnQYMGH4qWUAA" width="480"} _A moment of contemplation on the course_
 
-In 2022, I managed the Marketing department, supporting nearly 1,400 golfers at Tan Son Nhat Golf Course and Long Bien Golf Course daily. We reached a business limit when we attempted to scale up revenue, which resulted in media incidents, including customers boycotting the golf course due to price hikes in October.
+Supported nearly 1,400 daily golfers across two premier courses. When aggressive scaling triggered customer boycotts, we pivoted to experience-first strategy. Resolved the crisis in 3 days, then made customer satisfaction a core KPI.
 
-We addressed this issue and resolved in 3 days. After that, we focused on enhancing the customer experience and made it a key performance indicator (KPI) metric for another department that interacts directly with customers.
-
-Within 4 months, customer service quality satisfaction improved from 32% to 46%.
+Result
+: Service quality satisfaction improved from 32% to 46% within 4 months.
 
 ![Golf Autumn](/assets/img/post/long-bien-golf-course-autumn.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAoABUB8JagCdAD6GJeNQPQAAPjeVCUOGualvvqK/OnskzU+uL06nx/nTpmLtWl9oEEYS+IAAA=="} _The subtle beauty of autumn at Long Bien Golf Course_
 
 Learned
-: Customer experience can lead to its positive impact and increased profit while maintaining business stability.
+: Customer experience drives both positive impact and increased profit while maintaining stability.
 
 The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 
@@ -101,11 +99,13 @@ The [golf market in Vietnam](/golf-vietnam) through a marketing lens.
 ![Ruby golf tournament - Nearest to the pin](/assets/img/post/nearest-to-the-pin.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAgABUB8JYwAAqsbV94HlAAA/vK0jd6DH5I/fRJe1rrCjotdmHvKhSA02gRhmy4GzKYaNYwAhDjeIEAAAA==" .normal .gap}
 ![Ruby golf tournament - Gala - 1](/assets/img/post/ruby-golf-tournament-gala.webp){: lqip="data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAsABUB8JZQCw7D0ZAETKSvSgAD+A72z1643T4hBUKWvZ1T4boc/4EV16nWGyIYvw1Jzadvo+YI7ffqW9DiZnx6nsAAA" .normal}
 
-#### Customer journey
+### Automotive strategy
+#### Mercedes-Benz Vietnam Star
 
-After accepting John's invitation, I left Long Bien Corp to join Mercedes-Benz Vietnam Star.
+Left golf to join Mercedes-Benz at John's invitation. While we discussed market share and business models, the breakthrough came from focusing on customer journey—where brand strategy and marketing tactics truly converge.
 
-We discuss various topics such as market share, service, or business models. However, the most crucial aspect to consider is the customer journey. This is where brand strategy and marketing tactics truly make an impact.
+Key initiative
+: Star Drive national test-drive events.
 
 ![Star Drive](/assets/img/post/star-drive-venue-van-phuc.webp){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAkABUB8JZQC7ADhkzqDHkAA/VGMsqRqWfED9D1F03uwVPANDAHDVDSJb4s+YROjVDcchEblHnbQdd8ZPgAA"} _Star Drive - The national testdrive events by Mercedes-Benz Vietnam_
 
@@ -126,11 +126,14 @@ We discuss various topics such as market share, service, or business models. How
 
 [Goodbye, Brad...](/goodbye-brad) CEO Mercedes-Benz Vietnam
 
-### B2B
+### B2B Innovation
+#### Thai Khuong Services
 
 ![Thai Khuong Services](/assets/img/post/tks.webp "The Thai Khuong Services logo in use"){: lqip="data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAkABUB8JZQAAujc65pyYAD+sjFgpT7INiFxt9fImMSkz/aXRj8dWUB0RJALcCdAgAAA"} _Thai Khuong Services_
 
-Another business unit of Thai Khuong and Vietnam's first subscription-based industrial service. It originated from my innovation during COVID-19 revenue disruption, perfecting a sustainable business model with a complete customer lifecycle approach. By adding revenue streams from services, we reduced dependence on distribution activities. The company expanded nearly 200% in the following year.
+Vietnam's first subscription-based industrial service, born from COVID-19 revenue disruption. Built a sustainable model with complete customer lifecycle approach, reducing dependence on distribution through service revenue streams.
+
+Company expanded nearly 200% the following year.
 
 {: .d-flex .c-center }
 ![Planning](/assets/img/site/stk-planning.webp "A quick sketch of Thai Khuong plans"){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JZwAAsWKfND7GkYAAPdQ1fI0C9oNdVmFQApSOjtABHABcxxDeSfZX3UCjRMAAAA=" .normal .gap}
@@ -140,44 +143,46 @@ Another business unit of Thai Khuong and Vietnam's first subscription-based indu
 ![Employee](/assets/img/site/tks-employee.webp "Early team members relaxing"){: lqip="data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsABUB8JbACdAEed9a57vO6AAD+3a+NwiXUIE8e4WIDLQfbWE4lynF/EBZjH2caiAeGErH1S2WNwYiPlfYuAWWBjd5BigLqLjVJYABALPNlUlumfqPQAAA=" .normal .gap}
 ![TKS Teams](/assets/img/site/tks-teams.webp "The Thai Khuong team at work"){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABUB8JZQAAtvFf9EzOAD+3ZuiFsSvulI+G67FcLj/t2hWlSySiGGiUzKHfFHmw1N64auLxGWpiXgAAA==" .normal}
 
-We can identify shifts and make precise adjustments—maintaining momentum through informed adaptation rather than reactive responses.
+We identify shifts and make precise adjustments—maintaining momentum through informed adaptation, not reactive responses.
 ![Real time report](/assets/img/site/real-time-report.webp "A basic view of live marketing data"){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAoABUB8JY0wAAHhAAD+75ErKwPyJR+LJ+z5uOCjdEhtB0ut/gAA"}
 
-## Strategy
+## How I work
+### Strategy foundation
 
-### Customer Engagement
+Marketing spans the entire customer journey—from first awareness through advocacy. In today's marketplace, external platforms matter, but success anchors in owned assets: facilities, websites, networks, employees, existing customers.
 
-At first glance, marketing involves numerous tasks and considerable workload. These activities extend throughout the entire customer interaction journey - from first awareness, through research phases, purchase decisions, to becoming brand advocates.
 ![Customer Journey in the Media Ecosystem](/assets/img/post/customer-journey-in-the-media-ecosystem.webp "From Awareness to Advocacy: Customer Journey in the Media Ecosystem"){: lqip="data:image/webp;base64,UklGRsYAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSEwAAAARL6CobSM2VhhFsF43IiIw7AuMItlqNHwFJAH5DhvuUUHyr4bVENF/IUGCySv8pG1UBq5tOf0l4bvXp34CLU9uVqNxwnUs6Esw2oABVlA4IFQAAAAQAgCdASoQAAkABUB8JZgCdAEN6xfyVkVgAP6Dai2+fq0FYlqzmQ8lIcNJfJ3p7jDFZpCTaxeoS67Q7FIbDdc1HMHmdruAPN7kNb5BQ9Ykvibu9gA="} _From Awareness to Advocacy: Customer Journey in the Media Ecosystem_
 
-### Implementation Strategy
+> Sometimes, being kind to existing customers matters more than chasing new ones.
 
-In today's global marketplace, while external platforms like social media, press, and TV are valuable, **marketing efforts should be anchored in owned assets**: manufacturing facilities, offices, branches, websites, apps, distribution networks, employees, and existing customers.
+### Creative philosophy
 
-> ...sometimes, being kind to existing customers is more important than chasing after new ones.
+Businesses should illuminate, not complicate.
 
-## Creative
+For sensitive sectors like stem cell therapy, I develop transparent frameworks that empower informed decisions. My approach: education-focused user experience that respects intelligence.
 
-### Contents
-
-Businesses should illuminate, not complicate. For sensitive areas like stem cell therapy, I've developed transparent information frameworks that empower informed decision-making.
-
-> Created for [Medeze](https://medeze.vn) in 2022, it’s focused on user experience through education strategy approach.
-> ![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "A short animation explaining Medeze’s stem cell work")
-
-### Websites
+### Technical craft
+#### Web development
 
 ![Homepage thaikhuongpump.com](/assets/img/site/TK-cover-profile.webp "A minimal cover image for Thai Khuong"){: lqip="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAwABUB8JQBOgCHdeXJ0gudAAAD+YW0nwzD9zPcA5zeJNS7NCRv2ybmJlcQ4Pi8fV1pQ42riNK0r+tkbMZhmJBZtAHQYAAA=" width="480"} _This site - [thaikhuongpump.com](https://thaikhuongpump.com) was reborn in 2018-2019_
 
-The approach to web development is intentionally minimalist—focusing solely on visitor needs without unnecessary elements. Every design choice serves functionality, creating experiences that respect users' time and objectives.
+Intentionally minimalist—focusing solely on visitor needs. Every design choice serves functionality, respecting users' time and objectives.
 
 {: .d-flex .c-center }
 ![Thai Khuong Pump website SEO](/assets/img/post/thaikhuongpump-seo.webp){: lqip="data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQAAkABUB8JZwAAud7hWAAAP7tTMK4RIdUEIOkAAA=" .normal .gap}
 ![Digital customer behavior](/assets/img/post/digital-customer-behavior.webp){: lqip="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAoABUB8JaQAAuhInKniAAD2t3We/1QKcUaZal4udWhqGL9eAAAA" .normal .gap}
 
-### Design
+#### Content
+From strategy through execution. Recent project: comprehensive information architecture for Medeze in 2022.
 
-#### 2D
+> ![Medeze Stem Cell](/assets/img/site/medeze-stemcell.gif "A short animation explaining Medeze’s stem cell work")
+
+#### Code
+
+Not a developer by trade, but I understand software functionality well enough to make necessary adjustments for my needs or others.
+![Lucky draw](/assets/img/post/luckydraw-software.gif)_Lucky draw: the popular game for year-end parties in Vietnam_
+
+#### Design
 
 ![VIP card template](/assets/img/post/vip-card.webp){: lqip="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAsABUB8JQAAXZrMM74AAP7KnWt68OhDHfwOzu5L3y5qRaAGMvqARJNOqvaGwSSdiOONWPKnsq/ReuDJltsTQtAAAA==" width="420"} _Card design template_
 
@@ -185,30 +190,25 @@ The approach to web development is intentionally minimalist—focusing solely on
 ![Member card template 1](/assets/img/post/member-card-option-1.webp){: lqip="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsABUB8JZACdAEOunCugAD+x3iwmmni/y7tmamkCV5D8aScUMsHSybyavmGZ1oTlj8AAAA=" .normal .gap}
 ![Member card template 2](/assets/img/post/member-card-option-2.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JZACdH8AGBrF0AAA/tYTFH4pSEWOZU/bvy7b5nU3iNIWMws+HdXH+CkDoSFIW6lDKgd5cAAAAA==" .normal}
 
-### Video
+#### Video
 
 ![Video edit](/assets/img/post/filming.webp){: lqip="data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JZgCdAYwTjbWsm5gAAD+a94bijV2Gqwfa9pLxkn32SM7xgxd6SQoed2MB48fpRY/drY7sdPO54IlLndha6yuqkiBDTsbPLfIBnc7iEAAAA==" width="480"}
 
-I rarely make video clips, even though most people are excited to see them. I approach video creation selectively. It demands patience to weave content, emotion, sound, and visual rhythm into something meaningful.
+I approach video creation selectively. It demands patience to weave content, emotion, sound, and visual rhythm into something meaningful. Most people expect video; I deliver it when it serves purpose.
 
 {% include embed/youtube.html id='C3aVBHVbomM' %}
 
-### Code
+#### Music
 
-While I'm not a software developer by trade, I possess a solid understanding of software functionality and can make necessary adjustments for my own needs or those of others.
-![Lucky draw](/assets/img/post/luckydraw-software.gif)_Lucky draw: the popular game for year-end parties in Vietnam_
+![Thai khuong song](/assets/img/site/thai-khuong-song.webp "A calm shot of Thai Khuong that inspired a melody"){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAwABUB8JQAAQuKNhowAAPzXHvzAILcBEIETaMTjsbCB0lhINUrjSqlPrZCqlyKsd5khRTqo5ezGYUxZSlIA" width="400" .right}
 
-### Music: Thai Khuong Song
-
-![Thai khuong song](/assets/img/site/thai-khuong-song.webp "A calm shot of Thai Khuong that inspired a melody"){: lqip="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAwABUB8JQAAQuKNhowAAPzXHvzAILcBEIETaMTjsbCB0lhINUrjSqlPrZCqlyKsd5khRTqo5ezGYUxZSlIA" width="400" .left}
-
-I crafted this tune to evoke the same passion and energy that inspired its creation, and I hope it resonates with listeners in a similar way.
+I crafted Thai Khuong Song to evoke the same passion that inspired its creation. I hope it resonates similarly with listeners.
 
 <iframe width="100%" height="360" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1063996978&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/steve_hoang" title="Steve Hoang" target="_blank" style="color: #cccccc; text-decoration: none;">Steve Hoang</a> · <a href="https://soundcloud.com/steve_hoang/sets/thai-khuong-song" title="Thai Khuong Song" target="_blank" style="color: #cccccc; text-decoration: none;">Thai Khuong Song</a></div>
 
-### Photography
+#### Photography
 
-I enjoy photography and the process of creating images; each photo captures priceless moments.
+Each image captures priceless moments. I enjoy the process of creation as much as the result.
 
 ![The road way](/assets/img/post/the-road-way.webp){: lqip="data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JbACdAEJKhC+AAD+022ac+J+8wgtyl+9m8dm3HLqv+DBKliasraAAAA=" width="480"} _The path forward_
 
@@ -227,11 +227,13 @@ I enjoy photography and the process of creating images; each photo captures pric
 ![Vespa68](/assets/img/post/vespa68.webp){: lqip="data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAsABUB8JYwAAl13AtS/AAD+tdPSW1TvmIIFFOevQwxViVOl64QHJXgWtsWL98YAAA==" .normal .gap}
 ![Mr. Anh](/assets/img/post/vuong-anh-an-khe.webp){: lqip="data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JYgCdAC/uCAAAP7o+D57RxeZR2jPGq23l4As0d96mxh0HYJ9brVEnFEURSkkO4gyJgAA" .normal}
 
-![Me  Steve](/assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="}
-
 {: .d-flex .c-center }
 ![Morning](/assets/img/post/morning-sg.webp){: lqip="data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoLABAABUB8JbAC7AEegy3NWhSAAOIvf459TskAD1LL7LpFvee5DTelkDM+U/MHZ+wQ6OcmKXCGyyuIGv9tJW/QmzmQrdAFPs7cay8EAAA=" .normal .gap}
 ![Mid night](/assets/img/post/mid-night-vt.webp){: lqip="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoKABAABUB8JbACdADblMCsAAD+8OEZXX3Xc6aUzuuLTHgauyrzqC/MchlazUc/IoMHHQR/XzlIoFNQDuAyC3XUEK3RF6pxUAAAAA==" .normal}
+
+![Me  Steve](/assets/img/post/-thac.webp){: lqip="data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsABUB8JZACdADHYmcdfvwAAP7c27JTVue8jfbZQ1XbXu5xUafaJUNRHGhaOFgFHlRSx43gAA=="}
+
+## I am!
 
 ![I am  Steve](/assets/img/site/i-am-steve.webp){: lqip="data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JYwC7ADHUHgSb4AA/qnZG2AbItZS3BkNI02RHYLaTIkybzm2AqOpCXl8QhBq36YPKnTYCZFgAA=="}
 

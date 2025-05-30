@@ -34,14 +34,14 @@ Ah, I love capturing photographs on my journeys. Sometimes, we get the priceless
 
 ## This site
 
-I’ve been jotting down my thoughts online since 2009. In 2019, I started [skyquietly.com](https://skyquietly.com) on WordPress. Lately, I switched to Jekyll. It’s simple and easy to type it with Obsidian or another markdown editor, and it lets me tweak things just how I like.
-
-![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CgbRQ4Z+NecIEXIiJu4H2oaiCC2mQQwHQQ4NXA9C9zfwpE9H8CclD3MP6YowBWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'} _My old WordPress site—good times!_
-
 > The only link between you and the reader is the sentence you’re making.
 >
 >Verlyn Klinkenborg
 {: .author}
+
+I’ve been jotting down my thoughts online since 2009. In 2019, I started [skyquietly.com](https://skyquietly.com) on WordPress. Lately, I switched to Jekyll. It’s simple and easy to type it with Obsidian or another markdown editor, and it lets me tweak things just how I like.
+
+![Old website](/assets/img/site/old-website.webp){: lqip="data:image/webp;base64,UklGRpAAAABXRUJQVlA4WAoAAAAQAAAADwAACQAAQUxQSDAAAAARL6CgbRQ4Z+NecIEXIiJu4H2oaiCC2mQQwHQQ4NXA9C9zfwpE9H8CclD3MP6YowBWUDggOgAAANABAJ0BKhAACgAFQHwliALDsQhm4Q3AAP5J+FlFjocAfds3f/SGN3dekkIUQwN5fbP3pCrWCg+4sAA=" w='680'} _My old WordPress site—good times!_
 
 I enjoy reading. I built this website for myself and made it public through Cloudflare. It's a fork of the [Chirpy theme for Jekyll](https://github.com/cotes2020/jekyll-theme-chirpy) by [Cote](https://cotes.page).
 

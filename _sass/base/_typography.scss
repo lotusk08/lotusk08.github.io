@@ -101,6 +101,7 @@ blockquote {
   &.author {
     padding-top: 0.75rem;
     text-align: center;
+    border: none;
 
     p {
       @extend %title-style;

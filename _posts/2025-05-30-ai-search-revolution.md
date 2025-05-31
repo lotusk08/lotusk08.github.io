@@ -136,8 +136,6 @@ The answer will shape the next decade of human knowledge.
 
 This transformation touches everyone, everywhere. Students in São Paulo use AI for research, bypassing traditional academic databases. Businesses in Tokyo replace multi-source research with AI-generated reports. Marketers worldwide rethink SEO for conversational queries.
 
-The numbers tell the story:
-
 ```chart
 {
   "type": "line",
@@ -240,8 +238,6 @@ Which future we get depends on decisions made in the next 24 months.
 
 ## The current snapshot
 
-The data shows the shift happening in real-time:
-
 ```chart
 {
   "type": "line",
@@ -298,13 +294,13 @@ The data shows the shift happening in real-time:
         "beginAtZero": true,
         "title": {
           "display": true,
-          "text": "Traffic Share (%)"
+          "text": "Traffic share (%)"
         }
       },
       "x": {
         "title": {
           "display": true,
-          "text": "Time Period"
+          "text": "Time period"
         }
       }
     }
@@ -350,9 +346,10 @@ The revolution is quiet but unstoppable. The question isn't whether it will happ
 
 And that's still up to us.
 
----
+> *This transformation affects everyone. Stay informed, stay adaptable, and remember: in a world of instant answers, the most valuable skill might just be asking better questions.*
+{: .note-important }
 
-*This transformation affects everyone. Stay informed, stay adaptable, and remember: in a world of instant answers, the most valuable skill might just be asking better questions.*
+---
 
 ## References
 - Search Engine Land, "[ChatGPT Search Market Share Could Hit 1 Percent](https://searchengineland.com/chatgpt-search-market-share-1-percent-449378)"

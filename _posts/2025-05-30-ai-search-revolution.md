@@ -310,7 +310,7 @@ Which future we get depends on decisions made in the next 24 months.
 
 Google's dominance is eroding slowly but steadily. ChatGPT's growth accelerates. These aren't just numbers—they represent millions of shifted behaviors, billions of redirected attention minutes.
 
-## What this means
+## What this means?
 
 **Publishers**: Diversify revenue streams. Secure AI partnerships early. Create content that AI can't easily replicate—deep reporting, unique perspectives, human insight. Build direct relationships with readers.
 
@@ -336,7 +336,7 @@ The questions multiply faster than answers: How will businesses reach customers?
 
 We can't answer these questions today. But we can prepare for them.
 
-## What happens next
+## What happens next?
 
 The AI search wave is here. Its legacy depends on what happens in the next 2-3 years. Can AI companies, content creators, and policymakers collaborate to balance instant answers with a thriving information ecosystem?
 

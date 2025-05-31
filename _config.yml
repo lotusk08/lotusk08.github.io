@@ -44,7 +44,7 @@ webmaster_verifications:
   google: B4MV6X3pNuHZXrVh7Occ7kmfgbbxzdDnGl-5gZTmtIg # fill in your Google verification code
   bing: 14D6A7C55ED2F09D5938117F68B53531 # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
+  yandex: d6ebc4dab1fe6fb6 # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
 
@@ -139,7 +139,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature (installable)
   cache:
-    enabled: true # the option for PWA offline cache
+    enabled: false # the option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.

@@ -11,7 +11,8 @@
   "since": 2019,
   "homepage": "https://stevehoang.com",
   "scripts": {
-    "build": "JEKYLL_ENV=production bundle exec jekyll build && purgecss --config ./purgecss.config.js",
+    "build": "concurrently npm:build:*",
+    "build:css": "node purgecss.js",
     "build:js": "rollup -c --bundleConfigAsCjs --environment BUILD:production",
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:scss": "stylelint _sass/**/*.scss",

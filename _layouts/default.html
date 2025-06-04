@@ -8,6 +8,10 @@ layout: compress
 
 {% include lang.html %}
 
+{% if page.layout != 'post' %}
+  {% include artblum.html %}
+{% endif %}
+
 {% if site.theme_mode %}
   {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
 {% endif %}

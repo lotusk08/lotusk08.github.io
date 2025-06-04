@@ -81,6 +81,7 @@ export default [
   build('post'),
   build('misc'),
   build('theme', { outputName: 'Theme' }),
+  build('plum', { outputName: 'Plum' }),
   build('app', { src: SRC_PWA, jekyll: true }),
   build('sw', { src: SRC_PWA, jekyll: true })
 ];

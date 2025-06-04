@@ -11,10 +11,14 @@
             "id": "b2b1c9d3ba48aff0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/New post.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "New post"
             }
           }
         ],
@@ -143,9 +147,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "_drafts/New post.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for New post"
             }
           },
           {
@@ -213,6 +219,16 @@
     "_site/assets/lib/waline/emojis/sh_white_sunglasses.gif",
     "_site/assets/lib/README.md",
     "_site/CLAUDE.md",
+    "_posts/2025-05-30-ai-search-revolution.md",
+    "_posts/2025-06-04-abuse-power-weak.md",
+    "_posts/2025-06-04-the-abuse-power-weak.md",
+    "_posts/2025-06-02-su-long-quyen-cua-ke-yeu.md",
+    "_posts/2025-06-04-su-long-quyen-cua-ke-yeu.md",
+    "_posts/2025-06-02-abuse-power-weak.md",
+    "_posts/2025-06-02-su-long-quyen-cua-ke-yeu copy.md",
+    "_posts/untitled.md",
+    "_drafts/2025-03-31-su-truong-thanh-hoi-uc.md",
+    "_drafts/New post.md",
     "_posts/2019-08-08-write-a-new-post.md",
     "_posts/2019-08-08-text-and-typography.md",
     "CLAUDE.md",
@@ -225,16 +241,6 @@
     "_posts/2024-10-22-what-makes-you-happy.md",
     "_posts/2024-10-20-a-year-with-too.md",
     "_posts/2024-09-29-su-truong-thanh.md",
-    "_posts/2024-06-16-cv?.md",
-    "_posts/2024-06-08-goodbye-brad.md",
-    "_posts/2023-12-31-2023-mot-nam-nhin-lai.md",
-    "_posts/2023-11-10-my-pet.md",
-    "_posts/2023-09-01-obsidian.md",
-    "_posts/2023-07-23-an-nam.md",
-    "_posts/2023-06-16-golf-vietnam.md",
-    "_posts/2023-05-26-gojek-datbike.md",
-    "_posts/2023-04-27-noi-so-AI.md",
-    "_posts/2023-04-01-ly-tri.md",
-    "_posts/2023-03-23-morning-coffee.md"
+    "_posts/2024-06-16-cv?.md"
   ]
 }

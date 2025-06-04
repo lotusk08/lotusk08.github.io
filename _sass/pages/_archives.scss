@@ -16,82 +16,36 @@
     }
   }
 
-  $timeline-width: 4px;
-
-  %timeline {
-    content: '';
-    width: $timeline-width;
-    position: relative;
-    float: left;
-    background-color: var(--timeline-color);
-  }
-
   .year {
     height: 3.5rem;
-    font-size: 1.43rem;
-    font-weight: 300;
+    font-size: 8em;
+    opacity: 0.2;
+    color: var(--main-bg);
+    font-weight: 700;
     display: block;
     position: relative;
-    left: 2px;
-    margin-left: -$timeline-width;
+    margin-bottom: 4rem;
+    top: 1rem;
+    align-items: center;
+    text-align: end;
 
-    &::before {
-      @extend %timeline;
+    --un-text-stroke-opacity: 1;
 
-      height: 72px;
-      left: 79px;
-      bottom: 16px;
-    }
-
-    &:first-child::before {
-      @extend %timeline;
-
-      height: 32px;
-      top: 24px;
-    }
-
-    /* Year dot */
-    &::after {
-      content: '';
-      display: inline-block;
-      position: relative;
-      border-radius: 50%;
-      width: 12px;
-      height: 12px;
-      left: 16px;
-      border: 3px solid;
-      background-color: var(--timeline-color);
-      border-color: var(--timeline-node-bg);
-      box-shadow: 0 0 2px 0 #c2c6cc;
-      z-index: 1;
-    }
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--text-muted-color);
   }
+
 
   ul {
     li {
       font-size: 1.1rem;
       line-height: 3rem;
+      border-radius: 2px;
 
       @extend %text-ellipsis;
 
       &:nth-child(odd) {
-        background-color: var(--main-bg, #ffffff);
-        background-image: linear-gradient(
-          to left,
-          #fffff9,
-          #fafaf6,
-          #fafaf6,
-          #fafaf6,
-          #fffff9
-        );
-      }
-
-      &::before {
-        @extend %timeline;
-
-        top: 0;
-        left: 77px;
-        height: 3.1rem;
+        background-image: linear-gradient(to right, transparent 20%, oklch(85% 0.02 80deg / 0.1) 50%, transparent);
       }
     }
 
@@ -141,8 +95,7 @@
       float: left;
       top: 1.35rem;
       left: 71px;
-      background-color: var(--timeline-node-bg);
-      box-shadow: 0 0 3px 0 #c2c6cc;
+      border: 1px solid var(--icon-color);
       z-index: 1;
     }
   }

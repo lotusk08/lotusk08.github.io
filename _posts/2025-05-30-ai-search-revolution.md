@@ -346,7 +346,7 @@ The revolution is quiet but unstoppable. The question isn't whether it will happ
 
 And that's still up to us.
 
-> *This transformation affects everyone. Stay informed, stay adaptable, and remember: in a world of instant answers, the most valuable skill might just be asking better questions.*
+> *This transformation impacts everyone. In a world of instant answers, the most valuable skill may be learning to ask better questions.*
 {: .note-important }
 
 ---

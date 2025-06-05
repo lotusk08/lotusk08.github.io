@@ -72,15 +72,17 @@ function step(x, y, rad, counter = { value: 0 }) {
 }
 
 let lastTime = performance.now();
-const interval = 1000 / 40; // 25fps
+const interval = 1000 / 40; // 25fps (matching original which says 50fps but uses 40)
 let isRunning = false;
 
 function frame() {
   if (!isRunning) return;
 
+  // KEY FIX: Always continue the animation loop, even if we skip this frame
+  animationId = requestAnimationFrame(frame);
+
   if (performance.now() - lastTime < interval) {
-    animationId = requestAnimationFrame(frame);
-    return;
+    return; // Skip this frame but continue the loop
   }
 
   prevSteps = steps;
@@ -90,6 +92,7 @@ function frame() {
   if (!prevSteps.length) {
     isRunning = false;
     stopped = true;
+    cancelAnimationFrame(animationId);
     return;
   }
 
@@ -101,8 +104,6 @@ function frame() {
     else
       stepFn();
   });
-
-  animationId = requestAnimationFrame(frame);
 }
 
 function randomMiddle() {
@@ -117,7 +118,8 @@ function startAnimation() {
 
   if (!ctx) return;
 
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  // KEY FIX: Clear using the actual canvas dimensions, not the scaled ones
+  ctx.clearRect(0, 0, size.width, size.height);
   ctx.lineWidth = 1;
   ctx.strokeStyle = color;
 

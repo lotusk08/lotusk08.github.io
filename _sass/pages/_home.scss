@@ -300,7 +300,6 @@ header.profile-wrapper h1 {
       .card-body {
         text-align: center;
         margin: 0 auto;
-        padding: 2rem 1.5rem;
 
         .card-title {
           margin-left: auto;
@@ -317,23 +316,22 @@ header.profile-wrapper h1 {
     .card-body {
       height: 100%;
       width: 100%;
-      padding: 1.5rem;
+      padding: 0.5rem;
       display: flex;
       flex-direction: column;
       flex: 1 1 auto;
 
       @include bp.md {
-        padding: 2rem 1.5rem;
+        padding: 1rem;
       }
 
       .card-title {
         @extend %text-clip;
         @extend %title-style;
 
-        font-size: 2.45rem;
-        opacity: 0.7;
+        font-size: 2.15rem;
+        opacity: 0.6;
         line-height: 1.35;
-        padding-top: 0.25em;
         padding-bottom: 1.25rem;
         margin-top: 0;
         margin-bottom: 1em;

@@ -19,8 +19,8 @@
   .year {
     height: 3.5rem;
     font-size: 8em;
-    opacity: 0.2;
-    color: var(--main-bg);
+    opacity: 0.1;
+    color: transparent;
     font-weight: 700;
     display: block;
     position: relative;
@@ -28,10 +28,7 @@
     top: 1rem;
     align-items: center;
     text-align: end;
-
-    --un-text-stroke-opacity: 1;
-
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: var(--text-muted-color);
   }
 

@@ -103,6 +103,7 @@ main {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  position: relative;
 
   @include bp.lt(bp.get(md)) {
     aspect-ratio: 16 / 9;
@@ -117,11 +118,20 @@ main {
   }
 
   &:not(.no-bg) {
-    background-image: var(--lqip-url);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     transition: left 0.2s ease;
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0 0 0 0;
+      background-image: var(--lqip-url);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.4;
+      pointer-events: none;
+      z-index: 1;
+    }
   }
 
   img {
@@ -130,6 +140,8 @@ main {
     object-fit: cover;
     border-radius: 0;
     margin: 0;
+    position: relative;
+    z-index: 2;
 
     @at-root #post-list & {
       width: 100%;

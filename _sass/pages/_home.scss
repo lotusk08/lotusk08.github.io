@@ -76,30 +76,85 @@
 }
 
 .site-title {
-  @extend %clickable-transition;
-  @extend %name-hover;
-
-  font-family: inherit;
-  font-weight: 900;
-  font-size: 1.75rem;
-  line-height: 1.2;
-  letter-spacing: 0.25px;
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
+  text-align: center;
   width: fit-content;
-  color: var(--site-title-color);
   display: block;
+
+  a[flex] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.stevehoang {
+  width: 68%;
+  max-width: 1090px;
+  height: auto;
+  display: block;
+
+  path {
+    fill: none;
+    stroke: var(--site-title-color);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 12px;
+    stroke-dasharray: 5200;
+    stroke-dashoffset: 5200;
+    transform-origin: center;
+    animation: grow 15s ease-in-out infinite;
+    animation-delay: 0s;
+  }
+
+  @keyframes grow {
+    0% {
+      opacity: 0;
+    }
+
+    5% {
+      opacity: 1;
+    }
+
+    35%, 70% {
+      stroke-dashoffset: 0;
+    }
+
+    75% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+      stroke-dashoffset: 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .stevehoang path {
+    animation: none !important;
+    stroke-dasharray: unset !important;
+    opacity: 1;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 header.profile-wrapper h1 {
   font-size: inherit;
   margin-top:0;
   margin-bottom: 0;
-}
-
-.site-title span {
-  animation: 10s ease-in-out 1s fade-away;
-  animation-fill-mode: forwards;
 }
 
 .site-subtitle {

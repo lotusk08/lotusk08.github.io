@@ -65,7 +65,7 @@ code {
 
   &.highlighter-rouge {
     padding: 1px 5px;
-    word-break: break-word;
+    word-wrap: break-word;
     border-radius: 4px;
     background-color: var(--inline-code-bg);
   }

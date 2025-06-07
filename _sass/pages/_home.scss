@@ -316,8 +316,10 @@ header.profile-wrapper h1 {
     .card-body {
       height: 100%;
       width: 100%;
+      min-height: 250px;
       padding: 0.5rem;
       display: flex;
+      justify-content: space-between;
       flex-direction: column;
       flex: 1 1 auto;
 
@@ -329,17 +331,19 @@ header.profile-wrapper h1 {
         @extend %text-clip;
         @extend %title-style;
 
-        font-size: 2.15rem;
-        opacity: 0.6;
+        font-size: 2.45rem;
+        opacity: 0.45;
         line-height: 1.35;
-        padding-bottom: 1.25rem;
-        margin-top: 0;
-        margin-bottom: 1em;
+        margin: 0;
         font-weight: 700;
-        color: transparent;
-        overflow: visible;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
         text-rendering: optimizelegibility;
-        -webkit-text-stroke-width: 1px;
+        color: oklch(85% 0.02 80deg / 0.5);
+        -webkit-text-stroke-width: 0.5px;
         -webkit-text-stroke-color: var(--text-muted-color);
       }
 
@@ -359,21 +363,17 @@ header.profile-wrapper h1 {
 
       .card-content {
         color: var(--text-muted-color);
-        margin-top: 0;
-        margin-bottom: 1rem;
 
         p {
           @extend %text-clip;
 
           line-height: 1.6;
-          margin: 0;
           font-size: 1rem;
         }
       }
 
       .card-meta {
         color: var(--text-muted-color);
-        margin-top: 1.25rem;
         display: flex;
         flex-grow: 1;
         align-items: flex-end;

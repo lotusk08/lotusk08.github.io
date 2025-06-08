@@ -44,6 +44,7 @@
 
       &:hover {
         opacity: 1 !important;
+        transition: 0.3s;
       }
 
       @include bp.md {

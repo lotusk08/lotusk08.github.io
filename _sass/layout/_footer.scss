@@ -35,7 +35,7 @@ footer {
     @extend %text-highlight;
 
     &:hover {
-      @extend %link-hover;
+      text-decoration: none;
     }
   }
 

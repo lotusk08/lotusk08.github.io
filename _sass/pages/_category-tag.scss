@@ -29,11 +29,23 @@
   ul {
     padding-left: 0;
 
+    &:hover {
+      li {
+        opacity: 0.3;
+        transition: none;
+      }
+    }
+
     > li {
       line-height: 1.5rem;
       padding: 0.6rem 0;
       display: flex;
       justify-content: space-between;
+
+      &:hover {
+        opacity: 1 !important;
+        transition: 0.3s;
+      }
 
       @include bp.md {
         padding-left: 1rem;

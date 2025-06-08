@@ -344,8 +344,19 @@ header {
     line-height: 1.25;
     padding-left: 0;
 
+    &:hover {
+      li a {
+      opacity: 0.3;
+      }
+    }
+
     li a {
       padding: 0.4rem 0 0.4rem 1.25rem;
+
+      &:hover {
+        opacity: 1 !important;
+        transition: 0.3s;
+      }
     }
 
     .toc-link {

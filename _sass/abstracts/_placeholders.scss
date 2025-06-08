@@ -61,8 +61,11 @@
 }
 
 %link-hover {
-  color: var(--secondary-color);
+  transition: 0.25s;
   text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 
   /* border-bottom: 1px solid var(--primary-color); */
 }
@@ -72,7 +75,12 @@
 }
 
 %link-underline {
+  position: relative;
+  transition: 240ms;
   text-decoration: underline;
+  text-decoration-color: var(--link-underline-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 
   /* border-bottom: 1px solid var(--link-underline-color); */
 }

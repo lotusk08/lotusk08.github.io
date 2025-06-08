@@ -34,10 +34,21 @@
 
 
   ul {
+    &:hover {
+      li {
+      opacity: 0.3;
+      }
+    }
+
     li {
       font-size: 1.1rem;
       line-height: 3rem;
       border-radius: 2px;
+
+      &:hover {
+        opacity: 1 !important;
+        transition: none;
+      }
 
       @extend %text-ellipsis;
 
@@ -79,6 +90,7 @@
 
     &:hover {
       border-bottom: none;
+      color: var(--secondary-color);
     }
 
     &::before {

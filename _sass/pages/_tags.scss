@@ -11,13 +11,8 @@
   text-decoration: none !important;
 
   &:hover {
-    background: var(--primary-color);
-    transition: all 0.35s ease-in-out;
-    color: white !important;
-
-    sup {
-      color: white !important;
-    }
+    opacity: 1 !important;
+    transition: none;
   }
 
   sup {
@@ -31,6 +26,12 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+
+  &:hover {
+    .tag {
+      opacity: 0.3;
+    }
+  }
 
   @include bp.lt(bp.get(lg)) {
     justify-content: center !important;

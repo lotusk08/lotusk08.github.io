@@ -318,19 +318,12 @@ header {
 
 /* TOC panel */
 #toc-wrapper {
-  opacity: 0; /* Start hidden */
   top: 0;
-  transition: opacity 1.2s ease-in-out;
+  transition: top 0.2s ease-in-out;
   overflow-y: auto;
   max-height: 100vh;
   scrollbar-width: none;
   margin-top: 2rem;
-
-  &:hover,
-  &.visible {
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
-  }
 
   &:not(.invisible) {
     -webkit-animation: fade-up 0.8s;
@@ -347,15 +340,20 @@ header {
     &:hover {
       li a {
       opacity: 0.3;
+      color: inherit;
+      transition: opacity 0.3s ease, color 0.3s ease;
       }
     }
 
     li a {
       padding: 0.4rem 0 0.4rem 1.25rem;
+      color: transparent;
+      transition: opacity 0.5s ease, color 0.3s ease;
 
       &:hover {
         opacity: 1 !important;
-        transition: 0.3s;
+        color: inherit;
+        transition: opacity 0.3s ease, color 0.3s ease;
       }
     }
 
@@ -376,12 +374,14 @@ header {
 
     .is-active-link {
       font-weight: 700;
+      opacity: 1 !important;
 
       &::before {
         display: inline-block;
         width: 1px;
         height: 1.25rem;
         background-color: var(--primary-color) !important;
+        opacity: 1 !important;
       }
     }
 

@@ -347,19 +347,42 @@ main {
     }
 
     tbody {
+      &:hover {
+        tr {
+          opacity: 0.3;
+
+          &:nth-child(2n + 1) {
+            background-color: var(--main-bg);
+          }
+        }
+      }
+
       tr {
         border-bottom: 1px solid var(--tb-border-color);
 
         &:nth-child(2n) {
-          background-color: transparent;
+          background-color: var(--main-bg);
         }
 
         &:nth-child(2n + 1) {
           background-color: oklch(85% 0.02 80deg / 0.1);
         }
 
+        &:hover {
+          opacity: 1 !important;
+          background-color: oklch(85% 0.02 80deg / 0.1) !important;
+          transition: 0.3s;
+        }
+
         td {
           @extend %table-cell;
+
+          &:hover {
+            opacity: 1 !important;
+            color: var(--primary-color);
+            background-color: oklch(85% 0.02 80deg / 0.1) !important;
+            transition: 0.3s;
+          }
         }
       }
     } /* tbody */

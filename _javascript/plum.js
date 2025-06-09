@@ -1,4 +1,4 @@
-// Plum animation - converted from Vue.js to vanilla JavaScript
+// Plum animation - mobile compatible version
 const r180 = Math.PI;
 const r90 = Math.PI / 2;
 const r15 = Math.PI / 12;
@@ -9,6 +9,7 @@ const MIN_BRANCH = 30;
 let canvas, ctx, size, len = 6, stopped = false;
 let steps = [], prevSteps = [];
 let animationId = null;
+let dpi = 1; // Store DPI for consistent scaling
 
 function getWindowSize() {
   return {
@@ -25,15 +26,15 @@ function initCanvas(canvas, width = 400, height = 400, _dpi) {
               context.msBackingStorePixelRatio ||
               context.oBackingStorePixelRatio ||
               context.backingStorePixelRatio || 1;
-  const dpi = _dpi || dpr / bsr;
+  const calculatedDpi = _dpi || dpr / bsr;
 
   canvas.style.width = `${width}px`;
   canvas.style.height = `${height}px`;
-  canvas.width = dpi * width;
-  canvas.height = dpi * height;
-  context.scale(dpi, dpi);
+  canvas.width = calculatedDpi * width;
+  canvas.height = calculatedDpi * height;
+  context.scale(calculatedDpi, calculatedDpi);
 
-  return { ctx: context, dpi };
+  return { ctx: context, dpi: calculatedDpi };
 }
 
 function polar2cart(x = 0, y = 0, r = 0, theta = 0) {
@@ -72,17 +73,16 @@ function step(x, y, rad, counter = { value: 0 }) {
 }
 
 let lastTime = performance.now();
-const interval = 1000 / 40; // 25fps (matching original which says 50fps but uses 40)
+const interval = 1000 / 40; // 25fps
 let isRunning = false;
 
 function frame() {
   if (!isRunning) return;
 
-  // KEY FIX: Always continue the animation loop, even if we skip this frame
   animationId = requestAnimationFrame(frame);
 
   if (performance.now() - lastTime < interval) {
-    return; // Skip this frame but continue the loop
+    return;
   }
 
   prevSteps = steps;
@@ -98,7 +98,6 @@ function frame() {
 
   // Execute all the steps from the previous frame
   prevSteps.forEach((stepFn) => {
-    // 50% chance to keep the step for the next frame, to create a more organic look
     if (random() < 0.5)
       steps.push(stepFn);
     else
@@ -118,8 +117,8 @@ function startAnimation() {
 
   if (!ctx) return;
 
-  // KEY FIX: Clear using the actual canvas dimensions, not the scaled ones
-  ctx.clearRect(0, 0, size.width, size.height);
+  // Clear using the stored canvas dimensions
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.lineWidth = 1;
   ctx.strokeStyle = color;
 
@@ -139,13 +138,37 @@ function startAnimation() {
   animationId = requestAnimationFrame(frame);
 }
 
+// KEY FIX: Don't reinitialize canvas context on resize
 function handleResize() {
-  size = getWindowSize();
-  const result = initCanvas(canvas, size.width, size.height);
-  ctx = result.ctx;
+  const newSize = getWindowSize();
+
+  // Only update if size actually changed
+  if (newSize.width === size.width && newSize.height === size.height) {
+    return;
+  }
+
+  size = newSize;
+
+  // Update canvas size without reinitializing context
+  canvas.style.width = `${size.width}px`;
+  canvas.style.height = `${size.height}px`;
+  canvas.width = dpi * size.width;
+  canvas.height = dpi * size.height;
+
+  // Reapply scaling
+  ctx.scale(dpi, dpi);
+
+  // Only restart if animation was running
   if (!stopped) {
     startAnimation();
   }
+}
+
+// Debounce resize to avoid excessive calls
+let resizeTimeout;
+function debouncedResize() {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(handleResize, 100);
 }
 
 // Initialize when DOM is ready
@@ -156,9 +179,10 @@ function init() {
   size = getWindowSize();
   const result = initCanvas(canvas, size.width, size.height);
   ctx = result.ctx;
+  dpi = result.dpi; // Store DPI for later use
 
-  // Handle window resize
-  window.addEventListener('resize', handleResize);
+  // Handle window resize with debouncing
+  window.addEventListener('resize', debouncedResize);
 
   // Start the animation
   startAnimation();

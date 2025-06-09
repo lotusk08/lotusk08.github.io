@@ -1,4 +1,3 @@
-// Plum animation - mobile compatible version
 const r180 = Math.PI;
 const r90 = Math.PI / 2;
 const r15 = Math.PI / 12;
@@ -9,7 +8,6 @@ const MIN_BRANCH = 30;
 let canvas, ctx, size, len = 6, stopped = false;
 let steps = [], prevSteps = [];
 let animationId = null;
-let dpi = 1; // Store DPI for consistent scaling
 
 function getWindowSize() {
   return {
@@ -26,15 +24,15 @@ function initCanvas(canvas, width = 400, height = 400, _dpi) {
               context.msBackingStorePixelRatio ||
               context.oBackingStorePixelRatio ||
               context.backingStorePixelRatio || 1;
-  const calculatedDpi = _dpi || dpr / bsr;
+  const dpi = _dpi || dpr / bsr;
 
   canvas.style.width = `${width}px`;
   canvas.style.height = `${height}px`;
-  canvas.width = calculatedDpi * width;
-  canvas.height = calculatedDpi * height;
-  context.scale(calculatedDpi, calculatedDpi);
+  canvas.width = dpi * width;
+  canvas.height = dpi * height;
+  context.scale(dpi, dpi);
 
-  return { ctx: context, dpi: calculatedDpi };
+  return { ctx: context, dpi };
 }
 
 function polar2cart(x = 0, y = 0, r = 0, theta = 0) {
@@ -57,23 +55,20 @@ function step(x, y, rad, counter = { value: 0 }) {
   const rad1 = rad + random() * r15;
   const rad2 = rad - random() * r15;
 
-  // Out of bounds check
   if (nx < -100 || nx > size.width + 100 || ny < -100 || ny > size.height + 100)
     return;
 
   const rate = counter.value <= MIN_BRANCH ? 0.8 : 0.5;
 
-  // Left branch
   if (random() < rate)
     steps.push(() => step(nx, ny, rad1, counter));
 
-  // Right branch
   if (random() < rate)
     steps.push(() => step(nx, ny, rad2, counter));
 }
 
 let lastTime = performance.now();
-const interval = 1000 / 40; // 25fps
+const interval = 1000 / 40;
 let isRunning = false;
 
 function frame() {
@@ -96,8 +91,8 @@ function frame() {
     return;
   }
 
-  // Execute all the steps from the previous frame
   prevSteps.forEach((stepFn) => {
+
     if (random() < 0.5)
       steps.push(stepFn);
     else
@@ -117,8 +112,7 @@ function startAnimation() {
 
   if (!ctx) return;
 
-  // Clear using the stored canvas dimensions
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.clearRect(0, 0, size.width, size.height);
   ctx.lineWidth = 1;
   ctx.strokeStyle = color;
 
@@ -138,40 +132,15 @@ function startAnimation() {
   animationId = requestAnimationFrame(frame);
 }
 
-// KEY FIX: Don't reinitialize canvas context on resize
 function handleResize() {
-  const newSize = getWindowSize();
-
-  // Only update if size actually changed
-  if (newSize.width === size.width && newSize.height === size.height) {
-    return;
-  }
-
-  size = newSize;
-
-  // Update canvas size without reinitializing context
-  canvas.style.width = `${size.width}px`;
-  canvas.style.height = `${size.height}px`;
-  canvas.width = dpi * size.width;
-  canvas.height = dpi * size.height;
-
-  // Reapply scaling
-  ctx.scale(dpi, dpi);
-
-  // Only restart if animation was running
+  size = getWindowSize();
+  const result = initCanvas(canvas, size.width, size.height);
+  ctx = result.ctx;
   if (!stopped) {
     startAnimation();
   }
 }
 
-// Debounce resize to avoid excessive calls
-let resizeTimeout;
-function debouncedResize() {
-  clearTimeout(resizeTimeout);
-  resizeTimeout = setTimeout(handleResize, 100);
-}
-
-// Initialize when DOM is ready
 function init() {
   canvas = document.getElementById('plum-canvas');
   if (!canvas) return;
@@ -179,21 +148,16 @@ function init() {
   size = getWindowSize();
   const result = initCanvas(canvas, size.width, size.height);
   ctx = result.ctx;
-  dpi = result.dpi; // Store DPI for later use
 
-  // Handle window resize with debouncing
-  window.addEventListener('resize', debouncedResize);
+  window.addEventListener('resize', handleResize);
 
-  // Start the animation
   startAnimation();
 }
 
-// Initialize when page loads
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', init);
 } else {
   init();
 }
 
-// Expose restart function globally
 window.plumRestart = startAnimation;

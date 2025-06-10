@@ -1,19 +1,22 @@
-<div
-  id="artplum"
-  style="
+<div id="artplum">
+  <canvas id="plum-canvas" width="400" height="400"></canvas>
+</div>
+
+<style>
+  #artplum {
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    display: none;
+    index: 0;
     opacity: 0.8;
     pointer-events: none;
     z-index: -1;
     mask-image: radial-gradient(circle, transparent, black);
     -webkit-mask-image: radial-gradient(circle, transparent, black);
-  "
->
-  <canvas id="plum-canvas" width="400" height="400"></canvas>
-</div>
+
+    @media (min-width: 992px) {
+      display: block !important;
+    }
+  }
+</style>
 
 <script defer src="{{ '/assets/js/dist/plum.min.js' | relative_url }}"></script>

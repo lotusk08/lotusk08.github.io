@@ -69,7 +69,6 @@
     {% endfor %}
   {% endunless %}
 
-
   <link rel="stylesheet" href="{{ '/assets/css/style.css'| relative_url }}">
 
   <link rel="stylesheet" href="{{ site.data.origin[type].webfonts | relative_url }}">
@@ -108,6 +107,10 @@
       {% endif %}
     {% endfor %}
   {% endif %}
+
+  {% unless page.layout == 'post' or page.layout == 'page' %}
+    {% include artblum.html %}
+  {% endunless %}
 
   {% include metadata-hook.html %}
 </head>

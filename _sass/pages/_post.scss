@@ -318,10 +318,11 @@ header {
 
 /* TOC panel */
 #toc-wrapper {
-  top: 0;
+  top: 50vh;
+  transform: translateY(-50%);
+  max-height: 80vh;
   transition: top 0.2s ease-in-out;
   overflow-y: auto;
-  max-height: 100vh;
   scrollbar-width: none;
   margin-top: 2rem;
 
@@ -393,22 +394,12 @@ header {
   @at-root .toc-border-cover {
     @extend %top-cover;
 
-    margin-bottom: -4rem;
+    margin-bottom: -1.5rem;
     z-index: 3;
   }
 
   &::before {
     @extend %top-cover;
-  }
-
-  &::after {
-    content: '';
-    position: fixed;
-    bottom: 0;
-    width: 15%;
-    height: 2.25rem;
-    margin-left: -1px;
-    background: linear-gradient(transparent, var(--main-bg) 70%);
   }
 
   > * {

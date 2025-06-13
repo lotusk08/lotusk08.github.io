@@ -3,6 +3,7 @@ export class TocMobile {
   static #barHeight = 16 * 3;
   static #eventsBound = false;
   static #elements = null;
+  static #ticking = false;
 
   static options = {
     tocSelector: '#toc-popup-content',
@@ -10,10 +11,10 @@ export class TocMobile {
     ignoreSelector: '[data-toc-skip]',
     headingSelector: 'h2, h3, h4',
     orderedList: false,
-    scrollSmooth: true,
-    smoothScrollDuration: 300,
+    scrollSmooth: false, // Disable tocbot's smooth scrolling
     collapseDepth: 4,
     headingsOffset: this.#barHeight
+    // Remove smoothScrollDuration - using native scrolling
   };
 
   static get elements() {
@@ -43,17 +44,46 @@ export class TocMobile {
       },
       { rootMargin: `-${this.#barHeight}px 0px 0px 0px` }
     );
-
     observer.observe(soloTrigger);
     this.#invisible = false;
   }
 
-  static listenAnchors() {
-    const anchors = Array.from(document.getElementsByClassName('toc-link'));
-    const hidePopupBound = this.hidePopup.bind(this);
+  static #attachNativeScrolling() {
+    // Use native smooth scrolling with optimized click handling
+    const tocLinks = document.querySelectorAll('#toc-popup-content .toc-link');
 
-    anchors.forEach(anchor => {
-      anchor.onclick = hidePopupBound;
+    tocLinks.forEach(link => {
+      // Remove existing listeners by cloning (cleaner than tracking bound functions)
+      const newLink = link.cloneNode(true);
+      link.parentNode.replaceChild(newLink, link);
+
+      newLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = newLink.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          const offset = this.#barHeight;
+          const targetPosition = targetElement.offsetTop - offset;
+
+          // Hide popup first for better UX
+          this.hidePopup();
+
+          // Small delay to let popup close animation start
+          setTimeout(() => {
+            // Use native smooth scrolling
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+
+            // Update URL after scroll
+            setTimeout(() => {
+              history.pushState(null, null, `#${targetId}`);
+            }, 100);
+          }, 150); // Match your popup closing animation
+        }
+      });
     });
   }
 
@@ -62,7 +92,7 @@ export class TocMobile {
       this.initComponents();
     }
     tocbot.refresh(this.options);
-    this.listenAnchors();
+    this.#attachNativeScrolling(); // Use native scrolling instead of listenAnchors
   }
 
   static get popupOpened() {
@@ -76,10 +106,14 @@ export class TocMobile {
     this.lockScroll(true);
     popup.showModal();
 
+    // Optimized active item scrolling
     requestAnimationFrame(() => {
       const activeItem = popup.querySelector('li.is-active-li');
       if (activeItem) {
-        activeItem.scrollIntoView({ block: 'center' });
+        activeItem.scrollIntoView({
+          block: 'center',
+          behavior: 'smooth' // Native smooth scrolling for popup content
+        });
       }
     });
   }
@@ -90,7 +124,6 @@ export class TocMobile {
 
     const CLOSING = 'closing';
     popup.setAttribute(CLOSING, '');
-
     popup.addEventListener(
       'animationend',
       () => {
@@ -99,12 +132,12 @@ export class TocMobile {
       },
       { once: true }
     );
-
     this.lockScroll(false);
   }
 
   static lockScroll(enable) {
     const className = 'overflow-hidden';
+    // Already using RAF - good!
     requestAnimationFrame(() => {
       document.documentElement.classList.toggle(className, enable);
       document.body.classList.toggle(className, enable);
@@ -126,30 +159,42 @@ export class TocMobile {
     }
   }
 
+  static #attachOptimizedScrollListener() {
+    // Add passive scroll listener for better performance
+    window.addEventListener('scroll', () => {
+      if (!this.#ticking) {
+        requestAnimationFrame(() => {
+          // Let tocbot handle active state updates
+          this.#ticking = false;
+        });
+        this.#ticking = true;
+      }
+    }, { passive: true });
+  }
+
   static initComponents() {
     if (this.#eventsBound) return;
 
     this.initBar();
     const { triggers, popup, btnClose } = this.elements;
-
     const showPopupBound = this.showPopup.bind(this);
     const hidePopupBound = this.hidePopup.bind(this);
     const clickBackdropBound = this.clickBackdrop.bind(this);
 
     triggers.forEach(trigger => {
-      trigger.onclick = showPopupBound;
+      trigger.addEventListener('click', showPopupBound);
     });
 
     if (popup) {
-      popup.onclick = clickBackdropBound;
-      popup.oncancel = (e) => {
+      popup.addEventListener('click', clickBackdropBound);
+      popup.addEventListener('cancel', (e) => {
         e.preventDefault();
         this.hidePopup();
-      };
+      });
     }
 
     if (btnClose) {
-      btnClose.onclick = hidePopupBound;
+      btnClose.addEventListener('click', hidePopupBound);
     }
 
     this.#eventsBound = true;
@@ -157,7 +202,8 @@ export class TocMobile {
 
   static init() {
     tocbot.init(this.options);
-    this.listenAnchors();
+    this.#attachNativeScrolling(); // Use native scrolling
     this.initComponents();
+    this.#attachOptimizedScrollListener(); // Add optimized scroll listener
   }
 }
